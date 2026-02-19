@@ -4,8 +4,8 @@
 
 - Commands: 27
 - Options: 44
-- Env vars: 338
-- Config keys: 385
+- Env vars: 341
+- Config keys: 396
 - Tools: 3
 - Skills: 0
 - Models: 55
@@ -236,6 +236,7 @@
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_ENABLE_PROCESS_CLAUDE_RULES`
+- `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
 - `CLAUDE_CODE_ENTRYPOINT`
@@ -316,6 +317,7 @@
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_EXPERIMENTAL_MCP_CLI`
 - `ENABLE_LSP_TOOL`
+- `ENABLE_STRUCTURED_OUTPUT`
 - `ENABLE_TOOL_RESULT_SIZE_LIMIT`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
 - `FLY_APP_NAME`
@@ -370,6 +372,7 @@
 - `KUBERNETES_SERVICE_HOST`
 - `LOCALAPPDATA`
 - `MAX_MCP_OUTPUT_TOKENS`
+- `MAX_STRUCTURED_OUTPUT_RETRIES`
 - `MAX_THINKING_TOKENS`
 - `MCP_OAUTH_CALLBACK_PORT`
 - `MCP_SERVER_CONNECTION_BATCH_SIZE`
@@ -517,11 +520,14 @@
 - `agentId`
 - `agents`
 - `allow`
+- `allowAllUnixSockets`
+- `allowedDomains`
 - `allowedMcpServers`
 - `allowedTools`
 - `allowLocalBinding`
 - `allowUnixSockets`
 - `allowUnsandboxedCommands`
+- `allowWrite`
 - `alwaysThinkingEnabled`
 - `answers`
 - `api`
@@ -590,8 +596,11 @@
 - `default`
 - `default_branch`
 - `defaultMode`
+- `deniedDomains`
 - `deniedMcpServers`
 - `deny`
+- `denyRead`
+- `denyWrite`
 - `description`
 - `destination`
 - `destructiveHint`
@@ -634,6 +643,7 @@
 - `fileCount`
 - `filenames`
 - `filePath`
+- `filesystem`
 - `filterPattern`
 - `flagSettings`
 - `forceLoginMethod`
@@ -746,6 +756,7 @@
 - `path`
 - `permissionDecision`
 - `permissionDecisionReason`
+- `permissionMode`
 - `permissions`
 - `plan`
 - `pluginConfigs`
@@ -800,6 +811,7 @@
 - `revocation_endpoint`
 - `revocation_endpoint_auth_methods_supported`
 - `revocation_endpoint_auth_signing_alg_values_supported`
+- `ripgrep`
 - `role`
 - `roots`
 - `ruleContent`
@@ -832,6 +844,7 @@
 - `startLine`
 - `status`
 - `statusLine`
+- `statusMessage`
 - `stderr`
 - `stderrLines`
 - `stdout`
@@ -863,6 +876,7 @@
 - `tool_use_id`
 - `toolName`
 - `tools`
+- `toolUseID`
 - `tos_uri`
 - `total`
 - `totalDurationMs`
