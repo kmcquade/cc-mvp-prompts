@@ -1,4 +1,4 @@
-# System Prompt: verify-stop-condition-stream-json
+# System Prompt: verify-stop-condition-json
 
 - Source: inline
 
