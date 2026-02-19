@@ -3,8 +3,8 @@
 ## Summary
 
 - Commands: 14
-- Options: 27
-- Env vars: 167
+- Options: 26
+- Env vars: 176
 - Config keys: 137
 - Tools: 0
 - Skills: 0
@@ -62,7 +62,6 @@
 - `--env`
 - `--global`
 - `--header`
-- `--json`
 - `--mcp-config`
 - `--mcp-debug`
 - `--output-format`
@@ -87,7 +86,6 @@
 - `--allowedTools <tools...>`
 - `--dangerously-skip-permissions`
 - `--disallowedTools <tools...>`
-- `--json`
 - `--mcp-config <file>`
 - `--mcp-debug`
 - `--output-format <format>`
@@ -127,6 +125,7 @@
 - `AWS_SECRET_ACCESS_KEY`
 - `AWS_SESSION_TOKEN`
 - `BASH_DEFAULT_TIMEOUT_MS`
+- `BASH_MAX_OUTPUT_LENGTH`
 - `BASH_MAX_TIMEOUT_MS`
 - `BUN_INSTALL`
 - `C`
@@ -170,6 +169,11 @@
 - `GCLOUD_PROJECT`
 - `GCP_PROJECT`
 - `GITHUB_ACTIONS`
+- `GITHUB_ACTOR`
+- `GITHUB_ACTOR_ID`
+- `GITHUB_EVENT_NAME`
+- `GITHUB_REPOSITORY_OWNER`
+- `GITHUB_REPOSITORY_OWNER_ID`
 - `GITHUB_SHA`
 - `GNOME_TERMINAL_SERVICE`
 - `GOOGLE_APPLICATION_CREDENTIALS`
@@ -203,6 +207,7 @@
 - `NETLIFY`
 - `NO_PROXY`
 - `NODE_DEBUG`
+- `NODE_ENV`
 - `NODE_OPTIONS`
 - `OSTYPE`
 - `OTEL_EXPORTER_OTLP_ENDPOINT`
@@ -219,6 +224,8 @@
 - `PATHEXT`
 - `PKG_CONFIG_PATH`
 - `REGION_NAME`
+- `RUNNER_ENVIRONMENT`
+- `RUNNER_OS`
 - `SENTRY_BAGGAGE`
 - `SENTRY_DSN`
 - `SENTRY_ENVIRONMENT`
