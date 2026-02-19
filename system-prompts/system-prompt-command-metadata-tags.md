@@ -15,5 +15,5 @@ Multiple prompts (2)
 
 # Raw Prompt Text
 <command-name>${EXPR_1}<${PATH}>
-          <command-message>${EXPR_2}<${PATH}>
-          <command-args>${NUM}<${PATH}>
+            <command-message>${EXPR_2}<${PATH}>
+            <command-args>${NUM}<${PATH}>
