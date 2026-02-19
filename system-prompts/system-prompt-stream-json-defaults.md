@@ -29,4 +29,4 @@ Truncated stream-json text mentioning null defaults and a submit-hook reference.
 # Raw Prompt Text
 ${EXPR_1}${EXPR_2}_${EXPR_3}${EXPR_4}stream-jsonstream-json${EXPR_5}null${EXPR_6}${EXPR_7}${EXPR_8}<user-prompt-submit-hook>${EXPR_9}
 
-[output truncated - exceeded ${NUM} characters]<${PATH}>${EXPR_10}${EXPR_11}${NUM}${EXPR_12}default${EXPR_13}${EXPR_14}${EXPR_15}0nullbackward
+[output truncated - exceeded ${NUM} characters]<${PATH}>${EXPR_10}${EXPR_11}${EXPR_12}${EXPR_13}0default${EXPR_14}${NUM}${EXPR_15}nullbackward
