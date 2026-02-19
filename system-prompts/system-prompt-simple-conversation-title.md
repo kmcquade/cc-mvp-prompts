@@ -12,13 +12,13 @@ Generate a NUM–NUM word conversation title using the last EXPR_1 of EXPR_2 mes
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | unknown | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Please write a ${NUM}-${NUM} word title for the following conversation:
 
 [Last ${EXPR_1} of ${EXPR_2} messages]
 
-${EXPR_3: 'unknown'}
+${EXPR_3}
 
 Respond with the title for the conversation and nothing else.
