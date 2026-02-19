@@ -4,90 +4,9 @@
 
 ## Summary
 
-Extract language and frameworks and return them in a strict JSON object.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | true | None |
-| `EXPR_13` | true | None |
-| `EXPR_14` | false | None |
+Identify the programming language and list detected frameworks from file content.
 
 # Raw Prompt Text
-${EXPR_1}
-
-${EXPR_2}
-
-${EXPR_3}
-
-${EXPR_4}
-
-${EXPR_5}
-
-api
-
---method
-
-PUT
-
-repos/${EXPR_6}${PATH}${EXPR_7}
-
--f
-
-message="Update ${EXPR_8}"
-
--f
-
-content=${EXPR_9}
-
--f
-
-branch=${EXPR_10}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
 You are a framework and library detection assistant. Analyze the provided file content and identify:
 
 ${NUM}. The programming language (based on syntax and imports)
@@ -137,13 +56,3 @@ Rules:
 - Return ONLY the JSON, no explanation or additional text
 
 - For package.json files, language should be "javascript"
-
-${EXPR_11}
-
-stream-json
-
-${EXPR_12: true}
-
-${EXPR_13: true}
-
-${EXPR_14: false}
