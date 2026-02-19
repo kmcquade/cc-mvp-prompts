@@ -10,8 +10,7 @@ Advises entering plan mode to propose an implementation approach and get approva
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | AskUserQuestion | None |
-| `EXPR_2` | AskUserQuestion | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Use this tool proactively when you're about to start a non-trivial implementation task. Getting user sign-off on your approach before writing code prevents wasted effort and ensures alignment. This tool transitions you into plan mode where you can explore the codebase and design an implementation approach for user approval.
@@ -45,7 +44,7 @@ ${NUM}. **Unclear Requirements**: You need to explore before understanding the f
    - Example: "Fix the bug in checkout" - need to investigate root cause
 
 ${NUM}. **User Preferences Matter**: The implementation could reasonably go multiple ways
-   - If you would use ${EXPR_1: 'AskUserQuestion'} to clarify the approach, use EnterPlanMode instead
+   - If you would use AskUserQuestion to clarify the approach, use EnterPlanMode instead
    - Plan mode lets you explore first, then present options with context
 
 ## When NOT to Use This Tool
@@ -56,17 +55,7 @@ Only skip EnterPlanMode for simple tasks:
 - Tasks where the user has given very specific, detailed instructions
 - Pure research${PATH} tasks (use the Task tool with explore agent instead)
 
-## What Happens in Plan Mode
-
-In plan mode, you'll:
-${NUM}. Thoroughly explore the codebase using Glob, Grep, and Read tools
-${NUM}. Understand existing patterns and architecture
-${NUM}. Design an implementation approach
-${NUM}. Present your plan to the user for approval
-${NUM}. Use ${EXPR_2: 'AskUserQuestion'} if you need to clarify approaches
-${NUM}. Exit plan mode with ExitPlanMode when ready to implement
-
-## Examples
+${EXPR_1}## Examples
 
 ### GOOD - Use EnterPlanMode:
 User: "Add user authentication to the app"
