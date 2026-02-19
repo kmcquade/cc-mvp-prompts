@@ -4,11 +4,11 @@
 
 - Commands: 27
 - Options: 44
-- Env vars: 334
-- Config keys: 382
+- Env vars: 338
+- Config keys: 385
 - Tools: 3
 - Skills: 0
-- Models: 52
+- Models: 55
 - Providers: 7
 
 ## Commands
@@ -235,6 +235,7 @@
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
+- `CLAUDE_CODE_ENABLE_PROCESS_CLAUDE_RULES`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
 - `CLAUDE_CODE_ENTRYPOINT`
@@ -252,6 +253,8 @@
 - `CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
+- `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
+- `CLAUDE_CODE_PROFILE_QUERY`
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_REMOTE`
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
@@ -313,6 +316,7 @@
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_EXPERIMENTAL_MCP_CLI`
 - `ENABLE_LSP_TOOL`
+- `ENABLE_TOOL_RESULT_SIZE_LIMIT`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
 - `FLY_APP_NAME`
 - `FLY_MACHINE_ID`
@@ -627,6 +631,7 @@
 - `extensions`
 - `extraKnownMarketplaces`
 - `file`
+- `fileCount`
 - `filenames`
 - `filePath`
 - `filterPattern`
@@ -733,6 +738,7 @@
 - `otelHeadersHelper`
 - `output_tokens`
 - `outputStyle`
+- `outputStyles`
 - `owner`
 - `package`
 - `padding`
@@ -787,6 +793,7 @@
 - `response_types`
 - `response_types_supported`
 - `result`
+- `resultCount`
 - `results`
 - `resume`
 - `returnCodeInterpretation`
@@ -909,7 +916,10 @@ _None detected_
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
 - `claude-3-7-sonnet-latest`
+- `claude-3-haiku`
+- `claude-3-opus`
 - `claude-3-opus-20240229`
+- `claude-3-sonnet`
 - `claude-3-sonnet-20240229`
 - `claude-4-opus-20250514`
 - `claude-ai-external-token`
@@ -945,7 +955,7 @@ _None detected_
 - `claude-sonnet-4-5-20250929`
 - `claude-vscode`
 - `haiku-4`
-- `opus-limit-reached`
+- `opus-4`
 - `sonnet-1m-welcome`
 - `sonnet-4`
 - `sonnet-4.5-update`
