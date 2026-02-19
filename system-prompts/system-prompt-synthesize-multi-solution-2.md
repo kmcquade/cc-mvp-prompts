@@ -33,13 +33,14 @@ Combine multiple agent findings into one cohesive answer with code examples.
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
 | `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
 
 # Raw Prompt Text
-localCR FALSE nil NO_VALUE NULL TAB TRUE YES_VALUE ADMINISTRATORS_GROUP_NAME CUSTOMIZERS_GROUP_NAME DEVELOPERS_GROUP_NAME SERVICE_USERS_GROUP_NAME ${EXPR_1}stdio${EXPR_2}ENGLISH_LANGUAGE_CODE RUSSIAN_LANGUAGE_CODE smHidden smMaximized smMinimized smNormal wmNo wmYes nullCOMPONENT_TOKEN_LOCK_TYPE EDOCUMENT_VERSION_LOCK_TYPE ${EXPR_3}nullnull (sidechain)${EXPR_4}${EXPR_5}${EXPR_6} ${EXPR_7}${EXPR_8}Original task: ${EXPR_9}
+localCR FALSE nil NO_VALUE NULL TAB TRUE YES_VALUE ADMINISTRATORS_GROUP_NAME CUSTOMIZERS_GROUP_NAME DEVELOPERS_GROUP_NAME SERVICE_USERS_GROUP_NAME ${EXPR_1}stdio${EXPR_2}ENGLISH_LANGUAGE_CODE RUSSIAN_LANGUAGE_CODE smHidden smMaximized smMinimized smNormal wmNo wmYes ${EXPR_3}COMPONENT_TOKEN_LOCK_TYPE EDOCUMENT_VERSION_LOCK_TYPE ${EXPR_4}nullnull (sidechain)${EXPR_5}${EXPR_6}${EXPR_7} ${EXPR_8}${EXPR_9}Original task: ${EXPR_10}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
-${EXPR_10}
+${EXPR_11}
 
 Based on all the information provided by these agents, synthesize a comprehensive and cohesive response that:
 ${NUM}. Combines the key insights from all agents
@@ -48,5 +49,5 @@ ${NUM}. Presents a unified solution that addresses the original task
 ${NUM}. Includes all important details and code examples from the individual responses
 ${NUM}. Is well-structured and complete
 
-Your synthesis should be thorough but focused on the original task.${EXPR_11}null${EXPR_12}${EXPR_13}
-${EXPR_14}0RESULT_VAR_NAME RESULT_VAR_NAME_ENG ${EXPR_15}${EXPR_16}${EXPR_17}${EXPR_18}null${EXPR_19}${EXPR_20}nullnulltimeout exceeded${EXPR_21}${EXPR_22}${EXPR_23}[object Arguments]
+Your synthesis should be thorough but focused on the original task.${EXPR_12}null${EXPR_13}${NUM}${EXPR_14}
+${EXPR_15}RESULT_VAR_NAME RESULT_VAR_NAME_ENG ${EXPR_16}${EXPR_17}${EXPR_18}${EXPR_19}${EXPR_20}null${EXPR_21}${EXPR_22}nulltimeout exceeded${EXPR_23}${EXPR_24}${EXPR_25}[object Arguments]
