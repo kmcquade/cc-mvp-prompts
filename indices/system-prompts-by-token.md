@@ -1,20 +1,20 @@
 # System Prompts Index – by tokens
 
-- Total prompt files: **100**
+- Total prompt files: **104**
 
 ## Categories
 
-- System prompts (25)
+- System prompts (28)
 - Tool prompts (24)
-- System data (51)
+- System data (52)
 
-## System prompts (25)
+## System prompts (28)
 
 _Sorted by tokens (desc)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-secure-cli-coding-2.md`](../system-prompts/system-prompt-secure-cli-coding-2.md) | Interactive CLI software engineering assistant with strict refusal rules and safe URL handling. | 2,294 | 0.2.52 | 0.2.52 |
+| [`system-prompt-secure-cli-coding-2.md`](../system-prompts/system-prompt-secure-cli-coding-2.md) | Interactive CLI software engineering assistant with strict refusal rules and safe URL handling. | 2,294 | 0.2.52 | 0.2.53 |
 | [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Runs shell commands with directory verification and banned-command security checks. | 2,213 | 0.2.47 | 0.2.47 |
 | [`system-prompt-technical-conversation-summary-format.md`](../system-prompts/system-prompt-technical-conversation-summary-format.md) | Produces a detailed development-focused conversation summary with required sections. | 663 | 0.2.36 | 0.2.36 |
 | [`system-prompt-bash-command-prefix-detection.md`](../system-prompts/system-prompt-bash-command-prefix-detection.md) | Define command prefix extraction and injection detection with illustrative shell command examples. | 658 | 0.2.30 | 0.2.30 |
@@ -39,6 +39,9 @@ _Sorted by tokens (desc)._
 | [`system-prompt-continue-from-prior-session.md`](../system-prompts/system-prompt-continue-from-prior-session.md) | Continue a context-limited session using the provided prior conversation summary. | 40 | 0.2.38 | 0.2.38 |
 | [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 0.2.9 |
 | [`system-prompt-classify-bash-command-prefix.md`](../system-prompts/system-prompt-classify-bash-command-prefix.md) | Determine the appropriate prefix for bash commands requested by a coding agent. | 33 | 0.2.9 | 0.2.9 |
+| [`system-prompt-cli-external-path.md`](../system-prompts/system-prompt-cli-external-path.md) | External reference to a claude CLI path with a dynamic segment. | 12 | 0.2.53 | 0.2.53 |
+| [`system-prompt-learn-more-link.md`](../system-prompts/system-prompt-learn-more-link.md) | Directs the user to learn more using the provided URL. | 10 | 0.2.53 | 0.2.53 |
+| [`system-prompt-latest-version-tag.md`](../system-prompts/system-prompt-latest-version-tag.md) | Specifies a package name pinned to the latest release tag. | 8 | 0.2.53 | 0.2.53 |
 
 ## Tool prompts (24)
 
@@ -56,11 +59,11 @@ _Sorted by tokens (desc)._
 | [`tool-description-write-file-to-disk.md`](../system-prompts/tool-description-write-file-to-disk.md) | Writes a file to the local filesystem, overwriting if it exists. | 84 | 0.2.9 | 0.2.9 |
 | [`tool-description-read-jupyter-notebook-cells.md`](../system-prompts/tool-description-read-jupyter-notebook-cells.md) | Loads an ipynb from an absolute path and returns cells with outputs. | 62 | 0.2.9 | 0.2.9 |
 | [`tool-description-list-path-with-ignore-globs.md`](../system-prompts/tool-description-list-path-with-ignore-globs.md) | Lists files and directories at an absolute path with optional ignore glob patterns. | 60 | 0.2.29 | 0.2.29 |
-| [`tool-description-install-shift-enter-binding.md`](../system-prompts/tool-description-install-shift-enter-binding.md) | Installs a Shift+Enter key binding for newlines in supported terminals and editors. | 20 | 0.2.9 | 0.2.9 |
 | [`tool-description-change-light-theme.md`](../system-prompts/tool-description-change-light-theme.md) | Change the interface theme to light mode. | 11 | 0.2.38 | 0.2.38 |
 | [`tool-description-show-session-cost-and-duration.md`](../system-prompts/tool-description-show-session-cost-and-duration.md) | Displays the current session total cost and duration. | 10 | 0.2.9 | 0.2.9 |
 | [`tool-description-check-health.md`](../system-prompts/tool-description-check-health.md) | Checks the health of a Claude Code installation. | 9 | 0.2.9 | 0.2.9 |
 | [`tool-description-clear-history-keep-summary.md`](../system-prompts/tool-description-clear-history-keep-summary.md) | Clears conversation history while retaining a summary in context. | 9 | 0.2.9 | 0.2.9 |
+| [`tool-description-enable-option-enter-newlines.md`](../system-prompts/tool-description-enable-option-enter-newlines.md) | Enable Option+Enter to insert newlines. | 9 | 0.2.53 | 0.2.53 |
 | [`tool-description-migrate-npm-global-to-local.md`](../system-prompts/tool-description-migrate-npm-global-to-local.md) | Move from a global npm install to a project-local installation. | 9 | 0.2.51 | 0.2.51 |
 | [`tool-description-sign-in-anthropic-account.md`](../system-prompts/tool-description-sign-in-anthropic-account.md) | Signs in using an Anthropic account. | 8 | 0.2.9 | 0.2.9 |
 | [`tool-description-sign-out-anthropic-account.md`](../system-prompts/tool-description-sign-out-anthropic-account.md) | Signs out from an Anthropic account. | 8 | 0.2.9 | 0.2.9 |
@@ -71,7 +74,7 @@ _Sorted by tokens (desc)._
 | [`tool-description-show-help-and-commands.md`](../system-prompts/tool-description-show-help-and-commands.md) | Displays help text and available commands. | 5 | 0.2.9 | 0.2.9 |
 | [`tool-description-submit-feedback.md`](../system-prompts/tool-description-submit-feedback.md) | Submits user feedback about Claude Code. | 5 | 0.2.9 | 0.2.9 |
 
-## System data (51)
+## System data (52)
 
 _Sorted by tokens (desc)._
 
@@ -100,9 +103,9 @@ _Sorted by tokens (desc)._
 | [`system-data-javascript-builtins-and-typed-arrays.md`](../system-prompts/system-data-javascript-builtins-and-typed-arrays.md) | Enumerates JavaScript globals, built-in objects, errors, and typed arrays. | 216 | 0.2.9 | 0.2.9 |
 | [`system-data-css-pseudo-class-keywords.md`](../system-prompts/system-data-css-pseudo-class-keywords.md) | List of CSS selector pseudo-classes and state keywords. | 186 | 0.2.9 | 0.2.9 |
 | [`system-data-dom-exception-names-list.md`](../system-prompts/system-data-dom-exception-names-list.md) | List of DOM exception constants including security and network errors. | 184 | 0.2.33 | 0.2.33 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.44 |
-| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.38 |
-| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.44 |
+| [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.53 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.53 |
+| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.53 |
 | [`system-data-html-element-name-list.md`](../system-prompts/system-data-html-element-name-list.md) | List of common HTML element tag names. | 160 | 0.2.9 | 0.2.9 |
 | [`system-data-numeric-constants-and-paths.md`](../system-prompts/system-data-numeric-constants-and-paths.md) | Lists core constants and environment paths like Inf, NaN, missing, and LOAD_PATH. | 159 | 0.2.9 | 0.2.9 |
 | [`system-data-plist-keybinding-xml-template.md`](../system-prompts/system-data-plist-keybinding-xml-template.md) | XML property-list snippet for a keybinding entry with numeric fields. | 158 | 0.2.46 | 0.2.46 |
@@ -128,3 +131,4 @@ _Sorted by tokens (desc)._
 | [`system-data-sql-data-types-list.md`](../system-prompts/system-data-sql-data-types-list.md) | Lists SQL numeric, character, binary, and temporal types. | 64 | 0.2.9 | 0.2.9 |
 | [`system-data-dart-core-types-list.md`](../system-prompts/system-data-dart-core-types-list.md) | List of Dart core types and common classes. | 61 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-ddl-null-ordering.md`](../system-prompts/system-data-sql-ddl-null-ordering.md) | SQL DDL and query phrases including constraints and null ordering options. | 53 | 0.2.9 | 0.2.9 |
+| [`system-data-package-version-reference.md`](../system-prompts/system-data-package-version-reference.md) | Formats a package identifier as name at version string. | 13 | 0.2.53 | 0.2.53 |

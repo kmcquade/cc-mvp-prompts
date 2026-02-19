@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.52
+# Prompt Stats 0.2.53
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -7,6 +7,7 @@
 | system | [System Prompt: Batch Invocations Guide](../system-prompts/system-prompt-batch-invocations-guide.md) | 1103 | 308 | 0.2.42 | 0.2.42 |
 | system | [System Prompt: Cite With Limited Quotes](../system-prompts/system-prompt-cite-with-limited-quotes.md) | 549 | 140 | 0.2.40 | 0.2.40 |
 | system | [System Prompt: Classify Bash Command Prefix](../system-prompts/system-prompt-classify-bash-command-prefix.md) | 148 | 33 | 0.2.9 | 0.2.9 |
+| system | [System Prompt: Cli External Path](../system-prompts/system-prompt-cli-external-path.md) | 31 | 12 | 0.2.53 | 0.2.53 |
 | system | [System Prompt: Cli Guidelines](../system-prompts/system-prompt-cli-guidelines.md) | 893 | 224 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Command Message Xml Template](../system-prompts/system-prompt-command-message-xml-template.md) | 220 | 82 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Command Metadata Tags](../system-prompts/system-prompt-command-metadata-tags.md) | 127 | 52 | 0.2.30 | 0.2.30 |
@@ -21,8 +22,10 @@
 | system | [System Prompt: File Updated Snippet Output](../system-prompts/system-prompt-file-updated-snippet-output.md) | 117 | 38 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Fix Missing Executable Name](../system-prompts/system-prompt-fix-missing-executable-name.md) | 292 | 81 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Initial Git Status Snapshot 2](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | 294 | 89 | 0.2.36 | 0.2.36 |
+| system | [System Prompt: Latest Version Tag](../system-prompts/system-prompt-latest-version-tag.md) | 16 | 8 | 0.2.53 | 0.2.53 |
+| system | [System Prompt: Learn More Link](../system-prompts/system-prompt-learn-more-link.md) | 24 | 10 | 0.2.53 | 0.2.53 |
 | system | [System Prompt: Review Github Pull Request](../system-prompts/system-prompt-review-github-pull-request.md) | 894 | 233 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Secure Cli Coding 2](../system-prompts/system-prompt-secure-cli-coding-2.md) | 9657 | 2294 | 0.2.52 | 0.2.52 |
+| system | [System Prompt: Secure Cli Coding 2](../system-prompts/system-prompt-secure-cli-coding-2.md) | 9657 | 2294 | 0.2.52 | 0.2.53 |
 | system | [System Prompt: Secure Persistent Bash Execution](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | 8730 | 2213 | 0.2.47 | 0.2.47 |
 | system | [System Prompt: Select Core Frequently Modified Files](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | 451 | 90 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Static Project File Snapshot](../system-prompts/system-prompt-static-project-file-snapshot.md) | 205 | 55 | 0.2.44 | 0.2.44 |
@@ -57,6 +60,7 @@
 | system-data | [System Data: Numeric Placeholders Repeated](../system-prompts/system-data-numeric-placeholders-repeated.md) | 397 | 237 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Official Cli Functions Data](../system-prompts/system-data-official-cli-functions-data.md) | 263 | 115 | 0.2.44 | 0.2.51 |
 | system-data | [System Data: Official Cli Functions Data 2](../system-prompts/system-data-official-cli-functions-data-2.md) | 263 | 115 | 0.2.44 | 0.2.51 |
+| system-data | [System Data: Package Version Reference](../system-prompts/system-data-package-version-reference.md) | 19 | 13 | 0.2.53 | 0.2.53 |
 | system-data | [System Data: Path List Template](../system-prompts/system-data-path-list-template.md) | 177 | 111 | 0.2.40 | 0.2.40 |
 | system-data | [System Data: Perl Builtin Functions List](../system-prompts/system-data-perl-builtin-functions-list.md) | 1824 | 682 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Plist Keybinding Xml Template](../system-prompts/system-data-plist-keybinding-xml-template.md) | 370 | 158 | 0.2.46 | 0.2.46 |
@@ -72,9 +76,9 @@
 | system-data | [System Data: Stan Functions Reference List](../system-prompts/system-data-stan-functions-reference-list.md) | 5131 | 2155 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Swift Attribute Annotations](../system-prompts/system-data-swift-attribute-annotations.md) | 591 | 259 | 0.2.44 | 0.2.51 |
 | system-data | [System Data: Swift Compiler Directives List](../system-prompts/system-data-swift-compiler-directives-list.md) | 219 | 83 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 554 | 162 | 0.2.9 | 0.2.44 |
-| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 567 | 171 | 0.2.9 | 0.2.44 |
-| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 565 | 166 | 0.2.9 | 0.2.38 |
+| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 567 | 171 | 0.2.9 | 0.2.53 |
+| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 565 | 166 | 0.2.9 | 0.2.53 |
+| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 554 | 162 | 0.2.9 | 0.2.53 |
 | system-data | [System Data: Swift Standard Library Functions](../system-prompts/system-data-swift-standard-library-functions.md) | 441 | 151 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Whimsical Verb Synonyms List](../system-prompts/system-data-whimsical-verb-synonyms-list.md) | 622 | 221 | 0.2.42 | 0.2.42 |
 | system-data | [System Data: Wolfram Language Symbols List](../system-prompts/system-data-wolfram-language-symbols-list.md) | 104946 | 35789 | 0.2.9 | 0.2.9 |
@@ -83,10 +87,10 @@
 | tool | [Tool Description: Clear Conversation History](../system-prompts/tool-description-clear-conversation-history.md) | 46 | 7 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Clear History Keep Summary](../system-prompts/tool-description-clear-history-keep-summary.md) | 56 | 9 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Edit File By Replacing String](../system-prompts/tool-description-edit-file-by-replacing-string.md) | 2752 | 687 | 0.2.9 | 0.2.9 |
+| tool | [Tool Description: Enable Option Enter Newlines](../system-prompts/tool-description-enable-option-enter-newlines.md) | 44 | 9 | 0.2.53 | 0.2.53 |
 | tool | [Tool Description: Fast Glob File Matching](../system-prompts/tool-description-fast-glob-file-matching.md) | 371 | 84 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Fast Regex Content Search](../system-prompts/tool-description-fast-regex-content-search.md) | 522 | 123 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Fetch Url Content And Analyze](../system-prompts/tool-description-fetch-url-content-and-analyze.md) | 918 | 216 | 0.2.51 | 0.2.51 |
-| tool | [Tool Description: Install Shift Enter Binding](../system-prompts/tool-description-install-shift-enter-binding.md) | 69 | 20 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: List Allowed Capabilities](../system-prompts/tool-description-list-allowed-capabilities.md) | 32 | 5 | 0.2.40 | 0.2.40 |
 | tool | [Tool Description: List Path With Ignore Globs](../system-prompts/tool-description-list-path-with-ignore-globs.md) | 294 | 60 | 0.2.29 | 0.2.29 |
 | tool | [Tool Description: Mcp Connection Status](../system-prompts/tool-description-mcp-connection-status.md) | 33 | 6 | 0.2.41 | 0.2.41 |
