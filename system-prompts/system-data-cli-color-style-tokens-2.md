@@ -12,11 +12,12 @@ Declare CLI identity, enumerate style tokens, and append extra trailing data.
 | --- | --- | --- |
 | `EXPR_1` | Claude Code | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | Write | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
 
 # Raw Prompt Text
+${URL}
+
+${URL}
+
 You are ${EXPR_1: 'Claude Code'}, Anthropic's official CLI for Claude.
 
 ${NUM}
@@ -62,9 +63,3 @@ brightWhite
 brightCyan
 
 brightMagenta
-
-${EXPR_3: 'Write'}
-
-${EXPR_4}
-
-${EXPR_5}
