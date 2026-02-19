@@ -164,6 +164,7 @@ Plugin syntax: `plugin-name@source` where source is `claude-code-marketplace`, `
 - `cleanupPeriodDays`: Days to keep transcripts (${NUM} = forever)
 - `respectGitignore`: Whether to respect .gitignore (default: true)
 - `spinnerTipsEnabled`: Show tips in spinner
+- `spinnerVerbs`: Customize spinner verbs (`{ "mode": "append" | "replace", "verbs": [...] }`)
 - `syntaxHighlightingDisabled`: Disable diff highlighting
 
 
