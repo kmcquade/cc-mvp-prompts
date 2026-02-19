@@ -4,7 +4,7 @@
 
 ## Summary
 
-Report the number of MCP servers detected in Claude Desktop.
+Report how many MCP servers were found in Claude Desktop.
 
 ## Placeholder Hints (source-backed)
 
@@ -14,4 +14,4 @@ Report the number of MCP servers detected in Claude Desktop.
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}Found ${EXPR_2} MCP servers in Claude Desktop.
+@anthropic-ai${PATH}${EXPR_1}Found ${EXPR_2} MCP servers in Claude Desktop.unknown
