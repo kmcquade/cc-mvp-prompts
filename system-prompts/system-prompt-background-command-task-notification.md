@@ -15,13 +15,12 @@ Reports background command status, quoting the command and directing to output f
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 <task-notification>
 <task-id>\\.\pipe\claude-mcp-browser-bridge-default<${PATH}>
 <output-file>${EXPR_1}<${PATH}>
 <status>${EXPR_2}<${PATH}>
-<summary>Background command "${EXPR_3}" mcp__${EXPR_4}__${EXPR_5}<${PATH}>
+<summary>Background command "${EXPR_3}" ${EXPR_4}<${PATH}>
 <${PATH}>
-Read the output file to retrieve the result: ${EXPR_6}
+Read the output file to retrieve the result: ${EXPR_5}
