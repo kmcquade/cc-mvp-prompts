@@ -4,11 +4,11 @@
 
 - Commands: 30
 - Options: 62
-- Env vars: 416
+- Env vars: 420
 - Config keys: 510
 - Tools: 3
 - Skills: 0
-- Models: 81
+- Models: 82
 - Providers: 7
 
 ## Commands
@@ -288,6 +288,7 @@
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
 - `CLAUDE_CODE_BASE_REF`
 - `CLAUDE_CODE_BASH_SANDBOX_SHOW_INDICATOR`
+- `CLAUDE_CODE_BIRTHDAY_HAT`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
 - `CLAUDE_CODE_BUBBLEWRAP`
 - `CLAUDE_CODE_CLIENT_CERT`
@@ -358,6 +359,7 @@
 - `CLAUDE_CODE_PLAN_MODE_REQUIRED`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
+- `CLAUDE_CODE_PLUGIN_CACHE_DIR`
 - `CLAUDE_CODE_POST_FOR_SESSION_INGRESS_V2`
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
@@ -365,6 +367,7 @@
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
 - `CLAUDE_CODE_REMOTE_MEMORY_DIR`
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
+- `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
 - `CLAUDE_CODE_SAVE_HOOK_ADDITIONAL_CONTEXT`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SESSION_ID`
@@ -448,6 +451,7 @@
 - `ENABLE_MCP_CLI`
 - `ENABLE_MCP_CLI_ENDPOINT`
 - `ENABLE_MCP_LARGE_OUTPUT_FILES`
+- `ENABLE_PROMPT_CACHING_1H_BEDROCK`
 - `ENABLE_TOOL_SEARCH`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
 - `FLY_APP_NAME`
@@ -692,6 +696,7 @@
 - `blockedMarketplaces`
 - `blocks`
 - `bpfPath`
+- `BR`
 - `branch`
 - `bytes`
 - `cache_creation`
@@ -850,7 +855,6 @@
 - `installPath`
 - `interrupt`
 - `interrupted`
-- `IR`
 - `is_error`
 - `is_interrupt`
 - `isAgent`
@@ -1183,6 +1187,7 @@ _None detected_
 - `claude-code-screenshots`
 - `claude-code-user`
 - `claude-context`
+- `claude-dev`
 - `claude-empty-`
 - `claude-folder`
 - `claude-haiku-4`
