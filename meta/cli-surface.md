@@ -5,7 +5,7 @@
 - Commands: 14
 - Options: 18
 - Env vars: 126
-- Config keys: 72
+- Config keys: 73
 - Tools: 5
 - Skills: 0
 - Models: 17
@@ -232,6 +232,7 @@
 - `content`
 - `costPriority`
 - `data`
+- `deny`
 - `description`
 - `end`
 - `env`
