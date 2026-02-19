@@ -1,4 +1,4 @@
-# System Prompt: multi-synthesis-3
+# System Prompt: synthesize-multiple-outputs
 
 - Source: inline
 
