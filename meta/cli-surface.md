@@ -4,8 +4,8 @@
 
 - Commands: 26
 - Options: 53
-- Env vars: 407
-- Config keys: 397
+- Env vars: 408
+- Config keys: 399
 - Tools: 3
 - Skills: 0
 - Models: 79
@@ -267,6 +267,7 @@
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
 - `CLAUDE_CODE_CONTAINER_ID`
+- `CLAUDE_CODE_DATADOG_FLUSH_INTERVAL_MS`
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
 - `CLAUDE_CODE_DIAGNOSTICS_FILE`
 - `CLAUDE_CODE_DISABLE_ATTACHMENTS`
@@ -604,6 +605,7 @@
 - `agents`
 - `allow`
 - `allowAllUnixSockets`
+- `allowed`
 - `allowedDomains`
 - `allowedMcpServers`
 - `allowedTools`
@@ -769,7 +771,6 @@
 - `isAgent`
 - `isImage`
 - `keywords`
-- `ku`
 - `label`
 - `language`
 - `lastModified`
@@ -884,6 +885,7 @@
 - `resolvedAt`
 - `resolvedBy`
 - `respectGitignore`
+- `restrictions`
 - `result`
 - `resultCount`
 - `results`
@@ -981,6 +983,7 @@
 - `userId`
 - `userModified`
 - `userSettings`
+- `uu`
 - `uuid`
 - `value`
 - `version`

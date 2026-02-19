@@ -1,4 +1,4 @@
-# Claude Code 2.1.20 – Flags
+# Claude Code 2.1.21 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -12,11 +12,13 @@
 | `tengu_code_diff_cli` | experiment | ui | Enables CLI code diff footer setting and updates git diff stats/hunks. | Also gates background git diff data refresh logic. | high | 9 |
 | `tengu_compact_cache_prefix` | experiment | caching | Enable cache-sharing path for conversation compaction summaries using prefixed cache keys | Exact cache prefix behavior not shown; inferred from logs and naming. | high | 2 |
 | `tengu_compact_streaming_retry` | experiment | networking | Controls retry attempts when streaming a conversation-compaction summary request fails | Exact retry count K97 not shown. | high | 1 |
+| `tengu_coral_fern` | experiment | tools | Enables guidance for searching and using past session logs and memory summaries. | Gates returning a help/prompt string for session search usage. | high | 1 |
 | `tengu_cork_m4q` | experiment | safety | Gates BashTool command prefix extraction safety policy prompt for injection detection. | Only declared here; downstream behavior not shown. | medium | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_file_write_optimization` | experiment | filesystem | Simplifies file update tool output by skipping returning a cat snippet | Only affects update tool_result formatting path. | high | 1 |
 | `tengu_keybinding_customization_release` | experiment | ui | Controls rollout of keybinding customization functionality | Only a simple boolean gate; behavior beyond name is unclear. | medium | 1 |
 | `tengu_kv7_prompt_sort` | experiment | tools | Sorts deferred tool/skill names in generated tool prompt and logging output. | Affects ordering only; no functional tool changes shown. | high | 2 |
+| `tengu_marble_anvil` | experiment | prompts | Enables adding a clear-thinking context edit and related processing in the CLI pipeline. | Exact effect of wnA/W_9 unclear beyond prompt/context handling. | high | 2 |
 | `tengu_marble_kite` | experiment | tools | Controls display of file-tool guidance requiring reading before editing existing files | Appears to gate help/prompt text only. | high | 6 |
 | `tengu_mcp_tool_search` | experiment | tools | Selects a test mode for tool search behavior in the MCP CLI. | Exact behavior of "tst" mode not shown. | medium | 1 |
 | `tengu_permission_explainer` | experiment | tools | Enable permission explanation text for tool invocations in CLI. | Only one occurrence; behavior inferred from toolName/toolDescription string building. | medium | 1 |
@@ -35,6 +37,7 @@
 | `tengu_thinkback` | gate | tools | Enables Thinkback year-in-review command and hidden animation playback tool | Controls availability of local CLI/plugin commands. | high | 2 |
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
 | `tengu_tool_search_unsupported_models` | experiment | tools | Provides list of model substrings that disable tool search support checks | Used to filter model names by substring match. | high | 1 |
+| `tengu_tst_kx7` | experiment | tools | Gates whether tool search is enabled when auto search is below threshold | Only seen in CLI auto tool-search flow. | high | 1 |
 | `tengu_version_config` | config | ui | Checks minimum required CLI version and instructs user to update if outdated. | Used for runtime version gating and update messaging. | high | 1 |
 | `tengu_vscode_onboarding` | gate | ui | Controls whether VSCode connected experience shows onboarding flow | Only seen declared and sent as a gate; no UI behavior shown. | medium | 1 |
 | `tengu_vscode_review_upsell` | gate | ui | Enable VS Code review upsell experiment gate sent to connected client. | Only shows gate transmission and event logging, not the upsell UI itself. | medium | 1 |
