@@ -1,4 +1,4 @@
-# System Prompt: multi-synthesis-2
+# System Prompt: unify-agents-into-solution
 
 - Source: inline
 
