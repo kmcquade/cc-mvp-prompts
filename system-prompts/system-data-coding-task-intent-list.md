@@ -17,10 +17,6 @@ Enumerates coding help intents: lint/type fixes, refactors, questions, logging, 
 | `EXPR_5` | None | None |
 
 # Raw Prompt Text
-${URL}
-
-${URL}
-
 ${EXPR_1}
 
 fix lint errors
