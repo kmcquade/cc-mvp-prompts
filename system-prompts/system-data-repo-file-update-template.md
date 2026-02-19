@@ -64,73 +64,27 @@ ${EXPR_8}
 
 ${EXPR_9}
 
+${EXPR_10}
+
 userSettings
 
 projectSettings
 
 localSettings
 
-Task ${EXPR_10}
+Task ${EXPR_11}
 
-(type: ${EXPR_11})
+(type: ${EXPR_12})
 
-(status: ${EXPR_12})
+(status: ${EXPR_13})
 
-(description: ${EXPR_13})
+(description: ${EXPR_14})
 
-Task #${EXPR_14}: ${EXPR_15}
+Task #${EXPR_15}: ${EXPR_16}
 
-Status: ${EXPR_16}
+Status: ${EXPR_17}
 
-Description: ${EXPR_17}
-
-$schema
-
-$id
-
-id
-
-$data
-
-$async
-
-title
-
-description
-
-default
-
-definitions
-
-examples
-
-readOnly
-
-writeOnly
-
-contentMediaType
-
-contentEncoding
-
-additionalItems
-
-then
-
-else
-
-number
-
-integer
-
-string
-
-array
-
-object
-
-boolean
-
-null
+Description: ${EXPR_18}
 
 $schema
 
@@ -180,7 +134,53 @@ boolean
 
 null
 
-${PATH}
+$schema
+
+$id
+
+id
+
+$data
+
+$async
+
+title
+
+description
+
+default
+
+definitions
+
+examples
+
+readOnly
+
+writeOnly
+
+contentMediaType
+
+contentEncoding
+
+additionalItems
+
+then
+
+else
+
+number
+
+integer
+
+string
+
+array
+
+object
+
+boolean
+
+null
 
 ${PATH}
 
@@ -188,7 +188,7 @@ ${PATH}
 
 ${PATH}
 
-${EXPR_18}
+${PATH}
 
 ${EXPR_19}
 
@@ -205,6 +205,8 @@ ${EXPR_24}
 ${EXPR_25}
 
 ${EXPR_26}
+
+${EXPR_27}
 
 $schema
 
@@ -356,21 +358,21 @@ api
 
 PUT
 
-repos/${EXPR_27}${PATH}${EXPR_28}
+repos/${EXPR_28}${PATH}${EXPR_29}
 
 -f
 
-message="Update ${EXPR_29}"
+message="Update ${EXPR_30}"
 
 -f
 
-content=${EXPR_30}
+content=${EXPR_31}
 
 -f
 
-branch=${EXPR_31}
+branch=${EXPR_32}
 
-${EXPR_32}
+${EXPR_33}
 
 fileName
 
@@ -482,8 +484,6 @@ ${PATH}
 
 ${PATH}
 
-${EXPR_33}
-
 ${EXPR_34}
 
 ${EXPR_35}
@@ -499,6 +499,8 @@ ${EXPR_39}
 ${EXPR_40}
 
 ${EXPR_41}
+
+${EXPR_42}
 
 $schema
 
