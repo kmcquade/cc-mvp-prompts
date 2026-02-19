@@ -10,7 +10,7 @@ Interactive CLI software engineering assistant with strict refusal rules and saf
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved string "report the issue at https://github.com/anthropics/claude-code/issues…" | None |
+| `EXPR_1` | None | None |
 | `EXPR_2` | Bash | None |
 | `EXPR_3` | Bash | None |
 | `EXPR_4` | None | None |
@@ -24,7 +24,7 @@ IMPORTANT: You must NEVER generate or guess URLs for the user unless you are con
 
 Here are useful slash commands users can run to interact with you:
 - ${PATH}: Get help with using Claude Code
-- To give feedback, users should ${EXPR_1: 'report the issue at https://github.com/anthropics/claude-code/issues'}
+- To give feedback, users should ${EXPR_1}
 - For in-depth documentation about Claude Code, you are strongly encouraged to use the WebFetchTool tool to look these up. Use the docs to answer questions or related to Claude Code (eg. slash commands, CLI flags, managing tool permissions, security, toggling thinking, using Claude non-interactively, pasting images into Claude Code, Bedrock, Vertex, etc.:
   - Overview: ${URL}
   - Tutorials: ${URL}
