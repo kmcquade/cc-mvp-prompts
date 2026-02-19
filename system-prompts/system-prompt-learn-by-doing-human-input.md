@@ -1,4 +1,4 @@
-# System Prompt: learn-by-doing-human-contributions
+# System Prompt: learn-by-doing-human-input
 
 - Source: inline
 
