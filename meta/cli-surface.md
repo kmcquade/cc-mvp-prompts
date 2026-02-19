@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 15
-- Options: 29
-- Env vars: 215
-- Config keys: 185
+- Commands: 16
+- Options: 30
+- Env vars: 218
+- Config keys: 252
 - Tools: 0
 - Skills: 0
 - Models: 30
@@ -29,6 +29,7 @@
 - `reset-project-choices`
 - `serve`
 - `set`
+- `setup-token`
 - `update`
 
 ### Specs
@@ -50,6 +51,7 @@
 - `reset-project-choices`
 - `serve`
 - `set <key> <value>`
+- `setup-token`
 - `update`
 
 ## Options
@@ -74,6 +76,7 @@
 - `--print`
 - `--resume`
 - `--scope`
+- `--strict-mcp-config`
 - `--transport`
 - `--verbose`
 - `-c`
@@ -98,6 +101,7 @@
 - `--mcp-config <file or string>`
 - `--mcp-debug`
 - `--model <model>`
+- `--strict-mcp-config`
 - `--verbose`
 - `-c, --continue`
 - `-d, --debug`
@@ -161,6 +165,8 @@
 - `CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL`
 - `CLAUDE_CODE_IDE_SKIP_VALID_CHECK`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
+- `CLAUDE_CODE_MAX_RETRIES`
+- `CLAUDE_CODE_OAUTH_TOKEN`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
@@ -225,6 +231,7 @@
 - `IBM_CLOUD_REGION`
 - `IGNORE_TEST_WIN32`
 - `IS_DEMO`
+- `IS_SANDBOX`
 - `JEST_WORKER_ID`
 - `K_CONFIGURATION`
 - `K_SERVICE`
@@ -342,8 +349,17 @@
 - `authorization_endpoint`
 - `authorization_servers`
 - `authToken`
+- `backgroundTaskId`
+- `base64`
 - `bearer_methods_supported`
 - `behavior`
+- `bytes`
+- `cache_creation_input_tokens`
+- `cache_read_input_tokens`
+- `cell_id`
+- `cell_type`
+- `cells`
+- `cellType`
 - `character`
 - `charset`
 - `cleanupPeriodDays`
@@ -355,11 +371,13 @@
 - `client_uri`
 - `code`
 - `code_challenge_methods_supported`
+- `codeText`
 - `command`
 - `completions`
 - `compressible`
 - `contacts`
 - `content`
+- `contents`
 - `continue`
 - `core.fsmonitor=false`
 - `costPriority`
@@ -377,6 +395,10 @@
 - `disabledMcpjsonServers`
 - `dpop_bound_access_tokens_required`
 - `dpop_signing_alg_values_supported`
+- `durationMs`
+- `durationSeconds`
+- `edit_mode`
+- `edits`
 - `elicitation`
 - `enableAllProjectMcpServers`
 - `enabledMcpjsonServers`
@@ -389,9 +411,14 @@
 - `error_uri`
 - `eventData`
 - `eventName`
+- `execution_count`
+- `exitCode`
+- `exitPlanModeInput`
 - `experimental`
 - `expires_in`
 - `extensions`
+- `file`
+- `filenames`
 - `filePath`
 - `forceLoginMethod`
 - `format`
@@ -408,18 +435,24 @@
 - `includeCoAuthoredBy`
 - `initialWindowSize`
 - `input`
+- `input_tokens`
 - `intelligencePriority`
+- `interrupted`
 - `introspection_endpoint`
 - `introspection_endpoint_auth_methods_supported`
 - `introspection_endpoint_auth_signing_alg_values_supported`
+- `isAgent`
+- `isImage`
 - `issuer`
 - `jsonrpc`
 - `jwks`
 - `jwks_uri`
+- `language`
 - `learnMode`
 - `libvips`
 - `line`
 - `lineEnd`
+- `lines`
 - `lineStart`
 - `listChanged`
 - `logging`
@@ -437,11 +470,28 @@
 - `minLength`
 - `model`
 - `name`
+- `new_source`
+- `newLines`
+- `newStart`
+- `newString`
+- `newTodos`
 - `noResponseRetries`
+- `numFiles`
+- `numLines`
+- `oldLines`
+- `oldStart`
+- `oldString`
+- `oldTodos`
 - `openWorldHint`
+- `originalFile`
+- `originalFileContents`
+- `originalSize`
+- `output_tokens`
+- `outputs`
 - `owner`
 - `params`
 - `permissions`
+- `plan`
 - `policy_uri`
 - `priority`
 - `progress`
@@ -449,12 +499,14 @@
 - `prompt`
 - `prompts`
 - `properties`
+- `query`
 - `readOnlyHint`
 - `reason`
 - `redirect_uris`
 - `refresh_token`
 - `region`
 - `registration_endpoint`
+- `replaceAll`
 - `repo`
 - `requestHandler`
 - `required`
@@ -469,26 +521,40 @@
 - `response_types`
 - `response_types_supported`
 - `result`
+- `results`
+- `returnCodeInterpretation`
 - `revocation_endpoint`
 - `revocation_endpoint_auth_methods_supported`
 - `revocation_endpoint_auth_signing_alg_values_supported`
 - `role`
 - `roots`
 - `sampling`
+- `sandbox`
 - `scope`
 - `scopes_supported`
 - `selection`
 - `server`
+- `server_tool_use`
 - `service_documentation`
+- `service_tier`
+- `shell_id`
+- `shellId`
 - `software_id`
 - `software_statement`
 - `software_version`
 - `source`
 - `speedPriority`
 - `start`
+- `startLine`
 - `status`
+- `stderr`
+- `stderrLines`
+- `stdout`
+- `stdoutLines`
 - `stopReason`
+- `structuredPatch`
 - `subscribe`
+- `success`
 - `suppressOutput`
 - `text`
 - `timeout`
@@ -506,14 +572,22 @@
 - `tools`
 - `tos_uri`
 - `total`
+- `totalDurationMs`
+- `totalLines`
+- `totalTokens`
+- `totalToolUseCount`
+- `truncated`
 - `turns`
 - `type`
 - `updated_at`
 - `updatedInput`
 - `uri`
 - `url`
+- `usage`
+- `userModified`
 - `value`
 - `values`
+- `web_search_requests`
 
 ## Tools
 
