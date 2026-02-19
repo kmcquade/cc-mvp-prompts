@@ -4,8 +4,8 @@
 
 - Commands: 14
 - Options: 37
-- Env vars: 275
-- Config keys: 353
+- Env vars: 276
+- Config keys: 354
 - Tools: 3
 - Skills: 0
 - Models: 44
@@ -192,6 +192,7 @@
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_OAUTH_TOKEN`
 - `CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR`
+- `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SHELL_PREFIX`
@@ -402,6 +403,7 @@
 
 - `_meta`
 - `$schema`
+- `A`
 - `access_token`
 - `acr_values_supported`
 - `activeForm`
