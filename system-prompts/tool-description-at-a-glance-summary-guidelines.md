@@ -49,7 +49,7 @@ ${EXPR_2}
  (PID ${EXPR_3})
 
 ## Friction Categories (where things go wrong)
-${EXPR_4}
+${EXPR_4}s
 
 ## Features to Try
 ${EXPR_5}
