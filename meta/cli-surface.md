@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 14
-- Options: 24
-- Env vars: 161
-- Config keys: 136
+- Options: 27
+- Env vars: 163
+- Config keys: 137
 - Tools: 0
 - Skills: 0
 - Models: 22
@@ -61,6 +61,7 @@
 - `--disallowedTools`
 - `--env`
 - `--global`
+- `--header`
 - `--json`
 - `--mcp-config`
 - `--mcp-debug`
@@ -68,12 +69,14 @@
 - `--print`
 - `--resume`
 - `--scope`
+- `--system-prompt`
 - `--transport`
 - `--verbose`
 - `-c`
 - `-d`
 - `-e`
 - `-g`
+- `-H`
 - `-p`
 - `-r`
 - `-s`
@@ -88,11 +91,13 @@
 - `--mcp-config <file>`
 - `--mcp-debug`
 - `--output-format <format>`
+- `--system-prompt <prompt>`
 - `--verbose`
 - `-c, --continue`
 - `-d, --debug`
 - `-e, --env <env...>`
 - `-g, --global`
+- `-H, --header <header...>`
 - `-p, --print`
 - `-r, --resume [sessionId]`
 - `-s, --scope <scope>`
@@ -111,6 +116,7 @@
 - `ANTHROPIC_CUSTOM_HEADERS`
 - `ANTHROPIC_MODEL`
 - `ANTHROPIC_SMALL_FAST_MODEL`
+- `ANTHROPIC_VERTEX_PROJECT_ID`
 - `API_TIMEOUT_MS`
 - `APPDATA`
 - `AWS_ACCESS_KEY_ID`
@@ -128,6 +134,7 @@
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
+- `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CONFIG_DIR`
@@ -307,6 +314,7 @@
 - `grant_types`
 - `grant_types_supported`
 - `hasMore`
+- `headers`
 - `hints`
 - `httpMethodsToRetry`
 - `id`
