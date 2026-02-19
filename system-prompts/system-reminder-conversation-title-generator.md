@@ -1,4 +1,4 @@
-# System Data Block: conversation-title-generator-variables-4
+# System Reminder: conversation-title-generator
 
 - Source: inline
 
