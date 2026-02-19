@@ -5,10 +5,10 @@
 - Commands: 14
 - Options: 26
 - Env vars: 206
-- Config keys: 144
+- Config keys: 157
 - Tools: 0
 - Skills: 0
-- Models: 29
+- Models: 30
 - Providers: 7
 
 ## Commands
@@ -321,8 +321,11 @@
 - `apiKeyHelper`
 - `args`
 - `arguments`
+- `authorization_details_types_supported`
 - `authorization_endpoint`
+- `authorization_servers`
 - `authToken`
+- `bearer_methods_supported`
 - `behavior`
 - `character`
 - `charset`
@@ -348,6 +351,8 @@
 - `description`
 - `destructiveHint`
 - `disabledMcpjsonServers`
+- `dpop_bound_access_tokens_required`
+- `dpop_signing_alg_values_supported`
 - `enableAllProjectMcpServers`
 - `enabledMcpjsonServers`
 - `end`
@@ -366,6 +371,7 @@
 - `hasMore`
 - `headers`
 - `hints`
+- `hooks`
 - `httpMethodsToRetry`
 - `id`
 - `idempotentHint`
@@ -397,6 +403,7 @@
 - `name`
 - `noResponseRetries`
 - `openWorldHint`
+- `outputSchema`
 - `params`
 - `permissions`
 - `policy_uri`
@@ -413,6 +420,11 @@
 - `registration_endpoint`
 - `required`
 - `resource`
+- `resource_documentation`
+- `resource_name`
+- `resource_policy_uri`
+- `resource_signing_alg_values_supported`
+- `resource_tos_uri`
 - `resources`
 - `response_modes_supported`
 - `response_types`
@@ -438,6 +450,7 @@
 - `subscribe`
 - `text`
 - `title`
+- `tls_client_certificate_bound_access_tokens`
 - `token`
 - `token_endpoint`
 - `token_endpoint_auth_method`
@@ -493,6 +506,7 @@ _None detected_
 - `claude-opus-4`
 - `claude-opus-4-20250514`
 - `claude-opus-welcome`
+- `claude-review`
 - `claude-sandbox-`
 - `claude-sonnet-4`
 - `claude-sonnet-4-20250514`
