@@ -19,7 +19,7 @@ _Sorted by tokens (desc)._
 | [`system-prompt-security-review-git-diff.md`](../system-prompts/system-prompt-security-review-git-diff.md) | Performs a high-confidence vulnerability review of branch changes using git status, logs, and diffs. | 2,808 | 1.0.69 | 1.0.69 |
 | [`system-prompt-structured-coding-todo-list.md`](../system-prompts/system-prompt-structured-coding-todo-list.md) | Guide creating and updating a structured todo list for complex coding sessions. | 2,433 | 1.0.89 | 1.0.89 |
 | [`system-prompt-safe-persistent-bash-execution.md`](../system-prompts/system-prompt-safe-persistent-bash-execution.md) | Execute bash commands in persistent shell with directory checks, quoting, and optional timeout. | 1,946 | 1.0.108 | 1.0.108 |
-| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.116 |
+| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.117 |
 | [`system-prompt-architect-configs-from-needs.md`](../system-prompts/system-prompt-architect-configs-from-needs.md) | Translate user requirements and project context into precise agent specifications. | 1,140 | 1.0.60 | 1.0.60 |
 | [`system-prompt-learn-by-doing-human-input.md`](../system-prompts/system-prompt-learn-by-doing-human-input.md) | Request 3–5 line human code contributions for key logic, tracked via TodoList prompts. | 1,137 | 1.0.78 | 1.0.86 |
 | [`system-prompt-delegate-work-to-specialists.md`](../system-prompts/system-prompt-delegate-work-to-specialists.md) | Delegate multi-step tasks to specialized subagents and prefer direct search tools when appropriate. | 972 | 1.0.111 | 1.0.111 |
@@ -46,7 +46,7 @@ _Sorted by tokens (desc)._
 | [`system-prompt-simple-conversation-title-3.md`](../system-prompts/system-prompt-simple-conversation-title-3.md) | Generate a NUM–NUM word conversation title using the last EXPR_1 of EXPR_2 messages. | 169 | 1.0.111 | 1.0.116 |
 | [`system-prompt-coding-session-title-generator-2.md`](../system-prompts/system-prompt-coding-session-title-generator-2.md) | Creates a short XML-wrapped title from a coding session description. | 167 | 1.0.68 | 1.0.93 |
 | [`system-prompt-file-editing-and-path-rules.md`](../system-prompts/system-prompt-file-editing-and-path-rules.md) | Injects URL and expression, enforcing no new files, no docs, absolute paths, snippetful final reply. | 160 | 1.0.111 | 1.0.111 |
-| [`system-prompt-execute-slash-commands-safely.md`](../system-prompts/system-prompt-execute-slash-commands-safely.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.116 |
+| [`system-prompt-execute-slash-commands-safely.md`](../system-prompts/system-prompt-execute-slash-commands-safely.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.117 |
 | [`system-prompt-write-file-with-constraints.md`](../system-prompts/system-prompt-write-file-with-constraints.md) | Defines rules for writing files, including reading before overwriting and avoiding new docs. | 145 | 1.0.7 | 1.0.7 |
 | [`system-prompt-educational-insights.md`](../system-prompts/system-prompt-educational-insights.md) | Enforces brief pre/post code educational insights using a named insight banner format. | 134 | 1.0.63 | 1.0.64 |
 | [`system-prompt-nested-template-functions.md`](../system-prompts/system-prompt-nested-template-functions.md) | Nested compiled template functions that concatenate output into a string buffer. | 134 | 0.2.54 | 1.0.86 |
@@ -114,7 +114,7 @@ _Sorted by tokens (desc)._
 | [`tool-description-ripgrep-search-guidelines.md`](../system-prompts/tool-description-ripgrep-search-guidelines.md) | Guidelines for using the Grep search tool with regex, filters, and output modes. | 250 | 1.0.38 | 1.0.38 |
 | [`tool-description-exit-planning-when-ready.md`](../system-prompts/tool-description-exit-planning-when-ready.md) | Instructs when to trigger leaving planning mode before starting implementation. | 180 | 1.0.32 | 1.0.57 |
 | [`tool-description-web-search-current-info.md`](../system-prompts/tool-description-web-search-current-info.md) | Searches the web for up-to-date information and returns formatted result blocks. | 159 | 1.0.40 | 1.0.40 |
-| [`tool-description-execute-slash-command-guide.md`](../system-prompts/tool-description-execute-slash-command-guide.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.116 |
+| [`tool-description-execute-slash-command-guide.md`](../system-prompts/tool-description-execute-slash-command-guide.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.117 |
 | [`tool-description-write-file-after-reading-existing.md`](../system-prompts/tool-description-write-file-after-reading-existing.md) | Write files, reading existing contents first, and avoid unrequested new or documentation files. | 150 | 1.0.7 | 1.0.9 |
 | [`tool-description-fast-glob-file-matching-2.md`](../system-prompts/tool-description-fast-glob-file-matching-2.md) | Glob-based file matcher returning paths sorted by modification time and supports batching searches. | 118 | 0.2.116 | 0.2.116 |
 | [`tool-description-replace-jupyter-notebook-cell.md`](../system-prompts/tool-description-replace-jupyter-notebook-cell.md) | Replaces, inserts, or deletes a specific Jupyter notebook cell by index. | 117 | 0.2.9 | 0.2.83 |
@@ -214,7 +214,7 @@ _Sorted by tokens (desc)._
 | [`system-data-months-weekdays-number-mapping.md`](../system-prompts/system-data-months-weekdays-number-mapping.md) | Month and weekday names paired with numeric placeholders. | 341 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-functions-json-regression.md`](../system-prompts/system-data-sql-functions-json-regression.md) | Catalog of SQL functions including JSON, analytics, and regression aggregates. | 297 | 0.2.9 | 0.2.9 |
 | [`system-data-background-bash-output-block.md`](../system-prompts/system-data-background-bash-output-block.md) | Captures background bash command, status, and surrounding output lines. | 281 | 1.0.114 | 1.0.116 |
-| [`system-data-extended-background-bash-status.md`](../system-prompts/system-data-extended-background-bash-status.md) | Template block listing background bash entries with command and status fields. | 281 | 1.0.116 | 1.0.116 |
+| [`system-data-extended-background-bash-log.md`](../system-prompts/system-data-extended-background-bash-log.md) | Template block listing background bash entries with command and status fields. | 281 | 1.0.116 | 1.0.117 |
 | [`system-data-path-glob-listing.md`](../system-prompts/system-data-path-glob-listing.md) | Lists many repeated PATH globs and prefixed EXPR_n+PATH wildcard patterns. | 281 | 1.0.116 | 1.0.116 |
 | [`system-data-stan-distributions-list.md`](../system-prompts/system-data-stan-distributions-list.md) | Enumerates probability distributions used in modeling. | 244 | 0.2.9 | 0.2.9 |
 | [`system-data-numeric-placeholders-repeated.md`](../system-prompts/system-data-numeric-placeholders-repeated.md) | Repeated numeric placeholder entries. | 237 | 0.2.9 | 0.2.9 |
@@ -225,8 +225,8 @@ _Sorted by tokens (desc)._
 | [`system-data-multiple-background-bash-runs.md`](../system-prompts/system-data-multiple-background-bash-runs.md) | Captures two background bash command executions with commands and statuses. | 220 | 1.0.116 | 1.0.116 |
 | [`system-data-multiple-background-bash-status.md`](../system-prompts/system-data-multiple-background-bash-status.md) | Two consecutive background bash command status sections in one output. | 220 | 1.0.116 | 1.0.116 |
 | [`system-data-javascript-builtins-and-typed-arrays.md`](../system-prompts/system-data-javascript-builtins-and-typed-arrays.md) | Enumerates JavaScript globals, built-in objects, errors, and typed arrays. | 216 | 0.2.9 | 0.2.9 |
-| [`system-data-background-bash-status-block.md`](../system-prompts/system-data-background-bash-status-block.md) | Background bash block showing command and status fields. | 204 | 1.0.116 | 1.0.116 |
-| [`system-data-background-bash-status-with-urls.md`](../system-prompts/system-data-background-bash-status-with-urls.md) | Background bash command and status template including URL fields. | 204 | 1.0.116 | 1.0.116 |
+| [`system-data-background-bash-links-and-status.md`](../system-prompts/system-data-background-bash-links-and-status.md) | Background bash command and status template including URL fields. | 204 | 1.0.116 | 1.0.117 |
+| [`system-data-background-bash-run-metadata.md`](../system-prompts/system-data-background-bash-run-metadata.md) | Background bash block showing command and status fields. | 204 | 1.0.116 | 1.0.117 |
 | [`system-data-applied-edits-and-background-bash.md`](../system-prompts/system-data-applied-edits-and-background-bash.md) | Log line showing applied local edits followed by background bash command and status. | 202 | 1.0.116 | 1.0.116 |
 | [`system-data-git-vscode-idea-args.md`](../system-prompts/system-data-git-vscode-idea-args.md) | Ignore common repo folders, then list args with expression placeholders and numeric entries. | 200 | 1.0.116 | 1.0.116 |
 | [`system-data-cli-identity-and-bash-status.md`](../system-prompts/system-data-cli-identity-and-bash-status.md) | Defines CLI identity and includes background bash command status reporting. | 198 | 1.0.116 | 1.0.116 |
@@ -235,7 +235,7 @@ _Sorted by tokens (desc)._
 | [`system-data-null-stream-json-conditional.md`](../system-prompts/system-data-null-stream-json-conditional.md) | Ternary checks for number type, null/undefined, then assigns stream-json operator string. | 187 | 1.0.116 | 1.0.116 |
 | [`system-data-css-pseudo-class-keywords.md`](../system-prompts/system-data-css-pseudo-class-keywords.md) | List of CSS selector pseudo-classes and state keywords. | 186 | 0.2.9 | 0.2.9 |
 | [`system-data-dom-exception-names-list.md`](../system-prompts/system-data-dom-exception-names-list.md) | List of DOM exception constants including security and network errors. | 184 | 0.2.33 | 0.2.33 |
-| [`system-data-background-bash-command-status.md`](../system-prompts/system-data-background-bash-command-status.md) | Template for reporting background bash command and status fields. | 183 | 1.0.116 | 1.0.116 |
+| [`system-data-background-bash-command-log.md`](../system-prompts/system-data-background-bash-command-log.md) | Template for reporting background bash command and status fields. | 183 | 1.0.116 | 1.0.117 |
 | [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 1.0.116 |
 | [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 1.0.114 |
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 1.0.116 |
@@ -287,7 +287,7 @@ _Sorted by tokens (desc). Showing **33** reminders with more than **30** tokens.
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
 | [`system-reminder-defensive-security-cli-guidelines.md`](../system-prompts/system-reminder-defensive-security-cli-guidelines.md) | CLI assistant rules for defensive security help, safe tool use, and feedback guidance. | 3,245 | 1.0.116 | 1.0.116 |
-| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.116 |
+| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.117 |
 | [`system-reminder-architect-configs-from-needs.md`](../system-prompts/system-reminder-architect-configs-from-needs.md) | Convert user goals and project context into detailed, reliable agent specification steps. | 1,150 | 1.0.60 | 1.0.60 |
 | [`system-reminder-xml-bash-output-summarizer.md`](../system-prompts/system-reminder-xml-bash-output-summarizer.md) | Determine if command output is log spew and respond with XML indicating summary decision and content. | 657 | 1.0.60 | 1.0.109 |
 | [`system-reminder-bash-status.md`](../system-prompts/system-reminder-bash-status.md) | System reminder wrapper containing background bash command and status info. | 173 | 1.0.116 | 1.0.116 |

@@ -18,7 +18,7 @@ _Sorted by init (newest first)._
 | --- | --- | ---: | --- | --- |
 | [`system-prompt-constants-groups-languages-null.md`](../system-prompts/system-prompt-constants-groups-languages-null.md) | Constant list for group names, language codes, lock types, and null defaults. | 291 | 1.0.116 | 1.0.116 |
 | [`system-prompt-iterate-stream-json-keys.md`](../system-prompts/system-prompt-iterate-stream-json-keys.md) | Iterate over object keys and assign stream-json array elements into typed variables | 97 | 1.0.116 | 1.0.116 |
-| [`system-prompt-execute-slash-commands-safely.md`](../system-prompts/system-prompt-execute-slash-commands-safely.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.116 |
+| [`system-prompt-execute-slash-commands-safely.md`](../system-prompts/system-prompt-execute-slash-commands-safely.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.117 |
 | [`system-prompt-exit-transcript-rules.md`](../system-prompts/system-prompt-exit-transcript-rules.md) | Specifies how stdout and stderr are displayed for tool call inputs and responses by exit code. | 70 | 1.0.113 | 1.0.113 |
 | [`system-prompt-create-md-guide-2.md`](../system-prompts/system-prompt-create-md-guide-2.md) | Analyze the repo and draft or improve a CLAUDE.md with commands and architecture. | 381 | 1.0.112 | 1.0.112 |
 | [`system-prompt-delegate-work-to-specialists.md`](../system-prompts/system-prompt-delegate-work-to-specialists.md) | Delegate multi-step tasks to specialized subagents and prefer direct search tools when appropriate. | 972 | 1.0.111 | 1.0.111 |
@@ -29,7 +29,7 @@ _Sorted by init (newest first)._
 | [`system-prompt-cli-identity.md`](../system-prompts/system-prompt-cli-identity.md) | States the assistant is Claude Code, Anthropic’s official CLI. | 14 | 1.0.111 | 1.0.111 |
 | [`system-prompt-stop-hook-feedback-links.md`](../system-prompts/system-prompt-stop-hook-feedback-links.md) | Stop hook feedback banner listing two URLs and a final interpolated message line. | 25 | 1.0.110 | 1.0.110 |
 | [`system-prompt-safe-persistent-bash-execution.md`](../system-prompts/system-prompt-safe-persistent-bash-execution.md) | Execute bash commands in persistent shell with directory checks, quoting, and optional timeout. | 1,946 | 1.0.108 | 1.0.108 |
-| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.116 |
+| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.117 |
 | [`system-prompt-command-purpose-in-words.md`](../system-prompts/system-prompt-command-purpose-in-words.md) | Guidelines to describe a shell command’s function in a fixed word range with examples. | 80 | 1.0.102 | 1.0.102 |
 | [`system-prompt-background-task-monitoring.md`](../system-prompts/system-prompt-background-task-monitoring.md) | Announces task moved to background; provides monitoring link and teleport resume command. | 58 | 1.0.102 | 1.0.114 |
 | [`system-prompt-read-local-files-by-path.md`](../system-prompts/system-prompt-read-local-files-by-path.md) | Reads local filesystem files by absolute path with optional line ranges and image viewing. | 423 | 1.0.98 | 1.0.98 |
@@ -104,7 +104,7 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-execute-slash-command-guide.md`](../system-prompts/tool-description-execute-slash-command-guide.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.116 |
+| [`tool-description-execute-slash-command-guide.md`](../system-prompts/tool-description-execute-slash-command-guide.md) | Executes a validated slash command and, on failure, lists up to … alternatives. | 154 | 1.0.114 | 1.0.117 |
 | [`tool-description-safe-bash-command-execution.md`](../system-prompts/tool-description-safe-bash-command-execution.md) | Execute bash in persistent session with directory verification, path quoting, and timeout limits | 694 | 1.0.108 | 1.0.108 |
 | [`tool-description-read-local-file-paths.md`](../system-prompts/tool-description-read-local-file-paths.md) | File-reading tool spec with absolute-path requirement, line limits, and image support. | 427 | 1.0.98 | 1.0.98 |
 | [`tool-description-view-update-privacy-settings.md`](../system-prompts/tool-description-view-update-privacy-settings.md) | View and update privacy settings. | 6 | 1.0.96 | 1.0.96 |
@@ -189,21 +189,21 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-extended-background-bash-status.md`](../system-prompts/system-data-extended-background-bash-status.md) | Template block listing background bash entries with command and status fields. | 281 | 1.0.116 | 1.0.116 |
+| [`system-data-extended-background-bash-log.md`](../system-prompts/system-data-extended-background-bash-log.md) | Template block listing background bash entries with command and status fields. | 281 | 1.0.116 | 1.0.117 |
 | [`system-data-path-glob-listing.md`](../system-prompts/system-data-path-glob-listing.md) | Lists many repeated PATH globs and prefixed EXPR_n+PATH wildcard patterns. | 281 | 1.0.116 | 1.0.116 |
 | [`system-data-git-vscode-idea-folders.md`](../system-prompts/system-data-git-vscode-idea-folders.md) | List of common project metadata directories including git, vscode, and idea. | 233 | 1.0.116 | 1.0.116 |
 | [`system-data-follow-codebase-first.md`](../system-prompts/system-data-follow-codebase-first.md) | Directs strict adherence to provided codebase and user instructions over defaults. | 224 | 1.0.116 | 1.0.116 |
 | [`system-data-multiple-background-bash-runs.md`](../system-prompts/system-data-multiple-background-bash-runs.md) | Captures two background bash command executions with commands and statuses. | 220 | 1.0.116 | 1.0.116 |
 | [`system-data-multiple-background-bash-status.md`](../system-prompts/system-data-multiple-background-bash-status.md) | Two consecutive background bash command status sections in one output. | 220 | 1.0.116 | 1.0.116 |
-| [`system-data-background-bash-status-block.md`](../system-prompts/system-data-background-bash-status-block.md) | Background bash block showing command and status fields. | 204 | 1.0.116 | 1.0.116 |
-| [`system-data-background-bash-status-with-urls.md`](../system-prompts/system-data-background-bash-status-with-urls.md) | Background bash command and status template including URL fields. | 204 | 1.0.116 | 1.0.116 |
+| [`system-data-background-bash-links-and-status.md`](../system-prompts/system-data-background-bash-links-and-status.md) | Background bash command and status template including URL fields. | 204 | 1.0.116 | 1.0.117 |
+| [`system-data-background-bash-run-metadata.md`](../system-prompts/system-data-background-bash-run-metadata.md) | Background bash block showing command and status fields. | 204 | 1.0.116 | 1.0.117 |
 | [`system-data-applied-edits-and-background-bash.md`](../system-prompts/system-data-applied-edits-and-background-bash.md) | Log line showing applied local edits followed by background bash command and status. | 202 | 1.0.116 | 1.0.116 |
 | [`system-data-git-vscode-idea-args.md`](../system-prompts/system-data-git-vscode-idea-args.md) | Ignore common repo folders, then list args with expression placeholders and numeric entries. | 200 | 1.0.116 | 1.0.116 |
 | [`system-data-cli-identity-and-bash-status.md`](../system-prompts/system-data-cli-identity-and-bash-status.md) | Defines CLI identity and includes background bash command status reporting. | 198 | 1.0.116 | 1.0.116 |
 | [`system-data-background-bash-status-log-5.md`](../system-prompts/system-data-background-bash-status-log-5.md) | Extended background bash command status log with additional expression slots. | 190 | 1.0.116 | 1.0.116 |
 | [`system-data-background-bash-status-template.md`](../system-prompts/system-data-background-bash-status-template.md) | Standardized background bash command and status transcript layout. | 190 | 1.0.116 | 1.0.116 |
 | [`system-data-null-stream-json-conditional.md`](../system-prompts/system-data-null-stream-json-conditional.md) | Ternary checks for number type, null/undefined, then assigns stream-json operator string. | 187 | 1.0.116 | 1.0.116 |
-| [`system-data-background-bash-command-status.md`](../system-prompts/system-data-background-bash-command-status.md) | Template for reporting background bash command and status fields. | 183 | 1.0.116 | 1.0.116 |
+| [`system-data-background-bash-command-log.md`](../system-prompts/system-data-background-bash-command-log.md) | Template for reporting background bash command and status fields. | 183 | 1.0.116 | 1.0.117 |
 | [`system-data-single-background-bash-run.md`](../system-prompts/system-data-single-background-bash-run.md) | Captures one background bash command execution with command and status. | 134 | 1.0.116 | 1.0.116 |
 | [`system-data-default-deny-permissions-policy.md`](../system-prompts/system-data-default-deny-permissions-policy.md) | Defines a default-deny policy with essential allowlisted permissions. | 89 | 1.0.116 | 1.0.116 |
 | [`system-data-background-bash-output-block.md`](../system-prompts/system-data-background-bash-output-block.md) | Captures background bash command, status, and surrounding output lines. | 281 | 1.0.114 | 1.0.116 |
@@ -296,7 +296,7 @@ _Sorted by init (newest first). Showing **33** reminders with more than **30** t
 | [`system-reminder-remote-session-task-status.md`](../system-prompts/system-reminder-remote-session-task-status.md) | Renders background remote session status block with task id, title, status, and delta summary | 55 | 1.0.111 | 1.0.111 |
 | [`system-reminder-session-title.md`](../system-prompts/system-reminder-session-title.md) | Generate a session title based on the provided session description text. | 37 | 1.0.109 | 1.0.109 |
 | [`system-reminder-fixed-length-conversation-title.md`](../system-prompts/system-reminder-fixed-length-conversation-title.md) | Write a title of the requested word count summarizing the given conversation. | 35 | 1.0.109 | 1.0.109 |
-| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.116 |
+| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.117 |
 | [`system-reminder-nudge-todo-tracking.md`](../system-prompts/system-reminder-nudge-todo-tracking.md) | Suggests using and cleaning up the todo list when it would help track progress. | 79 | 1.0.94 | 1.0.94 |
 | [`system-reminder-hidden-template-variables.md`](../system-prompts/system-reminder-hidden-template-variables.md) | Hidden section concatenating ten interpolated expressions in sequence for system reminder context | 72 | 1.0.94 | 1.0.116 |
 | [`system-reminder-conversation-title-generator.md`](../system-prompts/system-reminder-conversation-title-generator.md) | Compose a word title from the last messages using multiple inserted sections. | 109 | 1.0.93 | 1.0.116 |
