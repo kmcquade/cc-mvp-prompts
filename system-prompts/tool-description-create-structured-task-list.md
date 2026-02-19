@@ -21,7 +21,7 @@ It also helps the user understand the progress of the task and overall progress 
 Use this tool proactively in these scenarios:
 
 - Complex multi-step tasks - When a task requires ${NUM} or more distinct steps or actions
-- Non-trivial and complex tasks - Tasks that require careful planning or multiple operations\\.\pipe\claude-mcp-browser-bridge-default
+- Non-trivial and complex tasks - Tasks that require careful planning or multiple operations${PATH}
 - Plan mode - When using plan mode, create a task list to track the work
 - User explicitly requests todo list - When the user directly asks you to use the todo list
 - User provides multiple tasks - When users provide a list of things to be done (numbered or comma-separated)
