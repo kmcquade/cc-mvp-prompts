@@ -11,6 +11,8 @@ Immediately invoke the relevant Skill tool for slash-command tasks before any te
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Execute a skill within the main conversation
@@ -41,4 +43,4 @@ Important:
 - If you see a <command-name> tag in the current conversation turn (e.g., <command-name>${PATH}<${PATH}>), the skill has ALREADY been loaded and its instructions follow in the next message. Do NOT call this tool - just follow the skill instructions directly.
 
 Available skills:
-${EXPR_1}
+[${EXPR_1}] [Claude Chrome Native Host] ${EXPR_2}${EXPR_3}
