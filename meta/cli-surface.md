@@ -5,7 +5,7 @@
 - Commands: 15
 - Options: 29
 - Env vars: 216
-- Config keys: 174
+- Config keys: 177
 - Tools: 0
 - Skills: 0
 - Models: 30
@@ -150,6 +150,7 @@
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
+- `CLAUDE_CODE_DISABLE_COST_REPORTING`
 - `CLAUDE_CODE_DISABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
@@ -160,7 +161,6 @@
 - `CLAUDE_CODE_IDE_HOST_OVERRIDE`
 - `CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL`
 - `CLAUDE_CODE_IDE_SKIP_VALID_CHECK`
-- `CLAUDE_CODE_INTERNAL_METRICS`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
@@ -406,6 +406,7 @@
 - `ideName`
 - `includeCoAuthoredBy`
 - `initialWindowSize`
+- `input`
 - `intelligencePriority`
 - `introspection_endpoint`
 - `introspection_endpoint_auth_methods_supported`
@@ -495,6 +496,8 @@
 - `token_endpoint_auth_signing_alg_values_supported`
 - `token_type`
 - `token_type_hint`
+- `tool_name`
+- `tool_use_id`
 - `tools`
 - `tos_uri`
 - `total`
