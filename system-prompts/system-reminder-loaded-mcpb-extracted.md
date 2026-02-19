@@ -12,7 +12,6 @@ Confirms an MCPB was loaded successfully and extracted to the specified destinat
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Successfully loaded MCPB: ${EXPR_1} (extracted to ${EXPR_2}:${EXPR_3})
+Successfully loaded MCPB: ${EXPR_1} (extracted to ${EXPR_2})
