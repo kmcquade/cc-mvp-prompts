@@ -1,4 +1,4 @@
-# Claude Code 2.1.26 – Flags
+# Claude Code 2.1.27 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -8,7 +8,7 @@
 | `tengu_c4w_usage_limit_notifications_enabled` | gate | ui | Controls enabling usage limit notifications, with special handling for team plans. | Only boolean gating logic is visible; notification behavior not shown. | medium | 1 |
 | `tengu_cache_plum_violet` | experiment | caching | Skips microcompact context management that caches tool results as attachments | Exact enable/disable direction unclear. | medium | 1 |
 | `tengu_chrome_auto_enable` | experiment | tools | Auto-enable Claude-in-Chrome native host integration via MCP stdio config. | Based on nearby native-host/MCP strings; exact behavior inferred. | medium | 1 |
-| `tengu_code_diff_cli` | experiment | ui | Enables CLI code diff footer setting and updates git diff stats/hunks. | Also gates background git diff data refresh logic. | high | 9 |
+| `tengu_code_diff_cli` | experiment | ui | Enables CLI code diff footer setting and updates git diff stats/hunks. | Also gates background git diff data refresh logic. | high | 8 |
 | `tengu_compact_cache_prefix` | experiment | caching | Enable cache-sharing path for conversation compaction summaries using prefixed cache keys | Exact cache prefix behavior not shown; inferred from logs and naming. | high | 2 |
 | `tengu_compact_streaming_retry` | experiment | networking | Controls retry attempts when streaming a conversation-compaction summary request fails | Exact retry count K97 not shown. | high | 1 |
 | `tengu_coral_fern` | experiment | tools | Enables guidance for searching and using past session logs and memory summaries. | Gates returning a help/prompt string for session search usage. | high | 1 |
@@ -26,6 +26,7 @@
 | `tengu_plum_vx3` | experiment | tools | Force web search tool call with zero thinking tokens and alternate model selection | Exact behavior outside web_search call path unknown. | high | 1 |
 | `tengu_pr_status_cli` | experiment | ui | Enables a configurable PR status footer display in the CLI UI | Also emits an event when the setting changes. | high | 2 |
 | `tengu_quartz_lantern` | experiment | telemetry | Enables computing file diffs for remote edit/write operations and logs timing telemetry | Only runs for remote entrypoint; computes diff via uO1 then logs metrics. | high | 2 |
+| `tengu_quiet_fern` | experiment | ui | Enables an experimental VS Code extension UI/flow controlled via experiment gates. | Only appears in gates payload; no direct behavior shown. | medium | 1 |
 | `tengu_remote_backend` | experiment | networking | Permits starting a remote session without an initial description for the CLI remote command. | Only seen gating the missing-description error path. | high | 1 |
 | `tengu_scarf_coffee` | experiment | other | Conditionally adds a capability/beta entry to a features list in CLI | Exact meaning of FiA/K entries is unclear from snippet. | medium | 1 |
 | `tengu_scratch` | gate | filesystem | enable temporary scratchpad directory for session memory summaries | Behavior inferred from nearby path construction and conditional check. | medium | 1 |
