@@ -1,4 +1,4 @@
-# Tool Description: run-bash-commands-safely
+# Tool Description: safe-shell-command-runner
 
 - Name: Bash
 
