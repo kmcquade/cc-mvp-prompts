@@ -4,7 +4,7 @@
 
 ## Summary
 
-Decide whether to summarize a command’s bash output and provide a relevant summary.
+Assess whether command output merits summarization, then summarize key relevant details.
 
 ## Placeholder Hints (source-backed)
 
@@ -12,7 +12,6 @@ Decide whether to summarize a command’s bash output and provide a relevant sum
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Command executed: `${EXPR_1}`
@@ -21,6 +20,6 @@ Recent conversation context:
 No recent conversation context
 
 Bash output to analyze:
-mcp__${EXPR_2}__${EXPR_3}
+${EXPR_2}
 
 Should this output be summarized? If yes, provide a summary focusing on the most relevant information.
