@@ -47,6 +47,7 @@ How to use the statusLine command:
 ${NUM}. The statusLine command will receive the following JSON input via stdin:
    {
      "session_id": "string", // Unique session ID
+     "session_name": "string", // Optional: Human-readable session name set via ${PATH}
      "transcript_path": "string", // Path to the conversation transcript
      "cwd": "string",         // Current working directory
      "model": {
