@@ -10,7 +10,7 @@ Summarizes plugin installation status counts for failed marketplaces and failed 
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
