@@ -4,18 +4,10 @@
 
 ## Summary
 
-Defines a multi-edit single-file replace tool using …, preferred over ….
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | Edit | None |
-| `EXPR_2` | Edit | None |
-| `EXPR_3` | NotebookEdit | None |
+Instructions for a multi-replace tool to apply multiple exact edits to one file.
 
 # Raw Prompt Text
-This is a tool for making multiple edits to a single file in one operation. It is built on top of the ${EXPR_1: 'Edit'} tool and allows you to perform multiple find-and-replace operations efficiently. Prefer this tool over the ${EXPR_2: 'Edit'} tool and Batch tool when you need to make multiple edits to the same file.
+This is a tool for making multiple edits to a single file in one operation. It is built on top of the Edit tool and allows you to perform multiple find-and-replace operations efficiently. Prefer this tool over the Edit tool and Batch tool when you need to make multiple edits to the same file.
 
 Before using this tool:
 
@@ -34,7 +26,7 @@ IMPORTANT:
 - Each edit operates on the result of the previous edit
 - All edits must be valid for the operation to succeed - if any edit fails, none will be applied
 - This tool is ideal when you need to make several changes to different parts of the same file
-- For Jupyter notebooks (.ipynb files), use the ${EXPR_3: 'NotebookEdit'} instead
+- For Jupyter notebooks (.ipynb files), use the NotebookEdit instead
 
 CRITICAL REQUIREMENTS:
 ${NUM}. All edits follow the same requirements as the single Edit tool
