@@ -1,4 +1,4 @@
-# System Data Block: cli-color-style-tokens-5
+# System Data Block: cli-arguments-help
 
 - Source: inline
 
@@ -50,13 +50,13 @@ brightCyan
 
 brightMagenta
 
-${NUM}
+${PATH}
 
-${NUM}
+${PATH}
 
-${NUM}
+${PATH}
 
-${NUM}
+${PATH}
 
 ${EXPR_2}
 
