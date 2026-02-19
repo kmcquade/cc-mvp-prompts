@@ -1,4 +1,4 @@
-# System Prompt: coding-session-title-generator
+# System Prompt: coding-session-title
 
 - Source: inline
 
