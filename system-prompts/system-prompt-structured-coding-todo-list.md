@@ -1,4 +1,4 @@
-# System Prompt: structured-coding-task-list
+# System Prompt: structured-coding-todo-list
 
 - Source: inline
 
