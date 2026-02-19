@@ -4,6 +4,7 @@
 - When to use: Use this agent to configure the user's Claude Code status line setting.
 - Tools: Read, Edit
 - Model: sonnet
+- Source: built-in
 - Color: orange
 
 ## Summary
@@ -82,5 +83,6 @@ ${NUM}. If ~${PATH} is a symlink, update the target file instead.
 Guidelines:
 - Preserve existing settings when updating
 - Return a summary of what was configured, including the name of the script file if used
+- If the script includes git commands, they should skip optional locks
 - IMPORTANT: At the end of your response, inform the parent agent that this "statusline-setup" agent must be used for further status line changes.
   Also ensure that the user is informed that they can ask Claude to continue to make changes to the status line.
