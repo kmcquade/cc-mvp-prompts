@@ -1,4 +1,4 @@
-# System Prompt: cheerful-gerund-status-word
+# System Prompt: whimsical-safe-status-gerund
 
 
 ## Summary
