@@ -1,4 +1,4 @@
-# Tool Description: enable-option-enter-newlines
+# Tool Description: option-enter-newline-binding
 
 - Name: terminal-setup
 
