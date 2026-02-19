@@ -1,4 +1,4 @@
-# System Prompt: summarize-bash-output-if-needed-2
+# System Reminder: summarize-bash-output
 
 - Source: inline
 
