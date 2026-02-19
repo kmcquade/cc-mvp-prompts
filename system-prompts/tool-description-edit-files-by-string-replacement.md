@@ -10,17 +10,22 @@ Describes a string-replacement file edit tool and references a notebook tool alt
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | NotebookEdit | None |
+| `EXPR_1` | Bash | None |
+| `EXPR_2` | Write | None |
+| `EXPR_3` | NotebookEdit | None |
+| `EXPR_4` | Read | None |
+| `EXPR_5` | LS | None |
+| `EXPR_6` | Read | None |
 
 # Raw Prompt Text
-This is a tool for editing files. For moving or renaming files, you should generally use the Bash tool with the 'mv' command instead. For larger edits, use the Write tool to overwrite files. For Jupyter notebooks (.ipynb files), use the ${EXPR_1: 'NotebookEdit'} instead.
+This is a tool for editing files. For moving or renaming files, you should generally use the ${EXPR_1: 'Bash'} tool with the 'mv' command instead. For larger edits, use the ${EXPR_2: 'Write'} tool to overwrite files. For Jupyter notebooks (.ipynb files), use the ${EXPR_3: 'NotebookEdit'} instead.
 
 Before using this tool:
 
-${NUM}. Use the View tool to understand the file's contents and context
+${NUM}. Use the ${EXPR_4: 'Read'} tool to understand the file's contents and context
 
 ${NUM}. Verify the directory path is correct (only applicable when creating new files):
-   - Use the LS tool to verify the parent directory exists and is the correct location
+   - Use the ${EXPR_5: 'LS'} tool to verify the parent directory exists and is the correct location
 
 To make a file edit, provide the following:
 ${NUM}. file_path: The absolute path to the file to modify (must be absolute, not relative)
@@ -54,6 +59,7 @@ WARNING:
 - The tool will fail if the number of matches doesn't equal expected_replacements when it's specified
 - The tool will fail if old_string doesn't match the file contents exactly (including whitespace)
 - The tool will fail if old_string and new_string are the same
+- The tool will fail if you did not read the file using the ${EXPR_6: 'Read'} tool first, before using this tool
 
 When making edits:
    - Ensure the edit results in idiomatic, correct code
@@ -65,5 +71,3 @@ If you want to create a new file, use:
    - A new file path, including dir name if needed
    - An empty old_string
    - The new file's contents as new_string
-
-Remember: when making multiple file edits in a row to the same file, you should prefer to send all edits in a single message with multiple calls to this tool, rather than multiple messages with a single call each.
