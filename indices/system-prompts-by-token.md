@@ -17,7 +17,7 @@ _Sorted by tokens (desc)._
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
 | [`system-prompt-run-bash-commands-safely.md`](../system-prompts/system-prompt-run-bash-commands-safely.md) | Run a bash command with directory checks, quoting rules, and configurable timeout. | 3,011 | 1.0.35 | 1.0.35 |
-| [`system-prompt-structured-coding-task-list.md`](../system-prompts/system-prompt-structured-coding-task-list.md) | Guide creating and updating a structured todo list for complex coding sessions. | 2,321 | 1.0.19 | 1.0.19 |
+| [`system-prompt-structured-coding-todo-list.md`](../system-prompts/system-prompt-structured-coding-todo-list.md) | Guide creating and updating a structured todo list for complex coding sessions. | 2,321 | 1.0.19 | 1.0.47 |
 | [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with structured analysis notes. | 1,263 | 1.0.14 | 1.0.45 |
 | [`system-prompt-dev-conversation-summary-2.md`](../system-prompts/system-prompt-dev-conversation-summary-2.md) | Multiple prompts (2) | 1,252 | 1.0.14 | 1.0.45 |
 | [`system-prompt-pull-request-review-workflow.md`](../system-prompts/system-prompt-pull-request-review-workflow.md) | Pull request-triggered GitHub Actions job checks out code and runs Claude review action. | 719 | 1.0.44 | 1.0.46 |
@@ -37,7 +37,7 @@ _Sorted by tokens (desc)._
 | [`system-prompt-generate-github-issue-title.md`](../system-prompts/system-prompt-generate-github-issue-title.md) | Creates a concise technical GitHub issue title from a bug report. | 205 | 1.0.46 | 1.0.46 |
 | [`system-prompt-http-request-timing-events.md`](../system-prompts/system-prompt-http-request-timing-events.md) | Defines Claude CLI context and lists HTTP request lifecycle events for tracing. | 189 | 1.0.32 | 1.0.32 |
 | [`system-prompt-edit-files-minimal-changes.md`](../system-prompts/system-prompt-edit-files-minimal-changes.md) | Use Claude Code tools to fulfill user tasks, avoid new files, share absolute paths. | 180 | 1.0.7 | 1.0.7 |
-| [`system-prompt-add-memory-to-file.md`](../system-prompts/system-prompt-add-memory-to-file.md) | Append a new memory bullet in the right section of a specified file. | 165 | 1.0.28 | 1.0.46 |
+| [`system-prompt-add-memory-to-file.md`](../system-prompts/system-prompt-add-memory-to-file.md) | Append a new memory bullet in the right section of a specified file. | 165 | 1.0.28 | 1.0.47 |
 | [`system-prompt-snapshot-zsh-functions-options.md`](../system-prompts/system-prompt-snapshot-zsh-functions-options.md) | Capture zsh functions and active options into a snapshot file. | 158 | 0.2.73 | 0.2.73 |
 | [`system-prompt-write-file-with-constraints.md`](../system-prompts/system-prompt-write-file-with-constraints.md) | Defines rules for writing files, including reading before overwriting and avoiding new docs. | 145 | 1.0.7 | 1.0.7 |
 | [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.18 |
@@ -66,8 +66,8 @@ _Sorted by tokens (desc)._
 | [`system-prompt-codebase-and-user.md`](../system-prompts/system-prompt-codebase-and-user.md) | Directive that codebase and user instructions override default behavior with settings scope labels. | 49 | 1.0.38 | 1.0.38 |
 | [`system-prompt-write-conversation-title.md`](../system-prompts/system-prompt-write-conversation-title.md) | Generate a …-… word title summarizing the provided conversation text. | 49 | 0.2.91 | 1.0.46 |
 | [`system-prompt-write-conversation-title-10.md`](../system-prompts/system-prompt-write-conversation-title-10.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.46 |
-| [`system-prompt-write-conversation-title-4.md`](../system-prompts/system-prompt-write-conversation-title-4.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.46 |
-| [`system-prompt-write-conversation-title-8.md`](../system-prompts/system-prompt-write-conversation-title-8.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.46 |
+| [`system-prompt-write-conversation-title-4.md`](../system-prompts/system-prompt-write-conversation-title-4.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.47 |
+| [`system-prompt-write-conversation-title-8.md`](../system-prompts/system-prompt-write-conversation-title-8.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.47 |
 | [`system-prompt-conversation-title-only-output.md`](../system-prompts/system-prompt-conversation-title-only-output.md) | Write a NUM-NUM word conversation title using the provided transcript only. | 47 | 0.2.91 | 0.2.91 |
 | [`system-prompt-write-conversation-title-9.md`](../system-prompts/system-prompt-write-conversation-title-9.md) | Generate a …-… word title summarizing the provided conversation text. | 47 | 1.0.18 | 1.0.46 |
 | [`system-prompt-exit-output-handling.md`](../system-prompts/system-prompt-exit-output-handling.md) | Route stdout and stderr visibility based on exit codes. | 46 | 1.0.31 | 1.0.31 |
@@ -239,7 +239,7 @@ _Sorted by tokens (desc). Showing **18** reminders with more than **30** tokens.
 | --- | --- | ---: | --- | --- |
 | [`system-reminder-cli-security-safety-guidelines.md`](../system-prompts/system-reminder-cli-security-safety-guidelines.md) | CLI assistant guidelines for safe software help, refusals, and docs lookup instructions. | 2,810 | 1.0.45 | 1.0.45 |
 | [`system-reminder-plan-mode-no-execution.md`](../system-prompts/system-reminder-plan-mode-no-execution.md) | Multiple prompts (2) | 166 | 1.0.32 | 1.0.32 |
-| [`system-reminder-append-memory-bullets.md`](../system-prompts/system-reminder-append-memory-bullets.md) | Append a new memory bullet in the right section of a specified file. | 165 | 1.0.28 | 1.0.46 |
+| [`system-reminder-append-memory-bullets.md`](../system-prompts/system-reminder-append-memory-bullets.md) | Append a new memory bullet in the right section of a specified file. | 165 | 1.0.28 | 1.0.47 |
 | [`system-reminder-synthesize-multi-findings.md`](../system-prompts/system-reminder-synthesize-multi-findings.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 159 | 0.2.72 | 1.0.14 |
 | [`system-reminder-nested-underscore-template-functions.md`](../system-prompts/system-reminder-nested-underscore-template-functions.md) | Nested compiled template functions that concatenate output into a string buffer. | 134 | 0.2.54 | 1.0.4 |
 | [`system-reminder-respect-intentional-file-edits.md`](../system-prompts/system-reminder-respect-intentional-file-edits.md) | Multiple prompts (2) | 104 | 0.2.118 | 0.2.118 |

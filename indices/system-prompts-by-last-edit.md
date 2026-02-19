@@ -16,14 +16,15 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-structured-coding-todo-list.md`](../system-prompts/system-prompt-structured-coding-todo-list.md) | Guide creating and updating a structured todo list for complex coding sessions. | 2,321 | 1.0.19 | 1.0.47 |
+| [`system-prompt-add-memory-to-file.md`](../system-prompts/system-prompt-add-memory-to-file.md) | Append a new memory bullet in the right section of a specified file. | 165 | 1.0.28 | 1.0.47 |
+| [`system-prompt-write-conversation-title-4.md`](../system-prompts/system-prompt-write-conversation-title-4.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.47 |
+| [`system-prompt-write-conversation-title-8.md`](../system-prompts/system-prompt-write-conversation-title-8.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.47 |
 | [`system-prompt-pull-request-review-workflow.md`](../system-prompts/system-prompt-pull-request-review-workflow.md) | Pull request-triggered GitHub Actions job checks out code and runs Claude review action. | 719 | 1.0.44 | 1.0.46 |
 | [`system-prompt-shell-cwd-reset-conditional.md`](../system-prompts/system-prompt-shell-cwd-reset-conditional.md) | Conditional template builds shell cwd reset messages using defaults, undefined checks, and numeric comparisons. | 247 | 1.0.46 | 1.0.46 |
 | [`system-prompt-generate-github-issue-title.md`](../system-prompts/system-prompt-generate-github-issue-title.md) | Creates a concise technical GitHub issue title from a bug report. | 205 | 1.0.46 | 1.0.46 |
-| [`system-prompt-add-memory-to-file.md`](../system-prompts/system-prompt-add-memory-to-file.md) | Append a new memory bullet in the right section of a specified file. | 165 | 1.0.28 | 1.0.46 |
 | [`system-prompt-write-conversation-title.md`](../system-prompts/system-prompt-write-conversation-title.md) | Generate a …-… word title summarizing the provided conversation text. | 49 | 0.2.91 | 1.0.46 |
 | [`system-prompt-write-conversation-title-10.md`](../system-prompts/system-prompt-write-conversation-title-10.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.46 |
-| [`system-prompt-write-conversation-title-4.md`](../system-prompts/system-prompt-write-conversation-title-4.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.46 |
-| [`system-prompt-write-conversation-title-8.md`](../system-prompts/system-prompt-write-conversation-title-8.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.46 |
 | [`system-prompt-write-conversation-title-9.md`](../system-prompts/system-prompt-write-conversation-title-9.md) | Generate a …-… word title summarizing the provided conversation text. | 47 | 1.0.18 | 1.0.46 |
 | [`system-prompt-write-conversation-title-11.md`](../system-prompts/system-prompt-write-conversation-title-11.md) | Multiple prompts (4) | 42 | 0.2.92 | 1.0.46 |
 | [`system-prompt-write-conversation-title-12.md`](../system-prompts/system-prompt-write-conversation-title-12.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.113 | 1.0.46 |
@@ -64,7 +65,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-list-mcp-server-resources.md`](../system-prompts/system-prompt-list-mcp-server-resources.md) | Lists available resources across MCP servers with optional server filtering. | 73 | 1.0.22 | 1.0.22 |
 | [`system-prompt-read-mcp-server-resource.md`](../system-prompts/system-prompt-read-mcp-server-resource.md) | Reads a resource from an MCP server by server name and URI. | 73 | 1.0.22 | 1.0.22 |
 | [`system-prompt-verify-repo-access-scope.md`](../system-prompts/system-prompt-verify-repo-access-scope.md) | Verify repository name, access, and required GitHub token scopes. | 56 | 1.0.22 | 1.0.22 |
-| [`system-prompt-structured-coding-task-list.md`](../system-prompts/system-prompt-structured-coding-task-list.md) | Guide creating and updating a structured todo list for complex coding sessions. | 2,321 | 1.0.19 | 1.0.19 |
 | [`system-prompt-avoid-rereading-unchanged-resource.md`](../system-prompts/system-prompt-avoid-rereading-unchanged-resource.md) | Instructs to not reread a resource unless it may have changed. | 22 | 1.0.19 | 1.0.19 |
 | [`system-prompt-create-shell-snapshot-file-aliases.md`](../system-prompts/system-prompt-create-shell-snapshot-file-aliases.md) | Generates a snapshot script that unaliases, records aliases, ensures rg, and exports PATH. | 375 | 1.0.18 | 1.0.18 |
 | [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.18 |
@@ -237,7 +237,7 @@ _Sorted by last edit (newest first). Showing **18** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-append-memory-bullets.md`](../system-prompts/system-reminder-append-memory-bullets.md) | Append a new memory bullet in the right section of a specified file. | 165 | 1.0.28 | 1.0.46 |
+| [`system-reminder-append-memory-bullets.md`](../system-prompts/system-reminder-append-memory-bullets.md) | Append a new memory bullet in the right section of a specified file. | 165 | 1.0.28 | 1.0.47 |
 | [`system-reminder-cli-security-safety-guidelines.md`](../system-prompts/system-reminder-cli-security-safety-guidelines.md) | CLI assistant guidelines for safe software help, refusals, and docs lookup instructions. | 2,810 | 1.0.45 | 1.0.45 |
 | [`system-reminder-todo-list-updated-silently.md`](../system-prompts/system-reminder-todo-list-updated-silently.md) | Multiple prompts (2) | 57 | 1.0.44 | 1.0.44 |
 | [`system-reminder-template-expression-placeholders.md`](../system-prompts/system-reminder-template-expression-placeholders.md) | Five expression placeholders separated by blank lines for later template substitution. | 34 | 1.0.36 | 1.0.36 |

@@ -1,9 +1,9 @@
-# Prompt Stats 1.0.46
+# Prompt Stats 1.0.47
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
 | agent | [Agent Prompt: Codebase Search Analysis Guide](../system-prompts/agent-prompt-codebase-search-analysis-guide.md) | 1362 | 287 | 1.0.45 | 1.0.45 |
-| system | [System Prompt: Add Memory To File](../system-prompts/system-prompt-add-memory-to-file.md) | 721 | 165 | 1.0.28 | 1.0.46 |
+| system | [System Prompt: Add Memory To File](../system-prompts/system-prompt-add-memory-to-file.md) | 721 | 165 | 1.0.28 | 1.0.47 |
 | system | [System Prompt: Admin Setup Secrets Apps](../system-prompts/system-prompt-admin-setup-secrets-apps.md) | 174 | 33 | 1.0.0 | 1.0.0 |
 | system | [System Prompt: Applied Edits To Settings](../system-prompts/system-prompt-applied-edits-to-settings.md) | 85 | 27 | 1.0.38 | 1.0.38 |
 | system | [System Prompt: Authenticate With Gh Cli](../system-prompts/system-prompt-authenticate-with-gh-cli.md) | 137 | 25 | 1.0.0 | 1.0.0 |
@@ -59,7 +59,7 @@
 | system | [System Prompt: Show Updated File Snippet](../system-prompts/system-prompt-show-updated-file-snippet.md) | 122 | 41 | 1.0.30 | 1.0.30 |
 | system | [System Prompt: Snapshot Zsh Functions Options](../system-prompts/system-prompt-snapshot-zsh-functions-options.md) | 471 | 158 | 0.2.73 | 0.2.73 |
 | system | [System Prompt: Stop Hook Feedback Links](../system-prompts/system-prompt-stop-hook-feedback-links.md) | 39 | 18 | 1.0.38 | 1.0.38 |
-| system | [System Prompt: Structured Coding Task List](../system-prompts/system-prompt-structured-coding-task-list.md) | 9651 | 2321 | 1.0.19 | 1.0.19 |
+| system | [System Prompt: Structured Coding Todo List](../system-prompts/system-prompt-structured-coding-todo-list.md) | 9651 | 2321 | 1.0.19 | 1.0.47 |
 | system | [System Prompt: Subagent Launch Usage Notes](../system-prompts/system-prompt-subagent-launch-usage-notes.md) | 1870 | 455 | 1.0.45 | 1.0.45 |
 | system | [System Prompt: Summarize Coding Chat Status](../system-prompts/system-prompt-summarize-coding-chat-status.md) | 139 | 33 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Summarize Shell Command](../system-prompts/system-prompt-summarize-shell-command.md) | 304 | 78 | 0.2.59 | 0.2.59 |
@@ -75,14 +75,14 @@
 | system | [System Prompt: Write Conversation Title 12](../system-prompts/system-prompt-write-conversation-title-12.md) | 148 | 42 | 0.2.113 | 1.0.46 |
 | system | [System Prompt: Write Conversation Title 2](../system-prompts/system-prompt-write-conversation-title-2.md) | 146 | 41 | 0.2.93 | 1.0.46 |
 | system | [System Prompt: Write Conversation Title 3](../system-prompts/system-prompt-write-conversation-title-3.md) | 148 | 41 | 0.2.93 | 1.0.42 |
-| system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 159 | 48 | 0.2.91 | 1.0.46 |
+| system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 159 | 48 | 0.2.91 | 1.0.47 |
 | system | [System Prompt: Write Conversation Title 5](../system-prompts/system-prompt-write-conversation-title-5.md) | 147 | 42 | 0.2.91 | 1.0.46 |
 | system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 168 | 46 | 0.2.104 | 1.0.45 |
 | system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 184 | 61 | 1.0.23 | 1.0.23 |
-| system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 159 | 48 | 0.2.91 | 1.0.46 |
+| system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 159 | 48 | 0.2.91 | 1.0.47 |
 | system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 155 | 47 | 1.0.18 | 1.0.46 |
 | system | [System Prompt: Write File With Constraints](../system-prompts/system-prompt-write-file-with-constraints.md) | 622 | 145 | 1.0.7 | 1.0.7 |
-| system-reminder | [System Reminder: Append Memory Bullets](../system-prompts/system-reminder-append-memory-bullets.md) | 721 | 165 | 1.0.28 | 1.0.46 |
+| system-reminder | [System Reminder: Append Memory Bullets](../system-prompts/system-reminder-append-memory-bullets.md) | 721 | 165 | 1.0.28 | 1.0.47 |
 | system-reminder | [System Reminder: Call Echo Line](../system-prompts/system-reminder-call-echo-line.md) | 61 | 20 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Call Error Result](../system-prompts/system-reminder-call-error-result.md) | 43 | 13 | 0.2.119 | 0.2.119 |
 | system-reminder | [System Reminder: Call Result](../system-prompts/system-reminder-call-result.md) | 47 | 18 | 0.2.106 | 0.2.106 |
