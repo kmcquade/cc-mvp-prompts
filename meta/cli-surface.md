@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 14
-- Options: 17
+- Options: 18
 - Env vars: 126
-- Config keys: 70
+- Config keys: 72
 - Tools: 5
 - Skills: 0
 - Models: 17
@@ -61,6 +61,7 @@
 - `--global`
 - `--json`
 - `--mcp-debug`
+- `--output-format`
 - `--print`
 - `--scope`
 - `--transport`
@@ -78,6 +79,7 @@
 - `--dangerously-skip-permissions`
 - `--json`
 - `--mcp-debug`
+- `--output-format <format>`
 - `--verbose`
 - `-d, --debug`
 - `-e, --env <env...>`
@@ -257,6 +259,7 @@
 - `noResponseRetries`
 - `params`
 - `permissions`
+- `priority`
 - `progress`
 - `progressToken`
 - `prompt`
@@ -275,6 +278,7 @@
 - `source`
 - `speedPriority`
 - `start`
+- `status`
 - `subscribe`
 - `text`
 - `tool_name`
