@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 35
-- Env vars: 248
-- Config keys: 271
+- Env vars: 249
+- Config keys: 295
 - Tools: 3
 - Skills: 0
 - Models: 34
@@ -195,6 +195,7 @@
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
 - `CLAUDE_CONFIG_DIR`
+- `CLAUDE_DEBUG`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
@@ -378,6 +379,7 @@
 - `_meta`
 - `$schema`
 - `access_token`
+- `acr_values_supported`
 - `activeForm`
 - `additionalContext`
 - `additionalDirectories`
@@ -406,6 +408,10 @@
 - `cells`
 - `character`
 - `charset`
+- `claim_types_supported`
+- `claims_locales_supported`
+- `claims_parameter_supported`
+- `claims_supported`
 - `cleanupPeriodDays`
 - `client_id`
 - `client_id_issued_at`
@@ -436,6 +442,7 @@
 - `disableAllHooks`
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
+- `display_values_supported`
 - `dpop_bound_access_tokens_required`
 - `dpop_signing_alg_values_supported`
 - `durationMs`
@@ -478,6 +485,10 @@
 - `hookSpecificOutput`
 - `httpMethodsToRetry`
 - `id`
+- `id_token`
+- `id_token_encryption_alg_values_supported`
+- `id_token_encryption_enc_values_supported`
+- `id_token_signing_alg_values_supported`
 - `idempotentHint`
 - `ideName`
 - `ideRunningInWindows`
@@ -529,6 +540,8 @@
 - `oldStart`
 - `oldString`
 - `oldTodos`
+- `op_policy_uri`
+- `op_tos_uri`
 - `openWorldHint`
 - `originalFile`
 - `originalFileContents`
@@ -559,7 +572,13 @@
 - `registration_endpoint`
 - `replaceAll`
 - `repo`
+- `request_object_encryption_alg_values_supported`
+- `request_object_encryption_enc_values_supported`
+- `request_object_signing_alg_values_supported`
+- `request_parameter_supported`
+- `request_uri_parameter_supported`
 - `requestHandler`
+- `require_request_uri_registration`
 - `required`
 - `resource`
 - `resource_documentation`
@@ -607,6 +626,7 @@
 - `stopReason`
 - `structuredPatch`
 - `subagent_type`
+- `subject_types_supported`
 - `subscribe`
 - `success`
 - `summary`
@@ -636,11 +656,16 @@
 - `truncated`
 - `turns`
 - `type`
+- `ui_locales_supported`
 - `updated_at`
 - `updatedInput`
 - `uri`
 - `url`
 - `usage`
+- `userinfo_encryption_alg_values_supported`
+- `userinfo_encryption_enc_values_supported`
+- `userinfo_endpoint`
+- `userinfo_signing_alg_values_supported`
 - `userModified`
 - `value`
 - `values`
