@@ -1,4 +1,4 @@
-# System Reminder: cli-security-url-guardrails
+# System Reminder: security-scope-guidelines-2
 
 - Source: inline
 
