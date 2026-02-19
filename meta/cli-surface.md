@@ -4,7 +4,7 @@
 
 - Commands: 12
 - Options: 16
-- Env vars: 121
+- Env vars: 122
 - Config keys: 61
 - Tools: 0
 - Skills: 0
@@ -100,6 +100,7 @@
 - `BUN_INSTALL`
 - `C`
 - `CF_PAGES_COMMIT_SHA`
+- `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CONFIG_DIR`
