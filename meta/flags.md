@@ -1,4 +1,4 @@
-# Claude Code 2.0.29 – Flags
+# Claude Code 2.0.30 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -18,9 +18,14 @@
 | `tengu_bash_command_timeout_backgrounded` | gate | telemetry | Logs timeout events when a bash command is backgrounded | Appears to emit an event/metric, not alter behavior. | high | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 2 |
 | `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |
+| `tengu_framework_detection_on_file_read` | gate | telemetry | Detect language/framework upon file read and emit a telemetry event | Runs only when the gate resolves truthy. | high | 1 |
+| `tengu_gha_plugin_code_review` | gate | tools | Controls which GitHub Actions code review workflow template is written | Gate selects between two workflow contents (OY2 vs MY2). | high | 1 |
 | `tengu_haiku_default_pro_plan` | experiment | tools | Switches default model selection to Haiku for plan users. | Exact effect depends on XY and surrounding model-selection logic. | medium | 1 |
+| `tengu_halloween` | gate | ui | Enables Halloween-themed CLI UI components/ASCII art, with Apple Terminal-specific variant and env override. | Exact visuals unclear; only indicates themed component switching. | high | 2 |
+| `tengu_migrate_ignore_patterns` | gate | filesystem | Run a migration step related to ignore patterns during startup | Exact effect of ji2() is unclear from snippet. | medium | 1 |
 | `tengu_native_installation` | gate | filesystem | Controls whether CLI creates/uses native launcher script when claude.sh missing | Inference based on file checks and symlink creation logic. | medium | 1 |
 | `tengu_skip_file_edit_safety_checks` | gate | filesystem | Bypass file edit validation requiring prior read and unchanged file state | Affects validateInput checks for safe file writes. | high | 2 |
 | `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |
+| `tengu_streaming_tool_execution` | gate | tools | Enables streaming-time tool execution handler during CLI request loop | Only observed gating creation of a tool execution object. | high | 1 |
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
 | `trust_folder_dialog_copy` | experiment | safety | Selects copy variant for a trust-folder security prompt with continue/exit choices. | Actual variant text mapping not included. | high | 1 |

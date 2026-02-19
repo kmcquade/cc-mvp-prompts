@@ -4,11 +4,11 @@
 
 - Commands: 20
 - Options: 39
-- Env vars: 319
-- Config keys: 368
+- Env vars: 324
+- Config keys: 374
 - Tools: 3
 - Skills: 0
-- Models: 48
+- Models: 51
 - Providers: 7
 
 ## Commands
@@ -214,6 +214,7 @@
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
+- `CLAUDE_CODE_FORCE_HALLOWEEN`
 - `CLAUDE_CODE_GIT_BASH_PATH`
 - `CLAUDE_CODE_IDE_HOST_OVERRIDE`
 - `CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL`
@@ -257,6 +258,7 @@
 - `DISABLE_AUTO_MIGRATE_TO_NATIVE`
 - `DISABLE_AUTOUPDATER`
 - `DISABLE_BUG_COMMAND`
+- `DISABLE_COMPACT`
 - `DISABLE_COST_WARNINGS`
 - `DISABLE_DOCTOR_COMMAND`
 - `DISABLE_ERROR_REPORTING`
@@ -279,6 +281,7 @@
 - `ENABLE_BASH_ENV_VAR_MATCHING`
 - `ENABLE_BASH_WRAPPER_MATCHING`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
+- `ENABLE_LSP_TOOL`
 - `FLY_APP_NAME`
 - `FLY_MACHINE_ID`
 - `FLY_REGION`
@@ -420,6 +423,7 @@
 - `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
 - `USE_HAIKU_SESSION_MEMORY`
+- `USE_MCP_CLI_DIR`
 - `USER`
 - `USERPROFILE`
 - `UV_THREADPOOL_SIZE`
@@ -454,6 +458,7 @@
 - `XDG_DESKTOP_DIR`
 - `XDG_DOCUMENTS_DIR`
 - `XDG_DOWNLOAD_DIR`
+- `XDG_RUNTIME_DIR`
 - `XDG_STATE_HOME`
 - `XTERM_VERSION`
 - `ZDOTDIR`
@@ -478,6 +483,7 @@
 - `allowedTools`
 - `allowLocalBinding`
 - `allowUnixSockets`
+- `allowUnsandboxedCommands`
 - `alwaysThinkingEnabled`
 - `answers`
 - `api`
@@ -522,6 +528,7 @@
 - `client_uri`
 - `code`
 - `code_challenge_methods_supported`
+- `code_restored`
 - `codeText`
 - `command`
 - `commandName`
@@ -534,6 +541,7 @@
 - `contents`
 - `continue`
 - `costPriority`
+- `course_correction`
 - `created_at`
 - `dangerouslyDisableSandbox`
 - `data`
@@ -550,6 +558,7 @@
 - `disableAllHooks`
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
+- `disallowedTools`
 - `display_values_supported`
 - `dpop_bound_access_tokens_required`
 - `dpop_signing_alg_values_supported`
@@ -679,6 +688,7 @@
 - `op_policy_uri`
 - `op_tos_uri`
 - `openWorldHint`
+- `operation`
 - `options`
 - `originalFile`
 - `originalSize`
@@ -789,6 +799,7 @@
 - `summary`
 - `suppressOutput`
 - `systemMessage`
+- `target_message_preview`
 - `text`
 - `timeout`
 - `timestamp`
@@ -866,6 +877,7 @@ _None detected_
 - `claude-code-20250219`
 - `claude-code-github-action`
 - `claude-code-jetbrains-plugin`
+- `claude-code-mcp-cli`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-user`
 - `claude-haiku-4-5`
@@ -889,8 +901,10 @@ _None detected_
 - `claude-sonnet-4-5`
 - `claude-sonnet-4-5-20250929`
 - `claude-vscode`
+- `haiku-4`
 - `opus-limit-reached`
 - `sonnet-1m-welcome`
+- `sonnet-4`
 - `sonnet-4.5-update`
 
 ## Providers
