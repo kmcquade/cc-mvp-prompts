@@ -17,6 +17,12 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-discover-deferred-capabilities-first.md`](../system-prompts/system-prompt-discover-deferred-capabilities-first.md) | Search for or select deferred tools to make them available before calling. | 815 | 2.1.19 | 2.1.34 |
+| [`system-prompt-web-search-with-mandatory-sources.md`](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 329 | 2.1.20 | 2.1.34 |
+| [`system-prompt-install-cursor-keybinding-locally-2.md`](../system-prompts/system-prompt-install-cursor-keybinding-locally-2.md) | Install Cursor Shift+Enter keybinding locally via Keyboard Shortcuts JSON array edit | 191 | 2.1.20 | 2.1.34 |
+| [`system-prompt-install-cursor-keybinding-locally.md`](../system-prompts/system-prompt-install-cursor-keybinding-locally.md) | Multiple prompts (3) | 183 | 2.1.16 | 2.1.34 |
+| [`system-prompt-background-task-status.md`](../system-prompts/system-prompt-background-task-status.md) | Background task notice with commands to monitor status or resume later via placeholder | 69 | 2.1.33 | 2.1.34 |
+| [`system-prompt-handle-interrupting-user-message.md`](../system-prompts/system-prompt-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.34 |
 | [`system-prompt-run-bash-commands-safely-3.md`](../system-prompts/system-prompt-run-bash-commands-safely-3.md) | Run bash commands with optional timeouts, persistent cwd, and mandatory path quoting checks. | 2,696 | 2.1.33 | 2.1.33 |
 | [`system-prompt-plan-mode-restrictions-2.md`](../system-prompts/system-prompt-plan-mode-restrictions-2.md) | Enforces plan-only mode, allowing only incremental edits to the specified plan file. | 1,266 | 2.1.33 | 2.1.33 |
 | [`system-prompt-when-not-to-delegate.md`](../system-prompts/system-prompt-when-not-to-delegate.md) | Instructions for launching Task subagents, listing types, usage notes, and when not to. | 1,095 | 2.1.30 | 2.1.33 |
@@ -24,11 +30,8 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-software-engineering-guidelines.md`](../system-prompts/system-prompt-software-engineering-guidelines.md) | Guidelines for completing coding tasks by reading context and editing real files. | 499 | 2.1.30 | 2.1.33 |
 | [`system-prompt-prefer-dedicated-tools.md`](../system-prompts/system-prompt-prefer-dedicated-tools.md) | Directive to prefer dedicated tools over bash and manage work via Task subagents. | 480 | 2.1.33 | 2.1.33 |
 | [`system-prompt-fetch-pr-comments.md`](../system-prompts/system-prompt-fetch-pr-comments.md) | Fetch PR-level and review comments via gh API, then format threads with diffs. | 442 | 2.0.70 | 2.1.33 |
-| [`system-prompt-web-search-with-mandatory-sources.md`](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 329 | 2.1.20 | 2.1.33 |
 | [`system-prompt-review-github-pull-request.md`](../system-prompts/system-prompt-review-github-pull-request.md) | Use GitHub CLI to list/view PRs, fetch diff, and deliver structured code review. | 231 | 2.0.70 | 2.1.33 |
 | [`system-prompt-extract-users-next-step.md`](../system-prompts/system-prompt-extract-users-next-step.md) | Instruction to find and return only the user's stated next step while ignoring automated notifications. | 212 | 2.1.33 | 2.1.33 |
-| [`system-prompt-install-cursor-keybinding-locally.md`](../system-prompts/system-prompt-install-cursor-keybinding-locally.md) | Install Cursor Shift+Enter keybinding locally via Keyboard Shortcuts JSON array edit | 191 | 2.1.20 | 2.1.33 |
-| [`system-prompt-install-cursor-keybinding-locally-2.md`](../system-prompts/system-prompt-install-cursor-keybinding-locally-2.md) | Multiple prompts (3) | 183 | 2.1.16 | 2.1.33 |
 | [`system-prompt-present-tense-recent-action-2.md`](../system-prompts/system-prompt-present-tense-recent-action-2.md) | Multiple prompts (2) | 166 | 2.1.32 | 2.1.33 |
 | [`system-prompt-present-tense-recent-action.md`](../system-prompts/system-prompt-present-tense-recent-action.md) | Write a brief present-tense description of the latest action naming a file or function. | 163 | 2.1.33 | 2.1.33 |
 | [`system-prompt-terminal-shortcut-setup-2.md`](../system-prompts/system-prompt-terminal-shortcut-setup-2.md) | Details setting up Shift+Enter multiline shortcut by running configuration outside tmux in supported terminals | 157 | 2.0.77 | 2.1.33 |
@@ -47,16 +50,13 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 85 | 2.1.33 | 2.1.33 |
 | [`system-prompt-task-exit-handling.md`](../system-prompts/system-prompt-task-exit-handling.md) | Defines JSON command input and exit-code rules for showing stdout or stderr and completing tasks. | 74 | 2.1.33 | 2.1.33 |
 | [`system-prompt-git-status-at-start.md`](../system-prompts/system-prompt-git-status-at-start.md) | Captures initial git snapshot: current branch, main branch, clean status, recent commits. | 72 | 2.1.33 | 2.1.33 |
-| [`system-prompt-background-task-running-output.md`](../system-prompts/system-prompt-background-task-running-output.md) | Background task notice with commands to monitor status or resume later via placeholder | 69 | 2.1.33 | 2.1.33 |
 | [`system-prompt-start-coding-after-plan-approval.md`](../system-prompts/system-prompt-start-coding-after-plan-approval.md) | Proceed with coding after plan approval; update todos and reference saved plan content | 68 | 2.1.33 | 2.1.33 |
 | [`system-prompt-teammate-exit-handling.md`](../system-prompts/system-prompt-teammate-exit-handling.md) | Defines teammate command input and exit-code behavior for showing stderr and preventing idle state. | 65 | 2.1.33 | 2.1.33 |
 | [`system-prompt-add-native-path-export.md`](../system-prompts/system-prompt-add-native-path-export.md) | Appends export PATH with $HOME… into shell profile and reloads it | 54 | 2.0.32 | 2.1.33 |
-| [`system-prompt-handle-interrupting-user-message.md`](../system-prompts/system-prompt-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.33 |
 | [`system-prompt-dangerous-delete-operation-warning.md`](../system-prompts/system-prompt-dangerous-delete-operation-warning.md) | Block auto-approval when … would delete a critical system directory, requiring explicit consent. | 39 | 2.1.33 | 2.1.33 |
 | [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 2.1.33 |
 | [`system-prompt-extract-repeatable-session-steps.md`](../system-prompts/system-prompt-extract-repeatable-session-steps.md) | Extract repeatable workflow from session context, then interview user to formalize a reusable skill. | 1,755 | 2.1.32 | 2.1.32 |
 | [`system-prompt-summarize-recent-messages.md`](../system-prompts/system-prompt-summarize-recent-messages.md) | Create a detailed chronological summary of only the recent conversation messages with technical specifics. | 841 | 2.1.32 | 2.1.32 |
-| [`system-prompt-load-deferred-tools-first-2.md`](../system-prompts/system-prompt-load-deferred-tools-first-2.md) | Search for or select deferred tools to make them available before calling. | 815 | 2.1.19 | 2.1.32 |
 | [`system-prompt-confirm-risky-actions.md`](../system-prompts/system-prompt-confirm-risky-actions.md) | Advises confirming with the user before taking risky or hard-to-reverse actions. | 542 | 2.1.32 | 2.1.32 |
 | [`system-prompt-search-past-session-context.md`](../system-prompts/system-prompt-search-past-session-context.md) | Proactively grep session summaries and transcript logs for prior context using configured base paths. | 273 | 2.1.32 | 2.1.32 |
 | [`system-prompt-maintain-persistent-memory-notes.md`](../system-prompts/system-prompt-maintain-persistent-memory-notes.md) | Use persistent memory directory, keeping concise topic notes and updating learned lessons. | 215 | 2.1.32 | 2.1.32 |
@@ -193,11 +193,11 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-web-search-with-mandatory-sources.md`](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 329 | 2.1.20 | 2.1.34 |
 | [`tool-description-spawn-and-manage-teams.md`](../system-prompts/tool-description-spawn-and-manage-teams.md) | Use TeammateTool to create and manage multi-agent teams when collaboration or parallel work would help. | 1,664 | 2.1.33 | 2.1.33 |
 | [`tool-description-enter-plan-mode-signoff.md`](../system-prompts/tool-description-enter-plan-mode-signoff.md) | Advises entering plan mode to propose an implementation approach and get approval. | 901 | 2.1.33 | 2.1.33 |
 | [`tool-description-at-a-glance-summary-guidelines.md`](../system-prompts/tool-description-at-a-glance-summary-guidelines.md) | Draft NUM-part Claude Code “At a Glance” usage insights: working, hindrances, quick wins, ambitious workflows. | 580 | 2.1.33 | 2.1.33 |
 | [`tool-description-create-structured-task-list.md`](../system-prompts/tool-description-create-structured-task-list.md) | Instructions for using a tool to maintain and update structured coding session task lists | 547 | 2.1.20 | 2.1.33 |
-| [`tool-description-web-search-with-mandatory-sources.md`](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 329 | 2.1.20 | 2.1.33 |
 | [`tool-description-list-available-tasks.md`](../system-prompts/tool-description-list-available-tasks.md) | List all tasks and summarize status, owner, and blockers to choose next work. | 240 | 2.1.33 | 2.1.33 |
 | [`tool-description-delete-team-task-directories.md`](../system-prompts/tool-description-delete-team-task-directories.md) | Removes team and task directories and clears session context after teammates shut down. | 141 | 2.1.33 | 2.1.33 |
 | [`tool-description-application-specific-realtime-signal.md`](../system-prompts/tool-description-application-specific-realtime-signal.md) | Denotes receipt of an application-defined realtime signal. | 8 | 1.0.68 | 2.1.33 |
@@ -300,20 +300,23 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-insights-report-html-styles.md`](../system-prompts/system-data-insights-report-html-styles.md) | HTML and CSS styling template defining fonts, colors, spacing, and layout for a report. | 7,573 | 2.1.33 | 2.1.33 |
+| [`system-data-insights-report-html-styles.md`](../system-prompts/system-data-insights-report-html-styles.md) | HTML and CSS styling template defining fonts, colors, spacing, and layout for a report. | 7,576 | 2.1.34 | 2.1.34 |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 2.1.34 |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 2.1.34 |
+| [`system-data-bedrock-invocation-job-summary-2.md`](../system-prompts/system-data-bedrock-invocation-job-summary-2.md) | Fields for Bedrock GetModelInvocationJobResponse job details. | 172 | 2.0.63 | 2.1.34 |
+| [`system-data-bedrock-invocation-job-summary.md`](../system-prompts/system-data-bedrock-invocation-job-summary.md) | Fields for Bedrock GetModelInvocationJobResponse job details. | 171 | 2.0.63 | 2.1.34 |
+| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 2.1.34 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 2.1.34 |
+| [`system-data-bedrockruntime-converse-request-fields-2.md`](../system-prompts/system-data-bedrockruntime-converse-request-fields-2.md) | Field list for ConverseRequest including modelId, messages, and configs. | 134 | 2.0.63 | 2.1.34 |
+| [`system-data-bedrockruntime-converse-request-fields.md`](../system-prompts/system-data-bedrockruntime-converse-request-fields.md) | Field list for ConverseRequest including modelId, messages, and configs. | 133 | 2.0.63 | 2.1.34 |
 | [`system-data-macos-sandbox-policy-rules.md`](../system-prompts/system-data-macos-sandbox-policy-rules.md) | Sandbox policy denying by default, allowing process control and whitelisted Mach service lookups. | 1,805 | 2.1.33 | 2.1.33 |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 2.1.33 |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 2.1.33 |
 | [`system-data-azure-access-token-script.md`](../system-prompts/system-data-azure-access-token-script.md) | Invoke PowerShell to get Az access token, optional tenant, secure-string conversion output JSON. | 327 | 2.0.45 | 2.1.33 |
 | [`system-data-shortcuts-contexts-actions-list-2.md`](../system-prompts/system-data-shortcuts-contexts-actions-list-2.md) | System data template sections culminating in reserved shortcuts, contexts, and actions lists. | 199 | 2.1.33 | 2.1.33 |
 | [`system-data-shortcuts-contexts-actions-examples.md`](../system-prompts/system-data-shortcuts-contexts-actions-examples.md) | Lists reserved shortcuts, available contexts/actions, and example requests. | 176 | 2.1.33 | 2.1.33 |
 | [`system-data-workspace-platform-info.md`](../system-prompts/system-data-workspace-platform-info.md) | Lists workspace paths, git status, platform metadata, current date, MCP info, and latest model IDs. | 176 | 2.1.33 | 2.1.33 |
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 2.1.33 |
-| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 2.1.33 |
 | [`system-data-session-summary-template.md`](../system-prompts/system-data-session-summary-template.md) | Session report layout capturing metadata, sectioned notes, shortcuts, contexts, and actions listings. | 161 | 2.1.33 | 2.1.33 |
 | [`system-data-usage-report-ready-message.md`](../system-prompts/system-data-usage-report-ready-message.md) | Provides usage insights data and instructs outputting an exact shareable report-ready message. | 139 | 2.1.33 | 2.1.33 |
-| [`system-data-bedrockruntime-converse-request-fields.md`](../system-prompts/system-data-bedrockruntime-converse-request-fields.md) | Field list for ConverseRequest including modelId, messages, and configs. | 134 | 2.0.63 | 2.1.33 |
-| [`system-data-bedrockruntime-converse-request-fields-2.md`](../system-prompts/system-data-bedrockruntime-converse-request-fields-2.md) | Field list for ConverseRequest including modelId, messages, and configs. | 133 | 2.0.63 | 2.1.33 |
 | [`system-data-bedrock-guardrail-content-filter-config-2.md`](../system-prompts/system-data-bedrock-guardrail-content-filter-config-2.md) | Configuration fields for Bedrock guardrail content filtering behavior. | 121 | 2.0.63 | 2.1.33 |
 | [`system-data-bedrock-guardrail-content-filter-config.md`](../system-prompts/system-data-bedrock-guardrail-content-filter-config.md) | Configuration fields for Bedrock guardrail content filtering behavior. | 120 | 2.0.63 | 2.1.33 |
 | [`system-data-remote-task-notification-format.md`](../system-prompts/system-data-remote-task-notification-format.md) | Remote agent task notification including task ID, output path, status, and action summary | 118 | 2.1.33 | 2.1.33 |
@@ -323,7 +326,6 @@ _Sorted by last edit (newest first)._
 | [`system-data-shortcuts-contexts-actions-list.md`](../system-prompts/system-data-shortcuts-contexts-actions-list.md) | System data template sections culminating in reserved shortcuts, contexts, and actions lists. | 90 | 2.1.33 | 2.1.33 |
 | [`system-data-coding-task-intent-list-3.md`](../system-prompts/system-data-coding-task-intent-list-3.md) | Enumerates coding help intents: lint/type fixes, refactors, questions, logging, edits, tests, utilities | 87 | 2.1.7 | 2.1.33 |
 | [`system-data-event-type-listing.md`](../system-prompts/system-data-event-type-listing.md) | Lists session and tool lifecycle event names for notifications and logging. | 64 | 2.1.33 | 2.1.33 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 2.1.32 |
 | [`system-data-coding-task-intent-list-2.md`](../system-prompts/system-data-coding-task-intent-list-2.md) | Enumerates coding help intents: lint/type fixes, refactors, questions, logging, edits, tests, utilities | 87 | 2.1.15 | 2.1.32 |
 | [`system-data-coding-task-intent-list.md`](../system-prompts/system-data-coding-task-intent-list.md) | Enumerates coding help intents: lint/type fixes, refactors, questions, logging, edits, tests, utilities | 73 | 2.1.7 | 2.1.32 |
 | [`system-data-bedrock-foundation-details.md`](../system-prompts/system-data-bedrock-foundation-details.md) | Foundation model metadata including modalities, streaming support, and lifecycle. | 137 | 2.0.63 | 2.1.31 |
@@ -334,8 +336,6 @@ _Sorted by last edit (newest first)._
 | [`system-data-common-pronouns-and-verbs.md`](../system-prompts/system-data-common-pronouns-and-verbs.md) | List of high-frequency English function words, pronouns, and basic verbs. | 375 | 2.1.30 | 2.1.30 |
 | [`system-data-keyboard-shortcuts-list.md`](../system-prompts/system-data-keyboard-shortcuts-list.md) | Enumerates application and chat commands for navigation, history, confirmation, and UI toggles. | 372 | 2.1.30 | 2.1.30 |
 | [`system-data-feedback-collapsible-section-html.md`](../system-prompts/system-data-feedback-collapsible-section-html.md) | HTML feedback section with collapsible headers and injected suggestion blocks for teams. | 356 | 2.1.30 | 2.1.30 |
-| [`system-data-bedrock-invocation-job-summary.md`](../system-prompts/system-data-bedrock-invocation-job-summary.md) | Fields for Bedrock GetModelInvocationJobResponse job details. | 172 | 2.0.63 | 2.1.26 |
-| [`system-data-bedrock-invocation-job-summary-2.md`](../system-prompts/system-data-bedrock-invocation-job-summary-2.md) | Fields for Bedrock GetModelInvocationJobResponse job details. | 171 | 2.0.63 | 2.1.26 |
 | [`system-data-disabled-plugins-actions-failed.md`](../system-prompts/system-data-disabled-plugins-actions-failed.md) | Disabled EXPR_1 plugins; EXPR_2 failed on linting, typechecks, refactors, tests, and logging tasks | 85 | 2.1.26 | 2.1.26 |
 | [`system-data-settings-files-and-permissions.md`](../system-prompts/system-data-settings-files-and-permissions.md) | Explains settings file locations, load order, and permissions JSON schema. | 755 | 2.1.23 | 2.1.23 |
 | [`system-data-progress-verb-word-list.md`](../system-prompts/system-data-progress-verb-word-list.md) | List of whimsical present-participle activity words. | 860 | 2.1.20 | 2.1.20 |
@@ -451,13 +451,13 @@ _Sorted by last edit (newest first). Showing **43** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-handle-interrupting-user-message.md`](../system-prompts/system-reminder-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.34 |
 | [`system-reminder-interactive-cli-security-guardrails.md`](../system-prompts/system-reminder-interactive-cli-security-guardrails.md) | Sets CLI response style with security testing scope limits and url generation restrictions. | 2,675 | 2.1.32 | 2.1.33 |
 | [`system-reminder-plan-workflow-read-only.md`](../system-prompts/system-reminder-plan-workflow-read-only.md) | Enforces plan-mode phases: only plan-file edits, read-only actions, parallel exploration agents. | 1,127 | 2.1.33 | 2.1.33 |
 | [`system-reminder-plan-mode-only-plan-file.md`](../system-prompts/system-reminder-plan-mode-only-plan-file.md) | Forces iterative plan-mode loop: read-only exploration, update only plan file, ask user on ambiguities. | 738 | 2.1.33 | 2.1.33 |
 | [`system-reminder-single-turn-direct-answer.md`](../system-prompts/system-reminder-single-turn-direct-answer.md) | Answer a side question once with no tools or follow-ups. | 166 | 2.1.23 | 2.1.33 |
 | [`system-reminder-read-large-pdf-pages.md`](../system-prompts/system-reminder-read-large-pdf-pages.md) | Instructs reading a large PDF by page ranges with per-request limits. | 115 | 2.1.33 | 2.1.33 |
 | [`system-reminder-shortcuts-contexts-actions-configured.md`](../system-prompts/system-reminder-shortcuts-contexts-actions-configured.md) | System reminder template enumerating reserved shortcuts, contexts/actions, and confirms configured client_id. | 102 | 2.1.33 | 2.1.33 |
-| [`system-reminder-handle-interrupting-user-message.md`](../system-prompts/system-reminder-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.33 |
 | [`system-reminder-task-stopped.md`](../system-prompts/system-reminder-task-stopped.md) | Multiple prompts (2) | 34 | 2.1.32 | 2.1.32 |
 | [`system-reminder-architect-guidelines.md`](../system-prompts/system-reminder-architect-guidelines.md) | Guidance for converting user requirements and project context into precise agent specifications. | 1,495 | 2.1.31 | 2.1.31 |
 | [`system-reminder-permission-behavior.md`](../system-prompts/system-reminder-permission-behavior.md) | Explains user-visible output, permission prompts, and not retrying denied tool calls. | 347 | 2.1.31 | 2.1.31 |
