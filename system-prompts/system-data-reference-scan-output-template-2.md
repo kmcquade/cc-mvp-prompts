@@ -322,7 +322,37 @@ ${NUM}
 
 ${NUM}
 
-${EXPR_25}
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
 
 sentry-trace
 
