@@ -5,10 +5,10 @@
 - Commands: 14
 - Options: 24
 - Env vars: 181
-- Config keys: 140
+- Config keys: 141
 - Tools: 0
 - Skills: 0
-- Models: 21
+- Models: 23
 - Providers: 7
 
 ## Commands
@@ -289,6 +289,7 @@
 - `allow`
 - `annotations`
 - `api`
+- `apiKeyHelper`
 - `args`
 - `arguments`
 - `authorization_endpoint`
@@ -446,6 +447,7 @@ _None detected_
 - `claude-3-7-sonnet-20250219`
 - `claude-3-sonnet-20240229`
 - `claude-cli`
+- `claude-cli-native-`
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-jetbrains-plugin`
@@ -454,6 +456,7 @@ _None detected_
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
+- `claude-native-installer`
 - `claude-sandbox-`
 
 ## Providers
