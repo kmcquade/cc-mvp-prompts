@@ -10,7 +10,7 @@ Error message for WebAssembly streaming compilation failure with error detail.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 01 | None |
+| `EXPR_1` | a-z\xdf-\xf6\xf8-\xff | None |
 
 # Raw Prompt Text
-wasm streaming compile failed: [${EXPR_1: 01}]
+wasm streaming compile failed: [${EXPR_1: 'a-z\\xdf-\\xf6\\xf8-\\xff'}]
