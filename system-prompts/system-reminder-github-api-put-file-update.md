@@ -15,6 +15,8 @@ Template API PUT request to update repo content with message, content, and branc
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 api
@@ -36,3 +38,7 @@ content=${EXPR_4}
 -f
 
 branch=${EXPR_5}
+
+${EXPR_6}
+
+${EXPR_7}:
