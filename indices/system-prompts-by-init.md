@@ -1,40 +1,43 @@
 # System Prompts Index – by init
 
-- Total prompt files: **144**
+- Total prompt files: **148**
 
 ## Categories
 
-- System prompts (56)
+- System prompts (60)
 - Tool prompts (27)
 - System data (61)
 
-## System prompts (56)
+## System prompts (60)
 
 _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-write-conversation-title.md`](../system-prompts/system-prompt-write-conversation-title.md) | Multiple prompts (4) | 42 | 0.2.92 | 0.2.92 |
-| [`system-prompt-synthesize-multi-solution.md`](../system-prompts/system-prompt-synthesize-multi-solution.md) | Combine multiple agent analyses into one cohesive solution with code details. | 504 | 0.2.91 | 0.2.91 |
-| [`system-prompt-multi-synthesis.md`](../system-prompts/system-prompt-multi-synthesis.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 289 | 0.2.91 | 0.2.91 |
-| [`system-prompt-unify-agents-into-answer.md`](../system-prompts/system-prompt-unify-agents-into-answer.md) | Synthesize multi-agent findings into one structured answer with resolved conflicts and examples. | 266 | 0.2.91 | 0.2.91 |
+| [`system-prompt-synthesize-multi-solution.md`](../system-prompts/system-prompt-synthesize-multi-solution.md) | Combine multiple agent analyses into one cohesive solution with code details. | 510 | 0.2.93 | 0.2.93 |
+| [`system-prompt-multi-synthesis.md`](../system-prompts/system-prompt-multi-synthesis.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 295 | 0.2.93 | 0.2.93 |
+| [`system-prompt-multi-synthesis-3.md`](../system-prompts/system-prompt-multi-synthesis-3.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 180 | 0.2.93 | 0.2.93 |
+| [`system-prompt-write-conversation-title-10.md`](../system-prompts/system-prompt-write-conversation-title-10.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 0.2.93 |
+| [`system-prompt-write-conversation-title-7.md`](../system-prompts/system-prompt-write-conversation-title-7.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 0.2.93 |
+| [`system-prompt-write-conversation-title-2.md`](../system-prompts/system-prompt-write-conversation-title-2.md) | Multiple prompts (4) | 42 | 0.2.92 | 0.2.93 |
+| [`system-prompt-unify-agents-into-answer.md`](../system-prompts/system-prompt-unify-agents-into-answer.md) | Synthesize multi-agent findings into one structured answer with resolved conflicts and examples. | 266 | 0.2.91 | 0.2.93 |
 | [`system-prompt-cheerful-gerund-status-word.md`](../system-prompts/system-prompt-cheerful-gerund-status-word.md) | Create a single whimsical capitalized gerund related to the message while avoiding alarming or inappropriate terms. | 177 | 0.2.91 | 0.2.91 |
-| [`system-prompt-multi-synthesis-5.md`](../system-prompts/system-prompt-multi-synthesis-5.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 170 | 0.2.91 | 0.2.91 |
-| [`system-prompt-multi-synthesis-2.md`](../system-prompts/system-prompt-multi-synthesis-2.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 168 | 0.2.91 | 0.2.91 |
-| [`system-prompt-multi-synthesis-4.md`](../system-prompts/system-prompt-multi-synthesis-4.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 166 | 0.2.91 | 0.2.91 |
-| [`system-prompt-multi-synthesis-6.md`](../system-prompts/system-prompt-multi-synthesis-6.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 160 | 0.2.91 | 0.2.91 |
-| [`system-prompt-write-conversation-title-4.md`](../system-prompts/system-prompt-write-conversation-title-4.md) | Generate a …-… word title summarizing the provided conversation text. | 62 | 0.2.91 | 0.2.92 |
+| [`system-prompt-multi-synthesis-6.md`](../system-prompts/system-prompt-multi-synthesis-6.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 168 | 0.2.91 | 0.2.93 |
+| [`system-prompt-multi-synthesis-5.md`](../system-prompts/system-prompt-multi-synthesis-5.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 166 | 0.2.91 | 0.2.93 |
+| [`system-prompt-multi-synthesis-7.md`](../system-prompts/system-prompt-multi-synthesis-7.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 160 | 0.2.91 | 0.2.93 |
+| [`system-prompt-write-conversation-title-8.md`](../system-prompts/system-prompt-write-conversation-title-8.md) | Generate a …-… word title summarizing the provided conversation text. | 62 | 0.2.91 | 0.2.93 |
 | [`system-prompt-local-function-conversation-title.md`](../system-prompts/system-prompt-local-function-conversation-title.md) | Inside a wrapper function, output only a …-… word conversation title. | 56 | 0.2.91 | 0.2.91 |
 | [`system-prompt-generate-word-count-title.md`](../system-prompts/system-prompt-generate-word-count-title.md) | Output only a …-… word title for the given conversation. | 50 | 0.2.91 | 0.2.91 |
-| [`system-prompt-write-conversation-title-2.md`](../system-prompts/system-prompt-write-conversation-title-2.md) | Generate a …-… word title summarizing the provided conversation text. | 49 | 0.2.91 | 0.2.92 |
-| [`system-prompt-write-conversation-title-3.md`](../system-prompts/system-prompt-write-conversation-title-3.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.92 |
-| [`system-prompt-write-conversation-title-5.md`](../system-prompts/system-prompt-write-conversation-title-5.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.92 |
-| [`system-prompt-write-conversation-title-7.md`](../system-prompts/system-prompt-write-conversation-title-7.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.92 |
+| [`system-prompt-write-conversation-title-4.md`](../system-prompts/system-prompt-write-conversation-title-4.md) | Generate a …-… word title summarizing the provided conversation text. | 49 | 0.2.91 | 0.2.93 |
+| [`system-prompt-write-conversation-title-11.md`](../system-prompts/system-prompt-write-conversation-title-11.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.93 |
+| [`system-prompt-write-conversation-title-6.md`](../system-prompts/system-prompt-write-conversation-title-6.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.93 |
+| [`system-prompt-write-conversation-title-9.md`](../system-prompts/system-prompt-write-conversation-title-9.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.93 |
 | [`system-prompt-conversation-title-only-output.md`](../system-prompts/system-prompt-conversation-title-only-output.md) | Write a NUM-NUM word conversation title using the provided transcript only. | 47 | 0.2.91 | 0.2.91 |
 | [`system-prompt-title-with-files-context.md`](../system-prompts/system-prompt-title-with-files-context.md) | Generate a …-… word title using conversation text and file context. | 46 | 0.2.91 | 0.2.91 |
 | [`system-prompt-write-title-for-conversation.md`](../system-prompts/system-prompt-write-title-for-conversation.md) | Generate a …-… word conversation title and output only the title. | 46 | 0.2.91 | 0.2.91 |
-| [`system-prompt-write-conversation-title-6.md`](../system-prompts/system-prompt-write-conversation-title-6.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.91 | 0.2.92 |
-| [`system-prompt-write-conversation-title-8.md`](../system-prompts/system-prompt-write-conversation-title-8.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.91 | 0.2.92 |
+| [`system-prompt-write-conversation-title-5.md`](../system-prompts/system-prompt-write-conversation-title-5.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.91 | 0.2.93 |
+| [`system-prompt-write-conversation-title.md`](../system-prompts/system-prompt-write-conversation-title.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.91 | 0.2.93 |
+| [`system-prompt-write-conversation-title-3.md`](../system-prompts/system-prompt-write-conversation-title-3.md) | Multiple prompts (4) | 41 | 0.2.91 | 0.2.93 |
 | [`system-prompt-summarize-coding-chat-status.md`](../system-prompts/system-prompt-summarize-coding-chat-status.md) | Condense a coding conversation into a character-limited status recap. | 33 | 0.2.91 | 0.2.91 |
 | [`system-prompt-malicious-files-refusal-check.md`](../system-prompts/system-prompt-malicious-files-refusal-check.md) | Checks whether listed files seem malicious and mandates refusal if suspicious. | 30 | 0.2.89 | 0.2.89 |
 | [`system-prompt-secure-bash-command-runner-2.md`](../system-prompts/system-prompt-secure-bash-command-runner-2.md) | Execute bash commands in a persistent sandbox with directory checks and timeout limits. | 2,988 | 0.2.83 | 0.2.83 |
@@ -45,13 +48,14 @@ _Sorted by init (newest first)._
 | [`system-prompt-create-view-instrument-selector.md`](../system-prompts/system-prompt-create-view-instrument-selector.md) | Create a new view with specified name, optional description, and InstrumentSelector variants. | 110 | 0.2.76 | 0.2.76 |
 | [`system-prompt-snapshot-aliases-and-path.md`](../system-prompts/system-prompt-snapshot-aliases-and-path.md) | Write a shell snapshot file that unaliases, captures aliases, and exports PATH. | 261 | 0.2.73 | 0.2.73 |
 | [`system-prompt-snapshot-zsh-functions-options.md`](../system-prompts/system-prompt-snapshot-zsh-functions-options.md) | Capture zsh functions and active options into a snapshot file. | 158 | 0.2.73 | 0.2.73 |
-| [`system-prompt-multi-synthesis-3.md`](../system-prompts/system-prompt-multi-synthesis-3.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 159 | 0.2.72 | 0.2.91 |
+| [`system-prompt-multi-synthesis-2.md`](../system-prompts/system-prompt-multi-synthesis-2.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 159 | 0.2.72 | 0.2.93 |
+| [`system-prompt-multi-synthesis-4.md`](../system-prompts/system-prompt-multi-synthesis-4.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 159 | 0.2.72 | 0.2.93 |
 | [`system-prompt-follow-codebase-user.md`](../system-prompts/system-prompt-follow-codebase-user.md) | Strictly follow shown codebase and user instructions, overriding all default behaviors. | 47 | 0.2.64 | 0.2.64 |
-| [`system-prompt-conversation-development-summary-2.md`](../system-prompts/system-prompt-conversation-development-summary-2.md) | Multiple prompts (2) | 1,046 | 0.2.60 | 0.2.89 |
+| [`system-prompt-conversation-development-summary.md`](../system-prompts/system-prompt-conversation-development-summary.md) | Multiple prompts (2) | 1,046 | 0.2.60 | 0.2.93 |
 | [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 76 | 0.2.60 | 0.2.60 |
 | [`system-prompt-create-md-guidelines.md`](../system-prompts/system-prompt-create-md-guidelines.md) | Analyze repository to write or improve CLAUDE.md with build commands and code style rules. | 218 | 0.2.59 | 0.2.59 |
 | [`system-prompt-summarize-shell-command.md`](../system-prompts/system-prompt-summarize-shell-command.md) | Write a brief input-output description of a shell command in a few words. | 78 | 0.2.59 | 0.2.59 |
-| [`system-prompt-conversation-development-summary.md`](../system-prompts/system-prompt-conversation-development-summary.md) | Multiple prompts (2) | 1,035 | 0.2.56 | 0.2.89 |
+| [`system-prompt-conversation-development-summary-2.md`](../system-prompts/system-prompt-conversation-development-summary-2.md) | Multiple prompts (2) | 1,035 | 0.2.56 | 0.2.93 |
 | [`system-prompt-nested-template-functions.md`](../system-prompts/system-prompt-nested-template-functions.md) | Nested compiled template functions that concatenate output into a string buffer. | 134 | 0.2.54 | 0.2.54 |
 | [`system-prompt-update-memory-file.md`](../system-prompts/system-prompt-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 0.2.54 |
 | [`system-prompt-continue-last-task.md`](../system-prompts/system-prompt-continue-last-task.md) | Continue from prior conversation state and resume the last task without questions. | 38 | 0.2.54 | 0.2.54 |
@@ -77,12 +81,12 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-manage-structured-task-list.md`](../system-prompts/tool-description-manage-structured-task-list.md) | Create and manage a structured coding-session task list to plan and track progress. | 1,944 | 0.2.93 | 0.2.93 |
+| [`tool-description-read-session-todo-list-2.md`](../system-prompts/tool-description-read-session-todo-list-2.md) | Read the current session to-do list frequently to stay aligned on pending work. | 216 | 0.2.93 | 0.2.93 |
 | [`tool-description-filesystem-file-reader.md`](../system-prompts/tool-description-filesystem-file-reader.md) | Read a local file by absolute path with line limits, truncation, and image support. | 328 | 0.2.83 | 0.2.83 |
 | [`tool-description-option-enter-newline-binding.md`](../system-prompts/tool-description-option-enter-newline-binding.md) | Enable Option+Enter to insert newlines. | 12 | 0.2.80 | 0.2.83 |
 | [`tool-description-restricted-shell-command-runner.md`](../system-prompts/tool-description-restricted-shell-command-runner.md) | Execute a bash command with directory checks, timeouts, truncation limits, and blocked search commands. | 3,042 | 0.2.79 | 0.2.83 |
 | [`tool-description-list-files-in-context.md`](../system-prompts/tool-description-list-files-in-context.md) | List all files currently available in context. | 6 | 0.2.79 | 0.2.79 |
-| [`tool-description-update-session-todos.md`](../system-prompts/tool-description-update-session-todos.md) | Add and maintain session to-dos to track progress and capture new work items. | 270 | 0.2.76 | 0.2.76 |
-| [`tool-description-read-session-todo-list.md`](../system-prompts/tool-description-read-session-todo-list.md) | Retrieve the current session to-do list frequently to stay aligned on tasks. | 254 | 0.2.73 | 0.2.73 |
 | [`tool-description-edit-files-by-replacement.md`](../system-prompts/tool-description-edit-files-by-replacement.md) | Edit files by exact string replacement with path checks, context viewing, and replacement counts. | 851 | 0.2.57 | 0.2.83 |
 | [`tool-description-fetch-url-analyze-content.md`](../system-prompts/tool-description-fetch-url-analyze-content.md) | Fetch a URL, convert it to markdown, and analyze it with a small model using a given query. | 271 | 0.2.54 | 0.2.83 |
 | [`tool-description-clear-chat-keep-summary.md`](../system-prompts/tool-description-clear-chat-keep-summary.md) | Clears conversation history while retaining a summary in context. | 24 | 0.2.54 | 0.2.57 |
@@ -111,18 +115,18 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-title-from-conversation-snippets-2.md`](../system-prompts/system-data-title-from-conversation-snippets-2.md) | Generate a …-… word title from conversation text plus appended snippets. | 125 | 0.2.91 | 0.2.91 |
-| [`system-data-title-from-conversation-snippets.md`](../system-prompts/system-data-title-from-conversation-snippets.md) | Generate a …-… word title from conversation text plus appended snippets. | 125 | 0.2.91 | 0.2.91 |
+| [`system-data-title-from-conversation-snippets-2.md`](../system-prompts/system-data-title-from-conversation-snippets-2.md) | Generate a …-… word title from conversation text plus appended snippets. | 139 | 0.2.93 | 0.2.93 |
+| [`system-data-title-from-conversation-snippets.md`](../system-prompts/system-data-title-from-conversation-snippets.md) | Generate a …-… word title from conversation text plus appended snippets. | 139 | 0.2.93 | 0.2.93 |
+| [`system-data-cell-tag-template.md`](../system-prompts/system-data-cell-tag-template.md) | XML-like cell tag with multiple dynamic attributes and nested path element. | 110 | 0.2.93 | 0.2.93 |
+| [`system-data-session-preferences-flags.md`](../system-prompts/system-data-session-preferences-flags.md) | Session settings and capability flags for editor, updates, notifications, and environment. | 76 | 0.2.93 | 0.2.93 |
 | [`system-data-usage-timing-template.md`](../system-prompts/system-data-usage-timing-template.md) | Reports tool usage label and duration in h/m/s, plus interpolated shell markers. | 45 | 0.2.89 | 0.2.89 |
 | [`system-data-multi-placeholder-interpolation-snippet.md`](../system-prompts/system-data-multi-placeholder-interpolation-snippet.md) | Multiple interpolated expressions separated by shell quoting and command-substitution markers. | 28 | 0.2.89 | 0.2.89 |
 | [`system-data-template-string-interpolation-block.md`](../system-prompts/system-data-template-string-interpolation-block.md) | Shell-like quoting and command-substitution markers surrounding a single interpolated expression. | 14 | 0.2.89 | 0.2.89 |
-| [`system-data-cell-tag-template.md`](../system-prompts/system-data-cell-tag-template.md) | XML-like cell tag with multiple dynamic attributes and nested path element. | 98 | 0.2.83 | 0.2.83 |
 | [`system-data-shell-function-snapshot-script.md`](../system-prompts/system-data-shell-function-snapshot-script.md) | Bash snippet that snapshots functions and shell options into a file using base64-encoded eval. | 296 | 0.2.76 | 0.2.76 |
 | [`system-data-runtime-environment-details.md`](../system-prompts/system-data-runtime-environment-details.md) | Environment metadata: working directory, platform, OS version, date, model, and git repo status. | 81 | 0.2.76 | 0.2.76 |
-| [`system-data-user-settings-flags-list.md`](../system-prompts/system-data-user-settings-flags-list.md) | List of internal user settings and feature flags. | 71 | 0.2.72 | 0.2.72 |
 | [`system-data-ignore-build-artifacts.md`](../system-prompts/system-data-ignore-build-artifacts.md) | Lists common dependency, virtualenv, and build output directories to exclude. | 84 | 0.2.57 | 0.2.57 |
-| [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 0.2.85 |
-| [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 0.2.85 |
+| [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 0.2.93 |
+| [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 0.2.93 |
 | [`system-data-javascript-builtins-list.md`](../system-prompts/system-data-javascript-builtins-list.md) | Enumeration of common JavaScript globals, typed arrays, collections, and utility functions. | 91 | 0.2.54 | 0.2.54 |
 | [`system-data-append-memory-entry.md`](../system-prompts/system-data-append-memory-entry.md) | Insert provided memory block into an empty memory file at given path. | 37 | 0.2.54 | 0.2.54 |
 | [`system-data-plist-keybinding-xml-template.md`](../system-prompts/system-data-plist-keybinding-xml-template.md) | XML property-list snippet for a keybinding entry with numeric fields. | 158 | 0.2.46 | 0.2.46 |
@@ -151,8 +155,8 @@ _Sorted by init (newest first)._
 | [`system-data-javascript-builtins-and-typed-arrays.md`](../system-prompts/system-data-javascript-builtins-and-typed-arrays.md) | Enumerates JavaScript globals, built-in objects, errors, and typed arrays. | 216 | 0.2.9 | 0.2.9 |
 | [`system-data-css-pseudo-class-keywords.md`](../system-prompts/system-data-css-pseudo-class-keywords.md) | List of CSS selector pseudo-classes and state keywords. | 186 | 0.2.9 | 0.2.9 |
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 0.2.89 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.91 |
-| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.91 |
+| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.93 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 0.2.93 |
 | [`system-data-html-element-name-list.md`](../system-prompts/system-data-html-element-name-list.md) | List of common HTML element tag names. | 160 | 0.2.9 | 0.2.9 |
 | [`system-data-numeric-constants-and-paths.md`](../system-prompts/system-data-numeric-constants-and-paths.md) | Lists core constants and environment paths like Inf, NaN, missing, and LOAD_PATH. | 159 | 0.2.9 | 0.2.9 |
 | [`system-data-swift-standard-library-functions.md`](../system-prompts/system-data-swift-standard-library-functions.md) | List of Swift standard library functions and assertions utilities. | 151 | 0.2.9 | 0.2.9 |
