@@ -13,4 +13,4 @@ Report the number of MCP servers detected in Claude Desktop.
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Found ${EXPR_1} MCP servers in Claude Desktop.
+Found ${EXPR_1} MCP servers in Claude Desktop.${NUM}
