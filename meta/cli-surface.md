@@ -5,10 +5,10 @@
 - Commands: 26
 - Options: 52
 - Env vars: 405
-- Config keys: 341
+- Config keys: 342
 - Tools: 3
 - Skills: 0
-- Models: 82
+- Models: 84
 - Providers: 7
 
 ## Commands
@@ -294,7 +294,6 @@
 - `CLAUDE_CODE_IDE_HOST_OVERRIDE`
 - `CLAUDE_CODE_IDE_SKIP_AUTO_INSTALL`
 - `CLAUDE_CODE_IDE_SKIP_VALID_CHECK`
-- `CLAUDE_CODE_LOOPY_MODE`
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
@@ -504,6 +503,7 @@
 - `SENTRY_TRACE`
 - `SENTRY_TRACES_SAMPLE_RATE`
 - `SENTRY_USE_ENVIRONMENT`
+- `SESSION_INGRESS_URL`
 - `SESSIONNAME`
 - `SHARP_FORCE_GLOBAL_LIBVIPS`
 - `SHARP_IGNORE_GLOBAL_LIBVIPS`
@@ -808,7 +808,6 @@
 - `outputStyle`
 - `outputStyles`
 - `owner`
-- `P_`
 - `package`
 - `padding`
 - `params`
@@ -819,6 +818,7 @@
 - `permissionMode`
 - `permissions`
 - `plan`
+- `plansDirectory`
 - `pluginConfigs`
 - `pluginRoot`
 - `plugins`
@@ -925,6 +925,7 @@
 - `userModified`
 - `userSettings`
 - `uuid`
+- `v_`
 - `value`
 - `version`
 - `web_fetch_requests`
@@ -1016,8 +1017,10 @@ _None detected_
 - `haiku-4-5`
 - `opus-4`
 - `opus-4-1`
+- `opus-4-20`
 - `opus-4-5`
 - `opus-4.5-available`
+- `opus-45-upgrade-nudge`
 - `opus-pro-update`
 - `sonnet-1m-welcome`
 - `sonnet-3-7`
