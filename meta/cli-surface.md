@@ -4,8 +4,8 @@
 
 - Commands: 14
 - Options: 26
-- Env vars: 206
-- Config keys: 145
+- Env vars: 209
+- Config keys: 147
 - Tools: 0
 - Skills: 0
 - Models: 30
@@ -303,7 +303,10 @@
 - `WS_NO_UTF_8_VALIDATE`
 - `WSL_DISTRO_NAME`
 - `WT_SESSION`
+- `XDG_CACHE_HOME`
 - `XDG_CONFIG_HOME`
+- `XDG_DATA_HOME`
+- `XDG_STATE_HOME`
 - `XTERM_VERSION`
 - `ZDOTDIR`
 - `ZEIT_BITBUCKET_COMMIT_SHA`
@@ -344,9 +347,11 @@
 - `costPriority`
 - `credential.helper=`
 - `data`
+- `defaultMode`
 - `deny`
 - `description`
 - `destructiveHint`
+- `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
 - `enableAllProjectMcpServers`
 - `enabledMcpjsonServers`
