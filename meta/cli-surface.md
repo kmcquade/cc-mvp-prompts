@@ -4,9 +4,9 @@
 
 - Commands: 16
 - Options: 32
-- Env vars: 238
+- Env vars: 240
 - Config keys: 267
-- Tools: 1
+- Tools: 3
 - Skills: 0
 - Models: 34
 - Providers: 7
@@ -324,9 +324,11 @@
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
 - `UNDICI_NO_FG`
+- `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
 - `USE_LOCAL_OAUTH`
 - `USERPROFILE`
+- `V`
 - `VERCEL`
 - `VERCEL_BITBUCKET_COMMIT_SHA`
 - `VERCEL_GIT_COMMIT_SHA`
@@ -631,6 +633,8 @@
 ## Tools
 
 - `*`
+- `Edit`
+- `Read`
 
 ## Skills
 
