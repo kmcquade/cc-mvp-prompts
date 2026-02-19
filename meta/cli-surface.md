@@ -5,7 +5,7 @@
 - Commands: 16
 - Options: 32
 - Env vars: 239
-- Config keys: 267
+- Config keys: 269
 - Tools: 3
 - Skills: 0
 - Models: 34
@@ -100,7 +100,7 @@
 - `--fallback-model <model>`
 - `--force`
 - `--ide`
-- `--mcp-config <file or string>`
+- `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
 - `--session-id <uuid>`
@@ -372,6 +372,7 @@
 - `apiKeyHelper`
 - `args`
 - `arguments`
+- `ask`
 - `authorization_details_types_supported`
 - `authorization_endpoint`
 - `authorization_servers`
@@ -535,6 +536,7 @@
 - `prompts`
 - `properties`
 - `query`
+- `rawOutputPath`
 - `readOnlyHint`
 - `reason`
 - `redirect_uris`
