@@ -4,7 +4,7 @@
 
 ## Summary
 
-Specifies an API PUT request to update repository content with message and branch.
+API PUT request template to update a repository file with message, content, and branch.
 
 ## Placeholder Hints (source-backed)
 
@@ -20,13 +20,6 @@ Specifies an API PUT request to update repository content with message and branc
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
-| `EXPR_13` | None | None |
-| `EXPR_14` | None | None |
-| `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
 
 # Raw Prompt Text
 api
@@ -59,6 +52,14 @@ local
 
 pattern: "${EXPR_6}"
 
+${PATH}
+
+${PATH}
+
+${PATH}
+
+${PATH}
+
 ${EXPR_7}
 
 ${EXPR_8}
@@ -66,17 +67,3 @@ ${EXPR_8}
 ${EXPR_9}
 
 ${EXPR_10}
-
-${EXPR_11}
-
-${EXPR_12}
-
-${EXPR_13}
-
-${EXPR_14}
-
-${EXPR_15}
-
-${EXPR_16}
-
-${EXPR_17}
