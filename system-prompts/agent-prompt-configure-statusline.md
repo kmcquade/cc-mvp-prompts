@@ -57,12 +57,16 @@ ${NUM}. The statusLine command will receive the following JSON input via stdin:
        "current_dir": "string",  // Current working directory path
        "project_dir": "string"   // Project root directory path
      },
-     "version": "string"         // Claude Code app version (e.g., "${NUM}.${NUM}")
+     "version": "string",        // Claude Code app version (e.g., "${NUM}.${NUM}")
+     "output_style": {
+       "name": "string",         // Output style name (e.g., "default", "Explanatory", "Learning")
+     }
    }
 
    You can use this JSON data in your command like:
    - $(cat | jq -r '.model.display_name')
    - $(cat | jq -r '.workspace.current_dir')
+   - $(cat | jq -r '.output_style.name')
 
    Or store it in a variable first:
    - input=$(cat); echo "$(echo "$input" | jq -r '.model.display_name') in $(echo "$input" | jq -r '.workspace.current_dir')"
