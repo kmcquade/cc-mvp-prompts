@@ -27,7 +27,7 @@ Reports a background bash command, its status, and the number of files.
 | `EXPR_15` | WebFetch | None |
 | `EXPR_16` | WebSearch | None |
 | `EXPR_17` | BashOutput | None |
-| `EXPR_18` | KillBash | None |
+| `EXPR_18` | KillShell | None |
 
 # Raw Prompt Text
 ${URL}
@@ -72,4 +72,4 @@ ${EXPR_16: 'WebSearch'}
 
 ${EXPR_17: 'BashOutput'}
 
-${EXPR_18: 'KillBash'}
+${EXPR_18: 'KillShell'}
