@@ -11,7 +11,7 @@ Installation failed for specified target with additional context appended.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 Failed to install: ${EXPR_1}${EXPR_2}
