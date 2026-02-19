@@ -60,3 +60,35 @@ ${EXPR_13: 'WebSearch'}
 ${EXPR_14: 'BashOutput'}
 
 ${EXPR_15: 'KillBash'}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
