@@ -13,11 +13,11 @@ Tool usage log including patterns, timings, and git.exe paths.
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
+| `EXPR_4` | true | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
-| `EXPR_8` | true | None |
+| `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
@@ -26,27 +26,39 @@ Tool usage log including patterns, timings, and git.exe paths.
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
-| `EXPR_18` | Write | None |
-| `EXPR_19` | None | None |
-| `EXPR_20` | Write | None |
-| `EXPR_21` | us-east-1 | None |
+| `EXPR_17` | Write | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | Write | None |
+| `EXPR_20` | us-east-1 | None |
+| `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
-| `EXPR_23` | None | None |
-| `EXPR_24` | true | None |
+| `EXPR_23` | true | None |
+| `EXPR_24` | None | None |
 
 # Raw Prompt Text
-${EXPR_1} tool uses
+${PATH}
 
-${EXPR_2}h ${EXPR_3}m ${EXPR_4}s
+${PATH}
 
-pattern: "${EXPR_5}"
+${PATH}
+
+${PATH}
+
+pattern: "${EXPR_1}"
+
+${EXPR_2}
+
+${EXPR_3}
+
+${EXPR_4: true}
+
+${EXPR_5}
 
 ${EXPR_6}
 
 ${EXPR_7}
 
-${EXPR_8: true}
+${EXPR_8}
 
 ${EXPR_9}
 
@@ -54,31 +66,25 @@ ${EXPR_10}
 
 ${EXPR_11}
 
-${EXPR_12}
+${EXPR_12} tool uses
 
-${EXPR_13}
+${EXPR_13}h ${EXPR_14}m ${EXPR_15}s
 
-${EXPR_14}
+${NUM}
 
-${EXPR_15}
+${NUM}
+
+${NUM}
+
+${NUM}
 
 ${EXPR_16}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${EXPR_17}
 
 ${PATH} Files\Git\cmd\git.exe
 
 ${PATH} Files (x86)\Git\cmd\git.exe
 
-${EXPR_18: 'Write'}
+${EXPR_17: 'Write'}
 
 ${NUM}
 
@@ -112,9 +118,9 @@ ${NUM}
 
 ${NUM}
 
-${EXPR_19}
+${EXPR_18}
 
-${EXPR_20: 'Write'}
+${EXPR_19: 'Write'}
 
 ${NUM}
 
@@ -212,7 +218,7 @@ ${NUM}
 
 ${NUM}
 
-${EXPR_21: 'us-east-1'}
+${EXPR_20: 'us-east-1'}
 
 Accomplishing
 
@@ -466,11 +472,13 @@ ${NUM}
 
 ${NUM}
 
+${EXPR_21}
+
 ${EXPR_22}
 
-${EXPR_23}
+${EXPR_23: true}
 
-${EXPR_24: true}
+${EXPR_24}
 
 ${EXPR_25}
 
@@ -484,39 +492,39 @@ ${EXPR_29}
 
 ${EXPR_30}
 
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
 ${EXPR_31}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
 
 ${EXPR_32}
 
@@ -533,5 +541,3 @@ ${EXPR_37}
 ${EXPR_38}
 
 ${EXPR_39}
-
-${EXPR_40}
