@@ -7,4 +7,4 @@
 Enable Option+Enter to insert newlines.
 
 # Raw Prompt Text
-Enable Option+Enter key binding for newlines
+Enable Option+Enter key binding for newlines and visual bell
