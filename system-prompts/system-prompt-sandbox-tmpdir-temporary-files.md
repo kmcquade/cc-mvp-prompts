@@ -4,7 +4,7 @@
 
 ## Summary
 
-Defines sandbox command restrictions and mandates TMPDIR-backed temporary files location.
+Describes sandbox command usage restrictions and TMPDIR-based handling for temporary files.
 
 ## Placeholder Hints (source-backed)
 
@@ -16,7 +16,7 @@ Defines sandbox command restrictions and mandates TMPDIR-backed temporary files 
 # Raw Prompt Text
 - Commands run in a sandbox by default with the following restrictions:
 ${EXPR_1}
-${EXPR_2}
+ (PID ${EXPR_2})
   - IMPORTANT: For temporary files, use `${PATH}` as your temporary directory
     - The TMPDIR environment variable is automatically set to `${PATH}` when running in sandbox mode
     - Do NOT use `${PATH}` directly - use `${PATH}` or rely on TMPDIR instead
