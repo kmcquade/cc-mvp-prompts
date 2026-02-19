@@ -5,7 +5,7 @@
 - Commands: 16
 - Options: 36
 - Env vars: 264
-- Config keys: 315
+- Config keys: 318
 - Tools: 3
 - Skills: 0
 - Models: 37
@@ -401,6 +401,7 @@
 - `additionalContext`
 - `additionalDirectories`
 - `allow`
+- `allowAllExcept`
 - `api`
 - `apiKeyHelper`
 - `args`
@@ -458,6 +459,7 @@
 - `default_branch`
 - `defaultMode`
 - `deny`
+- `denyAllExcept`
 - `description`
 - `destination`
 - `destructiveHint`
@@ -519,6 +521,7 @@
 - `ideName`
 - `ideRunningInWindows`
 - `includeCoAuthoredBy`
+- `includeRecommendedDefaults`
 - `initialWindowSize`
 - `input`
 - `input_tokens`
