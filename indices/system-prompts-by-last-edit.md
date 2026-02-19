@@ -1,28 +1,30 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **296**
+- Total prompt files: **298**
 
 ## Categories
 
-- System prompts (84)
+- System prompts (85)
 - Tool prompts (71)
 - Agent prompts (4)
 - System data (67)
-- System reminders (70)
+- System reminders (71)
 
-## System prompts (84)
+## System prompts (85)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.20 |
+| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.21 |
+| [`system-prompt-exit-plan-mode-when-coding.md`](../system-prompts/system-prompt-exit-plan-mode-when-coding.md) | Exit plan mode tool use only after completing a code implementation plan. | 189 | 2.0.21 | 2.0.21 |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.21 |
+| [`system-prompt-resolve-ambiguity-before-planning.md`](../system-prompts/system-prompt-resolve-ambiguity-before-planning.md) | Clarify requirements and implementation choices with the user before exiting plan mode. | 122 | 2.0.21 | 2.0.21 |
 | [`system-prompt-conversation-title-and-examples.md`](../system-prompts/system-prompt-conversation-title-and-examples.md) | Create a short conversation title with usage and example intents. | 237 | 2.0.20 | 2.0.20 |
 | [`system-prompt-write-conversation-title-fix-errors.md`](../system-prompts/system-prompt-write-conversation-title-fix-errors.md) | Generate a short title summarizing a conversation about fixing lint and typecheck errors. | 206 | 2.0.20 | 2.0.20 |
 | [`system-prompt-fix-errors-and-write-title-2.md`](../system-prompts/system-prompt-fix-errors-and-write-title-2.md) | Assorted coding tasks plus generate a concise conversation title from recent messages. | 176 | 2.0.20 | 2.0.20 |
 | [`system-prompt-fix-errors-and-write-title-3.md`](../system-prompts/system-prompt-fix-errors-and-write-title-3.md) | Assorted coding tasks plus generate a concise conversation title from recent messages. | 155 | 2.0.20 | 2.0.20 |
 | [`system-prompt-fix-errors-and-write-title.md`](../system-prompts/system-prompt-fix-errors-and-write-title.md) | Assorted coding tasks plus generate a concise conversation title from recent messages. | 155 | 2.0.20 | 2.0.20 |
-| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.20 |
 | [`system-prompt-mode-command-router.md`](../system-prompts/system-prompt-mode-command-router.md) | Pre-check user requests for mode-command intent and switch workflows immediately. | 51 | 2.0.20 | 2.0.20 |
 | [`system-prompt-updated-file-snippet-output.md`](../system-prompts/system-prompt-updated-file-snippet-output.md) | Report that a file was updated and show a numbered snippet from it. | 41 | 2.0.17 | 2.0.19 |
 | [`system-prompt-bash-command-prefix-risk-policy.md`](../system-prompts/system-prompt-bash-command-prefix-risk-policy.md) | Define command prefix extraction and injection detection with illustrative shell command examples. | 864 | 2.0.14 | 2.0.18 |
@@ -34,7 +36,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 76 | 0.2.60 | 2.0.17 |
 | [`system-prompt-replace-all-occurrences-warning.md`](../system-prompts/system-prompt-replace-all-occurrences-warning.md) | Warns about multiple replacement matches when replace_all is false, requesting unique context. | 56 | 2.0.17 | 2.0.17 |
 | [`system-prompt-summarize-bash-output-if-needed.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.17 |
-| [`system-prompt-exit-plan-mode-when-coding.md`](../system-prompts/system-prompt-exit-plan-mode-when-coding.md) | Triggers leaving plan mode only after completing a coding implementation plan. | 177 | 2.0.15 | 2.0.15 |
 | [`system-prompt-background-task-monitoring.md`](../system-prompts/system-prompt-background-task-monitoring.md) | Announces task moved to background; provides monitoring link and teleport resume command. | 58 | 2.0.15 | 2.0.15 |
 | [`system-prompt-safe-terminal-command-execution.md`](../system-prompts/system-prompt-safe-terminal-command-execution.md) | Run bash commands in persistent shell with directory checks, quoting rules, and timeouts | 2,534 | 2.0.2 | 2.0.14 |
 | [`system-prompt-async-output-polling.md`](../system-prompts/system-prompt-async-output-polling.md) | Instructs how to poll or wait for an async agent using AgentOutputTool. | 180 | 2.0.14 | 2.0.14 |
@@ -264,19 +265,20 @@ _Sorted by last edit (newest first)._
 | [`system-data-dart-core-types-list.md`](../system-prompts/system-data-dart-core-types-list.md) | List of Dart core types and common classes. | 61 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-ddl-null-ordering.md`](../system-prompts/system-data-sql-ddl-null-ordering.md) | SQL DDL and query phrases including constraints and null ordering options. | 53 | 0.2.9 | 0.2.9 |
 
-## System reminders (70)
+## System reminders (71)
 
-_Sorted by last edit (newest first). Showing **31** reminders with more than **30** tokens._
+_Sorted by last edit (newest first). Showing **32** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.20 |
-| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.20 |
+| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.21 |
+| [`system-reminder-plan-mode-no-execution.md`](../system-prompts/system-reminder-plan-mode-no-execution.md) | Answer user query, then present a confirmation plan via the EXPR_1 tool. | 161 | 2.0.21 | 2.0.21 |
+| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.21 |
+| [`system-reminder-ask-clarifying-questions-first.md`](../system-prompts/system-reminder-ask-clarifying-questions-first.md) | Use AskUserQuestion to gather all needed clarifications before proceeding. | 49 | 2.0.21 | 2.0.21 |
 | [`system-reminder-conversation-title-generator-4.md`](../system-prompts/system-reminder-conversation-title-generator-4.md) | Create …-… word conversation title from last … of … messages | 83 | 2.0.20 | 2.0.20 |
 | [`system-reminder-defensive-security-cli-guidelines-3.md`](../system-prompts/system-reminder-defensive-security-cli-guidelines-3.md) | Enforces defensive-only security assistance, bans malicious code, and restricts URL generation. | 2,022 | 2.0.17 | 2.0.17 |
 | [`system-reminder-hook-blocking-error.md`](../system-prompts/system-reminder-hook-blocking-error.md) | Multiple prompts (2) | 39 | 2.0.17 | 2.0.17 |
 | [`system-reminder-token-usage-remaining-line.md`](../system-prompts/system-reminder-token-usage-remaining-line.md) | Multiple prompts (2) | 37 | 2.0.17 | 2.0.17 |
-| [`system-reminder-plan-mode-no-execution.md`](../system-prompts/system-reminder-plan-mode-no-execution.md) | Answer user query, then present a confirmation plan via the EXPR_1 tool. | 156 | 2.0.15 | 2.0.15 |
 | [`system-reminder-unbound-types-whitespace-call.md`](../system-prompts/system-reminder-unbound-types-whitespace-call.md) | Reports an error about calling whitespace ranges with unbound types. | 100 | 2.0.12 | 2.0.12 |
 | [`system-reminder-unbound-types-whitespace-construct.md`](../system-prompts/system-reminder-unbound-types-whitespace-construct.md) | Reports an error about constructing whitespace ranges with unbound types. | 100 | 2.0.12 | 2.0.12 |
 | [`system-reminder-async-notification-output-retrieval.md`](../system-prompts/system-reminder-async-notification-output-retrieval.md) | Async system notification that agent finished, with instructions to retrieve output by agentId. | 56 | 2.0.10 | 2.0.10 |
