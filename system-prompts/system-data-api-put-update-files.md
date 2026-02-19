@@ -19,11 +19,12 @@ Demonstrate local project update workflow with PUT calls and reference search ou
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
-| `EXPR_10` | unknown | None |
-| `EXPR_11` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | unknown | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
-| `EXPR_14` | stream-json | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | stream-json | None |
 
 # Raw Prompt Text
 start
@@ -62,12 +63,12 @@ branch=${EXPR_7}
 
 Found ${EXPR_8} references across ${EXPR_9} files:
 
-mcp__${EXPR_10: 'unknown'}__
-
-${EXPR_11}
+${EXPR_10}@${EXPR_11: 'unknown'}
 
 ${EXPR_12}
 
 ${EXPR_13}
 
-${EXPR_14: 'stream-json'}
+${EXPR_14}
+
+${EXPR_15: 'stream-json'}
