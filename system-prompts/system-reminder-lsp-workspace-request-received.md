@@ -11,7 +11,6 @@ LSP received a workspace request from a specific client host and port.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-LSP: Received workspace${PATH} request from ${EXPR_1}:${EXPR_2}
+LSP: Received workspace${PATH} request from ${EXPR_1}
