@@ -19,11 +19,9 @@ Lists workspace paths, git status, platform metadata, current date, MCP info, an
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | claude-opus-4-6 | None |
-| `EXPR_13` | claude-sonnet-4-5-20250929 | None |
-| `EXPR_14` | claude-haiku-4-5-20251001 | None |
+| `EXPR_10` | claude-opus-4-6 | None |
+| `EXPR_11` | claude-sonnet-4-5-20250929 | None |
+| `EXPR_12` | claude-haiku-4-5-20251001 | None |
 
 # Raw Prompt Text
 Primary working directory: ${EXPR_1}
@@ -40,8 +38,8 @@ OS Version: ${EXPR_5}
 
 The current date is: ${EXPR_6}-${EXPR_7}-${EXPR_8}
 
-mcp__${EXPR_9}__${EXPR_10}
+${EXPR_9}
 
-${EXPR_11}
+global
 
-The most recent Claude model family is Claude ${NUM}${PATH} Model IDs — Opus ${NUM}: '${EXPR_12: 'claude-opus-4-6'}', Sonnet ${NUM}: '${EXPR_13: 'claude-sonnet-4-5-20250929'}', Haiku ${NUM}: '${EXPR_14: 'claude-haiku-4-5-20251001'}'. When building AI applications, default to the latest and most capable Claude models.
+The most recent Claude model family is Claude ${NUM}${PATH} Model IDs — Opus ${NUM}: '${EXPR_10: 'claude-opus-4-6'}', Sonnet ${NUM}: '${EXPR_11: 'claude-sonnet-4-5-20250929'}', Haiku ${NUM}: '${EXPR_12: 'claude-haiku-4-5-20251001'}'. When building AI applications, default to the latest and most capable Claude models.
