@@ -14,4 +14,4 @@ Log remote teleport git source path and revision identifier.
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-[teleportToRemote] Git source: ${EXPR_1}${PATH}, revision: ${EXPR_2}
+[teleportToRemote] Git source: ${EXPR_1}/${NUM}, revision: ${EXPR_2}
