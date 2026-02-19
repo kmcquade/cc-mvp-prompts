@@ -4,11 +4,11 @@
 
 - Commands: 14
 - Options: 26
-- Env vars: 176
-- Config keys: 137
+- Env vars: 175
+- Config keys: 134
 - Tools: 0
 - Skills: 0
-- Models: 22
+- Models: 21
 - Providers: 7
 
 ## Commands
@@ -207,7 +207,6 @@
 - `NETLIFY`
 - `NO_PROXY`
 - `NODE_DEBUG`
-- `NODE_ENV`
 - `NODE_OPTIONS`
 - `OSTYPE`
 - `OTEL_EXPORTER_OTLP_ENDPOINT`
@@ -365,7 +364,6 @@
 - `prompt`
 - `prompts`
 - `properties`
-- `query`
 - `readOnlyHint`
 - `redirect_uris`
 - `refresh_token`
@@ -384,10 +382,8 @@
 - `role`
 - `roots`
 - `sampling`
-- `schema`
 - `scope`
 - `scopes_supported`
-- `selectedFields`
 - `selection`
 - `server`
 - `service_documentation`
@@ -450,7 +446,6 @@ _None detected_
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
-- `claude-migrations-`
 - `claude-sandbox-`
 
 ## Providers

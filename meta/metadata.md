@@ -7,27 +7,26 @@
 
 ## Bundle
 
-- Entry bytes: 6911789 bytes
-- Entry lines: 2248
+- Entry bytes: 6671989 bytes
+- Entry lines: 2212
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 8963123 bytes
-- Pretty lines: 157426
+- Pretty bytes: 8646916 bytes
+- Pretty lines: 149645
 
 ## Inventory
 
-- File count: 62
-- Size bytes: 168892168
+- File count: 51
+- Size bytes: 168614994
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.jar`: 33 files, 12302054 bytes
-- `.js`: 2 files, 6912755 bytes
-- `.json`: 7 files, 36713 bytes
+- `.js`: 2 files, 6672955 bytes
+- `.json`: 1 files, 1077 bytes
 - `.md`: 2 files, 3940 bytes
 - `.node`: 5 files, 122220044 bytes
-- `.sql`: 5 files, 1738 bytes
 - `.vsix`: 1 files, 531124 bytes
 - `.wasm`: 1 files, 88658 bytes
 
@@ -43,17 +42,6 @@
 
 - `cli.js`
 - `LICENSE.md`
-- `migrations/0000_daffy_genesis.sql`
-- `migrations/0001_reflective_ulik.sql`
-- `migrations/0002_daffy_masked_marvel.sql`
-- `migrations/0003_dusty_ezekiel_stane.sql`
-- `migrations/0004_secret_iron_patriot.sql`
-- `migrations/meta/_journal.json`
-- `migrations/meta/0000_snapshot.json`
-- `migrations/meta/0001_snapshot.json`
-- `migrations/meta/0002_snapshot.json`
-- `migrations/meta/0003_snapshot.json`
-- `migrations/meta/0004_snapshot.json`
 - `package.json`
 - `README.md`
 - `scripts/preinstall.js`
@@ -106,18 +94,18 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 04:13:33 UTC
+- Snapshot generated at: 2026-02-18 04:14:53 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `cbec3be52944279342ec750e8a2e218118fd81810418136715ff7627490b4d65`
+- Config hash: `857ba804aa4fd23d7172040e7a83b364b92fb7deb5c9f82fcd2292bcbbecff4f`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 292,065
+- Total prompt tokens: 292,148
 - Token p95 / p99: 1,099 / 3,048
 
 ### By Kind
 
 - `system-data`: 264,835 tokens (90.7%)
-- `system`: 15,378 tokens (5.3%)
+- `system`: 15,461 tokens (5.3%)
 - `tool`: 7,546 tokens (2.6%)
 - `system-reminder`: 4,306 tokens (1.5%)
