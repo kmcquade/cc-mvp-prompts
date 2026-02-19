@@ -4,7 +4,7 @@
 
 - Commands: 12
 - Options: 16
-- Env vars: 120
+- Env vars: 121
 - Config keys: 61
 - Tools: 0
 - Skills: 0
@@ -147,6 +147,7 @@
 - `K_SERVICE`
 - `KITTY_WINDOW_ID`
 - `KONSOLE_VERSION`
+- `MCP_TIMEOUT`
 - `METADATA_SERVER_DETECTION`
 - `MSYSTEM`
 - `NETLIFY`
