@@ -15,7 +15,6 @@ Read local files by absolute path with line limits, truncation, numbering, and i
 | `EXPR_3` | Claude Code | None |
 | `EXPR_4` | Claude Code | None |
 | `EXPR_5` | NotebookRead | None |
-| `EXPR_6` | Batch | None |
 
 # Raw Prompt Text
 Reads a file from the local filesystem. You can access any file directly by using this tool.
@@ -29,6 +28,6 @@ Usage:
 - Results are returned using cat -n format, with line numbers starting at ${NUM}
 - This tool allows ${EXPR_3: 'Claude Code'} to read images (eg PNG, JPG, etc). When reading an image file the contents are presented visually as ${EXPR_4: 'Claude Code'} is a multimodal LLM.
 - For Jupyter notebooks (.ipynb files), use the ${EXPR_5: 'NotebookRead'} instead
-- When reading multiple files, you MUST use the ${EXPR_6: 'Batch'} tool to read them all at once
+- You have the capability to call multiple tools in a single response. It is always better to speculatively read multiple files as a batch that are potentially useful.
 - You will regularly be asked to read screenshots. If the user provides a path to a screenshot ALWAYS use this tool to view the file at the path. This tool will work with all temporary file paths like ${PATH}
 - If you read a file that exists but has empty contents you will recieve a system reminder warning in place of file contents.
