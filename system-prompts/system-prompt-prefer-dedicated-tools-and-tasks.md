@@ -10,7 +10,7 @@ Prefer dedicated tools over Bash, and manage work with task tracking and subagen
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 | `EXPR_2` | TodoWrite | None |
 
 # Raw Prompt Text
