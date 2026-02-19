@@ -22,14 +22,11 @@ Compose a word title from the last messages using multiple inserted sections.
 | `EXPR_10` | None | None |
 
 # Raw Prompt Text
-Please write a ${NUM}-${NUM} word title for the following conversation:
+${EXPR_1}
 
-[Last ${EXPR_1} of ${EXPR_2} messages]
+${EXPR_2}
 
 ${EXPR_3}
-
-
-Respond with the title for the conversation and nothing else.
 
 ${EXPR_4}
 
@@ -39,8 +36,11 @@ ${EXPR_6}
 
 ${EXPR_7}
 
-${EXPR_8}
+Please write a ${NUM}-${NUM} word title for the following conversation:
 
-${EXPR_9}
+[Last ${EXPR_8} of ${EXPR_9} messages]
 
 ${EXPR_10}
+
+
+Respond with the title for the conversation and nothing else.
