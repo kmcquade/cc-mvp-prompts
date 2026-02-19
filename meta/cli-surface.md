@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 16
-- Options: 30
-- Env vars: 219
-- Config keys: 254
+- Options: 31
+- Env vars: 221
+- Config keys: 257
 - Tools: 1
 - Skills: 0
 - Models: 30
@@ -76,6 +76,7 @@
 - `--print`
 - `--resume`
 - `--scope`
+- `--session-id`
 - `--strict-mcp-config`
 - `--transport`
 - `--verbose`
@@ -101,6 +102,7 @@
 - `--mcp-config <file or string>`
 - `--mcp-debug`
 - `--model <model>`
+- `--session-id <uuid>`
 - `--strict-mcp-config`
 - `--verbose`
 - `-c, --continue`
@@ -155,6 +157,7 @@
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
+- `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
 - `CLAUDE_CODE_DISABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
@@ -242,6 +245,7 @@
 - `LOCALAPPDATA`
 - `MAX_MCP_OUTPUT_TOKENS`
 - `MAX_THINKING_TOKENS`
+- `MCP_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_TIMEOUT`
 - `MCP_TOOL_TIMEOUT`
 - `METADATA_SERVER_DETECTION`
@@ -350,6 +354,8 @@
 - `authorization_endpoint`
 - `authorization_servers`
 - `authToken`
+- `awsAuthRefresh`
+- `awsCredentialExport`
 - `backgroundTaskId`
 - `base64`
 - `bearer_methods_supported`
@@ -488,6 +494,7 @@
 - `originalFile`
 - `originalFileContents`
 - `originalSize`
+- `otelHeadersHelper`
 - `output_tokens`
 - `outputs`
 - `owner`
