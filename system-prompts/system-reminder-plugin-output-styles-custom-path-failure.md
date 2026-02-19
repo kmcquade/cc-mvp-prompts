@@ -11,7 +11,7 @@ Failure loading output styles from a plugin custom path, including error details
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | resolved list (4 items) | None |
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
