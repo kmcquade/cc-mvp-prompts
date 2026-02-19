@@ -43,19 +43,19 @@ SESSION DATA:
 ${EXPR_1}
 
 ## Project Areas (what user works on)
-user
-
-## Big Wins (impressive accomplishments)
 ${EXPR_2}
 
-## Friction Categories (where things go wrong)
-${EXPR_3}
+## Big Wins (impressive accomplishments)
+ (PID ${EXPR_3})
 
-## Features to Try
+## Friction Categories (where things go wrong)
 ${EXPR_4}
 
-## Usage Patterns to Adopt
+## Features to Try
 ${EXPR_5}
 
+## Usage Patterns to Adopt
+unknown
+
 ## On the Horizon (ambitious workflows for better models)
-stdio
+${NUM}
