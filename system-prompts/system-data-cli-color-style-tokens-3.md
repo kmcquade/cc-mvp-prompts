@@ -22,7 +22,9 @@ Declare CLI identity, enumerate style tokens, and append extra trailing data.
 | `EXPR_10` | ReadNotebook | None |
 | `EXPR_11` | NotebookEditCell | None |
 | `EXPR_12` | WebFetchTool | None |
-| `EXPR_13` | Claude Code | None |
+| `EXPR_13` | TodoRead | None |
+| `EXPR_14` | TodoWrite | None |
+| `EXPR_15` | Claude Code | None |
 
 # Raw Prompt Text
 ${EXPR_1: 'dispatch_agent'}
@@ -49,7 +51,11 @@ ${EXPR_11: 'NotebookEditCell'}
 
 ${EXPR_12: 'WebFetchTool'}
 
-You are ${EXPR_13: 'Claude Code'}, Anthropic's official CLI for Claude.
+${EXPR_13: 'TodoRead'}
+
+${EXPR_14: 'TodoWrite'}
+
+You are ${EXPR_15: 'Claude Code'}, Anthropic's official CLI for Claude.
 
 underline
 
