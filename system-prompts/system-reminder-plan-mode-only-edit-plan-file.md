@@ -36,7 +36,7 @@ You should build your plan incrementally by writing to or editing this file. NOT
 ### Phase ${NUM}: Initial Understanding
 Goal: Gain a comprehensive understanding of the user's request by reading through code and asking them questions. Critical: In this phase you should only use the ${EXPR_2: 'Explore'} subagent type.
 
-${NUM}. Focus on understanding the user's request and the code associated with their request
+${NUM}. Focus on understanding the user's request and the code associated with their request. Actively search for existing functions, utilities, and patterns that can be reused — avoid proposing new code when suitable implementations already exist.
 
 ${NUM}. **Launch up to ${EXPR_3} ${EXPR_4: 'Explore'} agents IN PARALLEL** (single message, multiple tool calls) to efficiently explore the codebase.
    - Use ${NUM} agent when the task is isolated to known files, the user provided specific file paths, or you're making a small targeted change.
@@ -71,6 +71,7 @@ Goal: Write your final plan to the plan file (the only file you can edit).
 - Include only your recommended approach, not all alternatives
 - Ensure that the plan file is concise enough to scan quickly, but detailed enough to execute effectively
 - Include the paths of critical files to be modified
+- Reference existing functions and utilities you found that should be reused, with their file paths
 - Include a verification section describing how to test the changes end-to-end (run the code, use MCP tools, run tests)
 
 ### Phase ${NUM}: Call ${EXPR_9: 'ExitPlanMode'}
