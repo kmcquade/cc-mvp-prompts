@@ -58,9 +58,9 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 15:03:27 UTC
+- Snapshot generated at: 2026-02-18 15:06:21 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `374addfed1388cb90832a215d991ec9f87760e325bbd406f8aaa6c2697a7d013`
+- Config hash: `aad972db4e20090133b546c691f55dc6dad3b78605fb755a39f6f0106351403b`
 
 ## Prompt Token Distribution
 
