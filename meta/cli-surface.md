@@ -5,7 +5,7 @@
 - Commands: 14
 - Options: 26
 - Env vars: 176
-- Config keys: 134
+- Config keys: 138
 - Tools: 0
 - Skills: 0
 - Models: 21
@@ -283,6 +283,7 @@
 ## Config Keys
 
 - `_meta`
+- `-c`
 - `access_token`
 - `allow`
 - `annotations`
@@ -306,7 +307,9 @@
 - `compressible`
 - `contacts`
 - `content`
+- `core.fsmonitor=false`
 - `costPriority`
+- `credential.helper=`
 - `data`
 - `deny`
 - `description`
@@ -349,6 +352,7 @@
 - `listChanged`
 - `logging`
 - `logo_uri`
+- `maintenance.auto=false`
 - `mcpServers`
 - `message`
 - `method`
