@@ -10,7 +10,7 @@ Synthesize multiple agents’ analyses into one unified, contradiction-resolved 
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 10 | None |
+| `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
@@ -24,19 +24,20 @@ Synthesize multiple agents’ analyses into one unified, contradiction-resolved 
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
-| `EXPR_15` | 10 | None |
+| `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
 | `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
 
 # Raw Prompt Text
-${EXPR_1: 10}_${EXPR_2}1jsonbypassPermissions100Original task: ${EXPR_3}
+${EXPR_1}_${EXPR_2}1jsonbypassPermissions${EXPR_3}00Original task: ${EXPR_4}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
-${EXPR_4}
+${EXPR_5}
 
 Based on all the information provided by these agents, synthesize a comprehensive and cohesive response that:
 ${NUM}. Combines the key insights from all agents
@@ -45,5 +46,5 @@ ${NUM}. Presents a unified solution that addresses the original task
 ${NUM}. Includes all important details and code examples from the individual responses
 ${NUM}. Is well-structured and complete
 
-Your synthesis should be thorough but focused on the original task. (sidechain)${EXPR_5}${EXPR_6}${EXPR_7}${EXPR_8} ${EXPR_9}${EXPR_10}@${EXPR_11}null${EXPR_12}${EXPR_13}
-${EXPR_14}${EXPR_15: 10}${EXPR_16}${EXPR_17}${EXPR_18}${EXPR_19}${NUM}${EXPR_20}null
+Your synthesis should be thorough but focused on the original task. (sidechain)${EXPR_6}${EXPR_7}${EXPR_8}${EXPR_9} ${EXPR_10}${EXPR_11}@${EXPR_12}null${EXPR_13}${EXPR_14}
+${EXPR_15}${EXPR_16}${EXPR_17}${EXPR_18}${EXPR_19}${EXPR_20}${NUM}${EXPR_21}null
