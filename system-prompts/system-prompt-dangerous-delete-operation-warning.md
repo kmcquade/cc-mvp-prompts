@@ -11,8 +11,9 @@ Block auto-approval when … would delete a critical system directory, requiring
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Dangerous ${EXPR_1} operation detected: 'null'
+Dangerous ${EXPR_1} operation detected: '${EXPR_2}'
 
 This command would remove a critical system directory. This requires explicit approval and cannot be auto-allowed by permission rules.
