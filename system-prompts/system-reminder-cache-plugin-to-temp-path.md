@@ -10,7 +10,7 @@ Notes caching a plugin from global source into a temporary path location.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 Caching plugin from source: global to temporary path ${EXPR_1}
