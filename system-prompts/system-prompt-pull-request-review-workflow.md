@@ -4,7 +4,7 @@
 
 ## Summary
 
-Pull request-triggered GitHub Actions job checks out code and runs Claude review action.
+GitHub Actions workflow runs Claude code review on pull request open or sync.
 
 ## Placeholder Hints (source-backed)
 
@@ -54,7 +54,7 @@ jobs:
           anthropic_api_key: ${EXPR_1}
 
           # Optional: Specify model (defaults to Claude Sonnet ${NUM}, uncomment for Claude Opus ${NUM})
-          # model: "claude-opus-${NUM}-${NUM}"
+          # model: "claude-opus-${NUM}-${NUM}-${NUM}"
 
           # Direct prompt for automated review (no @claude mention needed)
           direct_prompt: |
