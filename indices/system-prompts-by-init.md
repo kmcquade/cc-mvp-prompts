@@ -14,10 +14,10 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-secure-cli-coding.md`](../system-prompts/system-prompt-secure-cli-coding.md) | Interactive CLI coding assistant with strict malware refusal and slash-command help workflow | 2,467 | 0.2.49 | 0.2.49 |
 | [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Runs shell commands with directory verification and banned-command security checks. | 2,213 | 0.2.47 | 0.2.47 |
 | [`system-prompt-concise-github-issue-titles.md`](../system-prompts/system-prompt-concise-github-issue-titles.md) | Create a specific technical GitHub issue title from a bug report within a character limit. | 129 | 0.2.47 | 0.2.47 |
 | [`system-prompt-static-project-file-snapshot.md`](../system-prompts/system-prompt-static-project-file-snapshot.md) | Static snapshot of project file structure at conversation start, ignoring .gitignore patterns. | 55 | 0.2.44 | 0.2.44 |
-| [`system-prompt-secure-cli-coding.md`](../system-prompts/system-prompt-secure-cli-coding.md) | Interactive CLI coding assistant with strict malware refusal and slash-command help workflow | 2,481 | 0.2.42 | 0.2.42 |
 | [`system-prompt-batch-invocations-guide.md`](../system-prompts/system-prompt-batch-invocations-guide.md) | Defines parallel batch tool invocations list, aggregating results and requiring post-call user message. | 308 | 0.2.42 | 0.2.42 |
 | [`system-prompt-assisted-search-guidelines.md`](../system-prompts/system-prompt-assisted-search-guidelines.md) | Guidelines for using an Agent tool for broad searches versus direct file/code lookup tools. | 497 | 0.2.41 | 0.2.41 |
 | [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 0.2.40 |
@@ -80,8 +80,8 @@ _Sorted by init (newest first)._
 | [`system-data-plist-keybinding-xml-template.md`](../system-prompts/system-data-plist-keybinding-xml-template.md) | XML property-list snippet for a keybinding entry with numeric fields. | 158 | 0.2.46 | 0.2.46 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 247 | 0.2.42 | 0.2.47 |
 | [`system-data-whimsical-verb-synonyms-list.md`](../system-prompts/system-data-whimsical-verb-synonyms-list.md) | Playful list of gerund verbs describing thinking or doing. | 221 | 0.2.42 | 0.2.42 |
-| [`system-data-official-cli-functions-data-2.md`](../system-prompts/system-data-official-cli-functions-data-2.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.47 |
-| [`system-data-official-cli-functions-data.md`](../system-prompts/system-data-official-cli-functions-data.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.47 |
+| [`system-data-official-cli-functions-data-2.md`](../system-prompts/system-data-official-cli-functions-data-2.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.49 |
+| [`system-data-official-cli-functions-data.md`](../system-prompts/system-data-official-cli-functions-data.md) | Establishes Claude CLI identity and enumerates injected runtime sections and variables | 108 | 0.2.42 | 0.2.49 |
 | [`system-data-path-list-template.md`](../system-prompts/system-data-path-list-template.md) | Multiple prompts (2) | 111 | 0.2.40 | 0.2.40 |
 | [`system-data-dom-exception-messages-codes.md`](../system-prompts/system-data-dom-exception-messages-codes.md) | DOM exception names with placeholder numeric codes and messages. | 532 | 0.2.33 | 0.2.33 |
 | [`system-data-dom-exception-names-list.md`](../system-prompts/system-data-dom-exception-names-list.md) | List of DOM exception constants including security and network errors. | 184 | 0.2.33 | 0.2.33 |

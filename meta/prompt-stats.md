@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.48
+# Prompt Stats 0.2.49
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -23,7 +23,7 @@
 | system | [System Prompt: Initial Git Status Snapshot 2](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | 294 | 89 | 0.2.36 | 0.2.36 |
 | system | [System Prompt: Organize Project Memories File 2](../system-prompts/system-prompt-organize-project-memories-file-2.md) | 1502 | 340 | 0.2.36 | 0.2.36 |
 | system | [System Prompt: Review Github Pull Request](../system-prompts/system-prompt-review-github-pull-request.md) | 894 | 233 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Secure Cli Coding](../system-prompts/system-prompt-secure-cli-coding.md) | 10543 | 2481 | 0.2.42 | 0.2.42 |
+| system | [System Prompt: Secure Cli Coding](../system-prompts/system-prompt-secure-cli-coding.md) | 10469 | 2467 | 0.2.49 | 0.2.49 |
 | system | [System Prompt: Secure Persistent Bash Execution](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | 8730 | 2213 | 0.2.47 | 0.2.47 |
 | system | [System Prompt: Select Core Frequently Modified Files](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | 451 | 90 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Static Project File Snapshot](../system-prompts/system-prompt-static-project-file-snapshot.md) | 205 | 55 | 0.2.44 | 0.2.44 |
@@ -56,8 +56,8 @@
 | system-data | [System Data: Numeric Placeholder Block](../system-prompts/system-data-numeric-placeholder-block.md) | 901 | 531 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Numeric Placeholder Sequence](../system-prompts/system-data-numeric-placeholder-sequence.md) | 3218 | 1791 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Numeric Placeholders Repeated](../system-prompts/system-data-numeric-placeholders-repeated.md) | 397 | 237 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Official Cli Functions Data](../system-prompts/system-data-official-cli-functions-data.md) | 251 | 108 | 0.2.42 | 0.2.47 |
-| system-data | [System Data: Official Cli Functions Data 2](../system-prompts/system-data-official-cli-functions-data-2.md) | 251 | 108 | 0.2.42 | 0.2.47 |
+| system-data | [System Data: Official Cli Functions Data](../system-prompts/system-data-official-cli-functions-data.md) | 251 | 108 | 0.2.42 | 0.2.49 |
+| system-data | [System Data: Official Cli Functions Data 2](../system-prompts/system-data-official-cli-functions-data-2.md) | 251 | 108 | 0.2.42 | 0.2.49 |
 | system-data | [System Data: Path List Template](../system-prompts/system-data-path-list-template.md) | 177 | 111 | 0.2.40 | 0.2.40 |
 | system-data | [System Data: Perl Builtin Functions List](../system-prompts/system-data-perl-builtin-functions-list.md) | 1824 | 682 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Plist Keybinding Xml Template](../system-prompts/system-data-plist-keybinding-xml-template.md) | 370 | 158 | 0.2.46 | 0.2.46 |
