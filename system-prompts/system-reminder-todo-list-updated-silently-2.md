@@ -10,7 +10,7 @@ Internal notice that todo list updated; continue tasks without telling user.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | JSON stringified value | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Your todo list has changed. DO NOT mention this explicitly to the user. Here are the latest contents of your todo list:
