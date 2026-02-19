@@ -15,10 +15,6 @@ Guides safe creation or editing of keybindings with required schema fields and k
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
 
 # Raw Prompt Text
 # Keybindings Skill
@@ -30,7 +26,6 @@ Create or modify `~${PATH}` to customize keyboard shortcuts.
 
 ## File Format
 ```json
-${EXPR_1}
 ```
 Always include the `$schema` and `$docs` fields.
 
@@ -47,7 +42,6 @@ Always include the `$schema` and `$docs` fields.
 ## Unbinding Default Shortcuts
 Set a key to `null` to remove its default binding:
 ```json
-${EXPR_2}
 ```
 
 ## How User Bindings Interact with Defaults
@@ -59,11 +53,9 @@ ${EXPR_2}
 ### Rebind a key
 To change the external editor shortcut from `ctrl+g` to `ctrl+e`:
 ```json
-${EXPR_3}
 ```
 ### Add a chord binding
 ```json
-${EXPR_4}
 ```
 
 ## Behavioral Rules
@@ -76,8 +68,8 @@ ${NUM}. To fully replace a default binding, unbind the old key AND add the new o
 ## Validation with ${PATH}
 The `${PATH}` command includes a "Keybinding Configuration Issues" section that validates `~${PATH}`.
 ### Common Issues and Fixes
-| ${EXPR_5} |
-| ${EXPR_6} |
+| ${EXPR_1} |
+| ${EXPR_2} |
 ### Example ${PATH} Output
 ```
 Keybinding Configuration Issues
@@ -90,12 +82,12 @@ Location: ~${PATH}
 
 ## Reserved Shortcuts
 
-${EXPR_7}
+${EXPR_3}
 
 ## Available Contexts
 
-${EXPR_8}
+${EXPR_4}
 
 ## Available Actions
 
-${EXPR_9}
+${EXPR_5}
