@@ -24,7 +24,7 @@ You can use mcp__claude-in-chrome__read_console_messages to read console output.
 
 ## Alerts and dialogs
 
-Do not trigger JavaScript alerts, confirms, prompts, or browser modal dialogs through your actions. These browser dialogs block all further browser events and will prevent the extension from receiving any subsequent commands. Instead, when possible, use console.log for debugging and then use the mcp__claude-in-chrome__read_console_messages tool to read those log messages. If a page has dialog-triggering elements:
+IMPORTANT: Do not trigger JavaScript alerts, confirms, prompts, or browser modal dialogs through your actions. These browser dialogs block all further browser events and will prevent the extension from receiving any subsequent commands. Instead, when possible, use console.log for debugging and then use the mcp__claude-in-chrome__read_console_messages tool to read those log messages. If a page has dialog-triggering elements:
 ${NUM}. Avoid clicking buttons or links that may trigger alerts (e.g., "Delete" buttons with confirmation dialogs)
 ${NUM}. If you must interact with such elements, warn the user first that this may interrupt the session
 ${NUM}. Use mcp__claude-in-chrome__javascript_tool to check for and dismiss any existing dialogs before proceeding
