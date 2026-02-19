@@ -1,4 +1,4 @@
-# Prompt Stats 1.0.11
+# Prompt Stats 1.0.14
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -10,21 +10,20 @@
 | system | [System Prompt: Bash Command Prefix Detection](../system-prompts/system-prompt-bash-command-prefix-detection.md) | 2455 | 671 | 0.2.83 | 0.2.83 |
 | system | [System Prompt: Batch Edits Single File](../system-prompts/system-prompt-batch-edits-single-file.md) | 2540 | 628 | 1.0.8 | 1.0.8 |
 | system | [System Prompt: Cheerful Gerund Status Word 2](../system-prompts/system-prompt-cheerful-gerund-status-word-2.md) | 819 | 198 | 0.2.103 | 0.2.103 |
-| system | [System Prompt: Cite With Limited Quotes](../system-prompts/system-prompt-cite-with-limited-quotes.md) | 544 | 135 | 0.2.123 | 1.0.8 |
-| system | [System Prompt: Cite With Limited Quotes 2](../system-prompts/system-prompt-cite-with-limited-quotes-2.md) | 544 | 135 | 0.2.123 | 1.0.8 |
+| system | [System Prompt: Cite With Limited Quotes](../system-prompts/system-prompt-cite-with-limited-quotes.md) | 544 | 135 | 0.2.123 | 1.0.14 |
+| system | [System Prompt: Cite With Limited Quotes 2](../system-prompts/system-prompt-cite-with-limited-quotes-2.md) | 544 | 135 | 0.2.123 | 1.0.14 |
 | system | [System Prompt: Classify Bash Command Prefix](../system-prompts/system-prompt-classify-bash-command-prefix.md) | 148 | 33 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Cli Launcher Fallback Symlinks](../system-prompts/system-prompt-cli-launcher-fallback-symlinks.md) | 1558 | 577 | 1.0.4 | 1.0.4 |
+| system | [System Prompt: Cli Launcher Fallback Symlinks 2](../system-prompts/system-prompt-cli-launcher-fallback-symlinks-2.md) | 1700 | 639 | 1.0.14 | 1.0.14 |
 | system | [System Prompt: Command Message Template](../system-prompts/system-prompt-command-message-template.md) | 160 | 60 | 0.2.123 | 0.2.123 |
 | system | [System Prompt: Command Metadata Fields](../system-prompts/system-prompt-command-metadata-fields.md) | 126 | 49 | 0.2.123 | 0.2.123 |
 | system | [System Prompt: Concise Github Issue Titles](../system-prompts/system-prompt-concise-github-issue-titles.md) | 549 | 129 | 0.2.47 | 0.2.47 |
 | system | [System Prompt: Continue Last Task](../system-prompts/system-prompt-continue-last-task.md) | 175 | 38 | 0.2.54 | 0.2.54 |
-| system | [System Prompt: Conversation Development Summary](../system-prompts/system-prompt-conversation-development-summary.md) | 4367 | 1035 | 0.2.56 | 1.0.7 |
-| system | [System Prompt: Conversation Development Summary 2](../system-prompts/system-prompt-conversation-development-summary-2.md) | 4405 | 1046 | 0.2.60 | 1.0.7 |
-| system | [System Prompt: Conversation Title Generator](../system-prompts/system-prompt-conversation-title-generator.md) | 153 | 43 | 0.2.123 | 1.0.11 |
-| system | [System Prompt: Conversation Title Generator 2](../system-prompts/system-prompt-conversation-title-generator-2.md) | 153 | 44 | 0.2.123 | 1.0.11 |
+| system | [System Prompt: Conversation Development Summary](../system-prompts/system-prompt-conversation-development-summary.md) | 5207 | 1252 | 1.0.14 | 1.0.14 |
+| system | [System Prompt: Conversation Development Summary 2](../system-prompts/system-prompt-conversation-development-summary-2.md) | 5245 | 1263 | 1.0.14 | 1.0.14 |
+| system | [System Prompt: Conversation Title Generator](../system-prompts/system-prompt-conversation-title-generator.md) | 153 | 44 | 0.2.123 | 1.0.14 |
+| system | [System Prompt: Conversation Title Generator 2](../system-prompts/system-prompt-conversation-title-generator-2.md) | 153 | 43 | 0.2.123 | 1.0.14 |
 | system | [System Prompt: Conversation Title Only Output](../system-prompts/system-prompt-conversation-title-only-output.md) | 153 | 47 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Create Md Guide 2](../system-prompts/system-prompt-create-md-guide-2.md) | 1609 | 382 | 0.2.101 | 0.2.101 |
-| system | [System Prompt: Create Shell Snapshot File](../system-prompts/system-prompt-create-shell-snapshot-file.md) | 1720 | 505 | 1.0.11 | 1.0.11 |
 | system | [System Prompt: Create View Instrument Selector](../system-prompts/system-prompt-create-view-instrument-selector.md) | 319 | 110 | 0.2.76 | 0.2.76 |
 | system | [System Prompt: Delegate Uncertain Search](../system-prompts/system-prompt-delegate-uncertain-search.md) | 1991 | 485 | 0.2.116 | 0.2.116 |
 | system | [System Prompt: Detect New Topic Title](../system-prompts/system-prompt-detect-new-topic-title.md) | 315 | 85 | 0.2.9 | 0.2.9 |
@@ -40,6 +39,7 @@
 | system | [System Prompt: Install Github Cli](../system-prompts/system-prompt-install-github-cli.md) | 149 | 41 | 1.0.0 | 1.0.0 |
 | system | [System Prompt: Local Function Conversation Title](../system-prompts/system-prompt-local-function-conversation-title.md) | 180 | 56 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Malicious Files Refusal Check](../system-prompts/system-prompt-malicious-files-refusal-check.md) | 98 | 30 | 0.2.89 | 0.2.89 |
+| system | [System Prompt: Merge Insights With Noise](../system-prompts/system-prompt-merge-insights-with-noise.md) | 787 | 235 | 1.0.14 | 1.0.14 |
 | system | [System Prompt: Multi Output Synthesis](../system-prompts/system-prompt-multi-output-synthesis.md) | 672 | 168 | 1.0.10 | 1.0.10 |
 | system | [System Prompt: Read File Absolute Path](../system-prompts/system-prompt-read-file-absolute-path.md) | 1577 | 367 | 1.0.4 | 1.0.4 |
 | system | [System Prompt: Refresh Workflow Scope](../system-prompts/system-prompt-refresh-workflow-scope.md) | 159 | 31 | 1.0.0 | 1.0.0 |
@@ -48,31 +48,33 @@
 | system | [System Prompt: Review Github Pull Request](../system-prompts/system-prompt-review-github-pull-request.md) | 894 | 233 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Secure Bash Sandbox Runner](../system-prompts/system-prompt-secure-bash-sandbox-runner.md) | 12905 | 3240 | 1.0.7 | 1.0.7 |
 | system | [System Prompt: Select Core Frequently Modified Files](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | 451 | 90 | 0.2.9 | 0.2.9 |
+| system | [System Prompt: Sidechain Null Padded Synthesis](../system-prompts/system-prompt-sidechain-null-padded-synthesis.md) | 889 | 293 | 1.0.14 | 1.0.14 |
+| system | [System Prompt: Snapshot Aliases And Path](../system-prompts/system-prompt-snapshot-aliases-and-path.md) | 853 | 261 | 0.2.73 | 0.2.73 |
+| system | [System Prompt: Snapshot Zsh Functions Options](../system-prompts/system-prompt-snapshot-zsh-functions-options.md) | 471 | 158 | 0.2.73 | 0.2.73 |
 | system | [System Prompt: Structured Coding Task List](../system-prompts/system-prompt-structured-coding-task-list.md) | 9246 | 2229 | 1.0.8 | 1.0.8 |
 | system | [System Prompt: Summarize Coding Chat Status](../system-prompts/system-prompt-summarize-coding-chat-status.md) | 139 | 33 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Summarize Shell Command](../system-prompts/system-prompt-summarize-shell-command.md) | 304 | 78 | 0.2.59 | 0.2.59 |
-| system | [System Prompt: Synthesize Agents With Sidechain](../system-prompts/system-prompt-synthesize-agents-with-sidechain.md) | 885 | 284 | 1.0.11 | 1.0.11 |
-| system | [System Prompt: Synthesize Multi Findings](../system-prompts/system-prompt-synthesize-multi-findings.md) | 702 | 190 | 0.2.94 | 1.0.11 |
-| system | [System Prompt: Synthesize Multi Findings 2](../system-prompts/system-prompt-synthesize-multi-findings-2.md) | 783 | 227 | 1.0.10 | 1.0.11 |
-| system | [System Prompt: Synthesize Multi Solution 2](../system-prompts/system-prompt-synthesize-multi-solution-2.md) | 1285 | 431 | 1.0.11 | 1.0.11 |
-| system | [System Prompt: Synthesize Multiple Outputs](../system-prompts/system-prompt-synthesize-multiple-outputs.md) | 731 | 202 | 1.0.10 | 1.0.11 |
+| system | [System Prompt: Synthesize Multi Solution 2](../system-prompts/system-prompt-synthesize-multi-solution-2.md) | 1276 | 427 | 1.0.14 | 1.0.14 |
+| system | [System Prompt: Synthesize Multi Solution 3](../system-prompts/system-prompt-synthesize-multi-solution-3.md) | 702 | 190 | 0.2.94 | 1.0.14 |
+| system | [System Prompt: Synthesize Multi Solution 4](../system-prompts/system-prompt-synthesize-multi-solution-4.md) | 662 | 165 | 0.2.98 | 1.0.14 |
+| system | [System Prompt: Synthesize Multiple Outputs](../system-prompts/system-prompt-synthesize-multiple-outputs.md) | 793 | 235 | 1.0.14 | 1.0.14 |
 | system | [System Prompt: Title With Files Context](../system-prompts/system-prompt-title-with-files-context.md) | 165 | 46 | 0.2.91 | 0.2.91 |
-| system | [System Prompt: Unify Agents Into Solution](../system-prompts/system-prompt-unify-agents-into-solution.md) | 662 | 165 | 0.2.98 | 1.0.11 |
-| system | [System Prompt: Update Memory File](../system-prompts/system-prompt-update-memory-file.md) | 518 | 118 | 0.2.54 | 1.0.11 |
+| system | [System Prompt: Update Memory File](../system-prompts/system-prompt-update-memory-file.md) | 518 | 118 | 0.2.54 | 1.0.14 |
 | system | [System Prompt: Use Owner Path Format](../system-prompts/system-prompt-use-owner-path-format.md) | 69 | 28 | 1.0.0 | 1.0.0 |
 | system | [System Prompt: Verify Repo Access Scope](../system-prompts/system-prompt-verify-repo-access-scope.md) | 255 | 61 | 1.0.0 | 1.0.0 |
-| system | [System Prompt: Write Conversation Title](../system-prompts/system-prompt-write-conversation-title.md) | 147 | 41 | 0.2.91 | 1.0.11 |
-| system | [System Prompt: Write Conversation Title 10](../system-prompts/system-prompt-write-conversation-title-10.md) | 181 | 62 | 0.2.91 | 1.0.11 |
-| system | [System Prompt: Write Conversation Title 11](../system-prompts/system-prompt-write-conversation-title-11.md) | 147 | 42 | 0.2.91 | 1.0.11 |
-| system | [System Prompt: Write Conversation Title 12](../system-prompts/system-prompt-write-conversation-title-12.md) | 154 | 43 | 0.2.123 | 1.0.11 |
-| system | [System Prompt: Write Conversation Title 2](../system-prompts/system-prompt-write-conversation-title-2.md) | 159 | 48 | 0.2.91 | 1.0.11 |
-| system | [System Prompt: Write Conversation Title 3](../system-prompts/system-prompt-write-conversation-title-3.md) | 150 | 42 | 0.2.123 | 1.0.11 |
-| system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 249 | 87 | 0.2.101 | 1.0.11 |
+| system | [System Prompt: Write Conversation Title](../system-prompts/system-prompt-write-conversation-title.md) | 159 | 48 | 0.2.91 | 1.0.14 |
+| system | [System Prompt: Write Conversation Title 10](../system-prompts/system-prompt-write-conversation-title-10.md) | 147 | 41 | 0.2.91 | 1.0.14 |
+| system | [System Prompt: Write Conversation Title 11](../system-prompts/system-prompt-write-conversation-title-11.md) | 147 | 42 | 0.2.92 | 1.0.14 |
+| system | [System Prompt: Write Conversation Title 12](../system-prompts/system-prompt-write-conversation-title-12.md) | 150 | 42 | 0.2.123 | 1.0.14 |
+| system | [System Prompt: Write Conversation Title 13](../system-prompts/system-prompt-write-conversation-title-13.md) | 154 | 43 | 0.2.123 | 1.0.14 |
+| system | [System Prompt: Write Conversation Title 2](../system-prompts/system-prompt-write-conversation-title-2.md) | 148 | 42 | 0.2.113 | 1.0.14 |
+| system | [System Prompt: Write Conversation Title 3](../system-prompts/system-prompt-write-conversation-title-3.md) | 147 | 42 | 0.2.91 | 1.0.14 |
+| system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 146 | 41 | 0.2.93 | 1.0.14 |
 | system | [System Prompt: Write Conversation Title 5](../system-prompts/system-prompt-write-conversation-title-5.md) | 168 | 46 | 0.2.104 | 1.0.3 |
 | system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 255 | 73 | 1.0.6 | 1.0.6 |
-| system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 249 | 87 | 0.2.101 | 1.0.11 |
-| system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 148 | 42 | 0.2.113 | 1.0.11 |
-| system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 159 | 48 | 0.2.91 | 1.0.11 |
+| system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 181 | 62 | 0.2.91 | 1.0.14 |
+| system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 148 | 41 | 0.2.93 | 1.0.14 |
+| system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 249 | 87 | 0.2.101 | 1.0.14 |
 | system | [System Prompt: Write File With Constraints](../system-prompts/system-prompt-write-file-with-constraints.md) | 622 | 145 | 1.0.7 | 1.0.7 |
 | system-reminder | [System Reminder: Call Echo Line](../system-prompts/system-reminder-call-echo-line.md) | 61 | 20 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Call Error Result](../system-prompts/system-reminder-call-error-result.md) | 43 | 13 | 0.2.119 | 0.2.119 |
@@ -97,12 +99,12 @@
 | system-reminder | [System Reminder: Simulated Unmount Behavior](../system-prompts/system-reminder-simulated-unmount-behavior.md) | 20 | 5 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Smselect Smlike Smcard Tokens](../system-prompts/system-reminder-smselect-smlike-smcard-tokens.md) | 22 | 7 | 0.2.108 | 0.2.108 |
 | system-reminder | [System Reminder: Summarize Conversation](../system-prompts/system-reminder-summarize-conversation.md) | 69 | 13 | 0.2.108 | 0.2.108 |
-| system-reminder | [System Reminder: Synthesize Multi Findings](../system-prompts/system-reminder-synthesize-multi-findings.md) | 662 | 166 | 1.0.10 | 1.0.10 |
-| system-reminder | [System Reminder: Synthesize Multi Findings 2](../system-prompts/system-reminder-synthesize-multi-findings-2.md) | 652 | 159 | 0.2.72 | 1.0.10 |
+| system-reminder | [System Reminder: Synthesize Multi Findings](../system-prompts/system-reminder-synthesize-multi-findings.md) | 652 | 159 | 0.2.72 | 1.0.14 |
 | system-reminder | [System Reminder: Template Function Wrapper](../system-prompts/system-reminder-template-function-wrapper.md) | 192 | 78 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Todo List Updated 2](../system-prompts/system-reminder-todo-list-updated-2.md) | 308 | 85 | 0.2.118 | 0.2.118 |
+| system-reminder | [System Reminder: Uli Multiline Dotall Flags](../system-prompts/system-reminder-uli-multiline-dotall-flags.md) | 68 | 39 | 1.0.14 | 1.0.14 |
 | system-reminder | [System Reminder: Underscore Template Function Wrapper](../system-prompts/system-reminder-underscore-template-function-wrapper.md) | 177 | 70 | 0.2.106 | 0.2.106 |
-| system-reminder | [System Reminder: Update Memory File](../system-prompts/system-reminder-update-memory-file.md) | 518 | 118 | 0.2.54 | 1.0.11 |
+| system-reminder | [System Reminder: Update Memory File](../system-prompts/system-reminder-update-memory-file.md) | 518 | 118 | 0.2.54 | 1.0.14 |
 | system-reminder | [System Reminder: User Opened File Ide](../system-prompts/system-reminder-user-opened-file-ide.md) | 46 | 15 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: User Selected Lines](../system-prompts/system-reminder-user-selected-lines.md) | 63 | 21 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Web Search](../system-prompts/system-reminder-web-search.md) | 57 | 11 | 0.2.108 | 0.2.108 |
@@ -120,8 +122,8 @@
 | system-data | [System Data: Github Actions Mention Trigger](../system-prompts/system-data-github-actions-mention-trigger.md) | 1075 | 341 | 0.2.126 | 0.2.126 |
 | system-data | [System Data: Hex Color Swatches Ccff](../system-prompts/system-data-hex-color-swatches-ccff.md) | 682 | 387 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Html Block Elements List](../system-prompts/system-data-html-block-elements-list.md) | 313 | 148 | 0.2.33 | 0.2.33 |
-| system-data | [System Data: Html Doctype Variants List](../system-prompts/system-data-html-doctype-variants-list.md) | 2490 | 1063 | 0.2.9 | 1.0.11 |
-| system-data | [System Data: Html Doctype Variants List 2](../system-prompts/system-data-html-doctype-variants-list-2.md) | 2578 | 1099 | 0.2.9 | 1.0.11 |
+| system-data | [System Data: Html Doctype Variants List](../system-prompts/system-data-html-doctype-variants-list.md) | 2578 | 1099 | 0.2.9 | 1.0.14 |
+| system-data | [System Data: Html Doctype Variants List 2](../system-prompts/system-data-html-doctype-variants-list-2.md) | 2490 | 1063 | 0.2.9 | 1.0.14 |
 | system-data | [System Data: Html Element Name List](../system-prompts/system-data-html-element-name-list.md) | 442 | 160 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Http Header Field List](../system-prompts/system-data-http-header-field-list.md) | 1575 | 501 | 0.2.125 | 0.2.125 |
 | system-data | [System Data: Http Request Timing Events](../system-prompts/system-data-http-request-timing-events.md) | 309 | 92 | 0.2.9 | 1.0.1 |
@@ -135,7 +137,7 @@
 | system-data | [System Data: Linter Formatter List](../system-prompts/system-data-linter-formatter-list.md) | 239 | 98 | 0.2.123 | 0.2.123 |
 | system-data | [System Data: Mapped Valid Disallowed Std](../system-prompts/system-data-mapped-valid-disallowed-std.md) | 420105 | 211885 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Media Query Features List](../system-prompts/system-data-media-query-features-list.md) | 437 | 124 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Merge Agents For Original Task](../system-prompts/system-data-merge-agents-for-original-task.md) | 863 | 261 | 1.0.10 | 1.0.10 |
+| system-data | [System Data: Merge Agents For Original Task](../system-prompts/system-data-merge-agents-for-original-task.md) | 863 | 261 | 1.0.14 | 1.0.14 |
 | system-data | [System Data: Mongodb Collection Methods List](../system-prompts/system-data-mongodb-collection-methods-list.md) | 413 | 116 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Months Weekdays Number Mapping](../system-prompts/system-data-months-weekdays-number-mapping.md) | 702 | 341 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Numeric Constants And Paths](../system-prompts/system-data-numeric-constants-and-paths.md) | 362 | 159 | 0.2.9 | 0.2.9 |
@@ -148,8 +150,7 @@
 | system-data | [System Data: Repeated Numeric Placeholders](../system-prompts/system-data-repeated-numeric-placeholders.md) | 1554 | 895 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Roman Numeral Sequence](../system-prompts/system-data-roman-numeral-sequence.md) | 220 | 108 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Runtime Environment Details](../system-prompts/system-data-runtime-environment-details.md) | 216 | 74 | 1.0.4 | 1.0.4 |
-| system-data | [System Data: Snapshot Shell Functions Base64](../system-prompts/system-data-snapshot-shell-functions-base64.md) | 1269 | 422 | 1.0.11 | 1.0.11 |
-| system-data | [System Data: Snapshot Shell Functions Options](../system-prompts/system-data-snapshot-shell-functions-options.md) | 727 | 240 | 1.0.11 | 1.0.11 |
+| system-data | [System Data: Shell Function Snapshot Script](../system-prompts/system-data-shell-function-snapshot-script.md) | 881 | 296 | 0.2.76 | 0.2.76 |
 | system-data | [System Data: Sql Current Context Functions](../system-prompts/system-data-sql-current-context-functions.md) | 254 | 69 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Sql Data Types List](../system-prompts/system-data-sql-data-types-list.md) | 213 | 64 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Sql Ddl Null Ordering](../system-prompts/system-data-sql-ddl-null-ordering.md) | 215 | 53 | 0.2.9 | 0.2.9 |
@@ -163,7 +164,7 @@
 | system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 554 | 162 | 0.2.9 | 1.0.7 |
 | system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 565 | 166 | 0.2.9 | 1.0.7 |
 | system-data | [System Data: Swift Standard Library Functions](../system-prompts/system-data-swift-standard-library-functions.md) | 441 | 151 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Uli Multiline Dotall Expressions](../system-prompts/system-data-uli-multiline-dotall-expressions.md) | 439 | 249 | 1.0.11 | 1.0.11 |
+| system-data | [System Data: Uli Multiline Dotall Expressions](../system-prompts/system-data-uli-multiline-dotall-expressions.md) | 439 | 249 | 1.0.14 | 1.0.14 |
 | system-data | [System Data: Underscore Template Runtime](../system-prompts/system-data-underscore-template-runtime.md) | 272 | 129 | 0.2.54 | 1.0.11 |
 | system-data | [System Data: Underscore Template Runtime 2](../system-prompts/system-data-underscore-template-runtime-2.md) | 278 | 133 | 0.2.54 | 1.0.11 |
 | system-data | [System Data: Whimsical Verb Synonyms List](../system-prompts/system-data-whimsical-verb-synonyms-list.md) | 622 | 221 | 0.2.42 | 0.2.42 |

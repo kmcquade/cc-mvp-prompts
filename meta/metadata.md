@@ -7,27 +7,27 @@
 
 ## Bundle
 
-- Entry bytes: 7352387 bytes
-- Entry lines: 2347
+- Entry bytes: 7354707 bytes
+- Entry lines: 2362
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 9483115 bytes
-- Pretty lines: 162698
+- Pretty bytes: 9485550 bytes
+- Pretty lines: 162722
 
 ## Inventory
 
 - File count: 51
-- Size bytes: 168908839
+- Size bytes: 168911161
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.jar`: 33 files, 12378951 bytes
-- `.js`: 2 files, 7353353 bytes
+- `.js`: 2 files, 7355673 bytes
 - `.json`: 1 files, 1157 bytes
 - `.md`: 2 files, 2422 bytes
 - `.node`: 5 files, 122220044 bytes
-- `.vsix`: 1 files, 69112 bytes
+- `.vsix`: 1 files, 69114 bytes
 - `.wasm`: 1 files, 88658 bytes
 
 ### Asset Sizes
@@ -35,7 +35,7 @@
 - `.exe`: 5407744 bytes
 - `.jar`: 12378951 bytes
 - `.node`: 122220044 bytes
-- `.vsix`: 69112 bytes
+- `.vsix`: 69114 bytes
 - `.wasm`: 88658 bytes
 
 ### Files
@@ -94,18 +94,18 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 04:54:23 UTC
+- Snapshot generated at: 2026-02-18 04:57:47 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `1a7302a0411a8819f9355dec928dd11f02ebedb40ee206d5fedf047a3097ceb7`
+- Config hash: `e558c273136ff2f0a9e3e120c0e420ee0ea3e001ccf94bc4a9adfcf63156db49`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 294,970
-- Token p95 / p99: 1,035 / 3,045
+- Total prompt tokens: 294,922
+- Token p95 / p99: 1,063 / 3,045
 
 ### By Kind
 
-- `system-data`: 266,867 tokens (90.5%)
-- `system`: 17,898 tokens (6.1%)
+- `system-data`: 266,501 tokens (90.4%)
+- `system`: 18,343 tokens (6.2%)
 - `tool`: 5,554 tokens (1.9%)
-- `system-reminder`: 4,651 tokens (1.6%)
+- `system-reminder`: 4,524 tokens (1.5%)
