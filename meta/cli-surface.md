@@ -4,7 +4,7 @@
 
 - Commands: 26
 - Options: 59
-- Env vars: 404
+- Env vars: 406
 - Config keys: 507
 - Tools: 3
 - Skills: 0
@@ -254,6 +254,7 @@
 - `CHOKIDAR_USEPOLLING`
 - `CIRCLECI`
 - `CLAUBBIT`
+- `CLAUDE_AGENT_SDK_CLIENT_APP`
 - `CLAUDE_AGENT_SDK_DISABLE_BUILTIN_AGENTS`
 - `CLAUDE_AGENT_SDK_MCP_NO_PREFIX`
 - `CLAUDE_AGENT_SDK_VERSION`
@@ -288,6 +289,7 @@
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
 - `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`
+- `CLAUDE_CODE_DISABLE_FAST_MODE`
 - `CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY`
 - `CLAUDE_CODE_DISABLE_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
@@ -829,6 +831,7 @@
 - `isImage`
 - `isSynthetic`
 - `keywords`
+- `Ky`
 - `label`
 - `language`
 - `lastModified`
@@ -949,7 +952,6 @@
 - `query`
 - `question`
 - `questions`
-- `qy`
 - `rawOutputPath`
 - `readOnly`
 - `reason`
