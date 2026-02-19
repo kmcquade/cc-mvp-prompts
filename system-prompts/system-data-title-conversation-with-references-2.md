@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Create a strict word-count conversation title using recent messages and workspace reference context.
 
 ## Placeholder Hints (source-backed)
 
@@ -24,17 +24,8 @@ Multiple prompts (2)
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
-| `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
-| `EXPR_18` | None | None |
-| `EXPR_19` | None | None |
 
 # Raw Prompt Text
-"
-
-'
-
 Please write a ${NUM}-${NUM} word title for the following conversation:
 
 [Last ${EXPR_1} of ${EXPR_2} messages]
@@ -73,15 +64,3 @@ ${EXPR_14}
 <html>
 
 <${PATH}>
-
-Found ${EXPR_15} references across ${EXPR_16} files:
-
---files
-
---follow
-
---hidden
-
-Found ${EXPR_17} references across ${EXPR_18} files:
-
-Found ${EXPR_19} symbols in workspace:
