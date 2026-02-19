@@ -22,6 +22,6 @@ ${EXPR_2}
 To set up the shortcut (optional):
 ${NUM}. Exit tmux${PATH} temporarily
 ${NUM}. Run ${PATH} directly in one of these terminals:
-local   • IDE: VSCode, Cursor, Windsurf
+global   • IDE: VSCode, Cursor, Windsurf
    • Other: Ghostty, WezTerm
 ${NUM}. Return to tmux${PATH} - settings will persist
