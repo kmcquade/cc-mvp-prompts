@@ -5,7 +5,7 @@
 - Commands: 15
 - Options: 28
 - Env vars: 210
-- Config keys: 155
+- Config keys: 157
 - Tools: 0
 - Skills: 0
 - Models: 28
@@ -376,6 +376,7 @@
 - `expires_in`
 - `extensions`
 - `filePath`
+- `forceLoginMethod`
 - `grant_types`
 - `grant_types_supported`
 - `hasMore`
@@ -397,6 +398,7 @@
 - `jsonrpc`
 - `jwks`
 - `jwks_uri`
+- `learnMode`
 - `libvips`
 - `line`
 - `lineEnd`
