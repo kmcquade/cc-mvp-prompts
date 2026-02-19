@@ -17,7 +17,7 @@ _Sorted by init (newest first)._
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
 | [`system-prompt-run-bash-commands-safely.md`](../system-prompts/system-prompt-run-bash-commands-safely.md) | Run a bash command with directory checks, quoting rules, and configurable timeout. | 2,881 | 1.0.103 | 1.0.103 |
-| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.103 |
+| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.105 |
 | [`system-prompt-constants-groups-languages-values.md`](../system-prompts/system-prompt-constants-groups-languages-values.md) | Defines constant tokens for groups, languages, null markers, and window/lock states. | 287 | 1.0.102 | 1.0.102 |
 | [`system-prompt-submit-hook-type-guards.md`](../system-prompts/system-prompt-submit-hook-type-guards.md) | Type-checks a submit-hook value, allowing boolean, undefined, or number types only. | 185 | 1.0.102 | 1.0.102 |
 | [`system-prompt-stream-json-defaults.md`](../system-prompts/system-prompt-stream-json-defaults.md) | Truncated stream-json text mentioning null defaults and a submit-hook reference. | 137 | 1.0.102 | 1.0.102 |
@@ -30,7 +30,7 @@ _Sorted by init (newest first)._
 | [`system-prompt-repository-not-found.md`](../system-prompts/system-prompt-repository-not-found.md) | Reports that a repository was not found or access is denied. | 48 | 1.0.102 | 1.0.102 |
 | [`system-prompt-delegate-work-to-specialists.md`](../system-prompts/system-prompt-delegate-work-to-specialists.md) | Delegate multi-step tasks to specialized subagents and prefer direct search tools when appropriate. | 896 | 1.0.98 | 1.0.98 |
 | [`system-prompt-read-local-files-by-path.md`](../system-prompts/system-prompt-read-local-files-by-path.md) | Reads local filesystem files by absolute path with optional line ranges and image viewing. | 423 | 1.0.98 | 1.0.98 |
-| [`system-prompt-execute-slash-command.md`](../system-prompts/system-prompt-execute-slash-command.md) | Validate and run a specified slash command, listing limited available commands on failure. | 111 | 1.0.98 | 1.0.103 |
+| [`system-prompt-execute-slash-command.md`](../system-prompts/system-prompt-execute-slash-command.md) | Validate and run a specified slash command, listing limited available commands on failure. | 111 | 1.0.98 | 1.0.105 |
 | [`system-prompt-conversation-title-with-pattern-2.md`](../system-prompts/system-prompt-conversation-title-with-pattern-2.md) | Compose a NUM-NUM word conversation title from recent messages, matching EXPR_4 pattern. | 171 | 1.0.93 | 1.0.94 |
 | [`system-prompt-socat-tcp-to-unix-bridge.md`](../system-prompts/system-prompt-socat-tcp-to-unix-bridge.md) | Launches socat TCP listener to Unix socket, traps cleanup, then evals command | 112 | 1.0.93 | 1.0.93 |
 | [`system-prompt-pull-request-review-workflow-2.md`](../system-prompts/system-prompt-pull-request-review-workflow-2.md) | GitHub Actions PR-triggered workflow checks out code and runs Claude-based pull request review. | 512 | 1.0.91 | 1.0.91 |
@@ -117,7 +117,7 @@ _Sorted by init (newest first)._
 | [`tool-description-safe-bash-command-execution.md`](../system-prompts/tool-description-safe-bash-command-execution.md) | Execute bash in persistent session with directory verification, path quoting, and timeout limits | 701 | 1.0.103 | 1.0.103 |
 | [`tool-description-user-submit-hook-output-truncation.md`](../system-prompts/tool-description-user-submit-hook-output-truncation.md) | Wraps submitted user prompt in hook tags and appends truncation marker. | 36 | 1.0.102 | 1.0.102 |
 | [`tool-description-read-local-file-paths.md`](../system-prompts/tool-description-read-local-file-paths.md) | File-reading tool spec with absolute-path requirement, line limits, and image support. | 427 | 1.0.98 | 1.0.98 |
-| [`tool-description-execute-slash-command.md`](../system-prompts/tool-description-execute-slash-command.md) | Validate and run a specified slash command, listing limited available commands on failure. | 111 | 1.0.98 | 1.0.103 |
+| [`tool-description-execute-slash-command.md`](../system-prompts/tool-description-execute-slash-command.md) | Validate and run a specified slash command, listing limited available commands on failure. | 111 | 1.0.98 | 1.0.105 |
 | [`tool-description-view-update-privacy-settings.md`](../system-prompts/tool-description-view-update-privacy-settings.md) | View and update privacy settings. | 6 | 1.0.96 | 1.0.96 |
 | [`tool-description-list-todo-items.md`](../system-prompts/tool-description-list-todo-items.md) | Requests listing the current todo items. | 4 | 1.0.94 | 1.0.94 |
 | [`tool-description-structured-todo-list-guidelines.md`](../system-prompts/tool-description-structured-todo-list-guidelines.md) | Criteria for starting, updating, and avoiding a structured todo tool during coding sessions | 2,438 | 1.0.89 | 1.0.89 |
@@ -217,9 +217,9 @@ _Sorted by init (newest first)._
 | [`system-data-background-bash-status-summary.md`](../system-prompts/system-data-background-bash-status-summary.md) | Multiple prompts (5) | 101 | 1.0.94 | 1.0.94 |
 | [`system-data-expression-and-number-placeholders.md`](../system-prompts/system-data-expression-and-number-placeholders.md) | Template sequence of seventeen expression slots interleaved with repeated numeric placeholders. | 342 | 1.0.93 | 1.0.93 |
 | [`system-data-hidden-args-numeric-list.md`](../system-prompts/system-data-hidden-args-numeric-list.md) | Ten expression blocks separated by long numeric placeholders, ending with hidden args marker | 312 | 1.0.93 | 1.0.93 |
-| [`system-data-conversation-title-generator-variables-4.md`](../system-prompts/system-data-conversation-title-generator-variables-4.md) | Compose a word title from the last messages using multiple inserted sections. | 256 | 1.0.93 | 1.0.102 |
-| [`system-data-conversation-title-generator-variables-2.md`](../system-prompts/system-data-conversation-title-generator-variables-2.md) | Compose a word title from the last messages using multiple inserted sections. | 109 | 1.0.93 | 1.0.102 |
-| [`system-data-conversation-title-generator-variables-3.md`](../system-prompts/system-data-conversation-title-generator-variables-3.md) | Compose a word title from the last messages using multiple inserted sections. | 109 | 1.0.93 | 1.0.94 |
+| [`system-data-conversation-title-generator-variables-2.md`](../system-prompts/system-data-conversation-title-generator-variables-2.md) | Compose a word title from the last messages using multiple inserted sections. | 256 | 1.0.93 | 1.0.105 |
+| [`system-data-conversation-title-generator-variables-3.md`](../system-prompts/system-data-conversation-title-generator-variables-3.md) | Compose a word title from the last messages using multiple inserted sections. | 109 | 1.0.93 | 1.0.105 |
+| [`system-data-conversation-title-generator-variables-4.md`](../system-prompts/system-data-conversation-title-generator-variables-4.md) | Compose a word title from the last messages using multiple inserted sections. | 109 | 1.0.93 | 1.0.105 |
 | [`system-data-shell-and-docker-commands.md`](../system-prompts/system-data-shell-and-docker-commands.md) | Enumerates common system utilities and docker commands available. | 84 | 1.0.93 | 1.0.93 |
 | [`system-data-mention-triggered-github-workflow.md`](../system-prompts/system-data-mention-triggered-github-workflow.md) | Runs Claude Code action on issues or comments mentioning @claude, using Anthropic API key. | 520 | 1.0.91 | 1.0.91 |
 | [`system-data-background-bash-template-status.md`](../system-prompts/system-data-background-bash-template-status.md) | Extended placeholder template ending with a background bash command and status fields. | 330 | 1.0.91 | 1.0.98 |
@@ -292,7 +292,7 @@ _Sorted by init (newest first). Showing **22** reminders with more than **30** t
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.103 |
+| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.105 |
 | [`system-reminder-cli-security-safety-guidelines.md`](../system-prompts/system-reminder-cli-security-safety-guidelines.md) | CLI assistant guidelines for safe software help, refusals, and docs lookup instructions. | 2,914 | 1.0.98 | 1.0.98 |
 | [`system-reminder-background-bash-command-status-4.md`](../system-prompts/system-reminder-background-bash-command-status-4.md) | Background bash commands with status and related file listings. | 222 | 1.0.98 | 1.0.98 |
 | [`system-reminder-nudge-todo-tracking.md`](../system-prompts/system-reminder-nudge-todo-tracking.md) | Suggests using and cleaning up the todo list when it would help track progress. | 79 | 1.0.94 | 1.0.94 |
