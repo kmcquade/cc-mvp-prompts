@@ -35,6 +35,8 @@ chat:thinkingToggle
 
 chat:submit
 
+chat:newline
+
 chat:undo
 
 chat:externalEditor
