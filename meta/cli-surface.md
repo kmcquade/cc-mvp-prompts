@@ -5,7 +5,7 @@
 - Commands: 26
 - Options: 48
 - Env vars: 376
-- Config keys: 451
+- Config keys: 452
 - Tools: 3
 - Skills: 0
 - Models: 67
@@ -72,6 +72,7 @@
 - `uninstall <plugin>`
 - `update`
 - `update [name]`
+- `update <plugin>`
 - `validate <path>`
 
 ## Options
@@ -296,13 +297,13 @@
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SESSION_ID`
+- `CLAUDE_CODE_SHELL`
 - `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_FOUNDRY_AUTH`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
-- `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TEAM_LEAD_ID`
 - `CLAUDE_CODE_TEAM_NAME`
@@ -609,6 +610,7 @@
 - `cells`
 - `character`
 - `charset`
+- `checksum`
 - `claim_types_supported`
 - `claims_locales_supported`
 - `claims_parameter_supported`
@@ -692,7 +694,6 @@
 - `eventData`
 - `eventName`
 - `excludedCommands`
-- `exitCode`
 - `experimental`
 - `expires_in`
 - `extensions`
@@ -702,8 +703,8 @@
 - `fileCount`
 - `filenames`
 - `filePath`
+- `fileSuggestion`
 - `filesystem`
-- `filterPattern`
 - `flagSettings`
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
@@ -777,6 +778,8 @@
 - `lspServers`
 - `mandatoryDenySearchDepth`
 - `matcher`
+- `matches`
+- `max_results`
 - `maximum`
 - `maxLength`
 - `mcp_response`
@@ -908,8 +911,8 @@
 - `serverName`
 - `service_documentation`
 - `service_tier`
+- `settings`
 - `shell_id`
-- `shellId`
 - `skill`
 - `skills`
 - `skippedMarketplaces`
@@ -928,9 +931,7 @@
 - `statusLine`
 - `statusMessage`
 - `stderr`
-- `stderrLines`
 - `stdout`
-- `stdoutLines`
 - `stopReason`
 - `strictKnownMarketplaces`
 - `structuredContent`
@@ -952,7 +953,6 @@
 - `text`
 - `timeout`
 - `timeoutMs`
-- `timestamp`
 - `title`
 - `tls_client_certificate_bound_access_tokens`
 - `token`
@@ -971,6 +971,7 @@
 - `toolUseID`
 - `tos_uri`
 - `total`
+- `total_mcp_tools`
 - `totalDurationMs`
 - `totalLines`
 - `totalTokens`
@@ -993,6 +994,7 @@
 - `userinfo_signing_alg_values_supported`
 - `userModified`
 - `userSettings`
+- `uuid`
 - `value`
 - `values`
 - `version`
