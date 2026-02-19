@@ -11,71 +11,9 @@ Extract language and frameworks and return them in a strict JSON object.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
 
 # Raw Prompt Text
-api
-
---method
-
-PUT
-
-repos/${EXPR_1}${PATH}${EXPR_2}
-
--f
-
-message="Update ${EXPR_3}"
-
--f
-
-content=${EXPR_4}
-
--f
-
-branch=${EXPR_5}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-<!DOCTYPE html>
-
-<html>
-
-<${PATH}>
-
-${NUM}
+${EXPR_1}
 
 You are a framework and library detection assistant. Analyze the provided file content and identify:
 
