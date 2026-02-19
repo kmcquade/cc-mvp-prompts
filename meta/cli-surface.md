@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 10
+- Commands: 11
 - Options: 16
-- Env vars: 110
-- Config keys: 51
+- Env vars: 112
+- Config keys: 55
 - Tools: 0
 - Skills: 0
 - Models: 15
@@ -25,11 +25,12 @@
 - `rm`
 - `serve`
 - `set`
+- `update`
 
 ### Specs
 
+- `add [name] [command] [args...]`
 - `add <key> <value>`
-- `add <name> <command> [args...]`
 - `config`
 - `doctor`
 - `get <key>`
@@ -41,6 +42,7 @@
 - `rm <key> <value>`
 - `serve`
 - `set <key> <value>`
+- `update`
 
 ## Options
 
@@ -128,6 +130,8 @@
 - `GOOGLE_CLOUD_PROJECT`
 - `GOOGLE_CLOUD_QUOTA_PROJECT`
 - `HOME`
+- `HTTP_PROXY`
+- `HTTPS_PROXY`
 - `IBM_CLOUD_REGION`
 - `IGNORE_TEST_WIN32`
 - `K_CONFIGURATION`
@@ -194,13 +198,16 @@
 - `_meta`
 - `api`
 - `arguments`
+- `charset`
 - `code`
+- `compressible`
 - `content`
 - `costPriority`
 - `data`
 - `description`
 - `error`
 - `experimental`
+- `extensions`
 - `hasMore`
 - `hints`
 - `httpMethodsToRetry`
@@ -230,6 +237,7 @@
 - `role`
 - `roots`
 - `sampling`
+- `source`
 - `speedPriority`
 - `subscribe`
 - `text`
