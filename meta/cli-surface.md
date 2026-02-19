@@ -4,8 +4,8 @@
 
 - Commands: 26
 - Options: 59
-- Env vars: 398
-- Config keys: 496
+- Env vars: 397
+- Config keys: 499
 - Tools: 3
 - Skills: 0
 - Models: 79
@@ -172,7 +172,7 @@
 - `--no-session-persistence`
 - `--plugin-dir <paths...>`
 - `--replay-user-messages`
-- `--session-id <id>`
+- `--session-id <uuid>`
 - `--setting-sources <sources>`
 - `--settings <file-or-json>`
 - `--strict-mcp-config`
@@ -305,7 +305,6 @@
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
 - `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA`
 - `CLAUDE_CODE_ENTRYPOINT`
-- `CLAUDE_CODE_ENVIRONMENT_KIND`
 - `CLAUDE_CODE_ENVIRONMENT_RUNNER_VERSION`
 - `CLAUDE_CODE_EXIT_AFTER_FIRST_RENDER`
 - `CLAUDE_CODE_EXIT_AFTER_STOP_DELAY`
@@ -658,6 +657,7 @@
 - `blockedMarketplaces`
 - `blocks`
 - `bpfPath`
+- `bR`
 - `branch`
 - `bytes`
 - `cache_creation`
@@ -868,7 +868,6 @@
 - `noResponseRetries`
 - `notebook_path`
 - `notification_type`
-- `NR`
 - `num_turns`
 - `numFiles`
 - `numLines`
@@ -1029,11 +1028,14 @@
 - `systemMessage`
 - `tabId`
 - `task`
+- `task_description`
 - `task_id`
+- `task_subject`
 - `task_type`
 - `taskId`
 - `tasks`
 - `team_name`
+- `teammate_name`
 - `teamName`
 - `terminalTitleFromRename`
 - `text`
