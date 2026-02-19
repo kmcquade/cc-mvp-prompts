@@ -1,4 +1,4 @@
-# System Data Block: background-bash-status-format-2
+# System Data Block: two-background-bash-entries
 
 - Source: inline
 
