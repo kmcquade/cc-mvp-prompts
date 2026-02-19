@@ -16,45 +16,27 @@ Extract language and frameworks and return them in a strict JSON object.
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | true | None |
-| `EXPR_13` | true | None |
-| `EXPR_14` | false | None |
 
 # Raw Prompt Text
-${EXPR_1}
-
-${EXPR_2}
-
-${EXPR_3}
-
-${EXPR_4}
-
-${EXPR_5}
-
 api
 
 --method
 
 PUT
 
-repos/${EXPR_6}${PATH}${EXPR_7}
+repos/${EXPR_1}${PATH}${EXPR_2}
 
 -f
 
-message="Update ${EXPR_8}"
+message="Update ${EXPR_3}"
 
 -f
 
-content=${EXPR_9}
+content=${EXPR_4}
 
 -f
 
-branch=${EXPR_10}
+branch=${EXPR_5}
 
 ${NUM}
 
@@ -85,6 +67,10 @@ ${NUM}
 ${NUM}
 
 ${NUM}
+
+${NUM}
+
+${EXPR_6}
 
 ${NUM}
 
@@ -137,13 +123,3 @@ Rules:
 - Return ONLY the JSON, no explanation or additional text
 
 - For package.json files, language should be "javascript"
-
-${EXPR_11}
-
-stream-json
-
-${EXPR_12: true}
-
-${EXPR_13: true}
-
-${EXPR_14: false}
