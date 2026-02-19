@@ -5,7 +5,7 @@
 - Commands: 27
 - Options: 44
 - Env vars: 369
-- Config keys: 400
+- Config keys: 411
 - Tools: 3
 - Skills: 0
 - Models: 56
@@ -249,7 +249,6 @@
 - `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`
 - `CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY`
 - `CLAUDE_CODE_DISABLE_FILE_CHECKPOINTING`
-- `CLAUDE_CODE_DISABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 - `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
@@ -342,6 +341,7 @@
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_EXPERIMENTAL_MCP_CLI`
 - `ENABLE_LSP_TOOL`
+- `ENABLE_MCP_CLI_ENDPOINT`
 - `ENABLE_OVERFLOW_TEST_TOOL`
 - `ENABLE_TOOL_RESULT_SIZE_LIMIT`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
@@ -644,6 +644,8 @@
 - `dpop_signing_alg_values_supported`
 - `durationMs`
 - `durationSeconds`
+- `eagerLoadSettings_end`
+- `eagerLoadSettings_start`
 - `edit_mode`
 - `elicitation`
 - `email`
@@ -679,11 +681,15 @@
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
 - `format`
+- `fullName`
 - `generatedSizeBytes`
 - `gitCommitSha`
 - `grant_types`
 - `grant_types_supported`
 - `hasMore`
+- `hasPrompts`
+- `hasResources`
+- `hasTools`
 - `header`
 - `headers`
 - `headersHelper`
@@ -702,11 +708,13 @@
 - `idempotentHint`
 - `ideName`
 - `ideRunningInWindows`
+- `ignoreCase`
 - `ignoreViolations`
 - `includeCoAuthoredBy`
 - `initialWindowSize`
 - `input`
 - `input_tokens`
+- `inputSchema`
 - `installedAt`
 - `installLocation`
 - `installPath`
@@ -785,6 +793,7 @@
 - `padding`
 - `params`
 - `path`
+- `pattern`
 - `permissionDecision`
 - `permissionDecisionReason`
 - `permissionMode`
@@ -855,6 +864,7 @@
 - `selection`
 - `server`
 - `server_tool_use`
+- `serverInfo`
 - `serverName`
 - `service_documentation`
 - `service_tier`
@@ -904,6 +914,7 @@
 - `token_endpoint_auth_signing_alg_values_supported`
 - `token_type`
 - `token_type_hint`
+- `tool`
 - `tool_name`
 - `tool_use_id`
 - `toolName`
