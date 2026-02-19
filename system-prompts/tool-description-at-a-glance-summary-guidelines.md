@@ -13,8 +13,6 @@ Draft NUM-part Claude Code “At a Glance” usage insights: working, hindrances
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 You're writing an "At a Glance" summary for a Claude Code usage insights report for Claude Code users. The goal is to help them understand their usage and improve how they can use Claude better, especially as models improve.
@@ -43,16 +41,16 @@ SESSION DATA:
 ${EXPR_1}
 
 ## Project Areas (what user works on)
-${EXPR_2}
+@anthropic-ai${PATH}
 
 ## Big Wins (impressive accomplishments)
- (PID ${EXPR_3})
+ (PID ${EXPR_2})
 
 ## Friction Categories (where things go wrong)
-${EXPR_4}s
+ANTHROPIC_API_KEY
 
 ## Features to Try
-${EXPR_5}
+${EXPR_3}
 
 ## Usage Patterns to Adopt
 unknown
