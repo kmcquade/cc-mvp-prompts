@@ -48,7 +48,3 @@ brightWhite
 brightCyan
 
 brightMagenta
-
-${URL}
-
-${URL}
