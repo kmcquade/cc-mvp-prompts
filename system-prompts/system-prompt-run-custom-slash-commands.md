@@ -12,7 +12,6 @@ Explains running only listed custom slash commands and how their prompts expand.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Execute a slash command within the main conversation
@@ -30,7 +29,7 @@ IMPORTANT: Only use this tool for custom slash commands that appear in the Avail
 - Commands you think might exist but aren't listed
 
 Available Commands:
-${EXPR_1}mcp__${EXPR_2}__${EXPR_3}
+${EXPR_1}${EXPR_2}
 Notes:
 - When a user requests multiple slash commands, execute each one sequentially and check for <command-message>{name} is running…<${PATH}> to verify each has been processed
 - Do not invoke a command that is already running. For example, if you see <command-message>foo is running…<${PATH}>, do NOT use this tool with "${PATH}" - process the expanded prompt in the following message
