@@ -12,22 +12,8 @@ Converts natural-language dates into ISO format strings, preferring future and r
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | stream-json | None |
-| `EXPR_10` | stream-json | None |
 
 # Raw Prompt Text
-${EXPR_1}
-
-${EXPR_2}
-
-${EXPR_3}
-
 You are a date${PATH} parser that converts natural language into ISO ${NUM} format.
 
 You MUST respond with ONLY the ISO ${NUM} formatted string, with no explanation or additional text.
@@ -44,16 +30,6 @@ Examples of INVALID input: partial dates like "${NUM}-${NUM}-", lone numbers lik
 
 Examples of valid natural language: "tomorrow", "next Monday", "jan 1st ${NUM}", "in ${NUM} hours", "yesterday".
 
-${EXPR_4}
+${EXPR_1}
 
-${EXPR_5}
-
-${EXPR_6}@${EXPR_7}
-
-success
-
-${EXPR_8}
-
-${EXPR_9: 'stream-json'}
-
-${EXPR_10: 'stream-json'}
+${EXPR_2}
