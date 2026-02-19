@@ -1,4 +1,4 @@
-# System Prompt: safe-bash-command-execution-2
+# System Prompt: safe-terminal-command-execution
 
 - Source: inline
 
