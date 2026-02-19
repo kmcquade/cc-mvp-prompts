@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 36
-- Env vars: 261
-- Config keys: 314
+- Env vars: 264
+- Config keys: 315
 - Tools: 3
 - Skills: 0
 - Models: 37
@@ -135,6 +135,7 @@
 - `ANTHROPIC_BASE_URL`
 - `ANTHROPIC_BETAS`
 - `ANTHROPIC_CUSTOM_HEADERS`
+- `ANTHROPIC_DEFAULT_HAIKU_MODEL`
 - `ANTHROPIC_DEFAULT_OPUS_MODEL`
 - `ANTHROPIC_DEFAULT_SONNET_MODEL`
 - `ANTHROPIC_LOG`
@@ -219,6 +220,7 @@
 - `DISABLE_ERROR_REPORTING`
 - `DISABLE_FEEDBACK_COMMAND`
 - `DISABLE_INSTALL_GITHUB_APP_COMMAND`
+- `DISABLE_INSTALLATION_CHECKS`
 - `DISABLE_INTERLEAVED_THINKING`
 - `DISABLE_LOGIN_COMMAND`
 - `DISABLE_LOGOUT_COMMAND`
@@ -345,6 +347,7 @@
 - `TENCENTCLOUD_ZONE`
 - `TERM`
 - `TERM_PROGRAM`
+- `TERM_PROGRAM_VERSION`
 - `TERMINAL_EMULATOR`
 - `TERMINATOR_UUID`
 - `TEST_ENABLE_SESSION_PERSISTENCE`
@@ -398,7 +401,6 @@
 - `additionalContext`
 - `additionalDirectories`
 - `allow`
-- `allowedWriteDirs`
 - `api`
 - `apiKeyHelper`
 - `args`
@@ -592,6 +594,7 @@
 - `properties`
 - `query`
 - `rawOutputPath`
+- `read`
 - `readOnlyHint`
 - `reason`
 - `redirect_uris`
@@ -704,6 +707,7 @@
 - `values`
 - `version`
 - `web_search_requests`
+- `write`
 
 ## Tools
 
