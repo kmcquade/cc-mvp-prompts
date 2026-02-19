@@ -3,8 +3,8 @@
 ## Summary
 
 - Commands: 20
-- Options: 37
-- Env vars: 304
+- Options: 38
+- Env vars: 305
 - Config keys: 364
 - Tools: 3
 - Skills: 0
@@ -85,6 +85,7 @@
 - `--mcp-config`
 - `--mcp-debug`
 - `--model`
+- `--plugin-dir`
 - `--print`
 - `--replay-user-messages`
 - `--resume`
@@ -119,6 +120,7 @@
 - `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
+- `--plugin-dir <paths...>`
 - `--replay-user-messages`
 - `--session-id <uuid>`
 - `--setting-sources <sources>`
@@ -401,6 +403,7 @@
 - `UNDICI_NO_FG`
 - `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
+- `USE_HAIKU_SESSION_MEMORY`
 - `USER`
 - `USERPROFILE`
 - `UV_THREADPOOL_SIZE`
