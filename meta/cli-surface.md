@@ -4,11 +4,11 @@
 
 - Commands: 16
 - Options: 37
-- Env vars: 267
+- Env vars: 269
 - Config keys: 327
 - Tools: 3
 - Skills: 0
-- Models: 37
+- Models: 39
 - Providers: 7
 
 ## Commands
@@ -166,6 +166,7 @@
 - `CHOKIDAR_USEPOLLING`
 - `CLAUBBIT`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
+- `CLAUDE_BASH_NO_LOGIN`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
@@ -239,8 +240,8 @@
 - `DISABLE_UPGRADE_COMMAND`
 - `DYNO`
 - `EDITOR`
+- `ENABLE_BASH_WRAPPER_MATCHING`
 - `ENABLE_PLUGINS`
-- `ENABLE_SESSION_PERSISTENCE`
 - `FLY_REGION`
 - `FORCE_CODE_TERMINAL`
 - `FUNCTION_NAME`
@@ -362,6 +363,7 @@
 - `UNDICI_NO_FG`
 - `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
+- `USER`
 - `USERPROFILE`
 - `UV_THREADPOOL_SIZE`
 - `V`
@@ -759,6 +761,7 @@ _None detected_
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-jetbrains-plugin`
+- `claude-code-user`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
@@ -774,6 +777,7 @@ _None detected_
 - `claude-settings`
 - `claude-sonnet-4`
 - `claude-sonnet-4-20250514`
+- `claude-vscode`
 - `sonnet-1m-welcome`
 
 ## Providers

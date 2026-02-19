@@ -1,4 +1,4 @@
-# Claude Code 1.0.123 – Flags
+# Claude Code 1.0.124 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -17,8 +17,8 @@
 | `tengu_ant_prompts` | gate | networking | Selects an alternate fetch implementation for CLI API requests when enabled. | Currently unreachable because the controlling variable is set to false. | medium | 1 |
 | `tengu_auto_checkpointing` | gate | ui | Enables showing autocheckpointing availability in the config panel when not disabled by env | Only seen wired into config UI state. | medium | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 2 |
-| `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |
+| `tengu_feedback_survey_config` | config |  |  |  |  | 1 |
 | `tengu_native_installation` | gate | filesystem | Controls whether CLI creates/uses native launcher script when claude.sh missing | Inference based on file checks and symlink creation logic. | medium | 1 |
 | `tengu_show_all_subscription_types` | gate | ui | Enable displaying all subscription types in a setup or login flow UI | Exact UI/flow unclear from limited snippet. | medium | 1 |
-| `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |
+| `tengu_spinner_words` | config |  |  |  |  | 1 |
 | `tengu_use_file_checkpoints` | gate | filesystem | Enables restoring conversation or code using file-based checkpoints in message selector | Only declared here; actual conditional behavior not shown. | medium | 1 |
