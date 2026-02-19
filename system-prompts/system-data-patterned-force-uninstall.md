@@ -23,6 +23,14 @@ Defines a pattern-driven global forced uninstall template with repeated numeric 
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
 
 # Raw Prompt Text
 pattern: "${EXPR_1}"
@@ -51,7 +59,11 @@ ${EXPR_12}
 
 ${EXPR_13}
 
-${NUM}
+${EXPR_14}
+
+${EXPR_15}
+
+${EXPR_16}
 
 ${NUM}
 
@@ -83,13 +95,17 @@ ${NUM}
 
 ${NUM}
 
-${PATH}
+${NUM}
 
-${PATH}
+${EXPR_17}
 
-${PATH}
+${EXPR_18}
 
-${PATH}
+${EXPR_19}
+
+${EXPR_20}
+
+${EXPR_21}
 
 uninstall
 
