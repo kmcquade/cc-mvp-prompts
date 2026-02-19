@@ -1,4 +1,4 @@
-# System Prompt: sandbox-temp-directory-rules
+# System Prompt: sandbox-tmpdir-temporary-files
 
 - Source: inline
 
