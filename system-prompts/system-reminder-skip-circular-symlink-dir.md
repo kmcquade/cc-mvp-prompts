@@ -10,7 +10,7 @@ Skip directory traversal because a circular symlink path was already visited.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Skipping already visited directory (circular symlink): ${EXPR_1}
