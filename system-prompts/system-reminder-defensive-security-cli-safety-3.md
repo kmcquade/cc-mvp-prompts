@@ -184,7 +184,7 @@ null
 ${EXPR_18}
 
 # Language
-Always respond in ${PATH} Use ${PATH} for all explanations, comments, and communications with the user. Technical terms and code identifiers should remain in their original form.
+Always respond in  by a managed settings file. Use  by a managed settings file for all explanations, comments, and communications with the user. Technical terms and code identifiers should remain in their original form.
 
 # Output Style: ${EXPR_19}
 ${EXPR_20}
