@@ -25,6 +25,8 @@ Delegate multi-step tasks to specialized subagents and prefer direct search tool
 Launch a new agent to handle complex, multi-step tasks autonomously.
 
 Available agent types and the tools they have access to:
+${URL}
+${URL}
 ${EXPR_1}
 
 When using the Task tool, you must specify a subagent_type parameter to select which agent type to use.
