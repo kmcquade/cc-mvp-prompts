@@ -1,10 +1,9 @@
-# Prompt Stats 0.2.99
+# Prompt Stats 0.2.100
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
 | system | [System Prompt: Bash Command Prefix Detection](../system-prompts/system-prompt-bash-command-prefix-detection.md) | 2455 | 671 | 0.2.83 | 0.2.83 |
 | system | [System Prompt: Batch Invocations Guide](../system-prompts/system-prompt-batch-invocations-guide.md) | 1103 | 308 | 0.2.42 | 0.2.83 |
-| system | [System Prompt: Cheerful Gerund Status Word](../system-prompts/system-prompt-cheerful-gerund-status-word.md) | 750 | 177 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Cite With Limited Quotes](../system-prompts/system-prompt-cite-with-limited-quotes.md) | 549 | 140 | 0.2.40 | 0.2.92 |
 | system | [System Prompt: Classify Bash Command Prefix](../system-prompts/system-prompt-classify-bash-command-prefix.md) | 148 | 33 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Cli Guidelines](../system-prompts/system-prompt-cli-guidelines.md) | 893 | 224 | 0.2.9 | 0.2.9 |
@@ -12,8 +11,8 @@
 | system | [System Prompt: Command Metadata Tags](../system-prompts/system-prompt-command-metadata-tags.md) | 127 | 52 | 0.2.30 | 0.2.62 |
 | system | [System Prompt: Concise Github Issue Titles](../system-prompts/system-prompt-concise-github-issue-titles.md) | 549 | 129 | 0.2.47 | 0.2.47 |
 | system | [System Prompt: Continue Last Task](../system-prompts/system-prompt-continue-last-task.md) | 175 | 38 | 0.2.54 | 0.2.54 |
-| system | [System Prompt: Conversation Development Summary](../system-prompts/system-prompt-conversation-development-summary.md) | 4367 | 1035 | 0.2.56 | 0.2.99 |
-| system | [System Prompt: Conversation Development Summary 2](../system-prompts/system-prompt-conversation-development-summary-2.md) | 4405 | 1046 | 0.2.60 | 0.2.99 |
+| system | [System Prompt: Conversation Development Summary](../system-prompts/system-prompt-conversation-development-summary.md) | 4405 | 1046 | 0.2.60 | 0.2.100 |
+| system | [System Prompt: Conversation Development Summary 2](../system-prompts/system-prompt-conversation-development-summary-2.md) | 4367 | 1035 | 0.2.56 | 0.2.100 |
 | system | [System Prompt: Conversation Title Only](../system-prompts/system-prompt-conversation-title-only.md) | 369 | 110 | 0.2.99 | 0.2.99 |
 | system | [System Prompt: Conversation Title Only Output](../system-prompts/system-prompt-conversation-title-only-output.md) | 153 | 47 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Create Md Guidelines](../system-prompts/system-prompt-create-md-guidelines.md) | 779 | 218 | 0.2.59 | 0.2.59 |
@@ -43,22 +42,23 @@
 | system | [System Prompt: Summarize Shell Command](../system-prompts/system-prompt-summarize-shell-command.md) | 304 | 78 | 0.2.59 | 0.2.59 |
 | system | [System Prompt: Title With Files Context](../system-prompts/system-prompt-title-with-files-context.md) | 165 | 46 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Update Memory File](../system-prompts/system-prompt-update-memory-file.md) | 518 | 118 | 0.2.54 | 0.2.54 |
+| system | [System Prompt: Whimsical Safe Status Gerund](../system-prompts/system-prompt-whimsical-safe-status-gerund.md) | 750 | 177 | 0.2.91 | 0.2.100 |
 | system | [System Prompt: Write Conversation Title](../system-prompts/system-prompt-write-conversation-title.md) | 146 | 41 | 0.2.93 | 0.2.98 |
 | system | [System Prompt: Write Conversation Title 10](../system-prompts/system-prompt-write-conversation-title-10.md) | 147 | 42 | 0.2.91 | 0.2.99 |
-| system | [System Prompt: Write Conversation Title 2](../system-prompts/system-prompt-write-conversation-title-2.md) | 159 | 48 | 0.2.91 | 0.2.99 |
-| system | [System Prompt: Write Conversation Title 3](../system-prompts/system-prompt-write-conversation-title-3.md) | 158 | 49 | 0.2.91 | 0.2.99 |
-| system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 159 | 48 | 0.2.91 | 0.2.99 |
-| system | [System Prompt: Write Conversation Title 5](../system-prompts/system-prompt-write-conversation-title-5.md) | 181 | 62 | 0.2.91 | 0.2.98 |
-| system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 158 | 48 | 0.2.91 | 0.2.99 |
-| system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 147 | 42 | 0.2.91 | 0.2.99 |
-| system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 369 | 110 | 0.2.99 | 0.2.99 |
-| system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 159 | 48 | 0.2.91 | 0.2.99 |
+| system | [System Prompt: Write Conversation Title 2](../system-prompts/system-prompt-write-conversation-title-2.md) | 159 | 48 | 0.2.91 | 0.2.100 |
+| system | [System Prompt: Write Conversation Title 3](../system-prompts/system-prompt-write-conversation-title-3.md) | 181 | 62 | 0.2.91 | 0.2.100 |
+| system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 158 | 49 | 0.2.91 | 0.2.100 |
+| system | [System Prompt: Write Conversation Title 5](../system-prompts/system-prompt-write-conversation-title-5.md) | 369 | 110 | 0.2.99 | 0.2.100 |
+| system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 159 | 48 | 0.2.91 | 0.2.100 |
+| system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 158 | 48 | 0.2.91 | 0.2.100 |
+| system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 147 | 42 | 0.2.91 | 0.2.100 |
+| system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 159 | 48 | 0.2.91 | 0.2.100 |
 | system | [System Prompt: Write Title For Conversation](../system-prompts/system-prompt-write-title-for-conversation.md) | 161 | 46 | 0.2.91 | 0.2.91 |
 | system-data | [System Data: Append Memory Entry](../system-prompts/system-data-append-memory-entry.md) | 93 | 37 | 0.2.54 | 0.2.54 |
 | system-data | [System Data: Cli Branding Colors](../system-prompts/system-data-cli-branding-colors.md) | 278 | 83 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 230 | 75 | 0.2.9 | 0.2.99 |
-| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 241 | 82 | 0.2.25 | 0.2.99 |
-| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 219 | 68 | 0.2.9 | 0.2.99 |
+| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 219 | 68 | 0.2.9 | 0.2.100 |
+| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 241 | 82 | 0.2.25 | 0.2.100 |
 | system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 241 | 82 | 0.2.25 | 0.2.99 |
 | system-data | [System Data: Cloud Throttling Exception Names](../system-prompts/system-data-cloud-throttling-exception-names.md) | 322 | 93 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Keywords List](../system-prompts/system-data-csharp-keywords-list.md) | 419 | 113 | 0.2.9 | 0.2.9 |
