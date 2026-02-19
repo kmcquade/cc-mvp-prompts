@@ -16,9 +16,9 @@ Sandbox policy denying by default, allowing process control and whitelisted Mach
 # Raw Prompt Text
 (version ${NUM})
 
-(deny default (with message "${EXPR_1}"))
+(deny default (with message " (PID ${EXPR_1})"))
 
-; LogTag: ${EXPR_2}
+; LogTag:  (PID ${EXPR_2})
 
 ; Essential permissions - based on Chrome sandbox policy
 
