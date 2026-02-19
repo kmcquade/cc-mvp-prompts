@@ -10,22 +10,26 @@ Execute a bash command with directory checks, timeouts, truncation limits, and b
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | 30000 | None |
-| `EXPR_2` | GrepTool | None |
-| `EXPR_3` | GlobTool | None |
-| `EXPR_4` | dispatch_agent | None |
-| `EXPR_5` | View | None |
-| `EXPR_6` | LS | None |
-| `EXPR_7` | BatchTool | None |
-| `EXPR_8` | BatchTool | None |
-| `EXPR_9` | Claude Code | None |
-| `EXPR_10` | https://claude.ai/code | None |
-| `EXPR_11` | Claude Code | None |
-| `EXPR_12` | https://claude.ai/code | None |
-| `EXPR_13` | BatchTool | None |
-| `EXPR_14` | BatchTool | None |
+| `EXPR_1` | 600000 | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | 120000 | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | 30000 | None |
+| `EXPR_6` | GrepTool | None |
+| `EXPR_7` | GlobTool | None |
+| `EXPR_8` | dispatch_agent | None |
+| `EXPR_9` | View | None |
+| `EXPR_10` | LS | None |
+| `EXPR_11` | BatchTool | None |
+| `EXPR_12` | BatchTool | None |
+| `EXPR_13` | Claude Code | None |
+| `EXPR_14` | https://claude.ai/code | None |
 | `EXPR_15` | Claude Code | None |
 | `EXPR_16` | https://claude.ai/code | None |
+| `EXPR_17` | BatchTool | None |
+| `EXPR_18` | BatchTool | None |
+| `EXPR_19` | Claude Code | None |
+| `EXPR_20` | https://claude.ai/code | None |
 
 # Raw Prompt Text
 Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
@@ -42,10 +46,10 @@ ${NUM}. Command Execution:
 
 Usage notes:
   - The command argument is required.
-  - You can specify an optional timeout in milliseconds (up to 600000ms / ${NUM} minutes). If not specified, commands will timeout after ${NUM} minutes.
+  - You can specify an optional timeout in milliseconds (up to ${EXPR_1: 600000}ms / ${EXPR_2} minutes). If not specified, commands will timeout after ${EXPR_3: 120000}ms (${EXPR_4} minutes).
   - It is very helpful if you write a clear, concise description of what this command does in ${NUM}-${NUM} words.
-  - If the output exceeds ${EXPR_1: 30000} characters, output will be truncated before being returned to you.
-  - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use ${EXPR_2: 'GrepTool'}, ${EXPR_3: 'GlobTool'}, or ${EXPR_4: 'dispatch_agent'} to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use ${EXPR_5: 'View'} and ${EXPR_6: 'LS'} to read files.
+  - If the output exceeds ${EXPR_5: 30000} characters, output will be truncated before being returned to you.
+  - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use ${EXPR_6: 'GrepTool'}, ${EXPR_7: 'GlobTool'}, or ${EXPR_8: 'dispatch_agent'} to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use ${EXPR_9: 'View'} and ${EXPR_10: 'LS'} to read files.
   - When issuing multiple commands, use the ';' or '&&' operator to separate them. DO NOT use newlines (newlines are ok in quoted strings).
   - Try to maintain your current working directory throughout the session by using absolute paths and avoiding usage of `cd`. You may use `cd` if the User explicitly requests it.
     <good-example>
@@ -116,7 +120,7 @@ Use sandbox=true to improve UX, but ONLY per the rules above. WHEN IN DOUBT, USE
 
 When the user asks you to create a new git commit, follow these steps carefully:
 
-${NUM}. Use ${EXPR_7: 'BatchTool'} to run the following commands in parallel:
+${NUM}. Use ${EXPR_11: 'BatchTool'} to run the following commands in parallel:
    - Run a git status command to see all untracked files.
    - Run a git diff command to see both staged and unstaged changes that will be committed.
    - Run a git log command to see recent commit messages, so that you can follow this repository's commit message style.
@@ -136,10 +140,10 @@ ${NUM}. Analyze all staged changes (both previously staged and newly added) and 
 - Review the draft message to ensure it accurately reflects the changes and their purpose
 <${PATH}>
 
-${NUM}. Use ${EXPR_8: 'BatchTool'} to run the following commands in parallel:
+${NUM}. Use ${EXPR_12: 'BatchTool'} to run the following commands in parallel:
    - Add relevant untracked files to the staging area.
    - Create the commit with a message ending with:
-   🤖 Generated with [${EXPR_9: 'Claude Code'}](${EXPR_10: 'https://claude.ai/code'})
+   🤖 Generated with [${EXPR_13: 'Claude Code'}](${EXPR_14: 'https://claude.ai/code'})
 
    Co-Authored-By: Claude <noreply@anthropic.com>
    - Run git status to make sure the commit succeeded.
@@ -160,7 +164,7 @@ Important notes:
 git commit -m "$(cat <<'EOF'
    Commit message here.
 
-   🤖 Generated with [${EXPR_11: 'Claude Code'}](${EXPR_12: 'https://claude.ai/code'})
+   🤖 Generated with [${EXPR_15: 'Claude Code'}](${EXPR_16: 'https://claude.ai/code'})
 
    Co-Authored-By: Claude <noreply@anthropic.com>
    EOF
@@ -172,7 +176,7 @@ Use the gh command via the Bash tool for ALL GitHub-related tasks including work
 
 IMPORTANT: When the user asks you to create a pull request, follow these steps carefully:
 
-${NUM}. Use ${EXPR_13: 'BatchTool'} to run the following commands in parallel, in order to understand the current state of the branch since it diverged from the main branch:
+${NUM}. Use ${EXPR_17: 'BatchTool'} to run the following commands in parallel, in order to understand the current state of the branch since it diverged from the main branch:
    - Run a git status command to see all untracked files
    - Run a git diff command to see both staged and unstaged changes that will be committed
    - Check if the current branch tracks a remote branch and is up to date with the remote, so you know if you need to push to the remote
@@ -195,7 +199,7 @@ ${NUM}. Analyze all changes that will be included in the pull request, making su
 - Review the draft summary to ensure it accurately reflects the changes and their purpose
 <${PATH}>
 
-${NUM}. Use ${EXPR_14: 'BatchTool'} to run the following commands in parallel:
+${NUM}. Use ${EXPR_18: 'BatchTool'} to run the following commands in parallel:
    - Create new branch if needed
    - Push to remote with -u flag if needed
    - Create PR using gh pr create with the format below. Use a HEREDOC to pass the body to ensure correct formatting.
@@ -207,7 +211,7 @@ gh pr create --title "the pr title" --body "$(cat <<'EOF'
 ## Test plan
 [Checklist of TODOs for testing the pull request...]
 
-🤖 Generated with [${EXPR_15: 'Claude Code'}](${EXPR_16: 'https://claude.ai/code'})
+🤖 Generated with [${EXPR_19: 'Claude Code'}](${EXPR_20: 'https://claude.ai/code'})
 EOF
 )"
 <${PATH}>
