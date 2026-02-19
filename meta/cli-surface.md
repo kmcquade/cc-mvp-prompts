@@ -4,11 +4,11 @@
 
 - Commands: 14
 - Options: 20
-- Env vars: 155
-- Config keys: 127
+- Env vars: 156
+- Config keys: 129
 - Tools: 0
 - Skills: 0
-- Models: 20
+- Models: 21
 - Providers: 7
 
 ## Commands
@@ -175,6 +175,7 @@
 - `K_SERVICE`
 - `KITTY_WINDOW_ID`
 - `KONSOLE_VERSION`
+- `LOCALAPPDATA`
 - `MAX_THINKING_TOKENS`
 - `MCP_TIMEOUT`
 - `MCP_TOOL_TIMEOUT`
@@ -260,6 +261,7 @@
 - `args`
 - `arguments`
 - `authorization_endpoint`
+- `behavior`
 - `character`
 - `charset`
 - `client_id`
@@ -373,6 +375,7 @@
 - `tos_uri`
 - `total`
 - `type`
+- `updatedInput`
 - `uri`
 - `uriTemplate`
 - `url`
@@ -404,6 +407,7 @@ _None detected_
 - `claude-cli`
 - `claude-code`
 - `claude-code-20250219`
+- `claude-code-jetbrains-plugin`
 - `claude-code.vsix`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
