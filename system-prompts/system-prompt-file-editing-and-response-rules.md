@@ -4,12 +4,20 @@
 
 ## Summary
 
-Guidelines to avoid creating files, prefer edits, and use absolute paths without emojis.
+System rules: avoid creating files, require absolute paths, no emojis, no docs.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 ${URL}
 
 ${URL}
+
+${EXPR_1}
 
 
 
