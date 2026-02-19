@@ -4,21 +4,22 @@
 
 ## Summary
 
-Multiple prompts (2)
+Answer strictly from provided web content with capped quotes and no song lyrics.
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Web page content:
 ---
-${PATH}
+mcp__${EXPR_1}__${EXPR_2}
 ---
 
-${EXPR_1}
+${PATH}
 
 Provide a concise response based only on the content above. In your response:
  - Enforce a strict ${NUM}-character maximum for quotes from any source document. Open Source Software is ok as long as we respect the license.
