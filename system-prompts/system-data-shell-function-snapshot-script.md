@@ -7,7 +7,7 @@
 Bash snippet that snapshots functions and shell options into a file using base64-encoded eval.
 
 # Raw Prompt Text
-echo "# Functions" >> $SNAPSHOT_FILE
+echo "# Functions" >> "$SNAPSHOT_FILE"
 
       # Force autoload all functions first
       declare -f > ${PATH} ${NUM}>&${NUM}
@@ -17,10 +17,10 @@ echo "# Functions" >> $SNAPSHOT_FILE
         # Encode the function to base64, preserving all special characters
         encoded_func=$(declare -f "$func" | base64 )
         # Write the function definition to the snapshot
-        echo "eval \"\$(echo '$encoded_func' | base64 -d)\" > ${PATH} ${NUM}>&${NUM}" >> $SNAPSHOT_FILE
+        echo "eval \"\$(echo '$encoded_func' | base64 -d)\" > ${PATH} ${NUM}>&${NUM}" >> "$SNAPSHOT_FILE"
       done
 
-      echo "# Shell Options" >> $SNAPSHOT_FILE
-      shopt -p | head -n ${NUM} >> $SNAPSHOT_FILE
-      set -o | grep "on" | awk '{print "set -o " $${NUM}}' | head -n ${NUM} >> $SNAPSHOT_FILE
-      echo "shopt -s expand_aliases" >> $SNAPSHOT_FILE
+      echo "# Shell Options" >> "$SNAPSHOT_FILE"
+      shopt -p | head -n ${NUM} >> "$SNAPSHOT_FILE"
+      set -o | grep "on" | awk '{print "set -o " $${NUM}}' | head -n ${NUM} >> "$SNAPSHOT_FILE"
+      echo "shopt -s expand_aliases" >> "$SNAPSHOT_FILE"
