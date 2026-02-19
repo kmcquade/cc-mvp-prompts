@@ -23,7 +23,7 @@ ${NUM}. Complex multi-step tasks - When a task requires ${NUM} or more distinct 
 ${NUM}. Non-trivial and complex tasks - Tasks that require careful planning or multiple operations
 ${NUM}. User explicitly requests todo list - When the user directly asks you to use the todo list
 ${NUM}. User provides multiple tasks - When users provide a list of things to be done (numbered or comma-separated)
-${NUM}. After receiving new instructions - Immediately capture user requirements as todos
+${NUM}. After receiving new instructions - Immediately capture user requirements as todos. Feel free to edit the todo list based on new information.
 ${NUM}. After completing a task - Mark it complete and add any new follow-up tasks
 ${NUM}. When you start working on a new task, mark the todo as in_progress. Ideally you should only have one todo as in_progress at a time. Complete existing tasks before starting new ones.
 
@@ -38,6 +38,25 @@ ${NUM}. The task is purely conversational or informational
 NOTE that you should use should not use this tool if there is only one trivial task to do. In this case you are better off just doing the task directly.
 
 ## Examples of When to Use the Todo List
+
+<example>
+User: I want to add a dark mode toggle to the application settings. Make sure you run the tests and build when you're done!
+Assistant: I'll help add a dark mode toggle to your application settings. Let me create a todo list to track this implementation.
+*Creates todo list with the following items:*
+${NUM}. Create dark mode toggle component in Settings page
+${NUM}. Add dark mode state management (context${PATH})
+${NUM}. Implement CSS-in-JS styles for dark theme
+${NUM}. Update existing components to support theme switching
+${NUM}. Run tests and build process, addressing any failures or errors that occur
+*Begins working on the first task*
+
+<reasoning>
+The assistant used the todo list because:
+${NUM}. Adding dark mode is a multi-step feature requiring UI, state management, and styling changes
+${NUM}. The user explicitly requested tests and build be run afterward
+${NUM}. The assistant inferred that tests and build need to pass by adding "Ensure tests and build succeed" as the final task
+<${PATH}>
+<${PATH}>
 
 <example>
 User: Help me rename the function getCwd to getCurrentWorkingDirectory across my project
