@@ -1,4 +1,4 @@
-# System Prompt: conversation-development-summary
+# System Prompt: dev-conversation-summary-2
 
 - Source: inline
 
