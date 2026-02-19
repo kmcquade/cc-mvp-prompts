@@ -11,14 +11,19 @@ Synthesize multiple agents’ analyses into one unified, contradiction-resolved 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | json | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
-Original task: ${EXPR_1}
+${EXPR_1}${EXPR_2: 'json'}${EXPR_3} ${EXPR_4}${EXPR_5}:Original task: ${EXPR_6}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
-${EXPR_2}
+${EXPR_7}
 
 Based on all the information provided by these agents, synthesize a comprehensive and cohesive response that:
 ${NUM}. Combines the key insights from all agents
