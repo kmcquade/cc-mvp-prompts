@@ -2,8 +2,8 @@
 
 ## Summary
 
-- Commands: 13
-- Options: 17
+- Commands: 12
+- Options: 16
 - Env vars: 113
 - Config keys: 60
 - Tools: 0
@@ -24,7 +24,6 @@
 - `list`
 - `mcp`
 - `remove`
-- `rm`
 - `serve`
 - `set`
 - `update`
@@ -32,7 +31,7 @@
 ### Specs
 
 - `add [name] [command] [args...]`
-- `add <key> <value>`
+- `add <key> <values...>`
 - `add-from-claude-desktop`
 - `add-json <name> <json>`
 - `config`
@@ -41,9 +40,8 @@
 - `get <name>`
 - `list`
 - `mcp`
-- `remove <key>`
+- `remove <key> [values...]`
 - `remove <name>`
-- `rm <key> <value>`
 - `serve`
 - `set <key> <value>`
 - `update`
@@ -56,7 +54,6 @@
 - `--cwd`
 - `--dangerously-skip-permissions`
 - `--debug`
-- `--enable-architect`
 - `--env`
 - `--global`
 - `--mcp-debug`
@@ -79,7 +76,6 @@
 - `-c, --cwd <cwd>`
 - `-d, --debug`
 - `-e, --env <env...>`
-- `-ea, --enable-architect`
 - `-g, --global`
 - `-p, --print`
 - `-s, --scope <scope>`

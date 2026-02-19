@@ -1,14 +1,14 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **101**
+- Total prompt files: **95**
 
 ## Categories
 
-- System prompts (25)
-- Tool prompts (23)
-- System data (53)
+- System prompts (23)
+- Tool prompts (21)
+- System data (51)
 
-## System prompts (25)
+## System prompts (23)
 
 _Sorted by last edit (newest first)._
 
@@ -20,14 +20,12 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-organize-project-memories-file-2.md`](../system-prompts/system-prompt-organize-project-memories-file-2.md) | Update or add memories in CLAUDE.md, grouped by global preferences and project sections. | 340 | 0.2.36 | 0.2.36 |
 | [`system-prompt-initial-git-status-snapshot-2.md`](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | Record initial git status snapshot, including current branch and main branch names. | 89 | 0.2.36 | 0.2.36 |
 | [`system-prompt-continue-from-prior-session.md`](../system-prompts/system-prompt-continue-from-prior-session.md) | Resumes work using a provided summary from a previous context-limited conversation. | 36 | 0.2.36 | 0.2.36 |
-| [`system-prompt-blocked-directory-change-security.md`](../system-prompts/system-prompt-blocked-directory-change-security.md) | Security error stating cd blocked unless within original working directory child paths. | 57 | 0.2.33 | 0.2.33 |
 | [`system-prompt-bash-command-prefix-detection.md`](../system-prompts/system-prompt-bash-command-prefix-detection.md) | Define command prefix extraction and injection detection with illustrative shell command examples. | 658 | 0.2.30 | 0.2.30 |
 | [`system-prompt-command-metadata-tags.md`](../system-prompts/system-prompt-command-metadata-tags.md) | Multiple prompts (2) | 52 | 0.2.30 | 0.2.30 |
 | [`system-prompt-delegated-search-guidance.md`](../system-prompts/system-prompt-delegated-search-guidance.md) | Instruct when to launch a search agent versus using direct file or grep tools. | 432 | 0.2.18 | 0.2.18 |
 | [`system-prompt-fetch-pr-comments.md`](../system-prompts/system-prompt-fetch-pr-comments.md) | Fetch PR-level and review comments via gh API, then format threads with diffs. | 444 | 0.2.9 | 0.2.9 |
 | [`system-prompt-review-github-pull-request.md`](../system-prompts/system-prompt-review-github-pull-request.md) | Use GitHub CLI to list/view PRs, fetch diff, and deliver structured code review. | 233 | 0.2.9 | 0.2.9 |
 | [`system-prompt-cli-guidelines.md`](../system-prompts/system-prompt-cli-guidelines.md) | Instruct Claude Code to reply briefly with absolute paths and relevant snippets. | 224 | 0.2.9 | 0.2.9 |
-| [`system-prompt-actionable-software-architecture-plans.md`](../system-prompts/system-prompt-actionable-software-architecture-plans.md) | Instructions to produce specific implementation plans without writing code. | 186 | 0.2.9 | 0.2.9 |
 | [`system-prompt-create-md-guide.md`](../system-prompts/system-prompt-create-md-guide.md) | Generate or improve a CLAUDE.md with build commands and code style rules. | 162 | 0.2.9 | 0.2.9 |
 | [`system-prompt-delphi-ui-components-list.md`](../system-prompts/system-prompt-delphi-ui-components-list.md) | Lists UI component class names and checklist states. | 148 | 0.2.9 | 0.2.9 |
 | [`system-prompt-extract-command-file-paths.md`](../system-prompts/system-prompt-extract-command-file-paths.md) | Extract verbatim file paths read or modified by a command. | 143 | 0.2.9 | 0.2.9 |
@@ -40,7 +38,7 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 0.2.9 |
 | [`system-prompt-classify-bash-command-prefix.md`](../system-prompts/system-prompt-classify-bash-command-prefix.md) | Determine the appropriate prefix for bash commands requested by a coding agent. | 33 | 0.2.9 | 0.2.9 |
 
-## Tool prompts (23)
+## Tool prompts (21)
 
 _Sorted by last edit (newest first)._
 
@@ -58,26 +56,25 @@ _Sorted by last edit (newest first)._
 | [`tool-description-fast-glob-file-matching.md`](../system-prompts/tool-description-fast-glob-file-matching.md) | Finds files by glob patterns and returns paths sorted by modification time. | 84 | 0.2.9 | 0.2.9 |
 | [`tool-description-write-file-to-disk.md`](../system-prompts/tool-description-write-file-to-disk.md) | Writes a file to the local filesystem, overwriting if it exists. | 84 | 0.2.9 | 0.2.9 |
 | [`tool-description-read-jupyter-notebook-cells.md`](../system-prompts/tool-description-read-jupyter-notebook-cells.md) | Loads an ipynb from an absolute path and returns cells with outputs. | 62 | 0.2.9 | 0.2.9 |
-| [`tool-description-technical-planning-and-implementation-steps.md`](../system-prompts/tool-description-technical-planning-and-implementation-steps.md) | Breaks technical tasks into clear requirements and actionable implementation steps. | 51 | 0.2.9 | 0.2.9 |
 | [`tool-description-install-shift-enter-binding.md`](../system-prompts/tool-description-install-shift-enter-binding.md) | Installs a Shift+Enter key binding for newlines in supported terminals and editors. | 20 | 0.2.9 | 0.2.9 |
 | [`tool-description-show-session-cost-and-duration.md`](../system-prompts/tool-description-show-session-cost-and-duration.md) | Displays the current session total cost and duration. | 10 | 0.2.9 | 0.2.9 |
 | [`tool-description-check-health.md`](../system-prompts/tool-description-check-health.md) | Checks the health of a Claude Code installation. | 9 | 0.2.9 | 0.2.9 |
 | [`tool-description-clear-history-keep-summary.md`](../system-prompts/tool-description-clear-history-keep-summary.md) | Clears conversation history while retaining a summary in context. | 9 | 0.2.9 | 0.2.9 |
-| [`tool-description-show-release-notes.md`](../system-prompts/tool-description-show-release-notes.md) | Shows release notes for the current or specified version. | 9 | 0.2.9 | 0.2.9 |
 | [`tool-description-sign-in-anthropic-account.md`](../system-prompts/tool-description-sign-in-anthropic-account.md) | Signs in using an Anthropic account. | 8 | 0.2.9 | 0.2.9 |
 | [`tool-description-sign-out-anthropic-account.md`](../system-prompts/tool-description-sign-out-anthropic-account.md) | Signs out from an Anthropic account. | 8 | 0.2.9 | 0.2.9 |
 | [`tool-description-clear-conversation-history.md`](../system-prompts/tool-description-clear-conversation-history.md) | Clears conversation history to free up context. | 7 | 0.2.9 | 0.2.9 |
 | [`tool-description-show-help-and-commands.md`](../system-prompts/tool-description-show-help-and-commands.md) | Displays help text and available commands. | 5 | 0.2.9 | 0.2.9 |
 | [`tool-description-submit-feedback.md`](../system-prompts/tool-description-submit-feedback.md) | Submits user feedback about Claude Code. | 5 | 0.2.9 | 0.2.9 |
 
-## System data (53)
+## System data (51)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-typed-stan-template-snippet.md`](../system-prompts/system-data-typed-stan-template-snippet.md) | Lists basic type keywords, Stan block labels, and inserts paths and usage examples. | 143 | 0.2.36 | 0.2.36 |
-| [`system-data-stan-blocks-template-snippet.md`](../system-prompts/system-data-stan-blocks-template-snippet.md) | Stan model block template with file paths and twelve expression-driven documentation fields | 127 | 0.2.36 | 0.2.36 |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.37 |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.37 |
+| [`system-data-typed-stan-template-snippet.md`](../system-prompts/system-data-typed-stan-template-snippet.md) | Lists basic type keywords, Stan block labels, and inserts paths and usage examples. | 122 | 0.2.37 | 0.2.37 |
 | [`system-data-placeholder-array-paths-exprs.md`](../system-prompts/system-data-placeholder-array-paths-exprs.md) | Bracketed list of four path-prefixed expression pairs plus a trailing expression | 109 | 0.2.36 | 0.2.36 |
 | [`system-data-placeholder-object-paths-exprs.md`](../system-prompts/system-data-placeholder-object-paths-exprs.md) | Braced object literal with four path-expression pairs and trailing expression placeholder | 108 | 0.2.36 | 0.2.36 |
 | [`system-data-dom-exception-messages-codes.md`](../system-prompts/system-data-dom-exception-messages-codes.md) | DOM exception names with placeholder numeric codes and messages. | 532 | 0.2.33 | 0.2.33 |
@@ -88,9 +85,6 @@ _Sorted by last edit (newest first)._
 | [`system-data-html-block-elements-list.md`](../system-prompts/system-data-html-block-elements-list.md) | List of uppercase HTML structural and block-level tag names. | 148 | 0.2.33 | 0.2.33 |
 | [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 0.2.32 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 235 | 0.2.30 | 0.2.30 |
-| [`system-data-cell-tag-template.md`](../system-prompts/system-data-cell-tag-template.md) | XML-like cell tag with multiple dynamic attributes and nested path element. | 86 | 0.2.30 | 0.2.30 |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 0.2.27 |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 0.2.27 |
 | [`system-data-mapped-valid-disallowed-std.md`](../system-prompts/system-data-mapped-valid-disallowed-std.md) | Repeated tokens for mapped and valid with disallowed std markers and ignored numbers. | 211,885 | 0.2.9 | 0.2.9 |
 | [`system-data-wolfram-language-symbols-list.md`](../system-prompts/system-data-wolfram-language-symbols-list.md) | Alphabetical list of Wolfram Language built-in symbol names. | 35,789 | 0.2.9 | 0.2.9 |
 | [`system-data-stan-functions-reference-list.md`](../system-prompts/system-data-stan-functions-reference-list.md) | Partial catalog of Stan math, RNG, and distribution functions. | 2,155 | 0.2.9 | 0.2.9 |
