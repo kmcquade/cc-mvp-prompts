@@ -1,6 +1,5 @@
-# System Reminder: detect-conversation-features
+# System Prompt: detect-interaction-features
 
-- Source: inline
 
 ## Summary
 
