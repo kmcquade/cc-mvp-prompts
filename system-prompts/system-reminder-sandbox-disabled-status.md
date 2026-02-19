@@ -1,0 +1,10 @@
+# System Reminder: sandbox-disabled-status
+
+- Source: inline
+
+## Summary
+
+Indicates the sandbox is disabled.
+
+# Raw Prompt Text
+○ Sandbox disabled
