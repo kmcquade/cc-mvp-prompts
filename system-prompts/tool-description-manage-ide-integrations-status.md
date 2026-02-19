@@ -1,4 +1,4 @@
-# Tool Description: manage-ide-integrations
+# Tool Description: manage-ide-integrations-status
 
 - Name: ide
 
