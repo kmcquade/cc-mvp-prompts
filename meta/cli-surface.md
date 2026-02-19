@@ -5,7 +5,7 @@
 - Commands: 14
 - Options: 17
 - Env vars: 124
-- Config keys: 61
+- Config keys: 64
 - Tools: 5
 - Skills: 0
 - Models: 16
@@ -216,6 +216,7 @@
 ## Config Keys
 
 - `_meta`
+- `allow`
 - `api`
 - `args`
 - `arguments`
@@ -249,6 +250,7 @@
 - `name`
 - `noResponseRetries`
 - `params`
+- `permissions`
 - `progress`
 - `progressToken`
 - `prompt`
@@ -262,6 +264,7 @@
 - `role`
 - `roots`
 - `sampling`
+- `server`
 - `source`
 - `speedPriority`
 - `subscribe`
