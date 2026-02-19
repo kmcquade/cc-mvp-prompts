@@ -5,10 +5,10 @@
 - Commands: 16
 - Options: 35
 - Env vars: 250
-- Config keys: 296
+- Config keys: 306
 - Tools: 3
 - Skills: 0
-- Models: 34
+- Models: 37
 - Providers: 7
 
 ## Commands
@@ -402,6 +402,7 @@
 - `bearer_methods_supported`
 - `behavior`
 - `bytes`
+- `cache_creation`
 - `cache_creation_input_tokens`
 - `cache_read_input_tokens`
 - `cell_id`
@@ -439,7 +440,9 @@
 - `defaultMode`
 - `deny`
 - `description`
+- `destination`
 - `destructiveHint`
+- `directories`
 - `disableAllHooks`
 - `disableBypassPermissionsMode`
 - `disabledMcpjsonServers`
@@ -459,6 +462,8 @@
 - `enum`
 - `enumNames`
 - `env`
+- `ephemeral_1h_input_tokens`
+- `ephemeral_5m_input_tokens`
 - `error`
 - `error_description`
 - `error_uri`
@@ -528,6 +533,7 @@
 - `mimeType`
 - `minimum`
 - `minLength`
+- `mode`
 - `model`
 - `name`
 - `new_source`
@@ -600,6 +606,8 @@
 - `revocation_endpoint_auth_signing_alg_values_supported`
 - `role`
 - `roots`
+- `ruleContent`
+- `rules`
 - `sampling`
 - `sandbox`
 - `scope`
@@ -648,6 +656,7 @@
 - `token_type_hint`
 - `tool_name`
 - `tool_use_id`
+- `toolName`
 - `tools`
 - `tos_uri`
 - `total`
@@ -661,6 +670,7 @@
 - `ui_locales_supported`
 - `updated_at`
 - `updatedInput`
+- `updatedPermissions`
 - `uri`
 - `url`
 - `usage`
@@ -694,13 +704,16 @@ _None detected_
 - `claude-3-5-haiku`
 - `claude-3-5-haiku-20241022`
 - `claude-3-5-sonnet`
+- `claude-3-5-sonnet-20240620`
 - `claude-3-5-sonnet-20241022`
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
+- `claude-3-opus-20240229`
 - `claude-3-sonnet-20240229`
 - `claude-4-opus-20250514`
 - `claude-ai-external-token`
 - `claude-cli`
+- `claude-cli-native-`
 - `claude-code`
 - `claude-code-20250219`
 - `claude-code-jetbrains-plugin`
