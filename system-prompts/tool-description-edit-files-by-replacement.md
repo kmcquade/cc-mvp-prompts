@@ -10,10 +10,10 @@ Edit files by exact string replacement with path checks, context viewing, and re
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | NotebookEditTool | None |
+| `EXPR_1` | NotebookEdit | None |
 
 # Raw Prompt Text
-This is a tool for editing files. For moving or renaming files, you should generally use the Bash tool with the 'mv' command instead. For larger edits, use the Write tool to overwrite files. For Jupyter notebooks (.ipynb files), use the ${EXPR_1: 'NotebookEditTool'} instead.
+This is a tool for editing files. For moving or renaming files, you should generally use the Bash tool with the 'mv' command instead. For larger edits, use the Write tool to overwrite files. For Jupyter notebooks (.ipynb files), use the ${EXPR_1: 'NotebookEdit'} instead.
 
 Before using this tool:
 
