@@ -10,9 +10,9 @@ Template block listing available deferred tools and a configurable path tag.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | false | None |
 
 # Raw Prompt Text
 <available-deferred-tools>
-${EXPR_1}
+${EXPR_1: false}
 <${PATH}>
