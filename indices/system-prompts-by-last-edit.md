@@ -1,12 +1,12 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **195**
+- Total prompt files: **192**
 
 ## Categories
 
 - System prompts (66)
 - Tool prompts (34)
-- System data (63)
+- System data (60)
 - System reminders (32)
 
 ## System prompts (66)
@@ -15,26 +15,27 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-edit-files-minimal-changes.md`](../system-prompts/system-prompt-edit-files-minimal-changes.md) | Use Claude Code tools to fulfill user tasks, avoid new files, share absolute paths. | 162 | 1.0.6 | 1.0.6 |
+| [`system-prompt-cite-with-limited-quotes-2.md`](../system-prompts/system-prompt-cite-with-limited-quotes-2.md) | Answer strictly from provided web content with capped quotes and no song lyrics. | 135 | 0.2.123 | 1.0.6 |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Answer strictly from provided web content with capped quotes and no song lyrics. | 135 | 0.2.123 | 1.0.6 |
+| [`system-prompt-update-memory-file.md`](../system-prompts/system-prompt-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 1.0.6 |
+| [`system-prompt-write-conversation-title-4.md`](../system-prompts/system-prompt-write-conversation-title-4.md) | Generate a NUM-to-NUM word conversation title, output title only. | 87 | 0.2.101 | 1.0.6 |
+| [`system-prompt-write-conversation-title-6.md`](../system-prompts/system-prompt-write-conversation-title-6.md) | Create a word-limited title summarizing the provided conversation snippet from a file update. | 73 | 1.0.6 | 1.0.6 |
+| [`system-prompt-write-conversation-title-2.md`](../system-prompts/system-prompt-write-conversation-title-2.md) | Generate a …-… word title summarizing the provided conversation text. | 62 | 0.2.91 | 1.0.6 |
+| [`system-prompt-write-conversation-title-13.md`](../system-prompts/system-prompt-write-conversation-title-13.md) | Generate a …-… word title summarizing the provided conversation text. | 43 | 0.2.123 | 1.0.6 |
+| [`system-prompt-write-conversation-title-12.md`](../system-prompts/system-prompt-write-conversation-title-12.md) | Multiple prompts (4) | 42 | 0.2.92 | 1.0.6 |
+| [`system-prompt-write-conversation-title-3.md`](../system-prompts/system-prompt-write-conversation-title-3.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.113 | 1.0.6 |
+| [`system-prompt-write-conversation-title-7.md`](../system-prompts/system-prompt-write-conversation-title-7.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.123 | 1.0.6 |
+| [`system-prompt-write-conversation-title-9.md`](../system-prompts/system-prompt-write-conversation-title-9.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.91 | 1.0.6 |
+| [`system-prompt-write-conversation-title-10.md`](../system-prompts/system-prompt-write-conversation-title-10.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 1.0.6 |
+| [`system-prompt-write-conversation-title-11.md`](../system-prompts/system-prompt-write-conversation-title-11.md) | Multiple prompts (4) | 41 | 0.2.91 | 1.0.6 |
+| [`system-prompt-write-conversation-title-8.md`](../system-prompts/system-prompt-write-conversation-title-8.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 1.0.6 |
 | [`system-prompt-conversation-development-summary.md`](../system-prompts/system-prompt-conversation-development-summary.md) | Multiple prompts (2) | 1,046 | 0.2.60 | 1.0.5 |
 | [`system-prompt-conversation-development-summary-2.md`](../system-prompts/system-prompt-conversation-development-summary-2.md) | Multiple prompts (2) | 1,035 | 0.2.56 | 1.0.5 |
-| [`system-prompt-update-memory-file.md`](../system-prompts/system-prompt-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 1.0.5 |
-| [`system-prompt-write-conversation-title-3.md`](../system-prompts/system-prompt-write-conversation-title-3.md) | Generate a NUM-to-NUM word conversation title, output title only. | 87 | 0.2.101 | 1.0.5 |
-| [`system-prompt-write-conversation-title-9.md`](../system-prompts/system-prompt-write-conversation-title-9.md) | Generate a …-… word title summarizing the provided conversation text. | 62 | 0.2.91 | 1.0.5 |
 | [`system-prompt-write-conversation-title.md`](../system-prompts/system-prompt-write-conversation-title.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 1.0.5 |
-| [`system-prompt-write-conversation-title-12.md`](../system-prompts/system-prompt-write-conversation-title-12.md) | Generate a …-… word title summarizing the provided conversation text. | 43 | 0.2.123 | 1.0.5 |
-| [`system-prompt-write-conversation-title-2.md`](../system-prompts/system-prompt-write-conversation-title-2.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.123 | 1.0.5 |
-| [`system-prompt-write-conversation-title-7.md`](../system-prompts/system-prompt-write-conversation-title-7.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.91 | 1.0.5 |
-| [`system-prompt-write-conversation-title-8.md`](../system-prompts/system-prompt-write-conversation-title-8.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.113 | 1.0.5 |
-| [`system-prompt-write-conversation-title-11.md`](../system-prompts/system-prompt-write-conversation-title-11.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 1.0.5 |
-| [`system-prompt-write-conversation-title-4.md`](../system-prompts/system-prompt-write-conversation-title-4.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 1.0.5 |
-| [`system-prompt-write-conversation-title-6.md`](../system-prompts/system-prompt-write-conversation-title-6.md) | Multiple prompts (4) | 41 | 0.2.91 | 1.0.5 |
 | [`system-prompt-secure-bash-sandbox-runner.md`](../system-prompts/system-prompt-secure-bash-sandbox-runner.md) | Run a bash command in persistent sandbox with directory checks and timeouts. | 3,127 | 1.0.4 | 1.0.4 |
 | [`system-prompt-cli-launcher-fallback-symlinks.md`](../system-prompts/system-prompt-cli-launcher-fallback-symlinks.md) | Shell launcher picks latest symlink, falling back to known-good after failed attempt. | 577 | 1.0.4 | 1.0.4 |
 | [`system-prompt-read-file-absolute-path.md`](../system-prompts/system-prompt-read-file-absolute-path.md) | Read files by absolute path with line limits, numbering, and image support. | 367 | 1.0.4 | 1.0.4 |
-| [`system-prompt-cli-guidelines.md`](../system-prompts/system-prompt-cli-guidelines.md) | Instruct Claude Code to reply briefly with absolute paths and relevant snippets. | 224 | 1.0.4 | 1.0.4 |
-| [`system-prompt-cite-with-limited-quotes-2.md`](../system-prompts/system-prompt-cite-with-limited-quotes-2.md) | Answer strictly from provided web content with capped quotes and no song lyrics. | 135 | 0.2.123 | 1.0.4 |
-| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Answer strictly from provided web content with capped quotes and no song lyrics. | 135 | 0.2.123 | 1.0.4 |
-| [`system-prompt-write-conversation-title-10.md`](../system-prompts/system-prompt-write-conversation-title-10.md) | Multiple prompts (4) | 42 | 0.2.92 | 1.0.4 |
 | [`system-prompt-write-conversation-title-5.md`](../system-prompts/system-prompt-write-conversation-title-5.md) | Produce a fixed-length title summarizing the provided conversation, outputting only the title. | 46 | 0.2.104 | 1.0.3 |
 | [`system-prompt-multi-edit-single-file.md`](../system-prompts/system-prompt-multi-edit-single-file.md) | Instructions for a multi-replace tool to apply multiple exact edits to one file. | 631 | 1.0.0 | 1.0.0 |
 | [`system-prompt-git-status-session-start.md`](../system-prompts/system-prompt-git-status-session-start.md) | Record initial git status snapshot, including current branch and main branch names. | 72 | 0.2.123 | 1.0.0 |
@@ -79,7 +80,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-extract-command-file-paths.md`](../system-prompts/system-prompt-extract-command-file-paths.md) | Extract verbatim file paths read or modified by a command. | 143 | 0.2.9 | 0.2.9 |
 | [`system-prompt-select-core-frequently-modified-files.md`](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | Choose five diverse frequently modified core-logic filenames from git history stats. | 90 | 0.2.9 | 0.2.9 |
 | [`system-prompt-detect-new-topic-title.md`](../system-prompts/system-prompt-detect-new-topic-title.md) | Detect whether a message starts a new topic and extract a short title. | 85 | 0.2.9 | 0.2.9 |
-| [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 0.2.9 |
 | [`system-prompt-classify-bash-command-prefix.md`](../system-prompts/system-prompt-classify-bash-command-prefix.md) | Determine the appropriate prefix for bash commands requested by a coding agent. | 33 | 0.2.9 | 0.2.9 |
 
 ## Tool prompts (34)
@@ -123,7 +123,7 @@ _Sorted by last edit (newest first)._
 | [`tool-description-show-help-and-commands.md`](../system-prompts/tool-description-show-help-and-commands.md) | Displays help text and available commands. | 5 | 0.2.9 | 0.2.9 |
 | [`tool-description-submit-feedback.md`](../system-prompts/tool-description-submit-feedback.md) | Submits user feedback about Claude Code. | 5 | 0.2.9 | 0.2.9 |
 
-## System data (63)
+## System data (60)
 
 _Sorted by last edit (newest first)._
 
@@ -140,9 +140,6 @@ _Sorted by last edit (newest first)._
 | [`system-data-app-settings-keys.md`](../system-prompts/system-data-app-settings-keys.md) | Lists configuration keys for updater, theme, notifications, and editor behavior. | 80 | 1.0.4 | 1.0.4 |
 | [`system-data-runtime-environment-details.md`](../system-prompts/system-data-runtime-environment-details.md) | Environment metadata: working directory, platform, OS version, date, model, and git repo status. | 74 | 1.0.4 | 1.0.4 |
 | [`system-data-http-request-timing-events.md`](../system-prompts/system-data-http-request-timing-events.md) | Provide HTTP request timing event markers from redirect start through response end. | 92 | 0.2.9 | 1.0.1 |
-| [`system-data-ascii-art-banner-one.md`](../system-prompts/system-data-ascii-art-banner-one.md) | ASCII art block content. | 5,571 | 1.0.0 | 1.0.0 |
-| [`system-data-ascii-art-banner-two.md`](../system-prompts/system-data-ascii-art-banner-two.md) | ASCII art block content. | 2,657 | 1.0.0 | 1.0.0 |
-| [`system-data-ascii-art-banner-three.md`](../system-prompts/system-data-ascii-art-banner-three.md) | ASCII art block content. | 488 | 1.0.0 | 1.0.0 |
 | [`system-data-github-actions-mention-trigger.md`](../system-prompts/system-data-github-actions-mention-trigger.md) | Run Claude Code job in GitHub Actions when event text contains @claude mention. | 341 | 0.2.126 | 0.2.126 |
 | [`system-data-numeric-placeholder-list.md`](../system-prompts/system-data-numeric-placeholder-list.md) | Repeated numeric placeholders in a long list. | 573 | 0.2.125 | 0.2.125 |
 | [`system-data-http-header-field-list.md`](../system-prompts/system-data-http-header-field-list.md) | List of HTTP request and response header fields including CORS and CSP. | 501 | 0.2.125 | 0.2.125 |
@@ -199,7 +196,7 @@ _Sorted by last edit (newest first). Showing **12** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-update-memory-file.md`](../system-prompts/system-reminder-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 1.0.5 |
+| [`system-reminder-update-memory-file.md`](../system-prompts/system-reminder-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 1.0.6 |
 | [`system-reminder-cli-safety-guidelines.md`](../system-prompts/system-reminder-cli-safety-guidelines.md) | Interactive CLI system rules for safe assistance, refusing malicious requests, and help/feedback guidance. | 3,020 | 1.0.4 | 1.0.4 |
 | [`system-reminder-nested-underscore-template-functions.md`](../system-prompts/system-reminder-nested-underscore-template-functions.md) | Nested compiled template functions that concatenate output into a string buffer. | 134 | 0.2.54 | 1.0.4 |
 | [`system-reminder-respect-intentional-file-edits.md`](../system-prompts/system-reminder-respect-intentional-file-edits.md) | Multiple prompts (2) | 104 | 0.2.118 | 0.2.118 |
@@ -217,11 +214,11 @@ _Sorted by last edit (newest first). Showing **12** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-empty-existing-file-warning.md`](../system-prompts/system-reminder-empty-existing-file-warning.md) | Warns that a referenced file exists but has no contents. | 22 | 0.2.115 | 1.0.6 |
 | [`system-reminder-vt-compare-operators.md`](../system-prompts/system-reminder-vt-compare-operators.md) | List of vt comparison and range operators. | 14 | 1.0.5 | 1.0.5 |
 | [`system-reminder-new-diagnostics-detected.md`](../system-prompts/system-reminder-new-diagnostics-detected.md) | Reports newly detected diagnostic issues with a path placeholder. | 23 | 0.2.123 | 0.2.123 |
 | [`system-reminder-jt-join-type-options.md`](../system-prompts/system-reminder-jt-join-type-options.md) | Enumeration of JT join type options. | 18 | 0.2.119 | 0.2.119 |
 | [`system-reminder-call-error-result.md`](../system-prompts/system-reminder-call-error-result.md) | Template line reporting an error result from a specified tool call. | 13 | 0.2.119 | 0.2.119 |
-| [`system-reminder-empty-existing-file-warning.md`](../system-prompts/system-reminder-empty-existing-file-warning.md) | Warns that a referenced file exists but has no contents. | 22 | 0.2.115 | 0.2.115 |
 | [`system-reminder-relay-user-message-content.md`](../system-prompts/system-reminder-relay-user-message-content.md) | Introduces and includes the user’s message content verbatim. | 13 | 0.2.108 | 0.2.108 |
 | [`system-reminder-summarize-conversation.md`](../system-prompts/system-reminder-summarize-conversation.md) | Directs the assistant to summarize conversations. | 13 | 0.2.108 | 0.2.108 |
 | [`system-reminder-web-search.md`](../system-prompts/system-reminder-web-search.md) | Sets the assistant to perform web search tool use. | 11 | 0.2.108 | 0.2.108 |
