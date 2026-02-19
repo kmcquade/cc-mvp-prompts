@@ -1,4 +1,4 @@
-# System Prompt: sdk-docs-guide
+# System Prompt: docs-guide-2
 
 - Source: inline
 
