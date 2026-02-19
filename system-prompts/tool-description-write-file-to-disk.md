@@ -1,6 +1,6 @@
 # Tool Description: write-file-to-disk
 
-- Name: Replace
+- Name: Write
 
 ## Summary
 
