@@ -11,8 +11,8 @@ Report hook JSON output validation failure, showing error, expected schema, and 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | JSON stringified value | None |
-| `EXPR_3` | JSON stringified value | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Hook JSON output validation failed:
