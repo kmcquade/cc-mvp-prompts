@@ -15,8 +15,8 @@ Hidden section concatenating ten interpolated expressions in sequence for system
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | true | None |
-| `EXPR_7` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | false | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
@@ -34,9 +34,9 @@ ${EXPR_4}
 
 ${EXPR_5}
 
-${EXPR_6: true}
+${EXPR_6}
 
-${EXPR_7}
+${EXPR_7: false}
 
 ${EXPR_8}
 
