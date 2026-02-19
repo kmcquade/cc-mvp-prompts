@@ -4,9 +4,15 @@
 
 ## Summary
 
-Resumes work using a provided summary from a previous context-limited conversation.
+Continue a context-limited session using the provided prior conversation summary.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 This session is being continued from a previous conversation that ran out of context. The conversation is summarized below:
-project.
+${EXPR_1}.
 Please continue the conversation from where we left it off
