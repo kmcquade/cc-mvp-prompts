@@ -4,7 +4,7 @@
 
 ## Summary
 
-Reads local filesystem files by absolute path with optional line ranges and image viewing.
+File-reading tool spec with absolute-path requirement, line limits, and image support.
 
 ## Placeholder Hints (source-backed)
 
@@ -12,6 +12,7 @@ Reads local filesystem files by absolute path with optional line ranges and imag
 | --- | --- | --- |
 | `EXPR_1` | 2000 | None |
 | `EXPR_2` | 2000 | None |
+| `EXPR_3` | Bash | None |
 
 # Raw Prompt Text
 Reads a file from the local filesystem. You can access any file directly by using this tool.
@@ -26,6 +27,7 @@ Usage:
 - This tool allows Claude Code to read images (eg PNG, JPG, etc). When reading an image file the contents are presented visually as Claude Code is a multimodal LLM.
 - This tool can read PDF files (.pdf). PDFs are processed page by page, extracting both text and visual content for analysis.
 - This tool can read Jupyter notebooks (.ipynb files) and returns all cells with their outputs, combining code, text, and visualizations.
+- This tool can only read files, not directories. To read a directory, use an ls command via the ${EXPR_3: 'Bash'} tool.
 - You have the capability to call multiple tools in a single response. It is always better to speculatively read multiple files as a batch that are potentially useful.
 - You will regularly be asked to read screenshots. If the user provides a path to a screenshot ALWAYS use this tool to view the file at the path. This tool will work with all temporary file paths like ${PATH}
 - If you read a file that exists but has empty contents you will receive a system reminder warning in place of file contents.
