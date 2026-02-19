@@ -1,6 +1,6 @@
 # Tool Description: chrome-native-host-log
 
-- Name: firstParty
+- Name: 0
 
 ## Summary
 
