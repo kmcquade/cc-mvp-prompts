@@ -4,7 +4,7 @@
 
 - Commands: 16
 - Options: 35
-- Env vars: 253
+- Env vars: 252
 - Config keys: 308
 - Tools: 3
 - Skills: 0
@@ -337,7 +337,6 @@
 - `TERM_PROGRAM`
 - `TERMINAL_EMULATOR`
 - `TERMINATOR_UUID`
-- `TEST_ENABLE_SESSION_PERSISTENCE`
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
 - `UNDICI_NO_FG`
