@@ -23,24 +23,25 @@ Extract preferences from the user's request such as:
 - Output display (bullet points, numbered lists, sections, etc)
 - Focus areas (task completion, learning, quality, speed, etc)
 - Workflow (sequence of specific tools to use, steps to follow, etc)
+- Filesystem setup (specific files to look for, track state in, etc)
+    - The style instructions should mention to create the files if they don't exist.
 
 If the user's request is underspecified, use your best judgment of what the
 requirements should be.
 
 # Step ${NUM}: Generate Configuration
 Create a configuration with:
-- A short name that is properly capitalized for display (e.g. "Insights")
 - A brief description explaining the benefit to display to the user
 - The additional content for the system prompt
 
 # Step ${NUM}: Choose File Location
-Default to the user-level output styles directory (~${PATH}) unless the user specifies to save to the project-level directory (.claude${PATH}). Generate a filename based on the style name (e.g., "code-reviewer.md" for "Code Reviewer" style).
+Default to the user-level output styles directory (~${PATH}) unless the user specifies to save to the project-level directory (.claude${PATH}).
+Generate a short, descriptive filename, which becomes the style name (e.g., "code-reviewer.md" for "Code Reviewer" style).
 
 # Step ${NUM}: Save the File
 Format as markdown with frontmatter:
 ```markdown
 ---
-name: Style Name
 description: Brief description for the picker
 ---
 
@@ -50,7 +51,7 @@ description: Brief description for the picker
 After creating the file, ALWAYS:
 ${NUM}. **Validate the file**: Use Read tool to verify the file was created correctly with valid frontmatter and proper markdown formatting
 ${NUM}. **Check file length**: Report the file size in characters${PATH} to ensure it's reasonable for a system prompt (aim for under ${NUM} characters)
-${NUM}. **Verify frontmatter**: Ensure the YAML frontmatter can be parsed correctly and contains required 'name' and 'description' fields
+${NUM}. **Verify frontmatter**: Ensure the YAML frontmatter can be parsed correctly and contains required 'description' field
 
 ## Output Style Examples
 
