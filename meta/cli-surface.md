@@ -5,7 +5,7 @@
 - Commands: 14
 - Options: 37
 - Env vars: 275
-- Config keys: 347
+- Config keys: 349
 - Tools: 3
 - Skills: 0
 - Models: 44
@@ -407,6 +407,7 @@
 - `activeForm`
 - `additionalContext`
 - `additionalDirectories`
+- `agentId`
 - `agents`
 - `allow`
 - `allowLocalBinding`
@@ -493,6 +494,7 @@
 - `enableAllProjectMcpServers`
 - `enabledMcpjsonServers`
 - `enabledPlugins`
+- `enableWeakerNestedSandbox`
 - `end`
 - `enum`
 - `enumNames`
