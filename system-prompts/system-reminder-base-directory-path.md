@@ -11,9 +11,8 @@ Multiple prompts (2)
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Base directory for this skill: ${EXPR_1}
+Base directory for this skill: ${NUM}
 
-${EXPR_2}
+${EXPR_1}
