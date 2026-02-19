@@ -28,8 +28,8 @@ Uli multiline dotall template with tool usage, duration fields, and up/mid/down 
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
-| `EXPR_19` | None | None |
-| `EXPR_20` | Write | None |
+| `EXPR_19` | Write | None |
+| `EXPR_20` | None | None |
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
 | `EXPR_23` | None | None |
@@ -72,17 +72,19 @@ ${EXPR_17}
 
 ${EXPR_18}
 
-${EXPR_19}
+${EXPR_19: 'Write'}
 
-${EXPR_20: 'Write'}
+${EXPR_20}
 
 ${EXPR_21}
-
-${EXPR_22}
 
 -Uli
 
 --multiline-dotall
+
+${EXPR_22}
+
+${NUM}
 
 ${EXPR_23}
 
@@ -96,14 +98,12 @@ ${EXPR_27}
 
 ${EXPR_28}
 
-${EXPR_29}
-
 up
 
 mid
 
 down
 
-${EXPR_30}
+${EXPR_29}
 
-${EXPR_31}
+${EXPR_30}
