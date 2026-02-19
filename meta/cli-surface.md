@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 32
-- Env vars: 240
-- Config keys: 269
+- Env vars: 241
+- Config keys: 268
 - Tools: 3
 - Skills: 0
 - Models: 35
@@ -185,6 +185,7 @@
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
+- `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
 - `CLAUDE_CONFIG_DIR`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLOUD_ML_REGION`
@@ -482,7 +483,6 @@
 - `jwks`
 - `jwks_uri`
 - `language`
-- `learnMode`
 - `libvips`
 - `line`
 - `lineEnd`
@@ -522,7 +522,7 @@
 - `originalSize`
 - `otelHeadersHelper`
 - `output_tokens`
-- `outputMode`
+- `outputStyle`
 - `owner`
 - `padding`
 - `params`
