@@ -1,7 +1,7 @@
 # Tool Description: collaborative-learning-cli
 
 - Name: Learning
-- Description: Claude pauses and asks you to write small pieces of code for hands-on practice
+- Description: [DEPRECATED] Claude pauses and asks you to write small pieces of code for hands-on practice
 - Source: built-in
 
 ## Summary
