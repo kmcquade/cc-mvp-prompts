@@ -4,29 +4,16 @@
 
 ## Summary
 
-Declare CLI identity, enumerate style tokens, and append extra trailing data.
+Multiple prompts (3)
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | Claude Code | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-${PATH}
-
-${PATH}
-
-${PATH}
-
-${PATH}
-
-${PATH}
-
-${PATH}
-
-${PATH}
-
 You are ${EXPR_1: 'Claude Code'}, Anthropic's official CLI for Claude.
 
 underline
@@ -62,3 +49,5 @@ brightWhite
 brightCyan
 
 brightMagenta
+
+${EXPR_2}
