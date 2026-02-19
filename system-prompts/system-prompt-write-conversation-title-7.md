@@ -4,7 +4,7 @@
 
 ## Summary
 
-Generate a …-… word title summarizing the provided conversation text.
+Generate a concise NUM-NUM word title summarizing the provided conversation text.
 
 ## Placeholder Hints (source-backed)
 
@@ -14,10 +14,10 @@ Generate a …-… word title summarizing the provided conversation text.
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
-
-Please write a ${NUM}-${NUM} word title the following conversation:
+function ${EXPR_1}(${URL}){
+  Please write a ${NUM}-${NUM} word title the following conversation:
 
 ${EXPR_2}
 
-Respond with the title for the conversation and nothing else.
+  Respond with the title for the conversation and nothing else.
+}
