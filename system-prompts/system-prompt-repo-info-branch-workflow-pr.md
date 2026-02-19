@@ -10,10 +10,10 @@ Runs …, then gathers repo info, creates a branch, adds workflow, opens PR.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | claude-code-20250219 | None |
 
 # Raw Prompt Text
-${EXPR_1}
+${EXPR_1: 'claude-code-20250219'}
 
 Getting repository information
 
