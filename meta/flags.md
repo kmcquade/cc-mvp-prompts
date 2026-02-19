@@ -1,10 +1,9 @@
-# Claude Code 2.1.25 – Flags
+# Claude Code 2.1.26 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
 | `enhanced_telemetry_beta` | experiment | telemetry | Enables enhanced telemetry via env override, else uses remote experiment default. | Only shows gating logic; telemetry behavior not shown. | medium | 1 |
 | `tengu_attribution_header` | experiment | networking | Controls whether an attribution header string is included, overridable via environment variable. | Env var can force enable/disable. | high | 1 |
-| `tengu_bash_haiku_prefetch` | experiment | caching | Prefetches and reads referenced file paths after a bash command finishes. | Prefetch source of file paths depends on P42 output. | high | 1 |
 | `tengu_brass_pebble` | experiment | prompts | toggles whether certain model choices/descriptions appear in the CLI selection flow | Only a boolean gate near model strings is shown. | medium | 1 |
 | `tengu_c4w_usage_limit_notifications_enabled` | gate | ui | Controls enabling usage limit notifications, with special handling for team plans. | Only boolean gating logic is visible; notification behavior not shown. | medium | 1 |
 | `tengu_cache_plum_violet` | experiment | caching | Skips microcompact context management that caches tool results as attachments | Exact enable/disable direction unclear. | medium | 1 |

@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 26
-- Options: 53
-- Env vars: 410
-- Config keys: 400
+- Options: 55
+- Env vars: 416
+- Config keys: 401
 - Tools: 3
 - Skills: 0
 - Models: 80
@@ -49,7 +49,7 @@
 - `add-from-claude-desktop`
 - `add-json <name> <json>`
 - `call`
-- `disable <plugin>`
+- `disable [plugin]`
 - `doctor`
 - `enable <plugin>`
 - `get <name>`
@@ -82,6 +82,7 @@
 - `--add-dir`
 - `--agent`
 - `--agents`
+- `--all`
 - `--allow-dangerously-skip-permissions`
 - `--allowed-tools`
 - `--allowedTools`
@@ -123,6 +124,7 @@
 - `--tools`
 - `--transport`
 - `--verbose`
+- `-a`
 - `-c`
 - `-d`
 - `-e`
@@ -169,6 +171,7 @@
 - `--timeout <ms>`
 - `--tools <tools...>`
 - `--verbose`
+- `-a, --all`
 - `-c, --continue`
 - `-d, --debug`
 - `-d, --debug [filter]`
@@ -249,6 +252,7 @@
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_BASH_NO_LOGIN`
+- `CLAUDE_CHROME_PERMISSION_MODE`
 - `CLAUDE_CODE_ACCESSIBILITY`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD`
@@ -319,6 +323,7 @@
 - `CLAUDE_CODE_PLAN_MODE_REQUIRED`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
+- `CLAUDE_CODE_POST_FOR_SESSION_INGRESS`
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
 - `CLAUDE_CODE_REMOTE`
@@ -453,6 +458,8 @@
 - `KITTY_WINDOW_ID`
 - `KONSOLE_VERSION`
 - `KUBERNETES_SERVICE_HOST`
+- `LC_TERMINAL`
+- `LOCAL_BRIDGE`
 - `LOCALAPPDATA`
 - `MAX_MCP_OUTPUT_TOKENS`
 - `MAX_STRUCTURED_OUTPUT_RETRIES`
@@ -555,6 +562,7 @@
 - `UNDICI_NO_FG`
 - `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
+- `USE_LOCAL_OAUTH`
 - `USE_MCP_CLI_DIR`
 - `USER`
 - `USERNAME`
@@ -589,6 +597,7 @@
 - `XDG_RUNTIME_DIR`
 - `XTERM_VERSION`
 - `ZDOTDIR`
+- `ZED_TERM`
 - `ZEIT_BITBUCKET_COMMIT_SHA`
 - `ZEIT_GITHUB_COMMIT_SHA`
 - `ZEIT_GITLAB_COMMIT_SHA`
@@ -621,7 +630,6 @@
 - `allowWrite`
 - `alwaysThinkingEnabled`
 - `answers`
-- `api`
 - `apiKeyHelper`
 - `appliedLimit`
 - `appliedOffset`
@@ -678,7 +686,6 @@
 - `continue`
 - `created_at`
 - `createdAt`
-- `cu`
 - `dangerouslyDisableSandbox`
 - `data`
 - `decision`
@@ -740,6 +747,8 @@
 - `format`
 - `from`
 - `fullName`
+- `getOAuthToken`
+- `getUserId`
 - `gitCommitSha`
 - `gitDiff`
 - `hasPrompts`
@@ -810,7 +819,6 @@
 - `multiSelect`
 - `name`
 - `network`
-- `networkTimeoutMs`
 - `new_source`
 - `newContent`
 - `newLines`
@@ -902,6 +910,7 @@
 - `run_in_background`
 - `safeFlags`
 - `sandbox`
+- `SC`
 - `scope`
 - `seccomp`
 - `selection`
@@ -953,6 +962,7 @@
 - `tasks`
 - `team_name`
 - `teamName`
+- `terminalTitleFromRename`
 - `text`
 - `timeout`
 - `timeoutMs`
