@@ -71,6 +71,9 @@ ${NUM}. The statusLine command will receive the following JSON input via stdin:
          "cache_creation_input_tokens": number,  // Tokens written to cache
          "cache_read_input_tokens": number       // Tokens read from cache
        } | null
+     },
+     "vim": {                     // Optional, only present when vim mode is enabled
+       "mode": "INSERT" | "NORMAL"  // Current vim editor mode
      }
    }
 
