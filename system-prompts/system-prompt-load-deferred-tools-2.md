@@ -4,13 +4,7 @@
 
 ## Summary
 
-Requires loading deferred tools via keyword search or direct selection before calling them
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Search for or select deferred tools to make them available before calling.
 
 # Raw Prompt Text
 Search for or select deferred tools to make them available for use.
@@ -83,6 +77,3 @@ Assistant: [Calls ToolSearch with query: "slack", gets back mcp__slack__read_cha
 Assistant: [Calls ToolSearch with query: "select:mcp__slack__read_channel"]
 WRONG - The keyword search already loaded the tool. The select call is redundant.
 <${PATH}>
-
-Available deferred tools (must be loaded before use):
-${EXPR_1}
