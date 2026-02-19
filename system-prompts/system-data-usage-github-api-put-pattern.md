@@ -19,9 +19,9 @@ Usage output for updating a repo file via API with pattern and session options.
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
+| `EXPR_10` | structured-outputs-2025-11-13 | None |
 | `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
+| `EXPR_12` | structured-outputs-2025-11-13 | None |
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
@@ -33,7 +33,6 @@ Usage output for updating a repo file via API with pattern and session options.
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
 | `EXPR_23` | None | None |
-| `EXPR_24` | None | None |
 
 # Raw Prompt Text
 Usage: ${EXPR_1}
@@ -70,121 +69,105 @@ ${EXPR_8}
 
 ${EXPR_9}:
 
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
+${EXPR_10: 'structured-outputs-2025-11-13'}
 
 --new-session
 
 --die-with-parent
 
-pattern: "${EXPR_10}"
+pattern: "${EXPR_11}"
 
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
+${EXPR_12: 'structured-outputs-2025-11-13'}
 
 --new-session
 
 --die-with-parent
 
-${EXPR_11}
+${NUM}
 
-${EXPR_12}
+${NUM}
 
-${EXPR_13}
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+--files
+
+--follow
+
+--hidden
+
+--glob
+
+!.git/
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+pattern: "${EXPR_13}"
+
+--files
+
+--follow
+
+--hidden
+
+--glob
+
+!.git/
 
 ${EXPR_14}
 
 ${EXPR_15}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
 
 ${EXPR_16}
 
@@ -196,105 +179,11 @@ ${EXPR_19}
 
 ${EXPR_20}
 
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
---files
-
---follow
-
---hidden
-
---glob
-
-!.git/
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-pattern: "${EXPR_21}"
-
---files
-
---follow
-
---hidden
-
---glob
-
-!.git/
+${EXPR_21}
 
 ${EXPR_22}
 
 ${EXPR_23}
-
-${EXPR_24}
-
-${EXPR_25}
-
-${EXPR_26}
-
-${EXPR_27}
-
-${EXPR_28}
-
-${EXPR_29}
-
-${EXPR_30}
-
-${EXPR_31}
 
 ${NUM}
 
