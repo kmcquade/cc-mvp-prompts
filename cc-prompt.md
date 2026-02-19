@@ -57,7 +57,7 @@ assistant: ${NUM}
 
 <example>
 user: is ${NUM} a prime number?
-assistant: true
+assistant: Yes
 <${PATH}>
 
 <example>
