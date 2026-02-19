@@ -22,17 +22,18 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
-| `EXPR_13` | None | None |
+| `EXPR_13` | resolved string (387 chars) | None |
 | `EXPR_14` | None | None |
-| `EXPR_15` | None | None |
+| `EXPR_15` | resolved string (494 chars) | None |
 | `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
+| `EXPR_17` | resolved string (320 chars) | None |
 | `EXPR_18` | None | None |
-| `EXPR_19` | None | None |
+| `EXPR_19` | resolved string (522 chars) | None |
 | `EXPR_20` | None | None |
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
 | `EXPR_23` | None | None |
+| `EXPR_24` | resolved string (387 chars) | None |
 
 # Raw Prompt Text
 <!DOCTYPE html>
@@ -158,8 +159,7 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
     <h1>Claude Code Insights</h1>
     <p class="subtitle">${EXPR_1} messages across ${EXPR_2} sessions | ${EXPR_3} to ${EXPR_4}</p>
 
-    [${EXPR_5}] [Claude Chrome Native Host] ${EXPR_6}${EXPR_7}
-
+    ${EXPR_5}
 
     <nav class="nav-toc">
       <a href="#section-work">What You Work On</a>
@@ -173,45 +173,109 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
     <${PATH}>
 
     <div class="stats-row">
-      <div class="stat"><div class="stat-value">${EXPR_8}<${PATH}><div class="stat-label">Messages<${PATH}><${PATH}>
-      <div class="stat"><div class="stat-value">+${EXPR_9}/-${EXPR_10}<${PATH}><div class="stat-label">Lines<${PATH}><${PATH}>
-      <div class="stat"><div class="stat-value">${EXPR_11}<${PATH}><div class="stat-label">Files<${PATH}><${PATH}>
-      <div class="stat"><div class="stat-value">${EXPR_12}<${PATH}><div class="stat-label">Days<${PATH}><${PATH}>
-      <div class="stat"><div class="stat-value">${EXPR_13}<${PATH}><div class="stat-label">Msgs${PATH}<${PATH}><${PATH}>
+      <div class="stat"><div class="stat-value">${EXPR_6}<${PATH}><div class="stat-label">Messages<${PATH}><${PATH}>
+      <div class="stat"><div class="stat-value">+${EXPR_7}/-${EXPR_8}<${PATH}><div class="stat-label">Lines<${PATH}><${PATH}>
+      <div class="stat"><div class="stat-value">${EXPR_9}<${PATH}><div class="stat-label">Files<${PATH}><${PATH}>
+      <div class="stat"><div class="stat-value">${EXPR_10}<${PATH}><div class="stat-label">Days<${PATH}><${PATH}>
+      <div class="stat"><div class="stat-value">${EXPR_11}<${PATH}><div class="stat-label">Msgs${PATH}<${PATH}><${PATH}>
     <${PATH}>
 
-    ${EXPR_14}
+    ${EXPR_12}
 
     <div class="charts-row">
       <div class="chart-card">
         <div class="chart-title">What You Wanted<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_13}
+${EXPR_14}
+${EXPR_15}
+${EXPR_16}
+${EXPR_17}
+${EXPR_18}
+${EXPR_19}
+${EXPR_20}
+## Reserved Shortcuts
+
+${EXPR_21}
+## Available Contexts
+
+${EXPR_22}
+## Available Actions
+
+${EXPR_23}
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Top Tools Used<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_24}
+${EXPR_25}
+${EXPR_26}
+${EXPR_27}
+${EXPR_28}
+${EXPR_29}
+${EXPR_30}
+${EXPR_31}
+## Reserved Shortcuts
+
+${EXPR_32}
+## Available Contexts
+
+${EXPR_33}
+## Available Actions
+
+${EXPR_34}
       <${PATH}>
     <${PATH}>
 
     <div class="charts-row">
       <div class="chart-card">
         <div class="chart-title">Languages<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_35}
+${EXPR_36}
+${EXPR_37}
+${EXPR_38}
+${EXPR_39}
+${EXPR_40}
+${EXPR_41}
+${EXPR_42}
+## Reserved Shortcuts
+
+${EXPR_43}
+## Available Contexts
+
+${EXPR_44}
+## Available Actions
+
+${EXPR_45}
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Session Types<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_46}
+${EXPR_47}
+${EXPR_48}
+${EXPR_49}
+${EXPR_50}
+${EXPR_51}
+${EXPR_52}
+${EXPR_53}
+## Reserved Shortcuts
+
+${EXPR_54}
+## Available Contexts
+
+${EXPR_55}
+## Available Actions
+
+${EXPR_56}
       <${PATH}>
     <${PATH}>
 
-    ${EXPR_15}
+    ${EXPR_57}
 
     <!-- Response Time Distribution -->
     <div class="chart-card" style="margin: 24px ${NUM};">
       <div class="chart-title">User Response Time Distribution<${PATH}>
       <p class="empty">No response time data</p>
       <div style="font-size: 12px; color: #64748b; margin-top: 8px;">
-        Median: ${EXPR_16}s &bull; Average: ${EXPR_17}s
+        Median: ${EXPR_58}s &bull; Average: ${EXPR_59}s
       <${PATH}>
     <${PATH}>
 
@@ -221,11 +285,11 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
 
         <div style="display: flex; gap: 24px; margin: 12px ${NUM};">
           <div style="text-align: center;">
-            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_18}<${PATH}>
+            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_60}<${PATH}>
             <div style="font-size: 11px; color: #64748b; text-transform: uppercase;">Overlap Events<${PATH}>
           <${PATH}>
           <div style="text-align: center;">
-            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_19}<${PATH}>
+            <div style="font-size: 24px; font-weight: ${NUM}; color: #7c3aed;">${EXPR_61}<${PATH}>
             <div style="font-size: 11px; color: #64748b; text-transform: uppercase;">Sessions Involved<${PATH}>
           <${PATH}>
           <div style="text-align: center;">
@@ -255,48 +319,128 @@ HTML and CSS styling template defining fonts, colors, spacing, and layout for a 
           <${PATH}>
           <input type="number" id="custom-offset" placeholder="UTC offset" style="display: none; width: 80px; font-size: 12px; padding: 4px; border-radius: 4px; border: 1px solid #e2e8f0;">
         <${PATH}>
-        <div id="hour-histogram">${EXPR_20}<${PATH}>
+        <div id="hour-histogram">${EXPR_62}<${PATH}>
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Tool Errors Encountered<${PATH}>
-        <p class="empty">No tool errors</p>
+        ${EXPR_63}
+${EXPR_64}
+${EXPR_65}
+${EXPR_66}
+${EXPR_67}
+${EXPR_68}
+${EXPR_69}
+${EXPR_70}
+## Reserved Shortcuts
+
+${EXPR_71}
+## Available Contexts
+
+${EXPR_72}
+## Available Actions
+
+${EXPR_73}
       <${PATH}>
     <${PATH}>
 
-    ${EXPR_21}
+     (PID ${EXPR_74})
 
     <div class="charts-row">
       <div class="chart-card">
         <div class="chart-title">What Helped Most (Claude's Capabilities)<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_75}
+${EXPR_76}
+${EXPR_77}
+${EXPR_78}
+${EXPR_79}
+${EXPR_80}
+${EXPR_81}
+${EXPR_82}
+## Reserved Shortcuts
+
+${EXPR_83}
+## Available Contexts
+
+${EXPR_84}
+## Available Actions
+
+${EXPR_85}
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Outcomes<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_86}
+${EXPR_87}
+${EXPR_88}
+${EXPR_89}
+${EXPR_90}
+${EXPR_91}
+${EXPR_92}
+${EXPR_93}
+## Reserved Shortcuts
+
+${EXPR_94}
+## Available Contexts
+
+${EXPR_95}
+## Available Actions
+
+${EXPR_96}
       <${PATH}>
     <${PATH}>
 
-    ${EXPR_22}
+    ${EXPR_97}
 
     <div class="charts-row">
       <div class="chart-card">
         <div class="chart-title">Primary Friction Types<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_98}
+${EXPR_99}
+${EXPR_100}
+${EXPR_101}
+${EXPR_102}
+${EXPR_103}
+${EXPR_104}
+${EXPR_105}
+## Reserved Shortcuts
+
+${EXPR_106}
+## Available Contexts
+
+${EXPR_107}
+## Available Actions
+
+${EXPR_108}
       <${PATH}>
       <div class="chart-card">
         <div class="chart-title">Inferred Satisfaction (model-estimated)<${PATH}>
-        <p class="empty">No data</p>
+        ${EXPR_109}
+${EXPR_110}
+${EXPR_111}
+${EXPR_112}
+${EXPR_113}
+${EXPR_114}
+${EXPR_115}
+${EXPR_116}
+## Reserved Shortcuts
+
+${EXPR_117}
+## Available Contexts
+
+${EXPR_118}
+## Available Actions
+
+${EXPR_119}
       <${PATH}>
     <${PATH}>
 
-    stdio
+    ${NUM}
 
-    local
+    ${EXPR_120}
 
-    green
+    ${NUM}
 
-    unknown
+    ${EXPR_121}@${EXPR_122}
   <${PATH}>
-  <script>${EXPR_23}<${PATH}>
+  <script>${EXPR_123}<${PATH}>
 <${PATH}>
 <${PATH}>
