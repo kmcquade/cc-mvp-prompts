@@ -1,4 +1,4 @@
-# System Prompt: show-updated-file-snippet
+# System Prompt: updated-file-snippet-output
 
 - Source: inline
 
