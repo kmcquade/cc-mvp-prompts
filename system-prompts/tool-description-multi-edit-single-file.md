@@ -12,16 +12,15 @@ Tool guidance for batch find-and-replace edits within one file.
 | --- | --- | --- |
 | `EXPR_1` | Edit | None |
 | `EXPR_2` | Edit | None |
-| `EXPR_3` | Batch | None |
-| `EXPR_4` | Read | None |
-| `EXPR_5` | NotebookEdit | None |
+| `EXPR_3` | Read | None |
+| `EXPR_4` | NotebookEdit | None |
 
 # Raw Prompt Text
-This is a tool for making multiple edits to a single file in one operation. It is built on top of the ${EXPR_1: 'Edit'} tool and allows you to perform multiple find-and-replace operations efficiently. Prefer this tool over the ${EXPR_2: 'Edit'} tool and ${EXPR_3: 'Batch'} tool when you need to make multiple edits to the same file.
+This is a tool for making multiple edits to a single file in one operation. It is built on top of the ${EXPR_1: 'Edit'} tool and allows you to perform multiple find-and-replace operations efficiently. Prefer this tool over the ${EXPR_2: 'Edit'} tool when you need to make multiple edits to the same file.
 
 Before using this tool:
 
-${NUM}. Use the ${EXPR_4: 'Read'} tool to understand the file's contents and context
+${NUM}. Use the ${EXPR_3: 'Read'} tool to understand the file's contents and context
 ${NUM}. Verify the directory path is correct
 
 To make multiple file edits, provide the following:
@@ -36,7 +35,7 @@ IMPORTANT:
 - Each edit operates on the result of the previous edit
 - All edits must be valid for the operation to succeed - if any edit fails, none will be applied
 - This tool is ideal when you need to make several changes to different parts of the same file
-- For Jupyter notebooks (.ipynb files), use the ${EXPR_5: 'NotebookEdit'} instead
+- For Jupyter notebooks (.ipynb files), use the ${EXPR_4: 'NotebookEdit'} instead
 
 CRITICAL REQUIREMENTS:
 ${NUM}. All edits follow the same requirements as the single Edit tool
