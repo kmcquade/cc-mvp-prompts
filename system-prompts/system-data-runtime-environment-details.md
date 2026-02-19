@@ -14,14 +14,16 @@ Environment metadata: working directory, platform, OS version, date, model, and 
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 Here is useful information about the environment you are running in:
 <env>
 Working directory: ${EXPR_1}
 Is directory a git repo: Yes
-Platform: ${EXPR_2}
-OS Version: ${EXPR_3}
-Today's date: ${EXPR_4}
+${EXPR_2}Platform: ${EXPR_3}
+OS Version: ${EXPR_4}
+Today's date: ${EXPR_5}
 <${PATH}>
-local
+${EXPR_6}
