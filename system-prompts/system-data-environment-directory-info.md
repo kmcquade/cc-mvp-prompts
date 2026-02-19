@@ -17,15 +17,14 @@ Multiple prompts (2)
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
 
 # Raw Prompt Text
 Here is useful information about the environment you are running in:
 <env>
 Working directory: ${EXPR_1}
 Is directory a git repo: Yes
-${EXPR_2}${EXPR_3}Platform: ${EXPR_4}
-OS Version: ${EXPR_5}
-Today's date: ${EXPR_6}-${EXPR_7}-${EXPR_8}
+${EXPR_2}Platform: ${EXPR_3}
+OS Version: ${EXPR_4}
+Today's date: ${EXPR_5}-${EXPR_6}-${EXPR_7}
 <${PATH}>
-localnull
+globalnull
