@@ -7,23 +7,23 @@
 
 ## Bundle
 
-- Entry bytes: 7425770 bytes
-- Entry lines: 2511
+- Entry bytes: 7427946 bytes
+- Entry lines: 2514
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 9668312 bytes
-- Pretty lines: 165905
+- Pretty bytes: 9671882 bytes
+- Pretty lines: 166087
 
 ## Inventory
 
 - File count: 53
-- Size bytes: 169019389
+- Size bytes: 169021269
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
-- `.jar`: 33 files, 12407605 bytes
-- `.js`: 2 files, 7426736 bytes
+- `.jar`: 33 files, 12407309 bytes
+- `.js`: 2 files, 7428912 bytes
 - `.json`: 1 files, 1201 bytes
 - `.md`: 2 files, 2422 bytes
 - `.mjs`: 1 files, 4699 bytes
@@ -35,7 +35,7 @@
 ### Asset Sizes
 
 - `.exe`: 5407744 bytes
-- `.jar`: 12407605 bytes
+- `.jar`: 12407309 bytes
 - `.node`: 122220044 bytes
 - `.vsix`: 69663 bytes
 - `.wasm`: 88658 bytes
@@ -50,8 +50,8 @@
 - `sdk.d.ts`
 - `sdk.mjs`
 - `vendor/claude-code-jetbrains-plugin/lib/annotations-23.0.0.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.10-beta-searchableOptions.jar`
-- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.10-beta.jar`
+- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.11-beta-searchableOptions.jar`
+- `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.11-beta.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/config-1.4.3.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/jansi-2.4.1.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/kotlin-logging-jvm-7.0.0.jar`
@@ -98,18 +98,18 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 05:35:09 UTC
+- Snapshot generated at: 2026-02-18 05:36:34 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `f9675121fd5ce2ab4eca16d29bf3e7b837e4e42d3e89100f78ddef544bedc8b6`
+- Config hash: `406f3c90cae3ffe676448a55248cfcc600ee6a4206e7fd9e995f9edf59fe1a6a`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 271,408
+- Total prompt tokens: 271,594
 - Token p95 / p99: 1,000 / 2,784
 
 ### By Kind
 
-- `system-data`: 241,670 tokens (89.0%)
-- `system`: 19,262 tokens (7.1%)
+- `system-data`: 241,672 tokens (89.0%)
+- `system`: 19,410 tokens (7.1%)
 - `tool`: 5,930 tokens (2.2%)
-- `system-reminder`: 4,546 tokens (1.7%)
+- `system-reminder`: 4,582 tokens (1.7%)
