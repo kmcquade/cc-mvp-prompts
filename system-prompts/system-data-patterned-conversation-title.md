@@ -16,8 +16,8 @@ Generate a NUM–NUM word conversation title following pattern and recent messag
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
-| `EXPR_7` | true | None |
-| `EXPR_8` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | false | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
@@ -38,9 +38,9 @@ ${EXPR_5}
 
 ${EXPR_6}
 
-${EXPR_7: true}
+${EXPR_7}
 
-${EXPR_8}
+${EXPR_8: false}
 
 ${EXPR_9}
 
