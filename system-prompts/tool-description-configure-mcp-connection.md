@@ -12,6 +12,7 @@ Run a specific MCP subcommand with arguments, prompting enter to configure
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-mcp__${EXPR_1}__ ${EXPR_2} (⏎ to configure)
+mcp__${EXPR_1}__${EXPR_2} ${EXPR_3} (⏎ to configure)
