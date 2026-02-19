@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 26
-- Options: 52
-- Env vars: 405
-- Config keys: 390
+- Options: 53
+- Env vars: 407
+- Config keys: 397
 - Tools: 3
 - Skills: 0
-- Models: 86
+- Models: 79
 - Providers: 7
 
 ## Commands
@@ -91,6 +91,7 @@
 - `--continue`
 - `--dangerously-skip-permissions`
 - `--debug`
+- `--debug-file`
 - `--disable-slash-commands`
 - `--disallowed-tools`
 - `--disallowedTools`
@@ -144,6 +145,7 @@
 - `--chrome`
 - `--dangerously-skip-permissions`
 - `--debug`
+- `--debug-file <path>`
 - `--disable-slash-commands`
 - `--disallowedTools, --disallowed-tools <tools...>`
 - `--fallback-model <model>`
@@ -249,6 +251,7 @@
 - `CLAUDE_BASH_NO_LOGIN`
 - `CLAUDE_CODE_ACCESSIBILITY`
 - `CLAUDE_CODE_ACTION`
+- `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
 - `CLAUDE_CODE_AGENT_SWARMS`
 - `CLAUDE_CODE_API_BASE_URL`
@@ -479,6 +482,7 @@
 - `OTEL_EXPORTER_PROMETHEUS_HOST`
 - `OTEL_EXPORTER_PROMETHEUS_PORT`
 - `OTEL_LOG_TOOL_CONTENT`
+- `OTEL_LOG_TOOL_DETAILS`
 - `OTEL_LOG_USER_PROMPTS`
 - `OTEL_LOGS_EXPORT_INTERVAL`
 - `OTEL_LOGS_EXPORTER`
@@ -588,6 +592,7 @@
 
 ## Config Keys
 
+- `$docs`
 - `$schema`
 - `A`
 - `activeForm`
@@ -599,7 +604,6 @@
 - `agents`
 - `allow`
 - `allowAllUnixSockets`
-- `allowed_tools`
 - `allowedDomains`
 - `allowedMcpServers`
 - `allowedTools`
@@ -636,10 +640,12 @@
 - `backgroundTaskId`
 - `base64`
 - `behavior`
+- `bindings`
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
 - `bpfPath`
+- `branch`
 - `bytes`
 - `cache_creation`
 - `cache_creation_input_tokens`
@@ -660,9 +666,11 @@
 - `commit`
 - `companyAnnouncements`
 - `compressible`
+- `confidence`
 - `config`
 - `content`
 - `contents`
+- `context`
 - `continue`
 - `created_at`
 - `createdAt`
@@ -724,6 +732,7 @@
 - `flagSettings`
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
+- `format`
 - `from`
 - `fullName`
 - `gitCommitSha`
@@ -760,6 +769,7 @@
 - `isAgent`
 - `isImage`
 - `keywords`
+- `ku`
 - `label`
 - `language`
 - `lastModified`
@@ -775,12 +785,12 @@
 - `login`
 - `lspServers`
 - `mandatoryDenySearchDepth`
+- `matchedDescription`
 - `matcher`
 - `matches`
 - `max_results`
 - `max_turns`
 - `maxTurns`
-- `MB`
 - `mcp_response`
 - `mcpServers`
 - `media_type`
@@ -900,6 +910,7 @@
 - `setting`
 - `settings`
 - `sha`
+- `shouldBlock`
 - `skill`
 - `skills`
 - `skippedMarketplaces`
@@ -1025,8 +1036,6 @@ _None detected_
 - `claude-code-user`
 - `claude-context`
 - `claude-folder`
-- `Claude-Generated-By:`
-- `claude-haiku-3-5`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
@@ -1055,7 +1064,6 @@ _None detected_
 - `claude-review`
 - `claude-settings`
 - `claude-socks-`
-- `claude-sonnet-3-7`
 - `claude-sonnet-4`
 - `claude-sonnet-4-20250514`
 - `claude-sonnet-4-5`
@@ -1063,9 +1071,7 @@ _None detected_
 - `claude-swarm`
 - `claude-swarm-`
 - `claude-vscode`
-- `haiku-3-5`
 - `haiku-4`
-- `haiku-4-5`
 - `opus-4`
 - `opus-4-1`
 - `opus-4-5`
@@ -1073,9 +1079,7 @@ _None detected_
 - `opus-45-upgrade-nudge`
 - `opus-pro-update`
 - `sonnet-1m-welcome`
-- `sonnet-3-7`
 - `sonnet-4`
-- `sonnet-4-5`
 - `sonnet-4.5-update`
 
 ## Providers
