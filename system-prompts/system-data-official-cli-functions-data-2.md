@@ -10,43 +10,21 @@ Establishes Claude CLI identity and enumerates injected runtime sections and var
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | dispatch_agent | None |
-| `EXPR_2` | Bash | None |
-| `EXPR_3` | BatchTool | None |
-| `EXPR_4` | GlobTool | None |
-| `EXPR_5` | GrepTool | None |
-| `EXPR_6` | LS | None |
-| `EXPR_7` | View | None |
-| `EXPR_8` | Edit | None |
-| `EXPR_9` | Replace | None |
-| `EXPR_10` | ReadNotebook | None |
-| `EXPR_11` | NotebookEditCell | None |
-| `EXPR_12` | Claude Code | None |
+| `EXPR_1` | Claude Code | None |
+| `EXPR_2` | dispatch_agent | None |
+| `EXPR_3` | Bash | None |
+| `EXPR_4` | BatchTool | None |
+| `EXPR_5` | GlobTool | None |
+| `EXPR_6` | GrepTool | None |
+| `EXPR_7` | LS | None |
+| `EXPR_8` | View | None |
+| `EXPR_9` | Edit | None |
+| `EXPR_10` | Replace | None |
+| `EXPR_11` | ReadNotebook | None |
+| `EXPR_12` | NotebookEditCell | None |
 
 # Raw Prompt Text
-${EXPR_1: 'dispatch_agent'}
-
-${EXPR_2: 'Bash'}
-
-${EXPR_3: 'BatchTool'}
-
-${EXPR_4: 'GlobTool'}
-
-${EXPR_5: 'GrepTool'}
-
-${EXPR_6: 'LS'}
-
-${EXPR_7: 'View'}
-
-${EXPR_8: 'Edit'}
-
-${EXPR_9: 'Replace'}
-
-${EXPR_10: 'ReadNotebook'}
-
-${EXPR_11: 'NotebookEditCell'}
-
-You are ${EXPR_12: 'Claude Code'}, Anthropic's official CLI for Claude.
+You are ${EXPR_1: 'Claude Code'}, Anthropic's official CLI for Claude.
 
 functions
 
@@ -61,3 +39,25 @@ quantities
 transformed
 
 generated
+
+${EXPR_2: 'dispatch_agent'}
+
+${EXPR_3: 'Bash'}
+
+${EXPR_4: 'BatchTool'}
+
+${EXPR_5: 'GlobTool'}
+
+${EXPR_6: 'GrepTool'}
+
+${EXPR_7: 'LS'}
+
+${EXPR_8: 'View'}
+
+${EXPR_9: 'Edit'}
+
+${EXPR_10: 'Replace'}
+
+${EXPR_11: 'ReadNotebook'}
+
+${EXPR_12: 'NotebookEditCell'}
