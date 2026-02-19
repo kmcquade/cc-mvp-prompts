@@ -1,4 +1,4 @@
-# System Prompt: dangerous-delete-operation-warning
+# System Prompt: dangerous-pipe-operation-warning
 
 - Source: inline
 
