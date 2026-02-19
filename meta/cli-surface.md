@@ -4,9 +4,9 @@
 
 - Commands: 16
 - Options: 30
-- Env vars: 218
-- Config keys: 252
-- Tools: 0
+- Env vars: 217
+- Config keys: 253
+- Tools: 1
 - Skills: 0
 - Models: 30
 - Providers: 7
@@ -188,7 +188,6 @@
 - `DISABLE_COST_WARNINGS`
 - `DISABLE_ERROR_REPORTING`
 - `DISABLE_INTERLEAVED_THINKING`
-- `DISABLE_NON_ESSENTIAL_MODEL_CALLS`
 - `DISABLE_PROMPT_CACHING`
 - `DISABLE_TELEMETRY`
 - `DYNO`
@@ -553,6 +552,7 @@
 - `stdoutLines`
 - `stopReason`
 - `structuredPatch`
+- `subagent_type`
 - `subscribe`
 - `success`
 - `suppressOutput`
@@ -591,7 +591,7 @@
 
 ## Tools
 
-_None detected_
+- `*`
 
 ## Skills
 
