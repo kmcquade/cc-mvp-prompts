@@ -1,4 +1,4 @@
-# System Reminder: predict-next-user-input
+# System Prompt: predict-user-next-message
 
 - Source: inline
 
