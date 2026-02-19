@@ -1,13 +1,10 @@
-# Claude Code 2.0.56 – Flags
+# Claude Code 2.0.57 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
 | `auto_migrate_to_native` | gate | tools | Enables automatic CLI migration to a native updater, with analytics events emitted. | Exact migration behavior not shown; only gating and event names are visible. | medium | 1 |
 | `cache_warming` | experiment | caching | Controls cache warmup behavior after idle, with interval and request limits. | Only config retrieval and early-return usage shown. | medium | 1 |
 | `cc_microcompact_ext` | experiment | prompts | Disable micro-compact behavior for items without assistant messages. | Only indicates gating a set; exact feature purpose unclear. | medium | 1 |
-| `cc_onboarding_github` | experiment | ui | Controls whether to show GitHub integration onboarding step and related tip. | Seen only as a gate value used in onboarding checklist construction. | high | 1 |
-| `cc_onboarding_hide_workspace` | experiment | ui | Controls whether a workspace onboarding tip/step is hidden in CLI onboarding flow. | Exact UI location not shown; inferred from onboarding tip strings. | high | 1 |
-| `cc_onboarding_init_modal` | experiment | ui | Controls showing an initial onboarding modal on first session startup | Gated by first startup and onboarding-not-shown state. | high | 1 |
 | `claude_code_overages_upgrade_cta` | experiment | ui | Controls CLI overage upgrade call-to-action variant and interactive options menu behavior | Only seen in CLI React component logic. | high | 1 |
 | `force_local_installation_migration` | gate | tools | Forces CLI migration from global npm install to local installation with restart prompt | Triggered only when additional runtime checks pass. | high | 1 |
 | `preserve_thinking` | experiment | networking | Adds a beta option for preserving model thinking in first-party requests | Ny2 meaning not shown; inferred as request beta/header token. | medium | 2 |
@@ -19,6 +16,7 @@
 | `tengu_cap_grep_results` | experiment | tools | Limit grep tool output size via configurable cap when head_limit not provided | Appears to control default head_limit for grep results. | high | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_effort_exp` | experiment | prompts | Chooses a reasoning effort level and injects a reasoning_effort prompt block. | Only seen constructing a prompt string in cli.js. | high | 1 |
+| `tengu_enable_versioned_plugins` | gate | caching | Enables copying and loading plugins from a versioned on-disk cache. | Falls back to marketplace path on copy/cache failures. | high | 7 |
 | `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |
 | `tengu_file_edit_optimization` | experiment | tools | Simplifies file edit tool output to a success message instead of detailed snippet | Only affects tool_result formatting in this mapping function. | high | 1 |
 | `tengu_gha_plugin_code_review` | gate | tools | Controls which GitHub Actions code review workflow template is written | Gate selects between two workflow contents (OY2 vs MY2). | high | 1 |

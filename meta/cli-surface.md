@@ -5,7 +5,7 @@
 - Commands: 27
 - Options: 44
 - Env vars: 372
-- Config keys: 416
+- Config keys: 417
 - Tools: 3
 - Skills: 0
 - Models: 61
@@ -811,6 +811,7 @@
 - `policySettings`
 - `progress`
 - `progressToken`
+- `projectPath`
 - `projectSettings`
 - `prompt`
 - `prompts`
