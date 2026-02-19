@@ -12,15 +12,13 @@ Sandbox policy denying by default, allowing process control and whitelisted Mach
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 (version ${NUM})
 
-(deny default (with message "${EXPR_1}/${EXPR_2}"))
+(deny default (with message "${EXPR_1}"))
 
-; LogTag: ${EXPR_3}/${EXPR_4}
+; LogTag: ${EXPR_2}
 
 ; Essential permissions - based on Chrome sandbox policy
 
