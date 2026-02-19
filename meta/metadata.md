@@ -7,27 +7,28 @@
 
 ## Bundle
 
-- Entry bytes: 6910679 bytes
-- Entry lines: 2246
+- Entry bytes: 6905863 bytes
+- Entry lines: 2248
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 8961689 bytes
-- Pretty lines: 157352
+- Pretty bytes: 8956618 bytes
+- Pretty lines: 157402
 
 ## Inventory
 
-- File count: 61
-- Size bytes: 168359934
+- File count: 62
+- Size bytes: 168886148
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.jar`: 33 files, 12302054 bytes
-- `.js`: 2 files, 6911645 bytes
+- `.js`: 2 files, 6906829 bytes
 - `.json`: 7 files, 36713 bytes
 - `.md`: 2 files, 3940 bytes
 - `.node`: 5 files, 122220044 bytes
 - `.sql`: 5 files, 1738 bytes
+- `.vsix`: 1 files, 531030 bytes
 - `.wasm`: 1 files, 88658 bytes
 
 ### Asset Sizes
@@ -35,6 +36,7 @@
 - `.exe`: 5407744 bytes
 - `.jar`: 12302054 bytes
 - `.node`: 122220044 bytes
+- `.vsix`: 531030 bytes
 - `.wasm`: 88658 bytes
 
 ### Files
@@ -88,6 +90,7 @@
 - `vendor/claude-code-jetbrains-plugin/lib/ktor-websocket-serialization-jvm-3.0.2.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/ktor-websockets-jvm-3.0.2.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/slf4j-api-2.0.16.jar`
+- `vendor/claude-code.vsix`
 - `vendor/ripgrep/arm64-darwin/rg`
 - `vendor/ripgrep/arm64-darwin/ripgrep.node`
 - `vendor/ripgrep/arm64-linux/rg`
@@ -103,18 +106,18 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 04:10:45 UTC
+- Snapshot generated at: 2026-02-18 04:12:22 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `b21e1b11a21b02beea554cd4075219341ce7302e929175e7fa8cebbd1952a03e`
+- Config hash: `72e75be9221935766e3639df57e2747b6899b6904a4d76ce3647203737d83f22`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 292,637
-- Token p95 / p99: 1,099 / 3,042
+- Total prompt tokens: 292,029
+- Token p95 / p99: 1,099 / 3,048
 
 ### By Kind
 
-- `system-data`: 264,835 tokens (90.5%)
-- `system`: 15,157 tokens (5.2%)
-- `tool`: 8,233 tokens (2.8%)
-- `system-reminder`: 4,412 tokens (1.5%)
+- `system-data`: 264,835 tokens (90.7%)
+- `system`: 15,342 tokens (5.3%)
+- `tool`: 7,546 tokens (2.6%)
+- `system-reminder`: 4,306 tokens (1.5%)

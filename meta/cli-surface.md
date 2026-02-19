@@ -4,7 +4,7 @@
 
 - Commands: 14
 - Options: 27
-- Env vars: 163
+- Env vars: 167
 - Config keys: 137
 - Tools: 0
 - Skills: 0
@@ -32,8 +32,8 @@
 
 ### Specs
 
-- `add [name] [commandOrUrl] [args...]`
 - `add <key> <values...>`
+- `add <name> <commandOrUrl> [args...]`
 - `add-from-claude-desktop`
 - `add-json <name> <json>`
 - `config`
@@ -126,6 +126,8 @@
 - `AWS_REGION`
 - `AWS_SECRET_ACCESS_KEY`
 - `AWS_SESSION_TOKEN`
+- `BASH_DEFAULT_TIMEOUT_MS`
+- `BASH_MAX_TIMEOUT_MS`
 - `BUN_INSTALL`
 - `C`
 - `CF_PAGES_COMMIT_SHA`
@@ -148,6 +150,7 @@
 - `DETECT_GCP_RETRIES`
 - `DEV`
 - `DISABLE_AUTOUPDATER`
+- `DISABLE_BATCH_TOOL`
 - `DISABLE_BUG_COMMAND`
 - `DISABLE_COST_WARNINGS`
 - `DISABLE_ERROR_REPORTING`
@@ -240,6 +243,7 @@
 - `TENCENTCLOUD_ZONE`
 - `TERM`
 - `TERM_PROGRAM`
+- `TERMINAL_EMULATOR`
 - `TERMINATOR_UUID`
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
