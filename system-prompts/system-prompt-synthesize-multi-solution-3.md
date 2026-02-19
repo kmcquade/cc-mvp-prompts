@@ -1,4 +1,4 @@
-# System Prompt: synthesize-multi-findings
+# System Prompt: synthesize-multi-solution-3
 
 - Source: inline
 
