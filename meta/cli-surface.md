@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 35
-- Env vars: 250
-- Config keys: 306
+- Env vars: 252
+- Config keys: 308
 - Tools: 3
 - Skills: 0
 - Models: 37
@@ -223,6 +223,7 @@
 - `DYNO`
 - `EDITOR`
 - `ENABLE_PLUGINS`
+- `ENABLE_SESSION_PERSISTENCE`
 - `FLY_REGION`
 - `FORCE_CODE_TERMINAL`
 - `FUNCTION_NAME`
@@ -313,6 +314,7 @@
 - `SENTRY_TRACE`
 - `SENTRY_TRACES_SAMPLE_RATE`
 - `SENTRY_USE_ENVIRONMENT`
+- `SESSION_INGRESS_URL`
 - `SESSIONNAME`
 - `SHARP_FORCE_GLOBAL_LIBVIPS`
 - `SHARP_IGNORE_GLOBAL_LIBVIPS`
@@ -425,6 +427,7 @@
 - `code_challenge_methods_supported`
 - `codeText`
 - `command`
+- `commandName`
 - `completions`
 - `compressible`
 - `contacts`
@@ -503,6 +506,7 @@
 - `input`
 - `input_tokens`
 - `intelligencePriority`
+- `interrupt`
 - `interrupted`
 - `introspection_endpoint`
 - `introspection_endpoint_auth_methods_supported`
