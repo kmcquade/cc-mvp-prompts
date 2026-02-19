@@ -1,4 +1,4 @@
-# System Prompt: background-task-running-output
+# System Prompt: background-task-status
 
 - Source: inline
 
