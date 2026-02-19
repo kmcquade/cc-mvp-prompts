@@ -1,4 +1,4 @@
-# System Reminder: plan-mode-only-edit-plan
+# System Reminder: plan-mode-only-edit-plan-file
 
 - Source: inline
 
