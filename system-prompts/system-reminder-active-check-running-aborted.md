@@ -11,7 +11,7 @@ Report task active status with overall state plus running and aborted flags.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | resolved list (4 items) | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 
