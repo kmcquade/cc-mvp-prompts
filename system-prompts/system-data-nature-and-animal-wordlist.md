@@ -199,10 +199,6 @@ bumblebee
 
 bunny
 
-butterfly
-
-capybara
-
 cat
 
 chipmunk
@@ -220,8 +216,6 @@ dove
 dragon
 
 dragonfly
-
-duck
 
 duckling
 
@@ -343,8 +337,6 @@ squirrel
 
 starfish
 
-starling
-
 swan
 
 tiger
@@ -387,8 +379,6 @@ book
 
 boot
 
-button
-
 cake
 
 candle
@@ -402,8 +392,6 @@ charm
 clock
 
 cocoa
-
-compass
 
 cookie
 
@@ -446,8 +434,6 @@ haven
 hearth
 
 honey
-
-jingle
 
 journal
 
@@ -672,10 +658,6 @@ engelbart
 feigenbaum
 
 floyd
-
-gehret
-
-goldwasser
 
 gosling
 
