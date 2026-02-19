@@ -18,20 +18,11 @@ Aggregates code maintenance prompts and generates a concise conversation title f
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
-
-${EXPR_2}
-
-${EXPR_3}
-
 @anthropic-ai${PATH}
 
-${EXPR_4}
+${EXPR_1}
 
 @anthropic-ai${PATH}
 
@@ -41,23 +32,23 @@ fix lint errors
 
 fix typecheck errors
 
-how does ${EXPR_5} work?
+how does ${EXPR_2} work?
 
-refactor ${EXPR_6}
+refactor ${EXPR_3}
 
 how do I log an error?
 
-edit ${EXPR_7} to...
+edit ${EXPR_4} to...
 
-write a test for ${EXPR_8}
+write a test for ${EXPR_5}
 
 create a util logging.py that...
 
 Please write a ${NUM}-${NUM} word title for the following conversation:
 
-[Last ${EXPR_9} of ${EXPR_10} messages]
+[Last ${EXPR_6} of ${EXPR_7} messages]
 
-${EXPR_11}
+${EXPR_8}
 
 
 Respond with the title for the conversation and nothing else.
