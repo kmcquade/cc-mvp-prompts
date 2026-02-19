@@ -20,6 +20,7 @@ Multiple prompts (2)
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
 
 # Raw Prompt Text
 Here is useful information about the environment you are running in:
@@ -30,4 +31,4 @@ ${EXPR_2}Platform: ${EXPR_3}
 OS Version: ${EXPR_4}
 Today's date: ${EXPR_5}-${EXPR_6}-${EXPR_7}
 <${PATH}>
-mcp__${EXPR_8}__${EXPR_9}${EXPR_10}null
+mcp__${EXPR_8}__${EXPR_9}${EXPR_10}${EXPR_11}
