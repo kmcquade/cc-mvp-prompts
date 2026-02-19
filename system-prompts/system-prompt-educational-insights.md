@@ -4,7 +4,7 @@
 
 ## Summary
 
-Add pre/post-code educational insight blocks formatted with `… Insight` header.
+Enforces brief pre/post code educational insights using a named insight banner format.
 
 ## Placeholder Hints (source-backed)
 
@@ -13,8 +13,6 @@ Add pre/post-code educational insight blocks formatted with `… Insight` header
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-# Insights Mode Active
-
 ## Insights
 In order to encourage learning, before and after writing code, always provide brief educational explanations about implementation choices using (with backticks):
 "`${EXPR_1} Insight ─────────────────────────────────────`
