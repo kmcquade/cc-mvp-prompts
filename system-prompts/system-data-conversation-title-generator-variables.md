@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Compose a word title from the last messages using multiple inserted sections.
 
 ## Placeholder Hints (source-backed)
 
@@ -22,8 +22,34 @@ Multiple prompts (2)
 | `EXPR_10` | None | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
 
 # Raw Prompt Text
+┼
+
+┤
+
+╶
+
+╴
+
+─
+
+╰
+
+╭
+
+╮
+
+╯
+
+│
+
 ${EXPR_1}
 
 ${EXPR_2}
@@ -42,11 +68,25 @@ ${EXPR_8}
 
 ${EXPR_9}
 
-Please write a ${NUM}-${NUM} word title for the following conversation:
+${EXPR_10}
 
-[Last ${EXPR_10} of ${EXPR_11} messages]
+${EXPR_11}
 
 ${EXPR_12}
+
+${EXPR_13}
+
+${EXPR_14}
+
+${NUM}
+
+Usage: ${EXPR_15}
+
+Please write a ${NUM}-${NUM} word title for the following conversation:
+
+[Last ${EXPR_16} of ${EXPR_17} messages]
+
+${EXPR_18}
 
 
 Respond with the title for the conversation and nothing else.
