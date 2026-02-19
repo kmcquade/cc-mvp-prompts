@@ -41,7 +41,7 @@
 - `doctor`
 - `get <key>`
 - `get <name>`
-- `install`
+- `install [target]`
 - `list`
 - `mcp`
 - `migrate-installer`
@@ -434,7 +434,6 @@
 - `minimum`
 - `minLength`
 - `model`
-- `modelInstruction`
 - `name`
 - `noResponseRetries`
 - `openWorldHint`
@@ -453,6 +452,7 @@
 - `refresh_token`
 - `region`
 - `registration_endpoint`
+- `requestHandler`
 - `required`
 - `resource`
 - `resource_documentation`
