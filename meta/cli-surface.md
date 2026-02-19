@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 14
-- Options: 24
+- Options: 25
 - Env vars: 187
 - Config keys: 142
 - Tools: 0
 - Skills: 0
-- Models: 23
+- Models: 28
 - Providers: 7
 
 ## Commands
@@ -64,6 +64,7 @@
 - `--header`
 - `--mcp-config`
 - `--mcp-debug`
+- `--model`
 - `--print`
 - `--resume`
 - `--scope`
@@ -86,6 +87,7 @@
 - `--disallowedTools <tools...>`
 - `--mcp-config <file or string>`
 - `--mcp-debug`
+- `--model <model>`
 - `--verbose`
 - `-c, --continue`
 - `-d, --debug`
@@ -152,7 +154,6 @@
 - `DETECT_GCP_RETRIES`
 - `DEV`
 - `DISABLE_AUTOUPDATER`
-- `DISABLE_BATCH_TOOL`
 - `DISABLE_BUG_COMMAND`
 - `DISABLE_COST_WARNINGS`
 - `DISABLE_ERROR_REPORTING`
@@ -161,7 +162,6 @@
 - `DYNO`
 - `EDITOR`
 - `ENABLE_BACKGROUND_TASKS`
-- `ENABLE_IDE_INTEGRATION`
 - `FLY_REGION`
 - `FORCE_AUTO_BACKGROUND_TASKS`
 - `FORCE_CODE_TERMINAL`
@@ -274,6 +274,8 @@
 - `VERTEX_REGION_CLAUDE_3_5_HAIKU`
 - `VERTEX_REGION_CLAUDE_3_5_SONNET`
 - `VERTEX_REGION_CLAUDE_3_7_SONNET`
+- `VERTEX_REGION_CLAUDE_4_0_OPUS`
+- `VERTEX_REGION_CLAUDE_4_0_SONNET`
 - `VISUAL`
 - `VSCODE_GIT_ASKPASS_MAIN`
 - `VTE_VERSION`
@@ -464,7 +466,12 @@ _None detected_
 - `claude-instant-1.2`
 - `claude-local`
 - `claude-native-installer`
+- `claude-opus-4-`
+- `claude-opus-4-20250514`
+- `claude-opus-welcome`
 - `claude-sandbox-`
+- `claude-sonnet-4-`
+- `claude-sonnet-4-20250514`
 
 ## Providers
 

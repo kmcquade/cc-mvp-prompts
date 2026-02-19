@@ -1,4 +1,4 @@
-# Claude Code Flags 0.2.126
+# Claude Code Flags 1.0.0
 
 ## Feature Gates
 
@@ -9,6 +9,8 @@
 
 ## Dynamic Configs
 
+_None detected_
 
 ## Experiments
 
+_None detected_
