@@ -16,18 +16,6 @@ Enumerates coding help intents: lint/type fixes, refactors, questions, logging, 
 | `EXPR_4` | None | None |
 
 # Raw Prompt Text
-${URL}
-
-${URL}
-
-${PATH}
-
-${PATH}
-
-${PATH}
-
-${PATH}
-
 fix lint errors
 
 fix typecheck errors
@@ -43,3 +31,11 @@ edit ${EXPR_3} to...
 write a test for ${EXPR_4}
 
 create a util logging.py that...
+
+${PATH}
+
+${PATH}
+
+${PATH}
+
+${PATH}
