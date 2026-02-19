@@ -15,7 +15,6 @@ Merge multi-agent findings into one structured answer, resolving conflicts and p
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 ary
@@ -36,7 +35,7 @@ ${EXPR_2}
 
 curryRight
 
-default
+null
 
 flip
 
@@ -61,7 +60,7 @@ Your synthesis should be thorough but focused on the original task.
 
 partialRight
 
-${EXPR_6}
+default
 
 rearg
 
