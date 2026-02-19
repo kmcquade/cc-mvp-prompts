@@ -53,8 +53,6 @@ docker images
 
 info
 
-help
-
 basename
 
 dirname
