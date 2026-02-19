@@ -10,7 +10,7 @@ Register Stop hook for teammate to notify Anthropic leader on shutdown.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved list (4 items) | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 [TeammateInit] Registering Stop hook for teammate ${EXPR_1} to notify leader @anthropic-ai${PATH}
