@@ -4,9 +4,10 @@
 
 ## Summary
 
-Specifies JSON command input and stdout or stderr display by exit code.
+Multiple prompts (2)
 
 # Raw Prompt Text
-Input to command is JSON with notification message and type.
-Exit code ${NUM} - stdout${PATH} not shown
+Input to command is JSON with agent_id and agent_type.
+Exit code ${NUM} - stdout shown to subagent
+Blocking errors are ignored
 Other exit codes - show stderr to user only
