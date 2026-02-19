@@ -23,13 +23,6 @@ Template joins two URLs, an expression, a quoted pattern string, and trailing ex
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
-| `EXPR_14` | None | None |
-| `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
-| `EXPR_18` | None | None |
-| `EXPR_19` | None | None |
-| `EXPR_20` | None | None |
 
 # Raw Prompt Text
 pattern: "${EXPR_1}"
@@ -66,16 +59,10 @@ ${EXPR_12}
 
 ${EXPR_13}
 
-${EXPR_14}
+${PATH}
 
-${EXPR_15}
+${PATH}
 
-${EXPR_16}
+${PATH}
 
-${EXPR_17}
-
-${EXPR_18}
-
-${EXPR_19}
-
-${EXPR_20}
+${PATH}
