@@ -5,7 +5,7 @@
 - Commands: 16
 - Options: 31
 - Env vars: 234
-- Config keys: 258
+- Config keys: 263
 - Tools: 1
 - Skills: 0
 - Models: 30
@@ -160,6 +160,7 @@
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
+- `CLAUDE_CODE_DISABLE_CHECKPOINTING`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
 - `CLAUDE_CODE_DISABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
@@ -180,7 +181,6 @@
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SSE_PORT`
-- `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CONFIG_DIR`
@@ -204,6 +204,7 @@
 - `DISABLE_INTERLEAVED_THINKING`
 - `DISABLE_LOGIN_COMMAND`
 - `DISABLE_LOGOUT_COMMAND`
+- `DISABLE_MICROCOMPACT`
 - `DISABLE_MIGRATE_INSTALLER_COMMAND`
 - `DISABLE_PROMPT_CACHING`
 - `DISABLE_TELEMETRY`
@@ -246,7 +247,6 @@
 - `HTTP_PROXY`
 - `HTTPS_PROXY`
 - `IBM_CLOUD_REGION`
-- `IGNORE_TEST_WIN32`
 - `IS_DEMO`
 - `IS_SANDBOX`
 - `JEST_WORKER_ID`
@@ -357,6 +357,7 @@
 - `_meta`
 - `-c`
 - `access_token`
+- `additionalContext`
 - `additionalDirectories`
 - `allow`
 - `api`
@@ -447,7 +448,9 @@
 - `hasMore`
 - `headers`
 - `hints`
+- `hookEventName`
 - `hooks`
+- `hookSpecificOutput`
 - `httpMethodsToRetry`
 - `id`
 - `id_token`
@@ -513,6 +516,8 @@
 - `outputs`
 - `owner`
 - `params`
+- `permissionDecision`
+- `permissionDecisionReason`
 - `permissions`
 - `plan`
 - `policy_uri`
