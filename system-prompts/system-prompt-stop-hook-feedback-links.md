@@ -4,16 +4,9 @@
 
 ## Summary
 
-Stop hook feedback banner listing two URLs and a final interpolated message line.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | None | None |
+Stop hook feedback message with referenced URLs.
 
 # Raw Prompt Text
 Stop hook feedback:
 ${URL}
 ${URL}
-${EXPR_1}
