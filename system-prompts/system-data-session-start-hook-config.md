@@ -23,7 +23,7 @@ Session-start-hook wrapper concatenating 15 injected expressions and a trailing 
 | `EXPR_11` | WebFetch | None |
 | `EXPR_12` | WebSearch | None |
 | `EXPR_13` | BashOutput | None |
-| `EXPR_14` | KillBash | None |
+| `EXPR_14` | KillShell | None |
 
 # Raw Prompt Text
 <session-start-hook>${EXPR_1: 'Task'}
@@ -52,4 +52,4 @@ ${EXPR_12: 'WebSearch'}
 
 ${EXPR_13: 'BashOutput'}
 
-${EXPR_14: 'KillBash'}<${PATH}>
+${EXPR_14: 'KillShell'}<${PATH}>
