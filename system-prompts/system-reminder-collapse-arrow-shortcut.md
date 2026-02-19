@@ -7,4 +7,4 @@
 Indicates the arrow symbol used to collapse.
 
 # Raw Prompt Text
-· ← to collapse
+← to collapse
