@@ -4,81 +4,9 @@
 
 ## Summary
 
-Repeated numeric lines followed by placeholder and whimsical action/thinking verb list.
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | us-east-1 | None |
+Playful list of verbs describing making and thinking actions.
 
 # Raw Prompt Text
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${EXPR_1: 'us-east-1'}
-
 Accomplishing
 
 Actioning
@@ -258,43 +186,3 @@ Wizarding
 Working
 
 Wrangling
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
