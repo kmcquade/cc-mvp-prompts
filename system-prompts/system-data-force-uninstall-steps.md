@@ -14,48 +14,71 @@ Structured uninstall command template using multiple parameters, paths, and forc
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
+| `EXPR_9` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | None | None |
+| `EXPR_12` | None | None |
+| `EXPR_13` | None | None |
+| `EXPR_14` | None | None |
+| `EXPR_15` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1}
 
 ${EXPR_2}
 
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
 ${EXPR_3}
 
 ${EXPR_4}
 
+${EXPR_5}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${EXPR_6}
+
+${EXPR_7}
+
+${EXPR_8}
+
+${EXPR_9}
+
+${EXPR_10}
+
 ${NUM}
 
 ${NUM}
@@ -88,13 +111,15 @@ ${NUM}
 
 ${NUM}
 
-${PATH}
+${EXPR_11}
 
-${PATH}
+${EXPR_12}
 
-${PATH}
+${EXPR_13}
 
-${PATH}
+${EXPR_14}
+
+${EXPR_15}
 
 uninstall
 
