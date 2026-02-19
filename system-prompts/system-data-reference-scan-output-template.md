@@ -4,7 +4,7 @@
 
 ## Summary
 
-Template text for reporting symbol reference counts across files with common flags and metadata fields.
+Multiple prompts (2)
 
 ## Placeholder Hints (source-backed)
 
@@ -36,6 +36,38 @@ Template text for reporting symbol reference counts across files with common fla
 | `EXPR_24` | None | None |
 
 # Raw Prompt Text
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
 ${EXPR_1}
 
 ${EXPR_2}
@@ -47,8 +79,6 @@ ${EXPR_4}
 ${EXPR_5}
 
 ${EXPR_6}
-
-${EXPR_7}
 
 ${NUM}
 
@@ -124,13 +154,15 @@ Document symbols:
 
 @anthropic-ai${PATH}
 
-Found ${EXPR_8} references across ${EXPR_9} files:
+Found ${EXPR_7} references across ${EXPR_8} files:
 
 --files
 
 --follow
 
 --hidden
+
+${EXPR_9}
 
 ${EXPR_10}
 
@@ -142,71 +174,71 @@ ${EXPR_13}
 
 ${EXPR_14}
 
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
 ${EXPR_15}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
 
 ${EXPR_16}
 
@@ -226,8 +258,6 @@ ${EXPR_23}
 
 ${EXPR_24}
 
-${EXPR_25}
-
 ${NUM}
 
 ${NUM}
@@ -324,4 +354,36 @@ ${NUM}
 
 ${NUM}
 
-${EXPR_26}
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
