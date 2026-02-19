@@ -4,7 +4,7 @@
 
 ## Summary
 
-Directs when to spawn Task subagents, choose types, and prefer Read/Glob for targeted searches
+Instructions for launching Task subagents, listing types, usage notes, and when not to.
 
 ## Placeholder Hints (source-backed)
 
@@ -16,14 +16,7 @@ Directs when to spawn Task subagents, choose types, and prefer Read/Glob for tar
 | `EXPR_4` | Task | None |
 
 # Raw Prompt Text
-Launch a new agent to handle complex, multi-step tasks autonomously.
-
-The Task tool launches specialized agents (subprocesses) that autonomously handle complex tasks. Each agent type has specific capabilities and tools available to it.
-
-Available agent types and the tools they have access to:
 ${EXPR_1}
-
-When using the Task tool, you must specify a subagent_type parameter to select which agent type to use.
 
 When NOT to use the Task tool:
 - If you want to read a specific file path, use the Read or Glob tool instead of the Task tool, to find the match more quickly
