@@ -4,11 +4,11 @@
 
 - Commands: 26
 - Options: 50
-- Env vars: 392
-- Config keys: 341
+- Env vars: 397
+- Config keys: 344
 - Tools: 3
 - Skills: 0
-- Models: 80
+- Models: 81
 - Providers: 7
 
 ## Commands
@@ -291,6 +291,7 @@
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY`
+- `CLAUDE_CODE_OAUTH_CLIENT_ID`
 - `CLAUDE_CODE_OAUTH_TOKEN`
 - `CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
@@ -316,6 +317,7 @@
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_TAGS`
+- `CLAUDE_CODE_TASK_LIST_ID`
 - `CLAUDE_CODE_TEAM_NAME`
 - `CLAUDE_CODE_TEST_FIXTURES_ROOT`
 - `CLAUDE_CODE_USE_BEDROCK`
@@ -381,6 +383,7 @@
 - `FLY_APP_NAME`
 - `FLY_MACHINE_ID`
 - `FLY_REGION`
+- `FORCE_AUTOUPDATE_PLUGINS`
 - `FORCE_CODE_TERMINAL`
 - `FUNCTION_NAME`
 - `FUNCTION_TARGET`
@@ -432,6 +435,7 @@
 - `MAX_MCP_OUTPUT_TOKENS`
 - `MAX_STRUCTURED_OUTPUT_RETRIES`
 - `MAX_THINKING_TOKENS`
+- `MCP_CONNECTION_NONBLOCKING`
 - `MCP_OAUTH_CALLBACK_PORT`
 - `MCP_REMOTE_SERVER_CONNECTION_BATCH_SIZE`
 - `MCP_SERVER_CONNECTION_BATCH_SIZE`
@@ -469,6 +473,7 @@
 - `P`
 - `PATH`
 - `PATHEXT`
+- `PERMISSION_EXPLAINER_ENABLED`
 - `PKG_CONFIG_PATH`
 - `PROJECT_DOMAIN`
 - `PWD`
@@ -571,7 +576,6 @@
 
 ## Config Keys
 
-- `__`
 - `$schema`
 - `A`
 - `activeForm`
@@ -684,6 +688,7 @@
 - `eventData`
 - `eventName`
 - `excludedCommands`
+- `explanation`
 - `extensions`
 - `extraKnownMarketplaces`
 - `file`
@@ -745,6 +750,7 @@
 - `matcher`
 - `matches`
 - `max_results`
+- `max_turns`
 - `mcp_response`
 - `mcpServers`
 - `media_type`
@@ -831,9 +837,12 @@
 - `resume`
 - `returnCodeInterpretation`
 - `ripgrep`
+- `riskLevel`
 - `ruleContent`
 - `rules`
 - `run_in_background`
+- `S_`
+- `safeFlags`
 - `sandbox`
 - `scope`
 - `selection`
@@ -869,7 +878,6 @@
 - `subagent_type`
 - `subject`
 - `success`
-- `summary`
 - `suppressOutput`
 - `syntaxHighlightingDisabled`
 - `systemMessage`
@@ -959,6 +967,7 @@ _None detected_
 - `claude-code-screenshots`
 - `claude-code-user`
 - `claude-context`
+- `Claude-Generated-By:`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
