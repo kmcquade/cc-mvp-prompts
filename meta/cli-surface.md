@@ -4,7 +4,7 @@
 
 - Commands: 16
 - Options: 30
-- Env vars: 220
+- Env vars: 218
 - Config keys: 254
 - Tools: 1
 - Skills: 0
@@ -147,8 +147,6 @@
 - `BUN_INSTALL`
 - `C`
 - `CF_PAGES_COMMIT_SHA`
-- `CHOKIDAR_INTERVAL`
-- `CHOKIDAR_USEPOLLING`
 - `CLAUBBIT`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_CODE_ACTION`
