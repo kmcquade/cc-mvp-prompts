@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 16
-- Options: 37
-- Env vars: 269
-- Config keys: 327
+- Options: 39
+- Env vars: 270
+- Config keys: 330
 - Tools: 3
 - Skills: 0
 - Models: 39
@@ -59,6 +59,7 @@
 ### Flags
 
 - `--add-dir`
+- `--agents`
 - `--allowed-tools`
 - `--allowedTools`
 - `--continue`
@@ -82,6 +83,7 @@
 - `--resume`
 - `--scope`
 - `--session-id`
+- `--setting-sources`
 - `--settings`
 - `--strict-mcp-config`
 - `--transport`
@@ -99,6 +101,7 @@
 ### Specs
 
 - `--add-dir <directories...>`
+- `--agents <json>`
 - `--allowedTools, --allowed-tools <tools...>`
 - `--dangerously-skip-permissions`
 - `--disallowedTools, --disallowed-tools <tools...>`
@@ -112,6 +115,7 @@
 - `--model <model>`
 - `--replay-user-messages`
 - `--session-id <uuid>`
+- `--setting-sources <sources>`
 - `--settings <file-or-json>`
 - `--strict-mcp-config`
 - `--verbose`
@@ -360,6 +364,7 @@
 - `TEST_ENABLE_SESSION_PERSISTENCE`
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
+- `TMPDIR`
 - `UNDICI_NO_FG`
 - `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
@@ -408,6 +413,7 @@
 - `additionalContext`
 - `additionalDirectories`
 - `allow`
+- `allowLocalBinding`
 - `allowOnly`
 - `allowUnixSockets`
 - `api`
@@ -461,6 +467,7 @@
 - `continue`
 - `costPriority`
 - `created_at`
+- `dangerouslyOverrideSandbox`
 - `data`
 - `decision`
 - `default`
@@ -710,6 +717,7 @@
 - `turns`
 - `type`
 - `ui_locales_supported`
+- `unsandboxedCommands`
 - `updated_at`
 - `updatedInput`
 - `updatedPermissions`

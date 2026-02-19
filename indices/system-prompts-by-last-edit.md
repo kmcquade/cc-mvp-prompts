@@ -1,29 +1,30 @@
 # System Prompts Index – by last edit
 
-- Total prompt files: **323**
+- Total prompt files: **303**
 
 ## Categories
 
-- System prompts (90)
+- System prompts (89)
 - Tool prompts (68)
 - Agent prompts (3)
-- System data (98)
+- System data (79)
 - System reminders (64)
 
-## System prompts (90)
+## System prompts (89)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-safe-bash-command-execution.md`](../system-prompts/system-prompt-safe-bash-command-execution.md) | Defines steps for securely running bash commands with quoting and directory checks. | 2,389 | 1.0.124 | 1.0.124 |
-| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.124 |
-| [`system-prompt-default-sandboxed-commands.md`](../system-prompts/system-prompt-default-sandboxed-commands.md) | Default all command executions to sandbox true, only disabling upon explicit user request. | 441 | 1.0.124 | 1.0.124 |
-| [`system-prompt-constants-and-stdio-streams.md`](../system-prompts/system-prompt-constants-and-stdio-streams.md) | Lists constants and stream-json argument scaffolding with clipboard image notice. | 294 | 1.0.124 | 1.0.124 |
+| [`system-prompt-safe-bash-command-execution.md`](../system-prompts/system-prompt-safe-bash-command-execution.md) | Defines steps for securely running bash commands with quoting and directory checks. | 2,478 | 1.0.125 | 1.0.125 |
+| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.125 |
+| [`system-prompt-sandboxed-command-execution-rules.md`](../system-prompts/system-prompt-sandboxed-command-execution-rules.md) | Sandboxed command execution template with strict warnings against overriding sandbox by default. | 530 | 1.0.125 | 1.0.125 |
+| [`system-prompt-constants-and-stdio-streams.md`](../system-prompts/system-prompt-constants-and-stdio-streams.md) | Lists constants and stream-json argument scaffolding with clipboard image notice. | 293 | 1.0.125 | 1.0.125 |
+| [`system-prompt-stdio-changes-stream-json.md`](../system-prompts/system-prompt-stdio-changes-stream-json.md) | System block describing stdio agent changes and stream-json arguments. | 141 | 1.0.125 | 1.0.125 |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.125 |
+| [`system-prompt-uninstall-flags-local-snippet.md`](../system-prompts/system-prompt-uninstall-flags-local-snippet.md) | Repeated snippet listing uninstall flags and local context terms. | 75 | 1.0.125 | 1.0.125 |
 | [`system-prompt-stream-json-args-logic.md`](../system-prompts/system-prompt-stream-json-args-logic.md) | Implements conditional argument handling for stream-json in a gitignored project context. | 254 | 1.0.124 | 1.0.124 |
 | [`system-prompt-format-type-validation-setup.md`](../system-prompts/system-prompt-format-type-validation-setup.md) | Selects format handler, infers schema type from object validators, and defaults to string | 143 | 1.0.124 | 1.0.124 |
-| [`system-prompt-stdio-stream-json-arguments.md`](../system-prompts/system-prompt-stdio-stream-json-arguments.md) | Captures stdio and stream-json argument wiring in a gitignored project context. | 142 | 1.0.124 | 1.0.124 |
-| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.124 |
 | [`system-prompt-error-collection-loop.md`](../system-prompts/system-prompt-error-collection-loop.md) | When condition fails, iterates errors from startErrs and assigns each vErrors propertyName. | 103 | 1.0.124 | 1.0.124 |
 | [`system-prompt-redirect-detected.md`](../system-prompts/system-prompt-redirect-detected.md) | Request WebFetch rerun to retrieve content from redirected host URL with new parameters. | 97 | 1.0.52 | 1.0.124 |
 | [`system-prompt-delegate-work-to-specialists.md`](../system-prompts/system-prompt-delegate-work-to-specialists.md) | Delegate multi-step tasks to specialized subagents and prefer direct search tools when appropriate. | 986 | 1.0.122 | 1.0.122 |
@@ -38,8 +39,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-session-start-pattern-hook.md`](../system-prompts/system-prompt-session-start-pattern-hook.md) | Session start hook with two URLs, a freeform line, pattern string, and path. | 48 | 1.0.122 | 1.0.122 |
 | [`system-prompt-conversation-title-generator-3.md`](../system-prompts/system-prompt-conversation-title-generator-3.md) | Requests a fixed-length title derived from recent conversation messages. | 148 | 1.0.118 | 1.0.120 |
 | [`system-prompt-constants-env-path-args.md`](../system-prompts/system-prompt-constants-env-path-args.md) | Multiple prompts (2) | 845 | 1.0.118 | 1.0.118 |
-| [`system-prompt-verbatim-linters-list.md`](../system-prompts/system-prompt-verbatim-linters-list.md) | Claude Code system banner enumerating supported linters and repeated Background Bash command/status metadata. | 735 | 1.0.118 | 1.0.118 |
-| [`system-prompt-http-request-timing-events-2.md`](../system-prompts/system-prompt-http-request-timing-events-2.md) | Injects bash command context and status, then enumerates HTTP request timing phase markers. | 229 | 1.0.118 | 1.0.118 |
 | [`system-prompt-exit-transcript-rules.md`](../system-prompts/system-prompt-exit-transcript-rules.md) | Specifies how stdout and stderr are displayed for tool call inputs and responses by exit code. | 70 | 1.0.113 | 1.0.113 |
 | [`system-prompt-create-md-guide-2.md`](../system-prompts/system-prompt-create-md-guide-2.md) | Analyze the repo and draft or improve a CLAUDE.md with commands and architecture. | 381 | 1.0.112 | 1.0.112 |
 | [`system-prompt-file-editing-and-path-rules.md`](../system-prompts/system-prompt-file-editing-and-path-rules.md) | Injects URL and expression, enforcing no new files, no docs, absolute paths, snippetful final reply. | 160 | 1.0.111 | 1.0.111 |
@@ -192,55 +191,35 @@ _Sorted by last edit (newest first)._
 | [`agent-prompt-configure-statusline.md`](../system-prompts/agent-prompt-configure-statusline.md) | Create or update a Claude Code statusLine by converting shell PS1 settings. | 1,055 | 1.0.81 | 1.0.81 |
 | [`agent-prompt-codebase-search-analysis-guide.md`](../system-prompts/agent-prompt-codebase-search-analysis-guide.md) | Guidance for searching and analyzing multiple files in a codebase without creating files. | 287 | 1.0.45 | 1.0.78 |
 
-## System data (98)
+## System data (79)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-data-macos-sandbox-policy-allowlist.md`](../system-prompts/system-data-macos-sandbox-policy-allowlist.md) | macOS sandbox profile allowing core process actions, specific Mach services, and IPC primitives | 1,654 | 1.0.124 | 1.0.124 |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 1.0.124 |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 1.0.124 |
+| [`system-data-macos-sandbox-policy-rules.md`](../system-prompts/system-data-macos-sandbox-policy-rules.md) | Sandbox profile allowing specific process permissions and Mach service lookups. | 1,769 | 1.0.125 | 1.0.125 |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 1.0.125 |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 1.0.125 |
+| [`system-data-title-request-with-uninstall-flags.md`](../system-prompts/system-data-title-request-with-uninstall-flags.md) | Request a short conversation title with appended uninstall flag content. | 182 | 1.0.125 | 1.0.125 |
+| [`system-data-uninstall-force-title-generation-2.md`](../system-prompts/system-data-uninstall-force-title-generation-2.md) | Create a brief conversation title from recent messages containing uninstall and force flags. | 182 | 1.0.125 | 1.0.125 |
+| [`system-data-uninstall-force-title-generation.md`](../system-prompts/system-data-uninstall-force-title-generation.md) | Create a brief conversation title from recent messages containing uninstall and force flags. | 175 | 1.0.125 | 1.0.125 |
+| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 1.0.125 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 1.0.125 |
+| [`system-data-http-request-timing-events-5.md`](../system-prompts/system-data-http-request-timing-events-5.md) | List of HTTP request lifecycle timing markers from redirect to response end. | 95 | 1.0.125 | 1.0.125 |
+| [`system-data-urls-uninstall-pattern-snippet.md`](../system-prompts/system-data-urls-uninstall-pattern-snippet.md) | System-data block listing URLs, uninstall force flags, and a named matching pattern. | 67 | 1.0.125 | 1.0.125 |
+| [`system-data-patterned-force-uninstall.md`](../system-prompts/system-data-patterned-force-uninstall.md) | Defines a pattern-driven global forced uninstall template with repeated numeric and path parameters. | 46 | 1.0.125 | 1.0.125 |
 | [`system-data-github-pr-review.md`](../system-prompts/system-data-github-pr-review.md) | GitHub Actions pull_request workflow checks out code and runs Claude review on a PR. | 534 | 1.0.124 | 1.0.124 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 1.0.124 |
-| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 1.0.124 |
 | [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 1.0.124 |
 | [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 1.0.124 |
-| [`system-data-linters-user-project-local-3.md`](../system-prompts/system-data-linters-user-project-local-3.md) | Lists many linting/formatting tools plus bash background, command, status, and context scopes. | 258 | 1.0.122 | 1.0.123 |
-| [`system-data-linters-user-project-local.md`](../system-prompts/system-data-linters-user-project-local.md) | Lists many linter/formatter tools and embeds bash command/status metadata for local context | 254 | 1.0.122 | 1.0.123 |
-| [`system-data-linters-with-local-bash-2.md`](../system-prompts/system-data-linters-with-local-bash-2.md) | Lists many linter/formatter tools and embeds bash command/status metadata for local context | 250 | 1.0.122 | 1.0.123 |
-| [`system-data-linters-user-project-local-2.md`](../system-prompts/system-data-linters-user-project-local-2.md) | Lists many linting/formatting tools plus bash background, command, status, and context scopes. | 149 | 1.0.122 | 1.0.123 |
-| [`system-data-linters-with-local-bash.md`](../system-prompts/system-data-linters-with-local-bash.md) | Lists linting and formatting tools, plus bash command metadata and repo/editor folders. | 145 | 1.0.118 | 1.0.123 |
-| [`system-data-duplicated-lint-blocks-bash.md`](../system-prompts/system-data-duplicated-lint-blocks-bash.md) | Contains two repeated linter context blocks each with background bash command metadata and outputs. | 392 | 1.0.122 | 1.0.122 |
-| [`system-data-conversation-title-generator-3.md`](../system-prompts/system-data-conversation-title-generator-3.md) | Requests a fixed-length word title for the provided conversation excerpt. | 316 | 1.0.122 | 1.0.122 |
-| [`system-data-conversation-title-generator-4.md`](../system-prompts/system-data-conversation-title-generator-4.md) | Requests a fixed-length word title for the provided conversation excerpt. | 316 | 1.0.122 | 1.0.122 |
-| [`system-data-conversation-title-generator-2.md`](../system-prompts/system-data-conversation-title-generator-2.md) | Requests a fixed-length word title for the provided conversation excerpt. | 309 | 1.0.122 | 1.0.122 |
-| [`system-data-files-linter-context-2.md`](../system-prompts/system-data-files-linter-context-2.md) | CLI linter context listing supported tools plus bash command, status, and files section. | 289 | 1.0.122 | 1.0.122 |
 | [`system-data-api-put-update-file-branch.md`](../system-prompts/system-data-api-put-update-file-branch.md) | Runs background bash then issues an API PUT to update repo content on a branch. | 284 | 1.0.122 | 1.0.122 |
-| [`system-data-extended-linter-header.md`](../system-prompts/system-data-extended-linter-header.md) | Multiple prompts (4) | 255 | 1.0.122 | 1.0.122 |
-| [`system-data-preface-plus-lint-environment.md`](../system-prompts/system-data-preface-plus-lint-environment.md) | Includes an initial preface variable then standard linter list and background bash command block. | 255 | 1.0.122 | 1.0.122 |
-| [`system-data-since-header-lint-environment.md`](../system-prompts/system-data-since-header-lint-environment.md) | Defines a linting tool environment and captures a single background bash command result. | 251 | 1.0.122 | 1.0.122 |
-| [`system-data-stdio-numbers-and-status.md`](../system-prompts/system-data-stdio-numbers-and-status.md) | Numeric placeholders and stdio lines with linter list and background bash status blocks. | 250 | 1.0.122 | 1.0.122 |
-| [`system-data-lint-environment-background-bash.md`](../system-prompts/system-data-lint-environment-background-bash.md) | Lists supported linters and includes background bash command metadata and output placeholders. | 248 | 1.0.122 | 1.0.122 |
 | [`system-data-pattern-with-background-bash-status-2.md`](../system-prompts/system-data-pattern-with-background-bash-status-2.md) | Template combining a pattern field with background bash command and status. | 222 | 1.0.122 | 1.0.122 |
-| [`system-data-pattern-plus-linter-header-3.md`](../system-prompts/system-data-pattern-plus-linter-header-3.md) | Pattern header and Claude Code linter list with background Bash command metadata | 201 | 1.0.122 | 1.0.122 |
 | [`system-data-api-put-with-context-and-stream.md`](../system-prompts/system-data-api-put-with-context-and-stream.md) | API PUT update sequence with user/project/local context and stream-json fields. | 192 | 1.0.122 | 1.0.122 |
-| [`system-data-pattern-plus-linter-header-2.md`](../system-prompts/system-data-pattern-plus-linter-header-2.md) | Pattern header and Claude Code linter list with background Bash command metadata | 180 | 1.0.122 | 1.0.122 |
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 1.0.122 |
-| [`system-data-post-use-file-list.md`](../system-prompts/system-data-post-use-file-list.md) | Post-tool hook listing linters with bash background, command, status, and file paths. | 161 | 1.0.122 | 1.0.122 |
-| [`system-data-pattern-plus-linter-header-4.md`](../system-prompts/system-data-pattern-plus-linter-header-4.md) | Pattern header and Claude Code linter list with background Bash command metadata | 159 | 1.0.122 | 1.0.122 |
-| [`system-data-pattern-plus-linter-header.md`](../system-prompts/system-data-pattern-plus-linter-header.md) | Pattern header and Claude Code linter list with background Bash command metadata | 159 | 1.0.122 | 1.0.122 |
 | [`system-data-pattern-with-background-bash-status.md`](../system-prompts/system-data-pattern-with-background-bash-status.md) | Template combining a pattern field with background bash command and status. | 157 | 1.0.122 | 1.0.122 |
-| [`system-data-files-linter-context.md`](../system-prompts/system-data-files-linter-context.md) | CLI linter context listing supported tools plus bash command, status, and files section. | 152 | 1.0.122 | 1.0.122 |
 | [`system-data-patterned-conversation-title.md`](../system-prompts/system-data-patterned-conversation-title.md) | Generate a NUM–NUM word conversation title following pattern and recent message window. | 118 | 1.0.122 | 1.0.122 |
 | [`system-data-function-with-url-pattern-field.md`](../system-prompts/system-data-function-with-url-pattern-field.md) | Defines function EXPR_1 with repeated URL usage and embedded pattern string EXPR_4. | 65 | 1.0.122 | 1.0.122 |
-| [`system-data-cli-linters-metadata.md`](../system-prompts/system-data-cli-linters-metadata.md) | Multiple prompts (5) | 313 | 1.0.118 | 1.0.118 |
 | [`system-data-background-bash-command-status-4.md`](../system-prompts/system-data-background-bash-command-status-4.md) | Template centered on background bash command and status fields with placeholder inserts. | 164 | 1.0.118 | 1.0.118 |
-| [`system-data-urls-and-linter-list.md`](../system-prompts/system-data-urls-and-linter-list.md) | Claude Code system-data snippet listing many linters plus background bash command/status details. | 164 | 1.0.118 | 1.0.118 |
 | [`system-data-write-conversation-title-2.md`](../system-prompts/system-data-write-conversation-title-2.md) | Requests a fixed-length title for a conversation using recent message context. | 160 | 1.0.118 | 1.0.118 |
-| [`system-data-manual-lint-migration-action.md`](../system-prompts/system-data-manual-lint-migration-action.md) | Warns migration needs manual follow-up; enumerates supported linters and background Bash status info. | 158 | 1.0.118 | 1.0.118 |
-| [`system-data-linters-header.md`](../system-prompts/system-data-linters-header.md) | Claude Code CLI header listing linters plus background bash command and status block | 157 | 1.0.118 | 1.0.118 |
-| [`system-data-app-path.md`](../system-prompts/system-data-app-path.md) | Claude Code header listing linters, plus background bash command, status, and app path. | 151 | 1.0.118 | 1.0.118 |
 | [`system-data-user-settings-flags-list-2.md`](../system-prompts/system-data-user-settings-flags-list-2.md) | List of configuration keys for installation, updates, theme, editor behavior, and features. | 118 | 1.0.114 | 1.0.114 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 139 | 1.0.110 | 1.0.110 |
 | [`system-data-runtime-environment-details-2.md`](../system-prompts/system-data-runtime-environment-details-2.md) | Reports runtime environment details including working directory, platform, OS version, date, and PATH. | 99 | 1.0.110 | 1.0.110 |
@@ -257,6 +236,7 @@ _Sorted by last edit (newest first)._
 | [`system-data-json-schema-constraints-list.md`](../system-prompts/system-data-json-schema-constraints-list.md) | List of common JSON Schema constraint and validation keywords. | 59 | 1.0.20 | 1.0.20 |
 | [`system-data-numeric-placeholder-list.md`](../system-prompts/system-data-numeric-placeholder-list.md) | Repeated numeric placeholders in a long list. | 573 | 0.2.125 | 0.2.125 |
 | [`system-data-http-header-field-list.md`](../system-prompts/system-data-http-header-field-list.md) | List of HTTP request and response header fields including CORS and CSP. | 501 | 0.2.125 | 0.2.125 |
+| [`system-data-linter-formatter-list.md`](../system-prompts/system-data-linter-formatter-list.md) | Lists common linters, formatters, and code quality tools. | 98 | 0.2.123 | 0.2.123 |
 | [`system-data-javascript-builtins-list.md`](../system-prompts/system-data-javascript-builtins-list.md) | Enumeration of common JavaScript globals, typed arrays, collections, and utility functions. | 91 | 0.2.54 | 0.2.54 |
 | [`system-data-plist-keybinding-xml-template.md`](../system-prompts/system-data-plist-keybinding-xml-template.md) | XML property-list snippet for a keybinding entry with numeric fields. | 158 | 0.2.46 | 0.2.46 |
 | [`system-data-dom-exception-messages-codes.md`](../system-prompts/system-data-dom-exception-messages-codes.md) | DOM exception names with placeholder numeric codes and messages. | 532 | 0.2.33 | 0.2.33 |
@@ -303,9 +283,9 @@ _Sorted by last edit (newest first). Showing **31** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.124 |
-| [`system-reminder-conversation-title-generator-2.md`](../system-prompts/system-reminder-conversation-title-generator-2.md) | Generate a concise 5–10 word conversation title from recent message context | 210 | 1.0.124 | 1.0.124 |
-| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.124 |
+| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.125 |
+| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.125 |
+| [`system-reminder-local-project-uninstall-title.md`](../system-prompts/system-reminder-local-project-uninstall-title.md) | Create a NUM-NUM word conversation title from the last EXPR_1 of EXPR_2 messages. | 76 | 1.0.125 | 1.0.125 |
 | [`system-reminder-defensive-security-cli-guidelines.md`](../system-prompts/system-reminder-defensive-security-cli-guidelines.md) | CLI assistant rules for defensive security help, safe tool use, and feedback guidance. | 3,111 | 1.0.122 | 1.0.122 |
 | [`system-reminder-pattern-line.md`](../system-prompts/system-reminder-pattern-line.md) | System reminder containing URLs, a context line, a quoted pattern, and a path. | 46 | 1.0.122 | 1.0.122 |
 | [`system-reminder-url-expr-pattern-line.md`](../system-prompts/system-reminder-url-expr-pattern-line.md) | Template joins two URLs, an expression, a quoted pattern string, and trailing expression. | 32 | 1.0.122 | 1.0.122 |
