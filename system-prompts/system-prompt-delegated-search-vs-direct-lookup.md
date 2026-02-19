@@ -4,28 +4,27 @@
 
 ## Summary
 
-Guidelines for using an Agent tool for broad searches versus direct file/code lookup tools.
+Delegate uncertain keyword or file discovery to Agent; use direct tools for precise lookups.
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | comma-separated list of names | None |
-| `EXPR_2` | View | None |
-| `EXPR_3` | GlobTool | None |
-| `EXPR_4` | GlobTool | None |
-| `EXPR_5` | View | None |
+| `EXPR_1` | Read | None |
+| `EXPR_2` | Glob | None |
+| `EXPR_3` | Glob | None |
+| `EXPR_4` | Read | None |
 
 # Raw Prompt Text
-Launch a new agent that has access to the following tools: ${EXPR_1}. When you are searching for a keyword or file and are not confident that you will find the right match in the first few tries, use the Agent tool to perform the search for you.
+Launch a new agent that has access to the following tools: ${URL} ${URL} When you are searching for a keyword or file and are not confident that you will find the right match in the first few tries, use the Agent tool to perform the search for you.
 
 When to use the Agent tool:
 - If you are searching for a keyword like "config" or "logger", or for questions like "which file does X?", the Agent tool is strongly recommended
 
 When NOT to use the Agent tool:
-- If you want to read a specific file path, use the ${EXPR_2: 'View'} or ${EXPR_3: 'GlobTool'} tool instead of the Agent tool, to find the match more quickly
-- If you are searching for a specific class definition like "class Foo", use the ${EXPR_4: 'GlobTool'} tool instead, to find the match more quickly
-- If you are searching for code within a specific file or set of ${NUM}-${NUM} files, use the ${EXPR_5: 'View'} tool instead of the Agent tool, to find the match more quickly
+- If you want to read a specific file path, use the ${EXPR_1: 'Read'} or ${EXPR_2: 'Glob'} tool instead of the Agent tool, to find the match more quickly
+- If you are searching for a specific class definition like "class Foo", use the ${EXPR_3: 'Glob'} tool instead, to find the match more quickly
+- If you are searching for code within a specific file or set of ${NUM}-${NUM} files, use the ${EXPR_4: 'Read'} tool instead of the Agent tool, to find the match more quickly
 
 Usage notes:
 ${NUM}. Launch multiple agents concurrently whenever possible, to maximize performance; to do that, use a single message with multiple tool uses
