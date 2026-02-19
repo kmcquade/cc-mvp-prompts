@@ -10,13 +10,12 @@ Describes exact in-file replacement tool rules, requiring prior read and unique 
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | Read | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Performs exact string replacements in files.
 
-Usage:
-- You must use your `${EXPR_1: 'Read'}` tool at least once in the conversation before editing. This tool will error if you attempt an edit without reading the file.
+Usage:${EXPR_1}
 - When editing text from Read tool output, ensure you preserve the exact indentation (tabs${PATH}) as it appears AFTER the line number prefix. The line number prefix format is: spaces + line number + tab. Everything after that tab is the actual file content to match. Never include any part of the line number prefix in the old_string or new_string.
 - ALWAYS prefer editing existing files in the codebase. NEVER write new files unless explicitly required.
 - Only use emojis if the user explicitly requests it. Avoid adding emojis to files unless asked.
