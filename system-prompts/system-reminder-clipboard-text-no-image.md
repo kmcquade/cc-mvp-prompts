@@ -12,6 +12,8 @@ Reports pasted text line count and notes no clipboard image detected.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
+| `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
-[Pasted text #${EXPR_1} +No image found in clipboard. Use ${EXPR_2} to paste images. lines]
+[Pasted text #${EXPR_1}${EXPR_2}${EXPR_3} +No image found in clipboard. Use ${EXPR_4} to paste images. lines]
