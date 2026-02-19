@@ -1,4 +1,4 @@
-# System Reminder: task-metadata-schema-template
+# System Reminder: task-metadata-json-schema-2
 
 - Source: inline
 
