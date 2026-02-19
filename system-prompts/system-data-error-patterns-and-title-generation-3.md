@@ -29,15 +29,24 @@ Contains error-field patterns and title generation plus common coding tasks.
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
 
 # Raw Prompt Text
-pattern: "${EXPR_1}"
+${EXPR_1}
 
 ${EXPR_2}
 
-pattern: "${EXPR_3}"
+${EXPR_3}
 
-${EXPR_4}
+pattern: "${EXPR_4}"
+
+${EXPR_5}
+
+pattern: "${EXPR_6}"
+
+${EXPR_7}
 
 name
 
@@ -57,43 +66,43 @@ columnNumber
 
 toJSON
 
-pattern: "${EXPR_5}"
+pattern: "${EXPR_8}"
 
-${EXPR_6}
+${EXPR_9}
 
-pattern: "${EXPR_7}"
+pattern: "${EXPR_10}"
 
-${EXPR_8}
+${EXPR_11}
 
-pattern: "${EXPR_9}"
+pattern: "${EXPR_12}"
 
-${EXPR_10}
+${EXPR_13}
 
-pattern: "${EXPR_11}"
+pattern: "${EXPR_14}"
 
-${EXPR_12}
+${EXPR_15}
 
 fix lint errors
 
 fix typecheck errors
 
-how does ${EXPR_13} work?
+how does ${EXPR_16} work?
 
-refactor ${EXPR_14}
+refactor ${EXPR_17}
 
 how do I log an error?
 
-edit ${EXPR_15} to...
+edit ${EXPR_18} to...
 
-write a test for ${EXPR_16}
+write a test for ${EXPR_19}
 
 create a util logging.py that...
 
 Please write a ${NUM}-${NUM} word title for the following conversation:
 
-[Last ${EXPR_17} of ${EXPR_18} messages]
+[Last ${EXPR_20} of ${EXPR_21} messages]
 
-${EXPR_19}
+${EXPR_22}
 
 
 Respond with the title for the conversation and nothing else.
