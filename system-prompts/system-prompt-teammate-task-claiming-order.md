@@ -1,4 +1,4 @@
-# System Prompt: teammate-task-selection-rules
+# System Prompt: teammate-task-claiming-order
 
 - Source: inline
 
