@@ -1,4 +1,4 @@
-# System Prompt: bash-command-prefix-detection
+# System Prompt: bash-command-prefix-injection-detection
 
 - Source: inline
 
