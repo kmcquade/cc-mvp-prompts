@@ -5,7 +5,7 @@
 - Commands: 12
 - Options: 16
 - Env vars: 120
-- Config keys: 60
+- Config keys: 61
 - Tools: 0
 - Skills: 0
 - Models: 15
@@ -232,6 +232,7 @@
 - `libvips`
 - `listChanged`
 - `logging`
+- `mcpServers`
 - `message`
 - `method`
 - `mimeType`
