@@ -1,6 +1,6 @@
 # Tool Description: list-manage-background-tasks
 
-- Name: bashes
+- Name: tasks
 
 ## Summary
 
