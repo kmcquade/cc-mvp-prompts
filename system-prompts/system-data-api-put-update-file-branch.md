@@ -38,7 +38,7 @@ Runs background bash then issues an API PUT to update repo content on a branch.
 # Raw Prompt Text
 ${EXPR_1}
 
-pattern: "${EXPR_2}"
+${EXPR_2}
 
 ${EXPR_3}
 
@@ -50,21 +50,21 @@ ${EXPR_6}
 
 ${EXPR_7}
 
-${EXPR_8}
+pattern: "${EXPR_8}"
 
-Background Bash ${EXPR_9}
+${EXPR_9}
 
-(command: ${EXPR_10})
+${EXPR_10}
 
-(status: ${EXPR_11})
+${EXPR_11}
 
 ${EXPR_12}
 
-${EXPR_13}
+Background Bash ${EXPR_13}
 
-${EXPR_14}
+(command: ${EXPR_14})
 
-${EXPR_15}
+(status: ${EXPR_15})
 
 ${EXPR_16}
 
@@ -78,21 +78,25 @@ ${EXPR_20}
 
 ${EXPR_21}
 
-Background Bash ${EXPR_22}
+${EXPR_22}
 
-(command: ${EXPR_23})
+${EXPR_23}
 
-(status: ${EXPR_24})
+${EXPR_24}
 
 ${EXPR_25}
 
-${EXPR_26}
+Background Bash ${EXPR_26}
 
-${EXPR_27}
+(command: ${EXPR_27})
 
-${EXPR_28}
+(status: ${EXPR_28})
 
 ${EXPR_29}
+
+${EXPR_30}
+
+${EXPR_31}
 
 api
 
@@ -100,16 +104,16 @@ api
 
 PUT
 
-repos/${EXPR_30}${PATH}${EXPR_31}
+repos/${EXPR_32}${PATH}${EXPR_33}
 
 -f
 
-message="Update ${EXPR_32}"
+message="Update ${EXPR_34}"
 
 -f
 
-content=${EXPR_33}
+content=${EXPR_35}
 
 -f
 
-branch=${EXPR_34}
+branch=${EXPR_36}
