@@ -25,15 +25,6 @@ Template to generate a short title summarizing a conversation.
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
-| `EXPR_18` | None | None |
-| `EXPR_19` | None | None |
-| `EXPR_20` | None | None |
-| `EXPR_21` | None | None |
-| `EXPR_22` | None | None |
-| `EXPR_23` | None | None |
-| `EXPR_24` | None | None |
 
 # Raw Prompt Text
 Please write a ${NUM}-${NUM} word title for the following conversation:
@@ -45,55 +36,7 @@ ${EXPR_3}
 
 Respond with the title for the conversation and nothing else.
 
-┼
-
-┤
-
-╶
-
-╴
-
-─
-
-╰
-
-╭
-
-╮
-
-╯
-
-│
-
-${EXPR_4}
-
-${EXPR_5}
-
-${EXPR_6}
-
-${EXPR_7}
-
-${EXPR_8}
-
-${EXPR_9}
-
-${EXPR_10}
-
-${EXPR_11}
-
-${EXPR_12}
-
-${EXPR_13}
-
-${EXPR_14}
-
-${EXPR_15}
-
-${EXPR_16}
-
-${EXPR_17}
-
-${NUM}
+fcoeoabgfenejglbffodgkkbkcdhcgfn
 
 user
 
@@ -101,7 +44,7 @@ project
 
 local
 
-${EXPR_18}:
+fcoeoabgfenejglbffodgkkbkcdhcgfn
 
 api
 
@@ -109,20 +52,42 @@ api
 
 PUT
 
-repos/${EXPR_19}${PATH}${EXPR_20}
+repos/${EXPR_4}${PATH}${EXPR_5}
 
 -f
 
-message="Update ${EXPR_21}"
+message="Update ${EXPR_6}"
 
 -f
 
-content=${EXPR_22}
+content=${EXPR_7}
 
 -f
 
-branch=${EXPR_23}
+branch=${EXPR_8}
 
-${EXPR_24}
+${EXPR_9}
 
-${EXPR_25}:
+fcoeoabgfenejglbffodgkkbkcdhcgfn
+
+${EXPR_10}
+
+api
+
+--method
+
+PUT
+
+repos/${EXPR_11}${PATH}${EXPR_12}
+
+-f
+
+message="Update ${EXPR_13}"
+
+-f
+
+content=${EXPR_14}
+
+-f
+
+branch=${EXPR_15}
