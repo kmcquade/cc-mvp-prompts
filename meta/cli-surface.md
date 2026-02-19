@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 32
-- Env vars: 235
-- Config keys: 264
+- Env vars: 236
+- Config keys: 269
 - Tools: 1
 - Skills: 0
 - Models: 30
@@ -187,6 +187,7 @@
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CONFIG_DIR`
+- `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `COMMIT_REF`
@@ -441,6 +442,7 @@
 - `experimental`
 - `expires_in`
 - `extensions`
+- `feedbackSurveyState`
 - `file`
 - `filenames`
 - `filePath`
@@ -475,6 +477,7 @@
 - `jwks`
 - `jwks_uri`
 - `language`
+- `lastShownTime`
 - `learnMode`
 - `libvips`
 - `line`
@@ -518,6 +521,7 @@
 - `outputMode`
 - `outputs`
 - `owner`
+- `padding`
 - `params`
 - `permissionDecision`
 - `permissionDecisionReason`
@@ -578,6 +582,7 @@
 - `start`
 - `startLine`
 - `status`
+- `statusLine`
 - `stderr`
 - `stderrLines`
 - `stdout`
@@ -589,6 +594,7 @@
 - `success`
 - `summary`
 - `suppressOutput`
+- `systemMessage`
 - `text`
 - `timeout`
 - `title`
