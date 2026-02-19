@@ -14,14 +14,13 @@ Combine several agent analyses into a unified, conflict-resolved answer to the t
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}${EXPR_2}${EXPR_3} nullOriginal task: ${EXPR_4}
+${NUM}${EXPR_1}${EXPR_2} nullOriginal task: ${EXPR_3}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
-${EXPR_5}
+${EXPR_4}
 
 Based on all the information provided by these agents, synthesize a comprehensive and cohesive response that:
 ${NUM}. Combines the key insights from all agents
