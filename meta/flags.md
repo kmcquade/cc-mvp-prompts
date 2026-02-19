@@ -1,4 +1,4 @@
-# Claude Code 1.0.15 – Flags
+# Claude Code 1.0.16 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
