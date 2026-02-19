@@ -1,9 +1,10 @@
-# Prompt Stats 0.2.32
+# Prompt Stats 0.2.33
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
 | system | [System Prompt: Actionable Software Architecture Plans](../system-prompts/system-prompt-actionable-software-architecture-plans.md) | 904 | 186 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Bash Command Prefix Detection](../system-prompts/system-prompt-bash-command-prefix-detection.md) | 2399 | 658 | 0.2.30 | 0.2.30 |
+| system | [System Prompt: Blocked Directory Change Security](../system-prompts/system-prompt-blocked-directory-change-security.md) | 207 | 57 | 0.2.33 | 0.2.33 |
 | system | [System Prompt: Classify Bash Command Prefix](../system-prompts/system-prompt-classify-bash-command-prefix.md) | 148 | 33 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Cli Guidelines](../system-prompts/system-prompt-cli-guidelines.md) | 893 | 224 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Command Message Xml Template](../system-prompts/system-prompt-command-message-xml-template.md) | 220 | 82 | 0.2.9 | 0.2.9 |
@@ -13,15 +14,15 @@
 | system | [System Prompt: Delegated Search Guidance](../system-prompts/system-prompt-delegated-search-guidance.md) | 1777 | 432 | 0.2.18 | 0.2.18 |
 | system | [System Prompt: Delphi Ui Components List](../system-prompts/system-prompt-delphi-ui-components-list.md) | 422 | 148 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Detect New Topic Title](../system-prompts/system-prompt-detect-new-topic-title.md) | 315 | 85 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Explore Large Repository Tree](../system-prompts/system-prompt-explore-large-repository-tree.md) | 226 | 55 | 0.2.29 | 0.2.29 |
-| system | [System Prompt: Explore Large Repository Tree 2](../system-prompts/system-prompt-explore-large-repository-tree-2.md) | 228 | 60 | 0.2.9 | 0.2.29 |
+| system | [System Prompt: Explore Large Repository Tree](../system-prompts/system-prompt-explore-large-repository-tree.md) | 259 | 75 | 0.2.33 | 0.2.33 |
+| system | [System Prompt: Explore Large Repository Tree 2](../system-prompts/system-prompt-explore-large-repository-tree-2.md) | 226 | 55 | 0.2.29 | 0.2.33 |
 | system | [System Prompt: Extract Command File Paths](../system-prompts/system-prompt-extract-command-file-paths.md) | 502 | 143 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Feedback Issue Title](../system-prompts/system-prompt-feedback-issue-title.md) | 220 | 56 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Fetch Pr Comments](../system-prompts/system-prompt-fetch-pr-comments.md) | 1469 | 444 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: File Updated Snippet Output](../system-prompts/system-prompt-file-updated-snippet-output.md) | 117 | 38 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Fix Missing Executable Name](../system-prompts/system-prompt-fix-missing-executable-name.md) | 290 | 76 | 0.2.18 | 0.2.18 |
 | system | [System Prompt: Initial Git Status Snapshot 2](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | 276 | 77 | 0.2.32 | 0.2.32 |
-| system | [System Prompt: Organize Project Memories File](../system-prompts/system-prompt-organize-project-memories-file.md) | 1123 | 257 | 0.2.32 | 0.2.32 |
+| system | [System Prompt: Organize Md Memories](../system-prompts/system-prompt-organize-md-memories.md) | 1302 | 296 | 0.2.33 | 0.2.33 |
 | system | [System Prompt: Review Github Pull Request](../system-prompts/system-prompt-review-github-pull-request.md) | 894 | 233 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Safe Bash Command Runner](../system-prompts/system-prompt-safe-bash-command-runner.md) | 9060 | 2307 | 0.2.30 | 0.2.30 |
 | system | [System Prompt: Secure Cli Coding](../system-prompts/system-prompt-secure-cli-coding.md) | 9934 | 2322 | 0.2.30 | 0.2.30 |
@@ -30,11 +31,12 @@
 | system-data | [System Data: Cell Tag Template](../system-prompts/system-data-cell-tag-template.md) | 141 | 86 | 0.2.30 | 0.2.30 |
 | system-data | [System Data: Cli Arguments Help](../system-prompts/system-data-cli-arguments-help.md) | 286 | 106 | 0.2.31 | 0.2.32 |
 | system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 285 | 110 | 0.2.31 | 0.2.32 |
-| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 252 | 103 | 0.2.31 | 0.2.32 |
-| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 331 | 138 | 0.2.31 | 0.2.32 |
+| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 283 | 105 | 0.2.33 | 0.2.33 |
+| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 252 | 103 | 0.2.31 | 0.2.33 |
+| system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 331 | 138 | 0.2.31 | 0.2.33 |
 | system-data | [System Data: Cli Commands Help](../system-prompts/system-data-cli-commands-help.md) | 285 | 106 | 0.2.32 | 0.2.32 |
 | system-data | [System Data: Cli Global Options](../system-prompts/system-data-cli-global-options.md) | 291 | 107 | 0.2.31 | 0.2.32 |
-| system-data | [System Data: Cli Project Permissions Banner](../system-prompts/system-data-cli-project-permissions-banner.md) | 362 | 139 | 0.2.31 | 0.2.32 |
+| system-data | [System Data: Cli Identity Styles And Context](../system-prompts/system-data-cli-identity-styles-and-context.md) | 379 | 152 | 0.2.33 | 0.2.33 |
 | system-data | [System Data: Cli Usage Help](../system-prompts/system-data-cli-usage-help.md) | 410 | 182 | 0.2.31 | 0.2.32 |
 | system-data | [System Data: Cli Usage Types Listing](../system-prompts/system-data-cli-usage-types-listing.md) | 467 | 198 | 0.2.31 | 0.2.32 |
 | system-data | [System Data: Cloud Throttling Exception Names](../system-prompts/system-data-cloud-throttling-exception-names.md) | 322 | 93 | 0.2.9 | 0.2.9 |
@@ -43,7 +45,11 @@
 | system-data | [System Data: Css Pseudo Class Keywords](../system-prompts/system-data-css-pseudo-class-keywords.md) | 587 | 186 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Css Selectors Pseudo Classes](../system-prompts/system-data-css-selectors-pseudo-classes.md) | 733 | 228 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Dart Core Types List](../system-prompts/system-data-dart-core-types-list.md) | 218 | 61 | 0.2.9 | 0.2.9 |
+| system-data | [System Data: Dom Exception Messages Codes](../system-prompts/system-data-dom-exception-messages-codes.md) | 1620 | 532 | 0.2.33 | 0.2.33 |
+| system-data | [System Data: Dom Exception Names List](../system-prompts/system-data-dom-exception-names-list.md) | 427 | 184 | 0.2.33 | 0.2.33 |
+| system-data | [System Data: Dom Media Input Events List](../system-prompts/system-data-dom-media-input-events-list.md) | 515 | 153 | 0.2.33 | 0.2.33 |
 | system-data | [System Data: Hex Color Swatches Ccff](../system-prompts/system-data-hex-color-swatches-ccff.md) | 682 | 387 | 0.2.9 | 0.2.9 |
+| system-data | [System Data: Html Block Elements List](../system-prompts/system-data-html-block-elements-list.md) | 313 | 148 | 0.2.33 | 0.2.33 |
 | system-data | [System Data: Html Doctype Variants List](../system-prompts/system-data-html-doctype-variants-list.md) | 2490 | 1063 | 0.2.9 | 0.2.27 |
 | system-data | [System Data: Html Doctype Variants List 2](../system-prompts/system-data-html-doctype-variants-list-2.md) | 2578 | 1099 | 0.2.9 | 0.2.27 |
 | system-data | [System Data: Html Element Name List](../system-prompts/system-data-html-element-name-list.md) | 442 | 160 | 0.2.9 | 0.2.9 |
@@ -75,9 +81,9 @@
 | system-data | [System Data: Stan Functions Reference List](../system-prompts/system-data-stan-functions-reference-list.md) | 5131 | 2155 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Swift Attribute Annotations](../system-prompts/system-data-swift-attribute-annotations.md) | 551 | 235 | 0.2.30 | 0.2.30 |
 | system-data | [System Data: Swift Compiler Directives List](../system-prompts/system-data-swift-compiler-directives-list.md) | 219 | 83 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 567 | 171 | 0.2.9 | 0.2.32 |
+| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 554 | 162 | 0.2.9 | 0.2.33 |
 | system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 565 | 166 | 0.2.9 | 0.2.32 |
-| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 554 | 162 | 0.2.9 | 0.2.29 |
+| system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 567 | 171 | 0.2.9 | 0.2.33 |
 | system-data | [System Data: Swift Standard Library Functions](../system-prompts/system-data-swift-standard-library-functions.md) | 441 | 151 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Whimsical Verb Synonyms List](../system-prompts/system-data-whimsical-verb-synonyms-list.md) | 607 | 217 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Wolfram Language Symbols List](../system-prompts/system-data-wolfram-language-symbols-list.md) | 104946 | 35789 | 0.2.9 | 0.2.9 |
@@ -87,13 +93,13 @@
 | tool | [Tool Description: Edit File By Replacing String](../system-prompts/tool-description-edit-file-by-replacing-string.md) | 2752 | 687 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Fast Glob File Matching](../system-prompts/tool-description-fast-glob-file-matching.md) | 371 | 84 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Fast Regex Content Search](../system-prompts/tool-description-fast-regex-content-search.md) | 522 | 123 | 0.2.9 | 0.2.9 |
+| tool | [Tool Description: Fetch Url Content Analyze](../system-prompts/tool-description-fetch-url-content-analyze.md) | 593 | 139 | 0.2.33 | 0.2.33 |
 | tool | [Tool Description: Install Shift Enter Binding](../system-prompts/tool-description-install-shift-enter-binding.md) | 69 | 20 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: List Approved Tools](../system-prompts/tool-description-list-approved-tools.md) | 33 | 5 | 0.2.25 | 0.2.25 |
 | tool | [Tool Description: List Path With Ignore Globs](../system-prompts/tool-description-list-path-with-ignore-globs.md) | 294 | 60 | 0.2.29 | 0.2.29 |
 | tool | [Tool Description: Read Jupyter Notebook Cells](../system-prompts/tool-description-read-jupyter-notebook-cells.md) | 309 | 62 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Read Local File Lines](../system-prompts/tool-description-read-local-file-lines.md) | 544 | 128 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Replace Jupyter Notebook Cell](../system-prompts/tool-description-replace-jupyter-notebook-cell.md) | 521 | 117 | 0.2.9 | 0.2.9 |
-| tool | [Tool Description: Run Onboarding Flow](../system-prompts/tool-description-run-onboarding-flow.md) | 42 | 14 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Secure Bash Command Runner](../system-prompts/tool-description-secure-bash-command-runner.md) | 8948 | 2284 | 0.2.30 | 0.2.30 |
 | tool | [Tool Description: Show Help And Commands](../system-prompts/tool-description-show-help-and-commands.md) | 32 | 5 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Show Release Notes](../system-prompts/tool-description-show-release-notes.md) | 55 | 9 | 0.2.9 | 0.2.9 |

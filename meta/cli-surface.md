@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 11
-- Options: 16
+- Commands: 12
+- Options: 17
 - Env vars: 112
-- Config keys: 55
+- Config keys: 60
 - Tools: 0
 - Skills: 0
 - Models: 15
@@ -16,6 +16,7 @@
 ### Names
 
 - `add`
+- `add-json`
 - `config`
 - `doctor`
 - `get`
@@ -31,6 +32,7 @@
 
 - `add [name] [command] [args...]`
 - `add <key> <value>`
+- `add-json <name> <json>`
 - `config`
 - `doctor`
 - `get <key>`
@@ -48,6 +50,7 @@
 
 ### Flags
 
+- `--allowedTools`
 - `--cwd`
 - `--dangerously-skip-permissions`
 - `--debug`
@@ -67,6 +70,7 @@
 
 ### Specs
 
+- `--allowedTools <tools>`
 - `--dangerously-skip-permissions`
 - `--mcp-debug`
 - `--verbose`
@@ -197,14 +201,17 @@
 
 - `_meta`
 - `api`
+- `args`
 - `arguments`
 - `charset`
 - `code`
+- `command`
 - `compressible`
 - `content`
 - `costPriority`
 - `data`
 - `description`
+- `env`
 - `error`
 - `experimental`
 - `extensions`
@@ -230,6 +237,7 @@
 - `prompt`
 - `prompts`
 - `properties`
+- `reason`
 - `required`
 - `resource`
 - `resources`
@@ -247,6 +255,7 @@
 - `type`
 - `uri`
 - `uriTemplate`
+- `url`
 - `value`
 - `values`
 - `version`
