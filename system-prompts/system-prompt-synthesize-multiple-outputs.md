@@ -19,7 +19,6 @@ Synthesize multi-agent findings into one structured, contradiction-resolved solu
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1: 'Write'}
@@ -57,10 +56,10 @@ ${NUM}. Is well-structured and complete
 
 Your synthesis should be thorough but focused on the original task.
 
+${NUM}
+
 ${EXPR_7}
 
 ${EXPR_8}
 
 ${EXPR_9}
-
-${EXPR_10}
