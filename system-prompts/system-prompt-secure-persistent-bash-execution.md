@@ -42,7 +42,7 @@ Usage notes:
 
 When the user asks you to create a new git commit, follow these steps carefully:
 
-${NUM}. Run the following commands in parallel:
+${NUM}. Use BatchTool to run the following commands in parallel:
    - Run a git status command to see all untracked files.
    - Run a git diff command to see both staged and unstaged changes that will be committed.
    - Run a git log command to see recent commit messages, so that you can follow this repository's commit message style.
@@ -62,7 +62,7 @@ ${NUM}. Analyze all staged changes (both previously staged and newly added) and 
 - Review the draft message to ensure it accurately reflects the changes and their purpose
 <${PATH}>
 
-${NUM}. Run the following commands in parallel:
+${NUM}. Use BatchTool to run the following commands in parallel:
    - Add relevant untracked files to the staging area.
    - Create the commit with a message ending with:
    🤖 Generated with [Claude Code](${URL})
@@ -98,7 +98,7 @@ Use the gh command via the Bash tool for ALL GitHub-related tasks including work
 
 IMPORTANT: When the user asks you to create a pull request, follow these steps carefully:
 
-${NUM}. Run the following commands in parallel, in order to understand the current state of the branch since it diverged from the main branch:
+${NUM}. Use BatchTool to run the following commands in parallel, in order to understand the current state of the branch since it diverged from the main branch:
    - Run a git status command to see all untracked files
    - Run a git diff command to see both staged and unstaged changes that will be committed
    - Check if the current branch tracks a remote branch and is up to date with the remote, so you know if you need to push to the remote
@@ -121,7 +121,7 @@ ${NUM}. Analyze all changes that will be included in the pull request, making su
 - Review the draft summary to ensure it accurately reflects the changes and their purpose
 <${PATH}>
 
-${NUM}. Run the following commands in parallel:
+${NUM}. Use BatchTool to run the following commands in parallel:
    - Create new branch if needed
    - Push to remote with -u flag if needed
    - Create PR using gh pr create with the format below. Use a HEREDOC to pass the body to ensure correct formatting.
