@@ -4,7 +4,7 @@
 
 - Commands: 14
 - Options: 18
-- Env vars: 126
+- Env vars: 127
 - Config keys: 73
 - Tools: 0
 - Skills: 0
@@ -118,6 +118,7 @@
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `COMMIT_REF`
+- `COREPACK_ENABLE_AUTO_PIN`
 - `CURSOR_TRACE_ID`
 - `DEBUG`
 - `DEBUG_AUTH`
