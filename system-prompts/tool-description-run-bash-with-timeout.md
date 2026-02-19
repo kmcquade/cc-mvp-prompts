@@ -27,6 +27,12 @@ ${NUM}. Directory Verification:
    - For example, before running "mkdir foo${PATH}", first use LS to check that "foo" exists and is the intended parent directory
 
 ${NUM}. Command Execution:
+   - Always quote file paths that contain spaces with double quotes (e.g., cd "path with spaces${PATH}")
+   - Examples of proper quoting:
+     - cd "${PATH} Documents" (correct)
+     - cd ${PATH} Documents (incorrect - will fail)
+     - python "${PATH} spaces${PATH}" (correct)
+     - python ${PATH} spaces${PATH} (incorrect - will fail)
    - After ensuring proper quoting, execute the command.
    - Capture the output of the command.
 
