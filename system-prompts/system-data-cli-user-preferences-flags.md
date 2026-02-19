@@ -43,4 +43,4 @@ autoConnectIde
 
 autoInstallIdeExtension
 
-checkpointingEnabled
+autocheckpointingEnabled
