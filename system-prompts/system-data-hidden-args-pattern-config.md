@@ -19,8 +19,8 @@ Defines a pattern-based configuration with hidden args for user project local sc
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
-| `EXPR_10` | true | None |
-| `EXPR_11` | None | None |
+| `EXPR_10` | None | None |
+| `EXPR_11` | false | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
@@ -48,15 +48,15 @@ ${EXPR_5}
 
 ${EXPR_6}
 
-pattern: "${EXPR_7}"
+${EXPR_7}
 
-${EXPR_8}
+pattern: "${EXPR_8}"
 
 ${EXPR_9}
 
-${EXPR_10: true}
+${EXPR_10}
 
-${EXPR_11}
+${EXPR_11: false}
 
 ${EXPR_12}
 
@@ -82,13 +82,45 @@ ${EXPR_22}
 
 ${EXPR_23}
 
+${EXPR_24}
+
 user
 
 project
 
 local
 
-${EXPR_24}
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
 
 ${EXPR_25}
 
@@ -98,39 +130,39 @@ ${EXPR_27}
 
 ${EXPR_28}
 
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
 ${EXPR_29}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
+
+${NUM}
 
 ${EXPR_30}
 
@@ -142,37 +174,9 @@ ${EXPR_33}
 
 ${EXPR_34}
 
-${NUM}
+${EXPR_35}
 
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
+${EXPR_36}
 
 --hidden
 
@@ -210,10 +214,6 @@ ${NUM}
 
 ${NUM}
 
-${EXPR_35}
-
-${EXPR_36}
-
 ${EXPR_37}
 
 ${EXPR_38}
@@ -229,6 +229,10 @@ ${EXPR_42}
 ${EXPR_43}
 
 ${EXPR_44}
+
+${EXPR_45}
+
+${EXPR_46}
 
 ${NUM}
 
