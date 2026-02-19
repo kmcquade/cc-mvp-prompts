@@ -15,6 +15,6 @@ Announces task moved to background; provides monitoring link and teleport resume
 
 # Raw Prompt Text
 <background-task-output>This task is now running in the background.
-Monitor it with ${PATH} or at ${EXPR_1}.
+Monitor it with ${PATH} or at ${EXPR_1}/**
 
 Or, resume it later with: claude --teleport ${EXPR_2}<${PATH}>
