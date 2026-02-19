@@ -4,11 +4,11 @@
 
 - Commands: 26
 - Options: 48
-- Env vars: 376
-- Config keys: 452
+- Env vars: 378
+- Config keys: 453
 - Tools: 3
 - Skills: 0
-- Models: 67
+- Models: 68
 - Providers: 8
 
 ## Commands
@@ -269,6 +269,7 @@
 - `CLAUDE_CODE_DONT_INHERIT_ENV`
 - `CLAUDE_CODE_EFFORT_LEVEL`
 - `CLAUDE_CODE_ENABLE_ASK_USER_QUESTION_TOOL`
+- `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION`
 - `CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
@@ -320,6 +321,7 @@
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `CODESPACES`
+- `COLORTERM`
 - `COMMIT_REF`
 - `COREPACK_ENABLE_AUTO_PIN`
 - `CURSOR_TRACE_ID`
@@ -593,6 +595,7 @@
 - `authorization_servers`
 - `authToken`
 - `autoAllowBashIfSandboxed`
+- `autoUpdatesChannel`
 - `awsAuthRefresh`
 - `awsCredentialExport`
 - `backgroundTaskId`
@@ -1066,6 +1069,7 @@ _None detected_
 - `claude-opus-4-5`
 - `claude-opus-4-5-20251101`
 - `claude-plugin-directory`
+- `claude-plugin-temp-`
 - `claude-plugins-official`
 - `claude-prompt`
 - `claude-review`
