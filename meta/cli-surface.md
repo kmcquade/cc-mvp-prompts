@@ -8,7 +8,7 @@
 - Config keys: 126
 - Tools: 0
 - Skills: 0
-- Models: 19
+- Models: 20
 - Providers: 7
 
 ## Commands
@@ -393,6 +393,7 @@ _None detected_
 - `claude-3-5-haiku`
 - `claude-3-5-haiku-20241022`
 - `claude-3-5-sonnet`
+- `claude-3-5-sonnet-20241022`
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
 - `claude-3-sonnet-20240229`
