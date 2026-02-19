@@ -4,12 +4,20 @@
 
 ## Summary
 
-URLs followed by user, project, and local settings scope labels.
+Two URLs and an expression, then user/project/local settings scope labels.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 ${URL}
 
 ${URL}
+
+${EXPR_1}
 
 userSettings
 
