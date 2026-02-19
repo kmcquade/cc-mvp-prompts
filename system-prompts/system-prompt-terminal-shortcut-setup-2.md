@@ -1,4 +1,4 @@
-# System Prompt: terminal-shortcut-setup
+# System Prompt: terminal-shortcut-setup-2
 
 - Source: inline
 
