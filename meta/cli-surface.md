@@ -2,13 +2,13 @@
 
 ## Summary
 
-- Commands: 17
+- Commands: 20
 - Options: 37
-- Env vars: 297
+- Env vars: 301
 - Config keys: 358
 - Tools: 3
 - Skills: 0
-- Models: 47
+- Models: 48
 - Providers: 7
 
 ## Commands
@@ -18,7 +18,9 @@
 - `add`
 - `add-from-claude-desktop`
 - `add-json`
+- `disable`
 - `doctor`
+- `enable`
 - `get`
 - `install`
 - `list`
@@ -30,6 +32,7 @@
 - `reset-project-choices`
 - `serve`
 - `setup-token`
+- `uninstall`
 - `update`
 - `validate`
 
@@ -39,9 +42,12 @@
 - `add <source>`
 - `add-from-claude-desktop`
 - `add-json <name> <json>`
+- `disable <plugin>`
 - `doctor`
+- `enable <plugin>`
 - `get <name>`
 - `install [target]`
+- `install <plugin>`
 - `list`
 - `marketplace`
 - `mcp`
@@ -51,6 +57,7 @@
 - `reset-project-choices`
 - `serve`
 - `setup-token`
+- `uninstall <plugin>`
 - `update`
 - `update [name]`
 - `validate <path>`
@@ -171,6 +178,7 @@
 - `CHOKIDAR_USEPOLLING`
 - `CLAUBBIT`
 - `CLAUDE_AGENT_SDK_VERSION`
+- `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_BASH_NO_LOGIN`
 - `CLAUDE_CODE_ACTION`
@@ -207,6 +215,8 @@
 - `CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
+- `CLAUDE_CODE_REMOTE`
+- `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
@@ -252,6 +262,7 @@
 - `DISABLE_UPGRADE_COMMAND`
 - `DYNO`
 - `EDITOR`
+- `ENABLE_BASH_ENV_VAR_MATCHING`
 - `ENABLE_BASH_WRAPPER_MATCHING`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `FLY_APP_NAME`
@@ -821,6 +832,7 @@ _None detected_
 - `claude-cli-native-`
 - `claude-code`
 - `claude-code-20250219`
+- `claude-code-github-action`
 - `claude-code-jetbrains-plugin`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-user`

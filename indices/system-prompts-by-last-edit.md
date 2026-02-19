@@ -4,20 +4,26 @@
 
 ## Categories
 
-- System prompts (79)
-- Tool prompts (70)
+- System prompts (84)
+- Tool prompts (71)
 - Agent prompts (4)
-- System data (72)
-- System reminders (71)
+- System data (67)
+- System reminders (70)
 
-## System prompts (79)
+## System prompts (84)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.19 |
-| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.19 |
+| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.20 |
+| [`system-prompt-conversation-title-and-examples.md`](../system-prompts/system-prompt-conversation-title-and-examples.md) | Create a short conversation title with usage and example intents. | 237 | 2.0.20 | 2.0.20 |
+| [`system-prompt-write-conversation-title-fix-errors.md`](../system-prompts/system-prompt-write-conversation-title-fix-errors.md) | Generate a short title summarizing a conversation about fixing lint and typecheck errors. | 206 | 2.0.20 | 2.0.20 |
+| [`system-prompt-fix-errors-and-write-title-2.md`](../system-prompts/system-prompt-fix-errors-and-write-title-2.md) | Assorted coding tasks plus generate a concise conversation title from recent messages. | 176 | 2.0.20 | 2.0.20 |
+| [`system-prompt-fix-errors-and-write-title-3.md`](../system-prompts/system-prompt-fix-errors-and-write-title-3.md) | Assorted coding tasks plus generate a concise conversation title from recent messages. | 155 | 2.0.20 | 2.0.20 |
+| [`system-prompt-fix-errors-and-write-title.md`](../system-prompts/system-prompt-fix-errors-and-write-title.md) | Assorted coding tasks plus generate a concise conversation title from recent messages. | 155 | 2.0.20 | 2.0.20 |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.20 |
+| [`system-prompt-mode-command-router.md`](../system-prompts/system-prompt-mode-command-router.md) | Pre-check user requests for mode-command intent and switch workflows immediately. | 51 | 2.0.20 | 2.0.20 |
 | [`system-prompt-updated-file-snippet-output.md`](../system-prompts/system-prompt-updated-file-snippet-output.md) | Report that a file was updated and show a numbered snippet from it. | 41 | 2.0.17 | 2.0.19 |
 | [`system-prompt-bash-command-prefix-risk-policy.md`](../system-prompts/system-prompt-bash-command-prefix-risk-policy.md) | Define command prefix extraction and injection detection with illustrative shell command examples. | 864 | 2.0.14 | 2.0.18 |
 | [`system-prompt-create-shell-snapshot-file-3.md`](../system-prompts/system-prompt-create-shell-snapshot-file-3.md) | Writes a snapshot script file, clears aliases, injects dynamic sections, and verifies output exists | 246 | 2.0.17 | 2.0.17 |
@@ -32,7 +38,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-background-task-monitoring.md`](../system-prompts/system-prompt-background-task-monitoring.md) | Announces task moved to background; provides monitoring link and teleport resume command. | 58 | 2.0.15 | 2.0.15 |
 | [`system-prompt-safe-terminal-command-execution.md`](../system-prompts/system-prompt-safe-terminal-command-execution.md) | Run bash commands in persistent shell with directory checks, quoting rules, and timeouts | 2,534 | 2.0.2 | 2.0.14 |
 | [`system-prompt-async-output-polling.md`](../system-prompts/system-prompt-async-output-polling.md) | Instructs how to poll or wait for an async agent using AgentOutputTool. | 180 | 2.0.14 | 2.0.14 |
-| [`system-prompt-conversation-title-and-error-patterns.md`](../system-prompts/system-prompt-conversation-title-and-error-patterns.md) | Requests a conversation title and appends extensive error patterns and tasks. | 278 | 2.0.12 | 2.0.12 |
 | [`system-prompt-write-conversation-title-only.md`](../system-prompts/system-prompt-write-conversation-title-only.md) | Generate a …-… word conversation title from last … of … messages. | 123 | 2.0.12 | 2.0.12 |
 | [`system-prompt-built-in-mode-commands.md`](../system-prompts/system-prompt-built-in-mode-commands.md) | Check for built-in mode command intent and execute its multi-phase workflow immediately | 76 | 2.0.12 | 2.0.12 |
 | [`system-prompt-simple-conversation-title.md`](../system-prompts/system-prompt-simple-conversation-title.md) | Generate a NUM–NUM word conversation title using the last EXPR_1 of EXPR_2 messages. | 69 | 2.0.12 | 2.0.12 |
@@ -96,12 +101,13 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 0.2.9 |
 | [`system-prompt-classify-bash-command-prefix.md`](../system-prompts/system-prompt-classify-bash-command-prefix.md) | Determine the appropriate prefix for bash commands requested by a coding agent. | 33 | 0.2.9 | 0.2.9 |
 
-## Tool prompts (70)
+## Tool prompts (71)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-invoke-available-skills.md`](../system-prompts/tool-description-invoke-available-skills.md) | Invoke an available skill by exact name to expand its task instructions. | 259 | 2.0.20 | 2.0.20 |
 | [`tool-description-execute-slash-commands.md`](../system-prompts/tool-description-execute-slash-commands.md) | Execute a listed custom slash command to route user intent into workflows. | 386 | 2.0.17 | 2.0.17 |
 | [`tool-description-ask-user-questions-during-execution.md`](../system-prompts/tool-description-ask-user-questions-during-execution.md) | Guidance for using a tool to ask users clarifying questions and offer selectable choices. | 121 | 2.0.15 | 2.0.15 |
 | [`tool-description-manage-plugins.md`](../system-prompts/tool-description-manage-plugins.md) | Manage plugins for Claude Code. | 5 | 2.0.12 | 2.0.12 |
@@ -184,30 +190,25 @@ _Sorted by last edit (newest first)._
 | [`agent-prompt-configure-statusline.md`](../system-prompts/agent-prompt-configure-statusline.md) | Create or update a Claude Code statusLine by converting shell PS1 settings. | 1,055 | 1.0.81 | 1.0.81 |
 | [`agent-prompt-codebase-search-analysis-guide.md`](../system-prompts/agent-prompt-codebase-search-analysis-guide.md) | Guidance for searching and analyzing multiple files in a codebase without creating files. | 287 | 1.0.45 | 1.0.78 |
 
-## System data (72)
+## System data (67)
 
 _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 2.0.20 |
+| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 2.0.20 |
+| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 2.0.20 |
+| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 2.0.20 |
+| [`system-data-coding-task-intent-list.md`](../system-prompts/system-data-coding-task-intent-list.md) | Enumerates coding help intents: lint/type fixes, refactors, questions, logging, edits, tests, utilities | 115 | 2.0.20 | 2.0.20 |
+| [`system-data-failure-issues-and-intents.md`](../system-prompts/system-data-failure-issues-and-intents.md) | Summarize why EXPR_1 failed, list issues, and propose coding follow-up actions | 108 | 2.0.20 | 2.0.20 |
+| [`system-data-http-request-timing-events-7.md`](../system-prompts/system-data-http-request-timing-events-7.md) | List HTTP request timing lifecycle events in order, including setup/teardown hooks. | 102 | 2.0.20 | 2.0.20 |
 | [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 2.0.19 |
 | [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 2.0.19 |
-| [`system-data-error-patterns-and-fix-commands.md`](../system-prompts/system-data-error-patterns-and-fix-commands.md) | Provides error field patterns plus common follow-up fix and refactor requests. | 204 | 2.0.12 | 2.0.18 |
-| [`system-data-error-patterns-and-fix-commands-2.md`](../system-prompts/system-data-error-patterns-and-fix-commands-2.md) | Provides error field patterns plus common follow-up fix and refactor requests. | 183 | 2.0.12 | 2.0.18 |
-| [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 2.0.18 |
-| [`system-data-swift-keywords-list-3.md`](../system-prompts/system-data-swift-keywords-list-3.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 2.0.18 |
 | [`system-data-macos-sandbox-policy-rules.md`](../system-prompts/system-data-macos-sandbox-policy-rules.md) | Sandbox profile allowing specific process permissions and Mach service lookups. | 1,787 | 2.0.17 | 2.0.17 |
-| [`system-data-html-doctype-variants-list.md`](../system-prompts/system-data-html-doctype-variants-list.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 2.0.17 |
-| [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,063 | 0.2.9 | 2.0.17 |
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 166 | 0.2.9 | 2.0.17 |
 | [`system-data-environment-directory-info.md`](../system-prompts/system-data-environment-directory-info.md) | Multiple prompts (2) | 100 | 2.0.17 | 2.0.17 |
 | [`system-data-stream-zip-parse-errors.md`](../system-prompts/system-data-stream-zip-parse-errors.md) | Lists possible stream and archive validation error messages. | 72 | 2.0.17 | 2.0.17 |
-| [`system-data-error-patterns-and-title-generation.md`](../system-prompts/system-data-error-patterns-and-title-generation.md) | Contains error-field patterns and title generation plus common coding tasks. | 326 | 2.0.12 | 2.0.15 |
-| [`system-data-error-patterns-and-title-generation-3.md`](../system-prompts/system-data-error-patterns-and-title-generation-3.md) | Contains error-field patterns and title generation plus common coding tasks. | 265 | 2.0.12 | 2.0.15 |
-| [`system-data-error-patterns-and-title-generation-2.md`](../system-prompts/system-data-error-patterns-and-title-generation-2.md) | Contains error-field patterns and title generation plus common coding tasks. | 244 | 2.0.12 | 2.0.15 |
-| [`system-data-error-patterns-and-title-generation-4.md`](../system-prompts/system-data-error-patterns-and-title-generation-4.md) | Contains error-field patterns and title generation plus common coding tasks. | 244 | 2.0.12 | 2.0.12 |
-| [`system-data-failure-report-and-next-actions.md`](../system-prompts/system-data-failure-report-and-next-actions.md) | Format a failure report listing matched patterns, errors, and suggested remediation tasks. | 197 | 2.0.12 | 2.0.12 |
-| [`system-data-http-request-timing-events-6.md`](../system-prompts/system-data-http-request-timing-events-6.md) | Lists HTTP request lifecycle timing markers and related file extensions. | 102 | 2.0.12 | 2.0.12 |
 | [`system-data-github-pr-review.md`](../system-prompts/system-data-github-pr-review.md) | GitHub Actions pull_request workflow checks out code and runs Claude review on a PR. | 526 | 2.0.8 | 2.0.8 |
 | [`system-data-mention-triggered-github-workflow.md`](../system-prompts/system-data-mention-triggered-github-workflow.md) | Runs Claude Code action on issues or comments mentioning @claude, using Anthropic API key. | 494 | 2.0.8 | 2.0.8 |
 | [`system-data-common-shell-and-docker-commands.md`](../system-prompts/system-data-common-shell-and-docker-commands.md) | List of common Unix utilities plus Docker ps/images and basic system info commands. | 81 | 1.0.109 | 1.0.109 |
@@ -263,21 +264,21 @@ _Sorted by last edit (newest first)._
 | [`system-data-dart-core-types-list.md`](../system-prompts/system-data-dart-core-types-list.md) | List of Dart core types and common classes. | 61 | 0.2.9 | 0.2.9 |
 | [`system-data-sql-ddl-null-ordering.md`](../system-prompts/system-data-sql-ddl-null-ordering.md) | SQL DDL and query phrases including constraints and null ordering options. | 53 | 0.2.9 | 0.2.9 |
 
-## System reminders (71)
+## System reminders (70)
 
 _Sorted by last edit (newest first). Showing **31** reminders with more than **30** tokens._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.19 |
-| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.19 |
+| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.0.20 |
+| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.20 |
+| [`system-reminder-conversation-title-generator-4.md`](../system-prompts/system-reminder-conversation-title-generator-4.md) | Create …-… word conversation title from last … of … messages | 83 | 2.0.20 | 2.0.20 |
 | [`system-reminder-defensive-security-cli-guidelines-3.md`](../system-prompts/system-reminder-defensive-security-cli-guidelines-3.md) | Enforces defensive-only security assistance, bans malicious code, and restricts URL generation. | 2,022 | 2.0.17 | 2.0.17 |
 | [`system-reminder-hook-blocking-error.md`](../system-prompts/system-reminder-hook-blocking-error.md) | Multiple prompts (2) | 39 | 2.0.17 | 2.0.17 |
 | [`system-reminder-token-usage-remaining-line.md`](../system-prompts/system-reminder-token-usage-remaining-line.md) | Multiple prompts (2) | 37 | 2.0.17 | 2.0.17 |
 | [`system-reminder-plan-mode-no-execution.md`](../system-prompts/system-reminder-plan-mode-no-execution.md) | Answer user query, then present a confirmation plan via the EXPR_1 tool. | 156 | 2.0.15 | 2.0.15 |
 | [`system-reminder-unbound-types-whitespace-call.md`](../system-prompts/system-reminder-unbound-types-whitespace-call.md) | Reports an error about calling whitespace ranges with unbound types. | 100 | 2.0.12 | 2.0.12 |
 | [`system-reminder-unbound-types-whitespace-construct.md`](../system-prompts/system-reminder-unbound-types-whitespace-construct.md) | Reports an error about constructing whitespace ranges with unbound types. | 100 | 2.0.12 | 2.0.12 |
-| [`system-reminder-conversation-title-from-recent-messages.md`](../system-prompts/system-reminder-conversation-title-from-recent-messages.md) | Create NUM–NUM word conversation title using last EXPR_1 of EXPR_2 messages | 83 | 2.0.12 | 2.0.12 |
 | [`system-reminder-async-notification-output-retrieval.md`](../system-prompts/system-reminder-async-notification-output-retrieval.md) | Async system notification that agent finished, with instructions to retrieve output by agentId. | 56 | 2.0.10 | 2.0.10 |
 | [`system-reminder-use-context-only-when-relevant.md`](../system-prompts/system-reminder-use-context-only-when-relevant.md) | Multiple prompts (2) | 69 | 2.0.2 | 2.0.2 |
 | [`system-reminder-task-with-prior-context.md`](../system-prompts/system-reminder-task-with-prior-context.md) | System reminder framing a task with optional local prior conversation context summary. | 63 | 2.0.0 | 2.0.0 |
@@ -302,7 +303,7 @@ _Sorted by last edit (newest first). Showing **31** reminders with more than **3
 | [`system-reminder-hide-file-truncation-note.md`](../system-prompts/system-reminder-hide-file-truncation-note.md) | Warn file content is truncated and instruct using a command to read more. | 56 | 0.2.106 | 0.2.106 |
 
 <details>
-<summary>Show 40 low-token reminders (≤ 30 tokens)</summary>
+<summary>Show 39 low-token reminders (≤ 30 tokens)</summary>
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
@@ -312,7 +313,6 @@ _Sorted by last edit (newest first). Showing **31** reminders with more than **3
 | [`system-reminder-hook-success.md`](../system-prompts/system-reminder-hook-success.md) | Multiple prompts (2) | 29 | 2.0.17 | 2.0.17 |
 | [`system-reminder-hook-blocking-command-error.md`](../system-prompts/system-reminder-hook-blocking-command-error.md) | Report a blocking hook error triggered by a specific command execution. | 25 | 2.0.17 | 2.0.17 |
 | [`system-reminder-token-usage-remaining.md`](../system-prompts/system-reminder-token-usage-remaining.md) | Shows token usage totals and remaining token budget in a single status line. | 23 | 2.0.17 | 2.0.17 |
-| [`system-reminder-repeat-url-and-expression.md`](../system-prompts/system-reminder-repeat-url-and-expression.md) | Outputs two URL lines followed by an injected expression value. | 20 | 0.2.108 | 2.0.17 |
 | [`system-reminder-hook-additional-context.md`](../system-prompts/system-reminder-hook-additional-context.md) | Attach additional context details for a specified hook invocation. | 16 | 2.0.17 | 2.0.17 |
 | [`system-reminder-hook-stopped-continuation.md`](../system-prompts/system-reminder-hook-stopped-continuation.md) | State why a hook stopped the continuation of an ongoing process. | 16 | 2.0.17 | 2.0.17 |
 | [`system-reminder-hook-success-message.md`](../system-prompts/system-reminder-hook-success-message.md) | Confirm a hook ran successfully and provide its resulting output. | 15 | 2.0.17 | 2.0.17 |
