@@ -58,7 +58,7 @@ ${EXPR_8}
 
 ${EXPR_9}
 
-Usage: ${EXPR_10}
+pattern: "${EXPR_10}"
 
 ${EXPR_11}
 
