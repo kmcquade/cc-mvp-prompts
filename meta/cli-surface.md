@@ -5,7 +5,7 @@
 - Commands: 14
 - Options: 24
 - Env vars: 181
-- Config keys: 139
+- Config keys: 140
 - Tools: 0
 - Skills: 0
 - Models: 21
@@ -336,6 +336,7 @@
 - `id`
 - `idempotentHint`
 - `ideName`
+- `includeCoAuthoredBy`
 - `initialWindowSize`
 - `input`
 - `inputSchema`
