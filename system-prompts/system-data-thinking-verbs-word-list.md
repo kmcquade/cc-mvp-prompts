@@ -11,7 +11,6 @@ Playful enumerated verbs introducing Claude Code CLI identity string with user s
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | Claude Code | None |
-| `EXPR_2` | None | None |
 
 # Raw Prompt Text
 Accomplishing
@@ -196,4 +195,8 @@ Wrangling
 
 You are ${EXPR_1: 'Claude Code'}, Anthropic's official CLI for Claude.
 
-${EXPR_2}
+userSettings
+
+projectSettings
+
+localSettings
