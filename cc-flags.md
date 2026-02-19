@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.30
+# Claude Code Flags 2.1.31
 
 ## Feature Gates
 
@@ -13,6 +13,7 @@
 
 ## Dynamic Configs
 
+_None detected_
 
 ## Experiments
 
@@ -32,6 +33,7 @@
 - `tengu_marble_anvil`
 - `tengu_marble_kite`
 - `tengu_mcp_tool_search`
+- `tengu_oboe`
 - `tengu_permission_explainer`
 - `tengu_pid_based_version_locking`
 - `tengu_plan_mode_interview_phase`
@@ -46,5 +48,6 @@
 - `tengu_system_prompt_global_cache`
 - `tengu_tool_search_unsupported_models`
 - `tengu_tst_kx7`
+- `tengu_tst_names_in_messages`
 - `tengu_vinteuil_phrase`
 - `tengu_workout`

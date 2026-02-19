@@ -4,8 +4,8 @@
 
 - Commands: 26
 - Options: 59
-- Env vars: 390
-- Config keys: 493
+- Env vars: 393
+- Config keys: 495
 - Tools: 3
 - Skills: 0
 - Models: 80
@@ -195,6 +195,7 @@
 
 - `__CFB`
 - `ALACRITTY_LOG`
+- `ANALYTICS_LOG_TOOL_DETAILS`
 - `ANTHROPIC_API_KEY`
 - `ANTHROPIC_AUTH_TOKEN`
 - `ANTHROPIC_BASE_URL`
@@ -282,6 +283,7 @@
 - `CLAUDE_CODE_DEBUG_LOGS_DIR`
 - `CLAUDE_CODE_DIAGNOSTICS_FILE`
 - `CLAUDE_CODE_DISABLE_ATTACHMENTS`
+- `CLAUDE_CODE_DISABLE_AUTO_MEMORY`
 - `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
@@ -354,6 +356,7 @@
 - `CLAUDE_CODE_TMUX_PREFIX`
 - `CLAUDE_CODE_TMUX_PREFIX_CONFLICTS`
 - `CLAUDE_CODE_TMUX_SESSION`
+- `CLAUDE_CODE_TST_NAMES_IN_MESSAGES`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_COWORK_PLUGINS`
 - `CLAUDE_CODE_USE_FOUNDRY`
@@ -784,7 +787,6 @@
 - `hooks`
 - `hookSpecificOutput`
 - `hostPattern`
-- `HR`
 - `httpMethodsToRetry`
 - `httpProxyPort`
 - `id`
@@ -1003,6 +1005,7 @@
 - `stderr`
 - `stdout`
 - `stop_hook_active`
+- `stop_reason`
 - `stopReason`
 - `strictKnownMarketplaces`
 - `structured_output`
@@ -1038,6 +1041,7 @@
 - `tool_input`
 - `tool_name`
 - `tool_response`
+- `tool_summary`
 - `tool_use_id`
 - `tool_use_result`
 - `toolName`
@@ -1079,6 +1083,7 @@
 - `workerColor`
 - `workerId`
 - `workerName`
+- `wR`
 
 ## Tools
 

@@ -1,4 +1,4 @@
-# Claude Code 2.1.30 – Flags
+# Claude Code 2.1.31 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -20,6 +20,7 @@
 | `tengu_marble_anvil` | experiment | prompts | Enables adding a clear-thinking context edit and related processing in the CLI pipeline. | Exact effect of wnA/W_9 unclear beyond prompt/context handling. | high | 2 |
 | `tengu_marble_kite` | experiment | tools | Controls display of file-tool guidance requiring reading before editing existing files | Appears to gate help/prompt text only. | high | 6 |
 | `tengu_mcp_tool_search` | experiment | tools | Selects a test mode for tool search behavior in the MCP CLI. | Exact behavior of "tst" mode not shown. | medium | 1 |
+| `tengu_oboe` | experiment | filesystem | Enables automatic memory file feature unless disabled by environment variable | Only shows gating and related path strings. | medium | 1 |
 | `tengu_permission_explainer` | experiment | tools | Enable permission explanation text for tool invocations in CLI. | Only one occurrence; behavior inferred from toolName/toolDescription string building. | medium | 1 |
 | `tengu_pid_based_version_locking` | experiment | filesystem | Enable PID-based version locking to avoid concurrent or conflicting runs | Only PID/process check context is visible. | low | 1 |
 | `tengu_plan_mode_interview_phase` | experiment | prompts | Enables an interview phase in plan mode behavior in the CLI. | Only a flag getter is shown; no downstream usage context. | medium | 1 |
@@ -39,6 +40,7 @@
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
 | `tengu_tool_search_unsupported_models` | experiment | tools | Provides list of model substrings that disable tool search support checks | Used to filter model names by substring match. | high | 1 |
 | `tengu_tst_kx7` | experiment | tools | Gates whether tool search is enabled when auto search is below threshold | Only seen in CLI auto tool-search flow. | high | 1 |
+| `tengu_tst_names_in_messages` | experiment | tools | Toggle using a preset ToolSearchTool prompt, likely affecting tool name inclusion in messages | Exact behavior of CS9 not shown. | medium | 1 |
 | `tengu_version_config` | config | ui | Checks minimum required CLI version and instructs user to update if outdated. | Used for runtime version gating and update messaging. | high | 1 |
 | `tengu_vinteuil_phrase` | experiment | prompts | Selects a simplified system prompt path and logs prompt metadata in CLI. | Exact prompt differences not shown beyond choosing "path=simple". | high | 1 |
 | `tengu_vscode_onboarding` | gate | ui | Controls whether VSCode connected experience shows onboarding flow | Only seen declared and sent as a gate; no UI behavior shown. | medium | 1 |
