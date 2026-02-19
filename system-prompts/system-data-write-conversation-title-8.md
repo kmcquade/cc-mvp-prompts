@@ -19,7 +19,7 @@ Template to generate a short title summarizing a conversation.
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
+| `EXPR_10` | unknown | None |
 | `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
@@ -36,7 +36,7 @@ ${EXPR_3}
 
 Respond with the title for the conversation and nothing else.
 
-fcoeoabgfenejglbffodgkkbkcdhcgfn
+start
 
 user
 
@@ -44,7 +44,7 @@ project
 
 local
 
-fcoeoabgfenejglbffodgkkbkcdhcgfn
+start
 
 api
 
@@ -68,9 +68,9 @@ branch=${EXPR_8}
 
 ${EXPR_9}
 
-fcoeoabgfenejglbffodgkkbkcdhcgfn
+start
 
-${EXPR_10}
+${EXPR_10: 'unknown'}
 
 api
 
