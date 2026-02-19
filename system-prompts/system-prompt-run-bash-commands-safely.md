@@ -13,9 +13,10 @@ Run a bash command with directory checks, quoting rules, and configurable timeou
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | TodoWrite | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | TodoWrite | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | TodoWrite | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | TodoWrite | None |
 
 # Raw Prompt Text
 Executes a given bash command in a persistent shell session with optional timeout, ensuring proper handling and security measures.
@@ -40,7 +41,7 @@ Usage notes:
   - The command argument is required.
   - You can specify an optional timeout in milliseconds (up to ${EXPR_1}ms / ${EXPR_2} minutes). If not specified, commands will timeout after 120000ms (${EXPR_3} minutes).
   - It is very helpful if you write a clear, concise description of what this command does in ${NUM}-${NUM} words.
-  - If the output exceeds ${NUM} characters, output will be truncated before being returned to you.
+  - If the output exceeds ${EXPR_4} characters, output will be truncated before being returned to you.
   - You can use the `run_in_background` parameter to run the command in the background, which allows you to continue working while the command runs. You can monitor the output using the Bash tool as it becomes available. Never use `run_in_background` to run 'sleep' as it will return immediately. You do not need to use '&' at the end of the command when using this parameter.
   - VERY IMPORTANT: You MUST avoid using search commands like `find` and `grep`. Instead use Grep, Glob, or Task to search. You MUST avoid read tools like `cat`, `head`, `tail`, and `ls`, and use Read and LS to read files.
  - If you _still_ need to run `grep`, STOP. ALWAYS USE ripgrep at `rg` first, which all Claude Code users have pre-installed.
@@ -134,7 +135,7 @@ ${NUM}. If the commit fails due to pre-commit hook changes, retry the commit ONC
 Important notes:
 - NEVER update the git config
 - NEVER run additional commands to read or explore code, besides git bash commands
-- NEVER use the ${EXPR_4: 'TodoWrite'} or Task tools
+- NEVER use the ${EXPR_5: 'TodoWrite'} or Task tools
 - DO NOT push to the remote repository unless the user explicitly asks you to do so
 - IMPORTANT: Never use git commands with the -i flag (like git rebase -i or git add -i) since they require interactive input which is not supported.
 - If there are no changes to commit (i.e., no untracked files and no modifications), do not create an empty commit
@@ -171,14 +172,14 @@ gh pr create --title "the pr title" --body "$(cat <<'EOF'
 ## Test plan
 [Checklist of TODOs for testing the pull request...]
 
-${EXPR_5}
+${EXPR_6}
 EOF
 )"
 <${PATH}>
 
 Important:
 - NEVER update the git config
-- DO NOT use the ${EXPR_6: 'TodoWrite'} or Task tools
+- DO NOT use the ${EXPR_7: 'TodoWrite'} or Task tools
 - Return the PR URL when you're done, so the user can see it
 
 # Other common operations
