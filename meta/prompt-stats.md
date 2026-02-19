@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.47
+# Prompt Stats 0.2.48
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
