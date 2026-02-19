@@ -7,7 +7,7 @@
 Verify repository name, access, and required GitHub token scopes.
 
 # Raw Prompt Text
-Check that the repository name is correct: default
+Check that the repository name is correct: null
 
 Ensure you have access to this repository
 
