@@ -13,6 +13,8 @@ Generate a NUM–NUM word conversation title from the last EXPR_6 of EXPR_7 mess
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 Please write a ${NUM}-${NUM} word title for the following conversation:
@@ -24,6 +26,6 @@ ${EXPR_3}
 
 Respond with the title for the conversation and nothing else.
 
-"
+${EXPR_4}
 
-'
+${EXPR_5}
