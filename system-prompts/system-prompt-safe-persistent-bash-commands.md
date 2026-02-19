@@ -50,7 +50,7 @@ Usage notes:
 
   - You can use the `run_in_background` parameter to run the command in the background. Only use this if you don't need the result immediately and are OK being notified when the command completes later. You do not need to check the output right away - you'll be notified when it finishes. You do not need to use '&' at the end of the command when using this parameter.
   - Commands run in a sandbox by default with the following restrictions:
-Usage: ${EXPR_5}
+${EXPR_5}
 null
   - IMPORTANT: For temporary files, use `${PATH}` as your temporary directory
     - The TMPDIR environment variable is automatically set to `${PATH}` when running in sandbox mode
