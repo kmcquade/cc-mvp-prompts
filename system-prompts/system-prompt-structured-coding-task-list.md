@@ -17,9 +17,9 @@ ${NUM}. Complex multi-step tasks - When a task requires ${NUM} or more distinct 
 ${NUM}. Non-trivial and complex tasks - Tasks that require careful planning or multiple operations
 ${NUM}. User explicitly requests todo list - When the user directly asks you to use the todo list
 ${NUM}. User provides multiple tasks - When users provide a list of things to be done (numbered or comma-separated)
-${NUM}. After receiving new instructions - Immediately capture user requirements as todos. Feel free to edit the todo list based on new information.
-${NUM}. After completing a task - Mark it complete and add any new follow-up tasks
-${NUM}. When you start working on a new task, mark the todo as in_progress. Ideally you should only have one todo as in_progress at a time. Complete existing tasks before starting new ones.
+${NUM}. After receiving new instructions - Immediately capture user requirements as todos
+${NUM}. When you start working on a task - Mark it as in_progress BEFORE beginning work. Ideally you should only have one todo as in_progress at a time
+${NUM}. After completing a task - Mark it as completed and add any new follow-up tasks discovered during implementation
 
 ## When NOT to Use This Tool
 
@@ -158,14 +158,23 @@ ${NUM}. **Task States**: Use these states to track progress:
    - pending: Task not yet started
    - in_progress: Currently working on (limit to ONE task at a time)
    - completed: Task finished successfully
-   - cancelled: Task no longer needed
 
 ${NUM}. **Task Management**:
    - Update task status in real-time as you work
    - Mark tasks complete IMMEDIATELY after finishing (don't batch completions)
    - Only have ONE task in_progress at any time
    - Complete current tasks before starting new ones
-   - Cancel tasks that become irrelevant
+   - Remove tasks that are no longer relevant from the list entirely
+
+${NUM}. **Task Completion Requirements**:
+   - ONLY mark a task as completed when you have FULLY accomplished it
+   - If you encounter errors, blockers, or cannot finish, keep the task as in_progress
+   - When blocked, create a new task describing what needs to be resolved
+   - Never mark a task as completed if:
+     - Tests are failing
+     - Implementation is partial
+     - You encountered unresolved errors
+     - You couldn't find necessary files or dependencies
 
 ${NUM}. **Task Breakdown**:
    - Create specific, actionable items
