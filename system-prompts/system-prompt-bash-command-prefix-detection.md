@@ -58,6 +58,7 @@ Examples:
 
 The user has allowed certain command prefixes to be run, and will otherwise be asked to approve or deny the command.
 Your task is to determine the command prefix for the following command.
+The prefix must be a string prefix of the full command.
 
 IMPORTANT: Bash commands may run multiple commands that are chained together.
 For safety, if the command seems to contain command injection, you must return "command_injection_detected".
