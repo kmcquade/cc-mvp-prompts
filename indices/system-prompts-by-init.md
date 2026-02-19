@@ -37,7 +37,7 @@ _Sorted by init (newest first)._
 | [`system-prompt-file-editing-and-path-rules.md`](../system-prompts/system-prompt-file-editing-and-path-rules.md) | Injects URL and expression, enforcing no new files, no docs, absolute paths, snippetful final reply. | 160 | 1.0.111 | 1.0.111 |
 | [`system-prompt-cli-identity.md`](../system-prompts/system-prompt-cli-identity.md) | States the assistant is Claude Code, Anthropic’s official CLI. | 14 | 1.0.111 | 1.0.111 |
 | [`system-prompt-stop-hook-feedback-links.md`](../system-prompts/system-prompt-stop-hook-feedback-links.md) | Stop hook feedback banner listing two URLs and a final interpolated message line. | 25 | 1.0.110 | 1.0.110 |
-| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.122 |
+| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.123 |
 | [`system-prompt-command-purpose-in-words.md`](../system-prompts/system-prompt-command-purpose-in-words.md) | Guidelines to describe a shell command’s function in a fixed word range with examples. | 80 | 1.0.102 | 1.0.102 |
 | [`system-prompt-background-task-monitoring.md`](../system-prompts/system-prompt-background-task-monitoring.md) | Announces task moved to background; provides monitoring link and teleport resume command. | 58 | 1.0.102 | 1.0.122 |
 | [`system-prompt-read-local-files-by-path.md`](../system-prompts/system-prompt-read-local-files-by-path.md) | Reads local filesystem files by absolute path with optional line ranges and image viewing. | 423 | 1.0.98 | 1.0.98 |
@@ -96,7 +96,7 @@ _Sorted by init (newest first)._
 | [`system-prompt-create-view-instrument-selector.md`](../system-prompts/system-prompt-create-view-instrument-selector.md) | Create a new view with specified name, optional description, and InstrumentSelector variants. | 110 | 0.2.76 | 0.2.76 |
 | [`system-prompt-nested-template-functions.md`](../system-prompts/system-prompt-nested-template-functions.md) | Nested compiled template functions that concatenate output into a string buffer. | 134 | 0.2.54 | 1.0.86 |
 | [`system-prompt-continue-last-task.md`](../system-prompts/system-prompt-continue-last-task.md) | Continue from prior conversation state and resume the last task without questions. | 38 | 0.2.54 | 0.2.54 |
-| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.122 |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.123 |
 | [`system-prompt-git-status-session-start.md`](../system-prompts/system-prompt-git-status-session-start.md) | Record initial git status snapshot, including current branch and main branch names. | 77 | 0.2.32 | 1.0.94 |
 | [`system-prompt-fetch-pr-comments.md`](../system-prompts/system-prompt-fetch-pr-comments.md) | Fetch PR-level and review comments via gh API, then format threads with diffs. | 444 | 0.2.9 | 0.2.9 |
 | [`system-prompt-review-github-pull-request.md`](../system-prompts/system-prompt-review-github-pull-request.md) | Use GitHub CLI to list/view PRs, fetch diff, and deliver structured code review. | 233 | 0.2.9 | 0.2.9 |
@@ -203,12 +203,12 @@ _Sorted by init (newest first)._
 | [`system-data-conversation-title-generator-2.md`](../system-prompts/system-data-conversation-title-generator-2.md) | Requests a fixed-length word title for the provided conversation excerpt. | 309 | 1.0.122 | 1.0.122 |
 | [`system-data-files-linter-context-2.md`](../system-prompts/system-data-files-linter-context-2.md) | CLI linter context listing supported tools plus bash command, status, and files section. | 289 | 1.0.122 | 1.0.122 |
 | [`system-data-api-put-update-file-branch.md`](../system-prompts/system-data-api-put-update-file-branch.md) | Runs background bash then issues an API PUT to update repo content on a branch. | 284 | 1.0.122 | 1.0.122 |
-| [`system-data-linters-user-project-local-2.md`](../system-prompts/system-data-linters-user-project-local-2.md) | Lists many linting/formatting tools plus bash background, command, status, and context scopes. | 258 | 1.0.122 | 1.0.122 |
+| [`system-data-linters-user-project-local-3.md`](../system-prompts/system-data-linters-user-project-local-3.md) | Lists many linting/formatting tools plus bash background, command, status, and context scopes. | 258 | 1.0.122 | 1.0.123 |
 | [`system-data-extended-linter-header.md`](../system-prompts/system-data-extended-linter-header.md) | Multiple prompts (4) | 255 | 1.0.122 | 1.0.122 |
 | [`system-data-preface-plus-lint-environment.md`](../system-prompts/system-data-preface-plus-lint-environment.md) | Includes an initial preface variable then standard linter list and background bash command block. | 255 | 1.0.122 | 1.0.122 |
-| [`system-data-linters-with-local-bash.md`](../system-prompts/system-data-linters-with-local-bash.md) | Lists many linter/formatter tools and embeds bash command/status metadata for local context | 254 | 1.0.122 | 1.0.122 |
+| [`system-data-linters-user-project-local.md`](../system-prompts/system-data-linters-user-project-local.md) | Lists many linter/formatter tools and embeds bash command/status metadata for local context | 254 | 1.0.122 | 1.0.123 |
 | [`system-data-since-header-lint-environment.md`](../system-prompts/system-data-since-header-lint-environment.md) | Defines a linting tool environment and captures a single background bash command result. | 251 | 1.0.122 | 1.0.122 |
-| [`system-data-linters-with-local-bash-3.md`](../system-prompts/system-data-linters-with-local-bash-3.md) | Lists many linter/formatter tools and embeds bash command/status metadata for local context | 250 | 1.0.122 | 1.0.122 |
+| [`system-data-linters-with-local-bash-2.md`](../system-prompts/system-data-linters-with-local-bash-2.md) | Lists many linter/formatter tools and embeds bash command/status metadata for local context | 250 | 1.0.122 | 1.0.123 |
 | [`system-data-stdio-numbers-and-status.md`](../system-prompts/system-data-stdio-numbers-and-status.md) | Numeric placeholders and stdio lines with linter list and background bash status blocks. | 250 | 1.0.122 | 1.0.122 |
 | [`system-data-lint-environment-background-bash.md`](../system-prompts/system-data-lint-environment-background-bash.md) | Lists supported linters and includes background bash command metadata and output placeholders. | 248 | 1.0.122 | 1.0.122 |
 | [`system-data-pattern-with-background-bash-status-2.md`](../system-prompts/system-data-pattern-with-background-bash-status-2.md) | Template combining a pattern field with background bash command and status. | 222 | 1.0.122 | 1.0.122 |
@@ -220,7 +220,7 @@ _Sorted by init (newest first)._
 | [`system-data-pattern-plus-linter-header.md`](../system-prompts/system-data-pattern-plus-linter-header.md) | Pattern header and Claude Code linter list with background Bash command metadata | 159 | 1.0.122 | 1.0.122 |
 | [`system-data-pattern-with-background-bash-status.md`](../system-prompts/system-data-pattern-with-background-bash-status.md) | Template combining a pattern field with background bash command and status. | 157 | 1.0.122 | 1.0.122 |
 | [`system-data-files-linter-context.md`](../system-prompts/system-data-files-linter-context.md) | CLI linter context listing supported tools plus bash command, status, and files section. | 152 | 1.0.122 | 1.0.122 |
-| [`system-data-linters-user-project-local.md`](../system-prompts/system-data-linters-user-project-local.md) | Lists many linting/formatting tools plus bash background, command, status, and context scopes. | 149 | 1.0.122 | 1.0.122 |
+| [`system-data-linters-user-project-local-2.md`](../system-prompts/system-data-linters-user-project-local-2.md) | Lists many linting/formatting tools plus bash background, command, status, and context scopes. | 149 | 1.0.122 | 1.0.123 |
 | [`system-data-patterned-conversation-title.md`](../system-prompts/system-data-patterned-conversation-title.md) | Generate a NUM–NUM word conversation title following pattern and recent message window. | 118 | 1.0.122 | 1.0.122 |
 | [`system-data-function-with-url-pattern-field.md`](../system-prompts/system-data-function-with-url-pattern-field.md) | Defines function EXPR_1 with repeated URL usage and embedded pattern string EXPR_4. | 65 | 1.0.122 | 1.0.122 |
 | [`system-data-cli-linters-metadata.md`](../system-prompts/system-data-cli-linters-metadata.md) | Multiple prompts (5) | 313 | 1.0.118 | 1.0.118 |
@@ -230,7 +230,7 @@ _Sorted by init (newest first)._
 | [`system-data-manual-lint-migration-action.md`](../system-prompts/system-data-manual-lint-migration-action.md) | Warns migration needs manual follow-up; enumerates supported linters and background Bash status info. | 158 | 1.0.118 | 1.0.118 |
 | [`system-data-linters-header.md`](../system-prompts/system-data-linters-header.md) | Claude Code CLI header listing linters plus background bash command and status block | 157 | 1.0.118 | 1.0.118 |
 | [`system-data-app-path.md`](../system-prompts/system-data-app-path.md) | Claude Code header listing linters, plus background bash command, status, and app path. | 151 | 1.0.118 | 1.0.118 |
-| [`system-data-linters-with-local-bash-2.md`](../system-prompts/system-data-linters-with-local-bash-2.md) | Lists linting and formatting tools, plus bash command metadata and repo/editor folders. | 145 | 1.0.118 | 1.0.122 |
+| [`system-data-linters-with-local-bash.md`](../system-prompts/system-data-linters-with-local-bash.md) | Lists linting and formatting tools, plus bash command metadata and repo/editor folders. | 145 | 1.0.118 | 1.0.123 |
 | [`system-data-user-settings-flags-list-2.md`](../system-prompts/system-data-user-settings-flags-list-2.md) | List of configuration keys for installation, updates, theme, editor behavior, and features. | 118 | 1.0.114 | 1.0.114 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 139 | 1.0.110 | 1.0.110 |
 | [`system-data-runtime-environment-details-2.md`](../system-prompts/system-data-runtime-environment-details-2.md) | Reports runtime environment details including working directory, platform, OS version, date, and PATH. | 99 | 1.0.110 | 1.0.110 |
@@ -310,7 +310,7 @@ _Sorted by init (newest first). Showing **31** reminders with more than **30** t
 | [`system-reminder-remote-session-task-status.md`](../system-prompts/system-reminder-remote-session-task-status.md) | Renders background remote session status block with task id, title, status, and delta summary | 55 | 1.0.111 | 1.0.111 |
 | [`system-reminder-session-title.md`](../system-prompts/system-reminder-session-title.md) | Generate a session title based on the provided session description text. | 37 | 1.0.109 | 1.0.109 |
 | [`system-reminder-fixed-length-conversation-title.md`](../system-prompts/system-reminder-fixed-length-conversation-title.md) | Write a title of the requested word count summarizing the given conversation. | 35 | 1.0.109 | 1.0.109 |
-| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.122 |
+| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.123 |
 | [`system-reminder-nudge-todo-tracking.md`](../system-prompts/system-reminder-nudge-todo-tracking.md) | Suggests using and cleaning up the todo list when it would help track progress. | 79 | 1.0.94 | 1.0.94 |
 | [`system-reminder-session-memory-preview-guidance.md`](../system-prompts/system-reminder-session-memory-preview-guidance.md) | Notes that past session summaries may be unrelated and require reading full memory when needed. | 99 | 1.0.91 | 1.0.94 |
 | [`system-reminder-access-prior-large-note.md`](../system-prompts/system-reminder-access-prior-large-note.md) | Reminds that … was previously read; use … tool to retrieve full contents. | 42 | 1.0.85 | 1.0.85 |
@@ -330,7 +330,7 @@ _Sorted by init (newest first). Showing **31** reminders with more than **30** t
 | [`system-reminder-ic-event-handler-types.md`](../system-prompts/system-reminder-ic-event-handler-types.md) | Lists ic script, function, report, and many handler type identifiers. | 307 | 0.2.106 | 0.2.106 |
 | [`system-reminder-underscore-template-function-wrapper.md`](../system-prompts/system-reminder-underscore-template-function-wrapper.md) | Compiled Underscore template function skeleton that escapes values and accumulates output. | 70 | 0.2.106 | 0.2.106 |
 | [`system-reminder-hide-file-truncation-note.md`](../system-prompts/system-reminder-hide-file-truncation-note.md) | Warn file content is truncated and instruct using a command to read more. | 56 | 0.2.106 | 0.2.106 |
-| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.122 |
+| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.123 |
 
 <details>
 <summary>Show 33 low-token reminders (≤ 30 tokens)</summary>

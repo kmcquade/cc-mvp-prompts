@@ -16,8 +16,9 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.123 |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.123 |
 | [`system-prompt-safe-persistent-bash-execution.md`](../system-prompts/system-prompt-safe-persistent-bash-execution.md) | Execute bash commands in persistent shell with directory checks, quoting, and optional timeout. | 1,959 | 1.0.122 | 1.0.122 |
-| [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.122 |
 | [`system-prompt-delegate-work-to-specialists.md`](../system-prompts/system-prompt-delegate-work-to-specialists.md) | Delegate multi-step tasks to specialized subagents and prefer direct search tools when appropriate. | 986 | 1.0.122 | 1.0.122 |
 | [`system-prompt-constants-arguments-and-clipboard-warning.md`](../system-prompts/system-prompt-constants-arguments-and-clipboard-warning.md) | Mixed constants and arguments plus a clipboard image missing warning. | 299 | 1.0.122 | 1.0.122 |
 | [`system-prompt-create-shell-snapshot-file-3.md`](../system-prompts/system-prompt-create-shell-snapshot-file-3.md) | Writes a snapshot script file, clears aliases, injects dynamic sections, and verifies output exists | 251 | 1.0.122 | 1.0.122 |
@@ -25,7 +26,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-frustration-and-pr-detection.md`](../system-prompts/system-prompt-frustration-and-pr-detection.md) | Analyze conversation to output frustration and explicit GitHub pull request send intent flags. | 220 | 1.0.122 | 1.0.122 |
 | [`system-prompt-conversation-title-generator-2.md`](../system-prompts/system-prompt-conversation-title-generator-2.md) | Requests a fixed-length title derived from recent conversation messages. | 154 | 1.0.122 | 1.0.122 |
 | [`system-prompt-tmux-terminal-shortcut-setup.md`](../system-prompts/system-prompt-tmux-terminal-shortcut-setup.md) | Sets Shift+Enter multiline shortcut by running terminal command outside tmux, persisting settings. | 145 | 1.0.122 | 1.0.122 |
-| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.122 |
 | [`system-prompt-format-validation-and-type-selection.md`](../system-prompts/system-prompt-format-validation-and-type-selection.md) | Derives format validator object and defaults stream-json type to string | 133 | 1.0.122 | 1.0.122 |
 | [`system-prompt-mcp-server-and-pattern.md`](../system-prompts/system-prompt-mcp-server-and-pattern.md) | Lists MCP server tool instructions with URLs, expression blocks, and a configurable pattern string | 60 | 1.0.122 | 1.0.122 |
 | [`system-prompt-simple-conversation-title.md`](../system-prompts/system-prompt-simple-conversation-title.md) | Generate a NUM–NUM word conversation title using the last EXPR_1 of EXPR_2 messages. | 60 | 1.0.77 | 1.0.122 |
@@ -196,6 +196,11 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-linters-user-project-local-3.md`](../system-prompts/system-data-linters-user-project-local-3.md) | Lists many linting/formatting tools plus bash background, command, status, and context scopes. | 258 | 1.0.122 | 1.0.123 |
+| [`system-data-linters-user-project-local.md`](../system-prompts/system-data-linters-user-project-local.md) | Lists many linter/formatter tools and embeds bash command/status metadata for local context | 254 | 1.0.122 | 1.0.123 |
+| [`system-data-linters-with-local-bash-2.md`](../system-prompts/system-data-linters-with-local-bash-2.md) | Lists many linter/formatter tools and embeds bash command/status metadata for local context | 250 | 1.0.122 | 1.0.123 |
+| [`system-data-linters-user-project-local-2.md`](../system-prompts/system-data-linters-user-project-local-2.md) | Lists many linting/formatting tools plus bash background, command, status, and context scopes. | 149 | 1.0.122 | 1.0.123 |
+| [`system-data-linters-with-local-bash.md`](../system-prompts/system-data-linters-with-local-bash.md) | Lists linting and formatting tools, plus bash command metadata and repo/editor folders. | 145 | 1.0.118 | 1.0.123 |
 | [`system-data-macos-sandbox-policy-allowlist.md`](../system-prompts/system-data-macos-sandbox-policy-allowlist.md) | macOS sandbox profile allowing core process actions, specific Mach services, and IPC primitives | 1,519 | 1.0.122 | 1.0.122 |
 | [`system-data-duplicated-lint-blocks-bash.md`](../system-prompts/system-data-duplicated-lint-blocks-bash.md) | Contains two repeated linter context blocks each with background bash command metadata and outputs. | 392 | 1.0.122 | 1.0.122 |
 | [`system-data-conversation-title-generator-3.md`](../system-prompts/system-data-conversation-title-generator-3.md) | Requests a fixed-length word title for the provided conversation excerpt. | 316 | 1.0.122 | 1.0.122 |
@@ -203,12 +208,9 @@ _Sorted by last edit (newest first)._
 | [`system-data-conversation-title-generator-2.md`](../system-prompts/system-data-conversation-title-generator-2.md) | Requests a fixed-length word title for the provided conversation excerpt. | 309 | 1.0.122 | 1.0.122 |
 | [`system-data-files-linter-context-2.md`](../system-prompts/system-data-files-linter-context-2.md) | CLI linter context listing supported tools plus bash command, status, and files section. | 289 | 1.0.122 | 1.0.122 |
 | [`system-data-api-put-update-file-branch.md`](../system-prompts/system-data-api-put-update-file-branch.md) | Runs background bash then issues an API PUT to update repo content on a branch. | 284 | 1.0.122 | 1.0.122 |
-| [`system-data-linters-user-project-local-2.md`](../system-prompts/system-data-linters-user-project-local-2.md) | Lists many linting/formatting tools plus bash background, command, status, and context scopes. | 258 | 1.0.122 | 1.0.122 |
 | [`system-data-extended-linter-header.md`](../system-prompts/system-data-extended-linter-header.md) | Multiple prompts (4) | 255 | 1.0.122 | 1.0.122 |
 | [`system-data-preface-plus-lint-environment.md`](../system-prompts/system-data-preface-plus-lint-environment.md) | Includes an initial preface variable then standard linter list and background bash command block. | 255 | 1.0.122 | 1.0.122 |
-| [`system-data-linters-with-local-bash.md`](../system-prompts/system-data-linters-with-local-bash.md) | Lists many linter/formatter tools and embeds bash command/status metadata for local context | 254 | 1.0.122 | 1.0.122 |
 | [`system-data-since-header-lint-environment.md`](../system-prompts/system-data-since-header-lint-environment.md) | Defines a linting tool environment and captures a single background bash command result. | 251 | 1.0.122 | 1.0.122 |
-| [`system-data-linters-with-local-bash-3.md`](../system-prompts/system-data-linters-with-local-bash-3.md) | Lists many linter/formatter tools and embeds bash command/status metadata for local context | 250 | 1.0.122 | 1.0.122 |
 | [`system-data-stdio-numbers-and-status.md`](../system-prompts/system-data-stdio-numbers-and-status.md) | Numeric placeholders and stdio lines with linter list and background bash status blocks. | 250 | 1.0.122 | 1.0.122 |
 | [`system-data-lint-environment-background-bash.md`](../system-prompts/system-data-lint-environment-background-bash.md) | Lists supported linters and includes background bash command metadata and output placeholders. | 248 | 1.0.122 | 1.0.122 |
 | [`system-data-pattern-with-background-bash-status-2.md`](../system-prompts/system-data-pattern-with-background-bash-status-2.md) | Template combining a pattern field with background bash command and status. | 222 | 1.0.122 | 1.0.122 |
@@ -223,8 +225,6 @@ _Sorted by last edit (newest first)._
 | [`system-data-pattern-plus-linter-header.md`](../system-prompts/system-data-pattern-plus-linter-header.md) | Pattern header and Claude Code linter list with background Bash command metadata | 159 | 1.0.122 | 1.0.122 |
 | [`system-data-pattern-with-background-bash-status.md`](../system-prompts/system-data-pattern-with-background-bash-status.md) | Template combining a pattern field with background bash command and status. | 157 | 1.0.122 | 1.0.122 |
 | [`system-data-files-linter-context.md`](../system-prompts/system-data-files-linter-context.md) | CLI linter context listing supported tools plus bash command, status, and files section. | 152 | 1.0.122 | 1.0.122 |
-| [`system-data-linters-user-project-local.md`](../system-prompts/system-data-linters-user-project-local.md) | Lists many linting/formatting tools plus bash background, command, status, and context scopes. | 149 | 1.0.122 | 1.0.122 |
-| [`system-data-linters-with-local-bash-2.md`](../system-prompts/system-data-linters-with-local-bash-2.md) | Lists linting and formatting tools, plus bash command metadata and repo/editor folders. | 145 | 1.0.118 | 1.0.122 |
 | [`system-data-patterned-conversation-title.md`](../system-prompts/system-data-patterned-conversation-title.md) | Generate a NUM–NUM word conversation title following pattern and recent message window. | 118 | 1.0.122 | 1.0.122 |
 | [`system-data-function-with-url-pattern-field.md`](../system-prompts/system-data-function-with-url-pattern-field.md) | Defines function EXPR_1 with repeated URL usage and embedded pattern string EXPR_4. | 65 | 1.0.122 | 1.0.122 |
 | [`system-data-html-doctype-variants-list-2.md`](../system-prompts/system-data-html-doctype-variants-list-2.md) | Strings enumerating HTML doctype variants including strict, levels, and internet explorer. | 1,099 | 0.2.9 | 1.0.120 |
@@ -300,10 +300,10 @@ _Sorted by last edit (newest first). Showing **31** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.123 |
+| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.123 |
 | [`system-reminder-defensive-security-cli-guidelines.md`](../system-prompts/system-reminder-defensive-security-cli-guidelines.md) | CLI assistant rules for defensive security help, safe tool use, and feedback guidance. | 3,111 | 1.0.122 | 1.0.122 |
-| [`system-reminder-conversation-development-summary.md`](../system-prompts/system-reminder-conversation-development-summary.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 1.0.122 |
 | [`system-reminder-linting-context-block.md`](../system-prompts/system-reminder-linting-context-block.md) | Environment banner enumerating supported linters and reporting background bash command and status. | 156 | 1.0.122 | 1.0.122 |
-| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 1.0.122 |
 | [`system-reminder-pattern-line.md`](../system-prompts/system-reminder-pattern-line.md) | System reminder containing URLs, a context line, a quoted pattern, and a path. | 46 | 1.0.122 | 1.0.122 |
 | [`system-reminder-url-expr-pattern-line.md`](../system-prompts/system-reminder-url-expr-pattern-line.md) | Template joins two URLs, an expression, a quoted pattern string, and trailing expression. | 32 | 1.0.122 | 1.0.122 |
 | [`system-reminder-background-bash-status-block.md`](../system-prompts/system-reminder-background-bash-status-block.md) | Displays background Bash job id, command, status, and associated output details. | 64 | 1.0.118 | 1.0.119 |
