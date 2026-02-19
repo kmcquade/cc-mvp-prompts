@@ -1,6 +1,6 @@
 # Tool Description: application-specific-realtime-signal
 
-- Name: SIGRTnull1
+- Name: SIGRTexternal_env_var1
 
 ## Summary
 
