@@ -4,7 +4,7 @@
 
 - Commands: 16
 - Options: 31
-- Env vars: 224
+- Env vars: 225
 - Config keys: 257
 - Tools: 1
 - Skills: 0
@@ -179,6 +179,7 @@
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SSE_PORT`
+- `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CONFIG_DIR`
