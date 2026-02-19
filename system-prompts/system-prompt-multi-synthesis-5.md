@@ -14,7 +14,7 @@ Synthesize multiple agents’ analyses into one unified, contradiction-resolved 
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-bypassPermissions100 Original task: ${EXPR_1}
+${NUM}:Original task: ${EXPR_1}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
@@ -27,4 +27,4 @@ ${NUM}. Presents a unified solution that addresses the original task
 ${NUM}. Includes all important details and code examples from the individual responses
 ${NUM}. Is well-structured and complete
 
-Your synthesis should be thorough but focused on the original task. (sidechain)
+Your synthesis should be thorough but focused on the original task.
