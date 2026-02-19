@@ -20,10 +20,10 @@ Defines a pattern-based configuration with hidden args for user project local sc
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
-| `EXPR_11` | false | None |
+| `EXPR_11` | None | None |
 | `EXPR_12` | None | None |
 | `EXPR_13` | None | None |
-| `EXPR_14` | None | None |
+| `EXPR_14` | true | None |
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
 | `EXPR_17` | None | None |
@@ -56,13 +56,13 @@ ${EXPR_9}
 
 ${EXPR_10}
 
-${EXPR_11: false}
+${EXPR_11}
 
 ${EXPR_12}
 
 ${EXPR_13}
 
-${EXPR_14}
+${EXPR_14: true}
 
 ${EXPR_15}
 
@@ -71,6 +71,8 @@ ${EXPR_16}
 ${EXPR_17}
 
 ${EXPR_18}
+
+${NUM}
 
 ${EXPR_19}
 
