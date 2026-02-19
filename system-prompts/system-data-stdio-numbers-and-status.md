@@ -13,94 +13,24 @@ Numeric placeholders and stdio lines with linter list and background bash status
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
-| `EXPR_11` | None | None |
-| `EXPR_12` | None | None |
-| `EXPR_13` | None | None |
-| `EXPR_14` | None | None |
-| `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
-| `EXPR_18` | None | None |
-| `EXPR_19` | None | None |
-| `EXPR_20` | None | None |
-| `EXPR_21` | None | None |
-| `EXPR_22` | None | None |
-| `EXPR_23` | None | None |
-| `EXPR_24` | None | None |
+| `EXPR_4` | Task | None |
+| `EXPR_5` | Bash | None |
+| `EXPR_6` | Glob | None |
+| `EXPR_7` | Grep | None |
+| `EXPR_8` | ExitPlanMode | None |
+| `EXPR_9` | Read | None |
+| `EXPR_10` | Edit | None |
+| `EXPR_11` | MultiEdit | None |
+| `EXPR_12` | Write | None |
+| `EXPR_13` | NotebookEdit | None |
+| `EXPR_14` | WebFetch | None |
+| `EXPR_15` | WebSearch | None |
+| `EXPR_16` | BashOutput | None |
+| `EXPR_17` | KillShell | None |
+| `EXPR_18` | SlashCommand | None |
 
 # Raw Prompt Text
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
 stdio
-
-${EXPR_1}
-
-${EXPR_2}
-
-${EXPR_3}
-
-${EXPR_4}
-
-${EXPR_5}
-
-${EXPR_6}
-
-${EXPR_7}
-
-${EXPR_8}
-
-${EXPR_9}
-
-${EXPR_10}
-
-${EXPR_11}
-
-${EXPR_12}
-
-${EXPR_13}
-
-Background Bash ${EXPR_14}
-
-(command: ${EXPR_15})
-
-(status: ${EXPR_16})
 
 You are Claude Code, Anthropic's official CLI for Claude.
 
@@ -158,24 +88,38 @@ sonarqube
 
 sonarjs
 
-Background Bash ${EXPR_17}
+Background Bash ${EXPR_1}
 
-(command: ${EXPR_18})
+(command: ${EXPR_2})
 
-(status: ${EXPR_19})
+(status: ${EXPR_3})
 
-${EXPR_20}
+${EXPR_4: 'Task'}
 
-${EXPR_21}
+${EXPR_5: 'Bash'}
 
-${EXPR_22}
+${EXPR_6: 'Glob'}
 
-${EXPR_23}
+${EXPR_7: 'Grep'}
 
-${EXPR_24}
+${EXPR_8: 'ExitPlanMode'}
 
-${EXPR_25}
+${EXPR_9: 'Read'}
 
-${EXPR_26}
+${EXPR_10: 'Edit'}
 
-${EXPR_27}
+${EXPR_11: 'MultiEdit'}
+
+${EXPR_12: 'Write'}
+
+${EXPR_13: 'NotebookEdit'}
+
+${EXPR_14: 'WebFetch'}
+
+${EXPR_15: 'WebSearch'}
+
+${EXPR_16: 'BashOutput'}
+
+${EXPR_17: 'KillShell'}
+
+${EXPR_18: 'SlashCommand'}
