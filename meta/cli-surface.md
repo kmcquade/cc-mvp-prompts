@@ -4,7 +4,7 @@
 
 - Commands: 13
 - Options: 15
-- Env vars: 124
+- Env vars: 125
 - Config keys: 61
 - Tools: 0
 - Skills: 0
@@ -157,6 +157,7 @@
 - `NETLIFY`
 - `NO_PROXY`
 - `NODE_DEBUG`
+- `NODE_OPTIONS`
 - `PATH`
 - `PKG_CONFIG_PATH`
 - `REGION_NAME`
