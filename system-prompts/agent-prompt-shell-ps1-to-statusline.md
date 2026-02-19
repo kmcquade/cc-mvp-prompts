@@ -76,6 +76,10 @@ ${NUM}. The statusLine command will receive the following JSON input via stdin:
      },
      "vim": {                     // Optional, only present when vim mode is enabled
        "mode": "INSERT" | "NORMAL"  // Current vim editor mode
+     },
+     "agent": {                    // Optional, only present when Claude is started with --agent flag
+       "name": "string",           // Agent name (e.g., "code-architect", "test-runner")
+       "type": "string"            // Optional: Agent type identifier
      }
    }
 
