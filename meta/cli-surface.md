@@ -4,8 +4,8 @@
 
 - Commands: 26
 - Options: 52
-- Env vars: 407
-- Config keys: 347
+- Env vars: 408
+- Config keys: 353
 - Tools: 3
 - Skills: 0
 - Models: 84
@@ -256,6 +256,7 @@
 - `CLAUDE_CODE_API_BASE_URL`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
+- `CLAUDE_CODE_ATTRIBUTION_HEADER`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
 - `CLAUDE_CODE_BASH_SANDBOX_SHOW_INDICATOR`
 - `CLAUDE_CODE_BLOCKING_LIMIT_OVERRIDE`
@@ -333,6 +334,7 @@
 - `CLAUDE_CODE_TMUX_PREFIX_CONFLICTS`
 - `CLAUDE_CODE_TMUX_SESSION`
 - `CLAUDE_CODE_USE_BEDROCK`
+- `CLAUDE_CODE_USE_COWORK_PLUGINS`
 - `CLAUDE_CODE_USE_FOUNDRY`
 - `CLAUDE_CODE_USE_NATIVE_FILE_SEARCH`
 - `CLAUDE_CODE_USE_VERTEX`
@@ -342,6 +344,7 @@
 - `CLAUDE_ENV_FILE`
 - `CLAUDE_FORCE_DISPLAY_SURVEY`
 - `CLAUDE_REPL_MODE`
+- `CLAUDE_TMPDIR`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `CODESPACES`
@@ -382,10 +385,8 @@
 - `EDITOR`
 - `ENABLE_BETA_TRACING_DETAILED`
 - `ENABLE_CLAUDE_CODE_SM_COMPACT`
-- `ENABLE_CLAUDEAI_MCP_SERVERS`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_EXPERIMENTAL_MCP_CLI`
-- `ENABLE_INCREMENTAL_TUI`
 - `ENABLE_MCP_CLI`
 - `ENABLE_MCP_CLI_ENDPOINT`
 - `ENABLE_MCP_LARGE_OUTPUT_FILES`
@@ -590,7 +591,6 @@
 
 ## Config Keys
 
-- `$M`
 - `$schema`
 - `A`
 - `activeForm`
@@ -618,6 +618,7 @@
 - `apiKeyHelper`
 - `appliedLimit`
 - `appliedOffset`
+- `applyPath`
 - `args`
 - `argumentHint`
 - `ask`
@@ -638,6 +639,7 @@
 - `blockedBy`
 - `blockedMarketplaces`
 - `blocks`
+- `bpfPath`
 - `bytes`
 - `cache_creation`
 - `cache_creation_input_tokens`
@@ -684,6 +686,7 @@
 - `disallowedTools`
 - `displayHeight`
 - `displayWidth`
+- `domains`
 - `durationMs`
 - `durationSeconds`
 - `eagerLoadSettings_end`
@@ -775,6 +778,7 @@
 - `method`
 - `mimeType`
 - `minimumVersion`
+- `mitmProxy`
 - `mode`
 - `model`
 - `multiSelect`
@@ -838,6 +842,7 @@
 - `question`
 - `questions`
 - `rawOutputPath`
+- `rb`
 - `reason`
 - `reasoning`
 - `ref`
@@ -866,6 +871,7 @@
 - `safeFlags`
 - `sandbox`
 - `scope`
+- `seccomp`
 - `selection`
 - `server`
 - `server_tool_use`
@@ -883,6 +889,7 @@
 - `skippedMarketplaces`
 - `skippedPlugins`
 - `skipWebFetchPreflight`
+- `socketPath`
 - `socksProxyPort`
 - `source`
 - `spinnerTipsEnabled`

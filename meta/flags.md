@@ -1,12 +1,13 @@
-# Claude Code 2.1.14 – Flags
+# Claude Code 2.1.15 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
+| `ccr_plan_mode_enabled` | experiment | tools | Enable a planning mode behavior in the CLI | Only a config getter is shown; no downstream behavior in context. | medium | 1 |
 | `enhanced_telemetry_beta` | experiment | telemetry | Enables enhanced telemetry via env override, else uses remote experiment default. | Only shows gating logic; telemetry behavior not shown. | medium | 1 |
 | `hide_overages_option_at_rate_limit_hit` | experiment | ui | Controls whether to show extra usage/overage option in rate-limit options menu | Affects rate-limit options list and auto-opening behavior. | high | 2 |
 | `preserve_thinking` | experiment | networking | Adds a beta option for preserving model thinking in first-party requests | Ny2 meaning not shown; inferred as request beta/header token. | medium | 2 |
 | `prompt_cache_1h_experiment` | experiment | caching | Enable ephemeral prompt caching with a one-hour TTL | Only affects returned cache config object. | high | 1 |
-| `tengu_ant_attribution_header_new` | gate | prompts | controls new attribution header text in a Claude Code system prompt | Flag is read but shown return path is empty/obfuscated. | medium | 1 |
+| `tengu_attribution_header` | experiment | networking | Controls whether an attribution header string is included, overridable via environment variable. | Env var can force enable/disable. | high | 2 |
 | `tengu_bash_haiku_prefetch` | experiment | caching | Prefetches and reads referenced file paths after a bash command finishes. | Prefetch source of file paths depends on P42 output. | high | 1 |
 | `tengu_c4w_usage_limit_notifications_enabled` | gate | ui | Controls enabling usage limit notifications, with special handling for team plans. | Only boolean gating logic is visible; notification behavior not shown. | medium | 1 |
 | `tengu_chrome_auto_enable` | experiment | tools | Auto-enable Claude-in-Chrome native host integration via MCP stdio config. | Based on nearby native-host/MCP strings; exact behavior inferred. | medium | 1 |
@@ -19,12 +20,12 @@
 | `tengu_permission_explainer` | experiment | tools | Enable permission explanation text for tool invocations in CLI. | Only one occurrence; behavior inferred from toolName/toolDescription string building. | medium | 1 |
 | `tengu_pid_based_version_locking` | experiment | filesystem | Enable PID-based version locking to avoid concurrent or conflicting runs | Only PID/process check context is visible. | low | 1 |
 | `tengu_plan_mode_interview_phase` | experiment | prompts | Enables an interview phase in plan mode behavior in the CLI. | Only a flag getter is shown; no downstream usage context. | medium | 1 |
+| `tengu_remote_backend` | experiment | networking | Permits starting a remote session without an initial description for the CLI remote command. | Only seen gating the missing-description error path. | high | 1 |
 | `tengu_scratch` | gate | filesystem | enable temporary scratchpad directory for session memory summaries | Behavior inferred from nearby path construction and conditional check. | medium | 1 |
 | `tengu_session_memory` | experiment | caching | Enable persistent session memory and compact summaries in CLI repl. | Inferred from file read/write and repl_main_thread gating. | medium | 2 |
 | `tengu_sm_compact` | experiment | prompts | Enables compact summary messages for session memory handling in CLI transcript. | Only seen as combined gate check; exact behavior elsewhere unknown. | medium | 1 |
 | `tengu_sm_compact_config` | config | prompts | Configure compaction thresholds using token and message count limits | Only token/message limit fields are visible. | medium | 1 |
 | `tengu_streaming_tool_execution2` | gate | tools | Gates creation of a tool-execution handler in the streaming CLI request loop | Only observed gating EV0 construction; exact behavior of EV0 is unclear. | high | 1 |
-| `tengu_sumi` | gate | tools | controls CLI stream I/O configuration or console patching behavior | Only appears as a simple gate in a CLI helper. | low | 1 |
 | `tengu_thinkback` | gate | tools | Enables Thinkback year-in-review command and hidden animation playback tool | Controls availability of local CLI/plugin commands. | high | 2 |
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
 | `tengu_tool_search_unsupported_models` | experiment | tools | Provides list of model substrings that disable tool search support checks | Used to filter model names by substring match. | high | 1 |
