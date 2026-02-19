@@ -25,7 +25,7 @@ Usage:
 - Any lines longer than ${EXPR_2: 2000} characters will be truncated
 - Results are returned using cat -n format, with line numbers starting at ${NUM}
 - This tool allows Claude Code to read images (eg PNG, JPG, etc). When reading an image file the contents are presented visually as Claude Code is a multimodal LLM.
-- This tool can read PDF files (.pdf). PDFs are processed page by page, extracting both text and visual content for analysis.
+- This tool can read PDF files (.pdf). For large PDFs (more than ${NUM} pages), you MUST provide the pages parameter to read specific page ranges (e.g., pages: "${NUM}-${NUM}"). Reading a large PDF without the pages parameter will fail. Maximum ${NUM} pages per request.
 - This tool can read Jupyter notebooks (.ipynb files) and returns all cells with their outputs, combining code, text, and visualizations.
 - This tool can only read files, not directories. To read a directory, use an ls command via the ${EXPR_3: 'Bash'} tool.
 - You can call multiple tools in a single response. It is always better to speculatively read multiple potentially useful files in parallel.
