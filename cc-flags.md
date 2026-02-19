@@ -1,4 +1,4 @@
-# Claude Code Flags 0.2.38
+# Claude Code Flags 0.2.39
 
 ## Feature Gates
 
@@ -7,8 +7,6 @@
 
 ## Dynamic Configs
 
-- `tengu_auto_compact_config`
-- `tengu_motd`
 
 ## Experiments
 
