@@ -5,7 +5,7 @@
 - Commands: 16
 - Options: 32
 - Env vars: 243
-- Config keys: 272
+- Config keys: 273
 - Tools: 3
 - Skills: 0
 - Models: 35
@@ -582,6 +582,7 @@
 - `service_tier`
 - `shell_id`
 - `shellId`
+- `skipWebFetchPreflight`
 - `software_id`
 - `software_statement`
 - `software_version`
