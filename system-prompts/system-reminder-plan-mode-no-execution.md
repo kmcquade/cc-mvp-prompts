@@ -1,4 +1,4 @@
-# System Reminder: plan-mode-no-changes-2
+# System Reminder: plan-mode-no-execution
 
 - Source: inline
 
