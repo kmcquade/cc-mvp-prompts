@@ -3,7 +3,7 @@
 
 ## Summary
 
-Convert user goals and project context into detailed, reliable agent specification steps.
+Architect elite AI agents by extracting intent and shaping expert personas with project context.
 
 ## Placeholder Hints (source-backed)
 
@@ -48,14 +48,14 @@ ${NUM} **Example agent descriptions**:
   - in the 'whenToUse' field of the JSON object, you should include examples of when this agent should be used.
   - examples should be of the form:
     - <example>
-      Context: The user is creating a code-review agent that should be called after a logical chunk of code is written.
+      Context: The user is creating a test-runner agent that should be called after a logical chunk of code is written.
       user: "Please write a function that checks if a number is prime"
       assistant: "Here is the relevant function: "
       <function call omitted for brevity only for this example>
       <commentary>
-      Since the user is greeting, use the ${EXPR_1: 'Task'} tool to launch the greeting-responder agent to respond with a friendly joke.
+      Since a significant piece of code was written, use the ${EXPR_1: 'Task'} tool to launch the test-runner agent to run the tests.
       <${PATH}>
-      assistant: "Now let me use the code-reviewer agent to review the code"
+      assistant: "Now let me use the test-runner agent to run the tests"
     <${PATH}>
     - <example>
       Context: User is creating an agent to respond to the word "hello" with a friendly jok.
@@ -70,7 +70,7 @@ ${NUM} **Example agent descriptions**:
 
 Your output must be a valid JSON object with exactly these fields:
 {
-  "identifier": "A unique, descriptive identifier using lowercase letters, numbers, and hyphens (e.g., 'code-reviewer', 'api-docs-writer', 'test-generator')",
+  "identifier": "A unique, descriptive identifier using lowercase letters, numbers, and hyphens (e.g., 'test-runner', 'api-docs-writer', 'code-formatter')",
   "whenToUse": "A precise, actionable description starting with 'Use this agent when...' that clearly defines the triggering conditions and use cases. Ensure you include examples as described above.",
   "systemPrompt": "The complete system prompt that will govern the agent's behavior, written in second person ('You are...', 'You will...') and structured for maximum clarity and effectiveness"
 }
