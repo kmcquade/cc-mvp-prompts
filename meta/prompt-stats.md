@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.119
+# Prompt Stats 0.2.120
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -51,19 +51,19 @@
 | system | [System Prompt: Summarize Coding Chat Status](../system-prompts/system-prompt-summarize-coding-chat-status.md) | 139 | 33 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Summarize Shell Command](../system-prompts/system-prompt-summarize-shell-command.md) | 304 | 78 | 0.2.59 | 0.2.59 |
 | system | [System Prompt: Title With Files Context](../system-prompts/system-prompt-title-with-files-context.md) | 165 | 46 | 0.2.91 | 0.2.91 |
-| system | [System Prompt: Update Memory File](../system-prompts/system-prompt-update-memory-file.md) | 518 | 118 | 0.2.54 | 0.2.119 |
-| system | [System Prompt: Write Conversation Title](../system-prompts/system-prompt-write-conversation-title.md) | 148 | 41 | 0.2.93 | 0.2.114 |
+| system | [System Prompt: Update Memory File](../system-prompts/system-prompt-update-memory-file.md) | 518 | 118 | 0.2.54 | 0.2.120 |
+| system | [System Prompt: Write Conversation Title](../system-prompts/system-prompt-write-conversation-title.md) | 146 | 41 | 0.2.93 | 0.2.115 |
 | system | [System Prompt: Write Conversation Title 10](../system-prompts/system-prompt-write-conversation-title-10.md) | 147 | 42 | 0.2.91 | 0.2.119 |
 | system | [System Prompt: Write Conversation Title 11](../system-prompts/system-prompt-write-conversation-title-11.md) | 168 | 46 | 0.2.104 | 0.2.119 |
-| system | [System Prompt: Write Conversation Title 12](../system-prompts/system-prompt-write-conversation-title-12.md) | 148 | 42 | 0.2.113 | 0.2.119 |
-| system | [System Prompt: Write Conversation Title 2](../system-prompts/system-prompt-write-conversation-title-2.md) | 158 | 48 | 0.2.91 | 0.2.119 |
-| system | [System Prompt: Write Conversation Title 3](../system-prompts/system-prompt-write-conversation-title-3.md) | 249 | 87 | 0.2.101 | 0.2.119 |
+| system | [System Prompt: Write Conversation Title 12](../system-prompts/system-prompt-write-conversation-title-12.md) | 181 | 62 | 0.2.91 | 0.2.120 |
+| system | [System Prompt: Write Conversation Title 2](../system-prompts/system-prompt-write-conversation-title-2.md) | 148 | 42 | 0.2.113 | 0.2.120 |
+| system | [System Prompt: Write Conversation Title 3](../system-prompts/system-prompt-write-conversation-title-3.md) | 158 | 48 | 0.2.91 | 0.2.120 |
 | system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 249 | 87 | 0.2.101 | 0.2.113 |
 | system | [System Prompt: Write Conversation Title 5](../system-prompts/system-prompt-write-conversation-title-5.md) | 158 | 49 | 0.2.91 | 0.2.119 |
-| system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 159 | 48 | 0.2.91 | 0.2.118 |
-| system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 181 | 62 | 0.2.91 | 0.2.119 |
+| system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 159 | 48 | 0.2.91 | 0.2.120 |
+| system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 249 | 87 | 0.2.101 | 0.2.120 |
 | system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 147 | 42 | 0.2.91 | 0.2.119 |
-| system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 159 | 48 | 0.2.91 | 0.2.119 |
+| system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 159 | 48 | 0.2.91 | 0.2.120 |
 | system | [System Prompt: Write File With Read First](../system-prompts/system-prompt-write-file-with-read-first.md) | 550 | 135 | 0.2.116 | 0.2.116 |
 | system-reminder | [System Reminder: Call Echo Line](../system-prompts/system-reminder-call-echo-line.md) | 61 | 20 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Call Error Result](../system-prompts/system-reminder-call-error-result.md) | 43 | 13 | 0.2.119 | 0.2.119 |
@@ -76,13 +76,12 @@
 | system-reminder | [System Reminder: Jt Join Type Options](../system-prompts/system-reminder-jt-join-type-options.md) | 37 | 18 | 0.2.119 | 0.2.119 |
 | system-reminder | [System Reminder: Optional Context](../system-prompts/system-reminder-optional-context.md) | 351 | 88 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Relay User Message Content](../system-prompts/system-reminder-relay-user-message-content.md) | 46 | 13 | 0.2.108 | 0.2.108 |
-| system-reminder | [System Reminder: Repo Info Branch Workflow Pr](../system-prompts/system-reminder-repo-info-branch-workflow-pr.md) | 129 | 21 | 0.2.119 | 0.2.119 |
 | system-reminder | [System Reminder: Respect Intentional File Edits](../system-prompts/system-reminder-respect-intentional-file-edits.md) | 385 | 104 | 0.2.118 | 0.2.118 |
 | system-reminder | [System Reminder: Show Variable Contents](../system-prompts/system-reminder-show-variable-contents.md) | 33 | 16 | 0.2.107 | 0.2.107 |
 | system-reminder | [System Reminder: Summarize Conversation](../system-prompts/system-reminder-summarize-conversation.md) | 69 | 13 | 0.2.108 | 0.2.108 |
 | system-reminder | [System Reminder: Synthesize Multi Findings](../system-prompts/system-reminder-synthesize-multi-findings.md) | 652 | 159 | 0.2.72 | 0.2.106 |
 | system-reminder | [System Reminder: Todo List Updated 2](../system-prompts/system-reminder-todo-list-updated-2.md) | 308 | 85 | 0.2.118 | 0.2.118 |
-| system-reminder | [System Reminder: Update Memory File](../system-prompts/system-reminder-update-memory-file.md) | 518 | 118 | 0.2.54 | 0.2.119 |
+| system-reminder | [System Reminder: Update Memory File](../system-prompts/system-reminder-update-memory-file.md) | 518 | 118 | 0.2.54 | 0.2.120 |
 | system-reminder | [System Reminder: User Opened File Ide](../system-prompts/system-reminder-user-opened-file-ide.md) | 46 | 15 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: User Selected Lines](../system-prompts/system-reminder-user-selected-lines.md) | 63 | 21 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Web Search](../system-prompts/system-reminder-web-search.md) | 57 | 11 | 0.2.108 | 0.2.108 |

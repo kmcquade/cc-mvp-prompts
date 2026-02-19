@@ -1,13 +1,13 @@
 # System Prompts Index – by tokens
 
-- Total prompt files: **175**
+- Total prompt files: **174**
 
 ## Categories
 
 - System prompts (63)
 - Tool prompts (33)
 - System data (58)
-- System reminders (21)
+- System reminders (20)
 
 ## System prompts (63)
 
@@ -42,12 +42,12 @@ _Sorted by tokens (desc)._
 | [`system-prompt-concise-github-issue-titles.md`](../system-prompts/system-prompt-concise-github-issue-titles.md) | Create a specific technical GitHub issue title from a bug report within a character limit. | 129 | 0.2.47 | 0.2.47 |
 | [`system-prompt-exact-replace-with-validation.md`](../system-prompts/system-prompt-exact-replace-with-validation.md) | Exact in-file string replacement with occurrence validation and prefix handling. | 120 | 0.2.116 | 0.2.116 |
 | [`system-prompt-overwrite-file-read-required.md`](../system-prompts/system-prompt-overwrite-file-read-required.md) | Overwrite file tool with mandatory prior read and no new docs by default. | 120 | 0.2.116 | 0.2.116 |
-| [`system-prompt-update-memory-file.md`](../system-prompts/system-prompt-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 0.2.119 |
+| [`system-prompt-update-memory-file.md`](../system-prompts/system-prompt-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 0.2.120 |
 | [`system-prompt-create-view-instrument-selector.md`](../system-prompts/system-prompt-create-view-instrument-selector.md) | Create a new view with specified name, optional description, and InstrumentSelector variants. | 110 | 0.2.76 | 0.2.76 |
 | [`system-prompt-minimal-changes-no-new-files.md`](../system-prompts/system-prompt-minimal-changes-no-new-files.md) | Do only requested work, avoid new files and clean up temporary artifacts. | 91 | 0.2.116 | 0.2.116 |
 | [`system-prompt-select-core-frequently-modified-files.md`](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | Choose five diverse frequently modified core-logic filenames from git history stats. | 90 | 0.2.9 | 0.2.9 |
-| [`system-prompt-write-conversation-title-3.md`](../system-prompts/system-prompt-write-conversation-title-3.md) | Generate a NUM-to-NUM word conversation title, output title only. | 87 | 0.2.101 | 0.2.119 |
 | [`system-prompt-write-conversation-title-4.md`](../system-prompts/system-prompt-write-conversation-title-4.md) | Generate a NUM-to-NUM word conversation title, output title only. | 87 | 0.2.101 | 0.2.113 |
+| [`system-prompt-write-conversation-title-7.md`](../system-prompts/system-prompt-write-conversation-title-7.md) | Generate a NUM-to-NUM word conversation title, output title only. | 87 | 0.2.101 | 0.2.120 |
 | [`system-prompt-follow-codebase-user-2.md`](../system-prompts/system-prompt-follow-codebase-user-2.md) | Follow the provided codebase and user instructions, acting as the specified CLI persona. | 86 | 0.2.105 | 0.2.105 |
 | [`system-prompt-detect-new-topic-title.md`](../system-prompts/system-prompt-detect-new-topic-title.md) | Detect whether a message starts a new topic and extract a short title. | 85 | 0.2.9 | 0.2.9 |
 | [`system-prompt-summarize-shell-command.md`](../system-prompts/system-prompt-summarize-shell-command.md) | Write a brief input-output description of a shell command in a few words. | 78 | 0.2.59 | 0.2.59 |
@@ -55,7 +55,7 @@ _Sorted by tokens (desc)._
 | [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 76 | 0.2.60 | 0.2.60 |
 | [`system-prompt-command-message-name-args.md`](../system-prompts/system-prompt-command-message-name-args.md) | XML-like command message template specifying subject, status, command name, and arguments. | 63 | 0.2.102 | 0.2.102 |
 | [`system-prompt-report-applied-edits.md`](../system-prompts/system-prompt-report-applied-edits.md) | Announces applied edits to a target and declares the Claude CLI official identity. | 63 | 0.2.101 | 0.2.101 |
-| [`system-prompt-write-conversation-title-7.md`](../system-prompts/system-prompt-write-conversation-title-7.md) | Generate a …-… word title summarizing the provided conversation text. | 62 | 0.2.91 | 0.2.119 |
+| [`system-prompt-write-conversation-title-12.md`](../system-prompts/system-prompt-write-conversation-title-12.md) | Generate a …-… word title summarizing the provided conversation text. | 62 | 0.2.91 | 0.2.120 |
 | [`system-prompt-anthropic-cli-identity.md`](../system-prompts/system-prompt-anthropic-cli-identity.md) | System banner declaring the CLI identity as Anthropic’s official Claude tool. | 59 | 0.2.119 | 0.2.119 |
 | [`system-prompt-local-function-conversation-title.md`](../system-prompts/system-prompt-local-function-conversation-title.md) | Inside a wrapper function, output only a …-… word conversation title. | 56 | 0.2.91 | 0.2.91 |
 | [`system-prompt-replacement-count-mismatch.md`](../system-prompts/system-prompt-replacement-count-mismatch.md) | Error message when actual string replacement matches differ from expected replacement count. | 56 | 0.2.106 | 0.2.106 |
@@ -63,16 +63,16 @@ _Sorted by tokens (desc)._
 | [`system-prompt-command-metadata-tags.md`](../system-prompts/system-prompt-command-metadata-tags.md) | Multiple prompts (2) | 52 | 0.2.101 | 0.2.101 |
 | [`system-prompt-generate-word-count-title.md`](../system-prompts/system-prompt-generate-word-count-title.md) | Output only a …-… word title for the given conversation. | 50 | 0.2.91 | 0.2.91 |
 | [`system-prompt-write-conversation-title-5.md`](../system-prompts/system-prompt-write-conversation-title-5.md) | Generate a …-… word title summarizing the provided conversation text. | 49 | 0.2.91 | 0.2.119 |
-| [`system-prompt-write-conversation-title-2.md`](../system-prompts/system-prompt-write-conversation-title-2.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.119 |
-| [`system-prompt-write-conversation-title-6.md`](../system-prompts/system-prompt-write-conversation-title-6.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.118 |
-| [`system-prompt-write-conversation-title-9.md`](../system-prompts/system-prompt-write-conversation-title-9.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.119 |
+| [`system-prompt-write-conversation-title-3.md`](../system-prompts/system-prompt-write-conversation-title-3.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.120 |
+| [`system-prompt-write-conversation-title-6.md`](../system-prompts/system-prompt-write-conversation-title-6.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.120 |
+| [`system-prompt-write-conversation-title-9.md`](../system-prompts/system-prompt-write-conversation-title-9.md) | Generate a …-… word title summarizing the provided conversation text. | 48 | 0.2.91 | 0.2.120 |
 | [`system-prompt-conversation-title-only-output.md`](../system-prompts/system-prompt-conversation-title-only-output.md) | Write a NUM-NUM word conversation title using the provided transcript only. | 47 | 0.2.91 | 0.2.91 |
 | [`system-prompt-title-with-files-context.md`](../system-prompts/system-prompt-title-with-files-context.md) | Generate a …-… word title using conversation text and file context. | 46 | 0.2.91 | 0.2.91 |
 | [`system-prompt-write-conversation-title-11.md`](../system-prompts/system-prompt-write-conversation-title-11.md) | Produce a fixed-length title summarizing the provided conversation, outputting only the title. | 46 | 0.2.104 | 0.2.119 |
 | [`system-prompt-write-conversation-title-10.md`](../system-prompts/system-prompt-write-conversation-title-10.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.91 | 0.2.119 |
-| [`system-prompt-write-conversation-title-12.md`](../system-prompts/system-prompt-write-conversation-title-12.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.113 | 0.2.119 |
+| [`system-prompt-write-conversation-title-2.md`](../system-prompts/system-prompt-write-conversation-title-2.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.113 | 0.2.120 |
 | [`system-prompt-write-conversation-title-8.md`](../system-prompts/system-prompt-write-conversation-title-8.md) | Generate a …-… word title summarizing the provided conversation text. | 42 | 0.2.91 | 0.2.119 |
-| [`system-prompt-write-conversation-title.md`](../system-prompts/system-prompt-write-conversation-title.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 0.2.114 |
+| [`system-prompt-write-conversation-title.md`](../system-prompts/system-prompt-write-conversation-title.md) | Generate a …-… word title summarizing the provided conversation text. | 41 | 0.2.93 | 0.2.115 |
 | [`system-prompt-continue-last-task.md`](../system-prompts/system-prompt-continue-last-task.md) | Continue from prior conversation state and resume the last task without questions. | 38 | 0.2.54 | 0.2.54 |
 | [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 0.2.9 |
 | [`system-prompt-classify-bash-command-prefix.md`](../system-prompts/system-prompt-classify-bash-command-prefix.md) | Determine the appropriate prefix for bash commands requested by a coding agent. | 33 | 0.2.9 | 0.2.9 |
@@ -184,7 +184,7 @@ _Sorted by tokens (desc)._
 | [`system-data-multiline-dotall-flag-notes.md`](../system-prompts/system-data-multiline-dotall-flag-notes.md) | System-data block listing multiline and dotall flags with quoting examples and substitutions. | 40 | 0.2.119 | 0.2.119 |
 | [`system-data-append-memory-entry.md`](../system-prompts/system-data-append-memory-entry.md) | Insert provided memory block into an empty memory file at given path. | 37 | 0.2.54 | 0.2.54 |
 
-## System reminders (21)
+## System reminders (20)
 
 _Sorted by tokens (desc). Showing **9** reminders with more than **30** tokens._
 
@@ -192,7 +192,7 @@ _Sorted by tokens (desc). Showing **9** reminders with more than **30** tokens._
 | --- | --- | ---: | --- | --- |
 | [`system-reminder-cli-safety-guidelines.md`](../system-prompts/system-reminder-cli-safety-guidelines.md) | Interactive CLI system rules for safe assistance, refusing malicious requests, and help/feedback guidance. | 3,002 | 0.2.116 | 0.2.116 |
 | [`system-reminder-synthesize-multi-findings.md`](../system-prompts/system-reminder-synthesize-multi-findings.md) | Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task | 159 | 0.2.72 | 0.2.106 |
-| [`system-reminder-update-memory-file.md`](../system-prompts/system-reminder-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 0.2.119 |
+| [`system-reminder-update-memory-file.md`](../system-prompts/system-reminder-update-memory-file.md) | Update or append memories in a file at a given path using one tool call. | 118 | 0.2.54 | 0.2.120 |
 | [`system-reminder-respect-intentional-file-edits.md`](../system-prompts/system-reminder-respect-intentional-file-edits.md) | Multiple prompts (2) | 104 | 0.2.118 | 0.2.118 |
 | [`system-reminder-optional-context.md`](../system-prompts/system-reminder-optional-context.md) | Multiple prompts (2) | 88 | 0.2.106 | 0.2.106 |
 | [`system-reminder-todo-list-updated-2.md`](../system-prompts/system-reminder-todo-list-updated-2.md) | Multiple prompts (2) | 85 | 0.2.118 | 0.2.118 |
@@ -201,12 +201,11 @@ _Sorted by tokens (desc). Showing **9** reminders with more than **30** tokens._
 | [`system-reminder-image-iff-format-flags.md`](../system-prompts/system-reminder-image-iff-format-flags.md) | List of IFF image format identifiers for BMP, JPEG, TIFF variants, and PNG. | 35 | 0.2.119 | 0.2.119 |
 
 <details>
-<summary>Show 12 low-token reminders (≤ 30 tokens)</summary>
+<summary>Show 11 low-token reminders (≤ 30 tokens)</summary>
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
 | [`system-reminder-empty-existing-file-warning.md`](../system-prompts/system-reminder-empty-existing-file-warning.md) | Warns that a referenced file exists but has no contents. | 22 | 0.2.115 | 0.2.115 |
-| [`system-reminder-repo-info-branch-workflow-pr.md`](../system-prompts/system-reminder-repo-info-branch-workflow-pr.md) | Steps for fetching repository info, creating a branch and workflow, reusing a secret, and opening a PR. | 21 | 0.2.119 | 0.2.119 |
 | [`system-reminder-user-selected-lines.md`](../system-prompts/system-reminder-user-selected-lines.md) | Present the specific lines the user selected from a given file. | 21 | 0.2.106 | 0.2.106 |
 | [`system-reminder-call-echo-line.md`](../system-prompts/system-reminder-call-echo-line.md) | Log line noting a tool invocation and the exact input provided. | 20 | 0.2.106 | 0.2.106 |
 | [`system-reminder-call-result.md`](../system-prompts/system-reminder-call-result.md) | Report the result returned from invoking a specified tool. | 18 | 0.2.106 | 0.2.106 |
