@@ -4,7 +4,7 @@
 
 ## Summary
 
-Choose correct subagent type and tools for multi-step work using routing guidelines.
+Delegate multi-step tasks to specialized subagents and prefer direct search tools when appropriate.
 
 ## Placeholder Hints (source-backed)
 
@@ -27,8 +27,6 @@ Available agent types and the tools they have access to:
 ${EXPR_1}
 
 When using the Task tool, you must specify a subagent_type parameter to select which agent type to use.
-
-
 
 When NOT to use the Agent tool:
 - If you want to read a specific file path, use the ${EXPR_2: 'Read'} or ${EXPR_3: 'Glob'} tool instead of the Agent tool, to find the match more quickly
