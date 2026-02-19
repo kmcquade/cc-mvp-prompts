@@ -1,6 +1,5 @@
-# System Reminder: summarize-conversation
+# System Prompt: summarize-conversations
 
-- Source: inline
 
 ## Summary
 
