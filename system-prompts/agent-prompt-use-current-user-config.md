@@ -15,10 +15,9 @@ Incorporate the user’s current custom environment configuration into relevant 
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | user’s custom environment setup details | None |
 
 # Raw Prompt Text
-${EXPR_1}
+user
 
 ---
 
@@ -26,6 +25,6 @@ ${EXPR_1}
 
 The user has the following custom setup in their environment:
 
-${EXPR_2}
+${EXPR_1}
 
 When answering questions, consider these configured features and proactively suggest them when relevant.
