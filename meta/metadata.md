@@ -7,28 +7,28 @@
 
 ## Bundle
 
-- Entry bytes: 4852254 bytes
-- Entry lines: 1423
+- Entry bytes: 4869643 bytes
+- Entry lines: 1415
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 6192342 bytes
-- Pretty lines: 101358
+- Pretty bytes: 6216805 bytes
+- Pretty lines: 102119
 
 ## Inventory
 
-- File count: 325
-- Size bytes: 33039102
+- File count: 425
+- Size bytes: 35161000
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.js`: 50 files, 188024 bytes
-- `.json`: 3 files, 4497 bytes
+- `.json`: 5 files, 12370 bytes
 - `.map`: 117 files, 312854 bytes
-- `.md`: 7 files, 130143 bytes
-- `.mjs`: 50 files, 5013379 bytes
+- `.md`: 9 files, 132893 bytes
+- `.mjs`: 50 files, 5030768 bytes
 - `.mts`: 1 files, 13087 bytes
-- `.ts`: 88 files, 492037 bytes
+- `.ts`: 183 files, 2584782 bytes
 - `.wasm`: 1 files, 88658 bytes
 
 ### Asset Sizes
@@ -176,6 +176,106 @@
 - `vendor/sdk/lib/MessageStream.mjs`
 - `vendor/sdk/lib/MessageStream.mjs.map`
 - `vendor/sdk/LICENSE`
+- `vendor/sdk/node_modules/@types/node/assert.d.ts`
+- `vendor/sdk/node_modules/@types/node/assert/strict.d.ts`
+- `vendor/sdk/node_modules/@types/node/async_hooks.d.ts`
+- `vendor/sdk/node_modules/@types/node/buffer.buffer.d.ts`
+- `vendor/sdk/node_modules/@types/node/buffer.d.ts`
+- `vendor/sdk/node_modules/@types/node/child_process.d.ts`
+- `vendor/sdk/node_modules/@types/node/cluster.d.ts`
+- `vendor/sdk/node_modules/@types/node/compatibility/disposable.d.ts`
+- `vendor/sdk/node_modules/@types/node/compatibility/index.d.ts`
+- `vendor/sdk/node_modules/@types/node/compatibility/indexable.d.ts`
+- `vendor/sdk/node_modules/@types/node/compatibility/iterators.d.ts`
+- `vendor/sdk/node_modules/@types/node/console.d.ts`
+- `vendor/sdk/node_modules/@types/node/constants.d.ts`
+- `vendor/sdk/node_modules/@types/node/crypto.d.ts`
+- `vendor/sdk/node_modules/@types/node/dgram.d.ts`
+- `vendor/sdk/node_modules/@types/node/diagnostics_channel.d.ts`
+- `vendor/sdk/node_modules/@types/node/dns.d.ts`
+- `vendor/sdk/node_modules/@types/node/dns/promises.d.ts`
+- `vendor/sdk/node_modules/@types/node/dom-events.d.ts`
+- `vendor/sdk/node_modules/@types/node/domain.d.ts`
+- `vendor/sdk/node_modules/@types/node/events.d.ts`
+- `vendor/sdk/node_modules/@types/node/fs.d.ts`
+- `vendor/sdk/node_modules/@types/node/fs/promises.d.ts`
+- `vendor/sdk/node_modules/@types/node/globals.d.ts`
+- `vendor/sdk/node_modules/@types/node/globals.typedarray.d.ts`
+- `vendor/sdk/node_modules/@types/node/http.d.ts`
+- `vendor/sdk/node_modules/@types/node/http2.d.ts`
+- `vendor/sdk/node_modules/@types/node/https.d.ts`
+- `vendor/sdk/node_modules/@types/node/index.d.ts`
+- `vendor/sdk/node_modules/@types/node/inspector.d.ts`
+- `vendor/sdk/node_modules/@types/node/LICENSE`
+- `vendor/sdk/node_modules/@types/node/module.d.ts`
+- `vendor/sdk/node_modules/@types/node/net.d.ts`
+- `vendor/sdk/node_modules/@types/node/os.d.ts`
+- `vendor/sdk/node_modules/@types/node/package.json`
+- `vendor/sdk/node_modules/@types/node/path.d.ts`
+- `vendor/sdk/node_modules/@types/node/perf_hooks.d.ts`
+- `vendor/sdk/node_modules/@types/node/process.d.ts`
+- `vendor/sdk/node_modules/@types/node/punycode.d.ts`
+- `vendor/sdk/node_modules/@types/node/querystring.d.ts`
+- `vendor/sdk/node_modules/@types/node/readline.d.ts`
+- `vendor/sdk/node_modules/@types/node/readline/promises.d.ts`
+- `vendor/sdk/node_modules/@types/node/README.md`
+- `vendor/sdk/node_modules/@types/node/repl.d.ts`
+- `vendor/sdk/node_modules/@types/node/stream.d.ts`
+- `vendor/sdk/node_modules/@types/node/stream/consumers.d.ts`
+- `vendor/sdk/node_modules/@types/node/stream/promises.d.ts`
+- `vendor/sdk/node_modules/@types/node/stream/web.d.ts`
+- `vendor/sdk/node_modules/@types/node/string_decoder.d.ts`
+- `vendor/sdk/node_modules/@types/node/test.d.ts`
+- `vendor/sdk/node_modules/@types/node/timers.d.ts`
+- `vendor/sdk/node_modules/@types/node/timers/promises.d.ts`
+- `vendor/sdk/node_modules/@types/node/tls.d.ts`
+- `vendor/sdk/node_modules/@types/node/trace_events.d.ts`
+- `vendor/sdk/node_modules/@types/node/ts5.6/buffer.buffer.d.ts`
+- `vendor/sdk/node_modules/@types/node/ts5.6/globals.typedarray.d.ts`
+- `vendor/sdk/node_modules/@types/node/ts5.6/index.d.ts`
+- `vendor/sdk/node_modules/@types/node/tty.d.ts`
+- `vendor/sdk/node_modules/@types/node/url.d.ts`
+- `vendor/sdk/node_modules/@types/node/util.d.ts`
+- `vendor/sdk/node_modules/@types/node/v8.d.ts`
+- `vendor/sdk/node_modules/@types/node/vm.d.ts`
+- `vendor/sdk/node_modules/@types/node/wasi.d.ts`
+- `vendor/sdk/node_modules/@types/node/worker_threads.d.ts`
+- `vendor/sdk/node_modules/@types/node/zlib.d.ts`
+- `vendor/sdk/node_modules/undici-types/agent.d.ts`
+- `vendor/sdk/node_modules/undici-types/api.d.ts`
+- `vendor/sdk/node_modules/undici-types/balanced-pool.d.ts`
+- `vendor/sdk/node_modules/undici-types/cache.d.ts`
+- `vendor/sdk/node_modules/undici-types/client.d.ts`
+- `vendor/sdk/node_modules/undici-types/connector.d.ts`
+- `vendor/sdk/node_modules/undici-types/content-type.d.ts`
+- `vendor/sdk/node_modules/undici-types/cookies.d.ts`
+- `vendor/sdk/node_modules/undici-types/diagnostics-channel.d.ts`
+- `vendor/sdk/node_modules/undici-types/dispatcher.d.ts`
+- `vendor/sdk/node_modules/undici-types/errors.d.ts`
+- `vendor/sdk/node_modules/undici-types/fetch.d.ts`
+- `vendor/sdk/node_modules/undici-types/file.d.ts`
+- `vendor/sdk/node_modules/undici-types/filereader.d.ts`
+- `vendor/sdk/node_modules/undici-types/formdata.d.ts`
+- `vendor/sdk/node_modules/undici-types/global-dispatcher.d.ts`
+- `vendor/sdk/node_modules/undici-types/global-origin.d.ts`
+- `vendor/sdk/node_modules/undici-types/handlers.d.ts`
+- `vendor/sdk/node_modules/undici-types/header.d.ts`
+- `vendor/sdk/node_modules/undici-types/index.d.ts`
+- `vendor/sdk/node_modules/undici-types/interceptors.d.ts`
+- `vendor/sdk/node_modules/undici-types/mock-agent.d.ts`
+- `vendor/sdk/node_modules/undici-types/mock-client.d.ts`
+- `vendor/sdk/node_modules/undici-types/mock-errors.d.ts`
+- `vendor/sdk/node_modules/undici-types/mock-interceptor.d.ts`
+- `vendor/sdk/node_modules/undici-types/mock-pool.d.ts`
+- `vendor/sdk/node_modules/undici-types/package.json`
+- `vendor/sdk/node_modules/undici-types/patch.d.ts`
+- `vendor/sdk/node_modules/undici-types/pool-stats.d.ts`
+- `vendor/sdk/node_modules/undici-types/pool.d.ts`
+- `vendor/sdk/node_modules/undici-types/proxy-agent.d.ts`
+- `vendor/sdk/node_modules/undici-types/readable.d.ts`
+- `vendor/sdk/node_modules/undici-types/README.md`
+- `vendor/sdk/node_modules/undici-types/webidl.d.ts`
+- `vendor/sdk/node_modules/undici-types/websocket.d.ts`
 - `vendor/sdk/package.json`
 - `vendor/sdk/pagination.d.ts`
 - `vendor/sdk/pagination.d.ts.map`
@@ -366,17 +466,17 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 02:48:14 UTC
+- Snapshot generated at: 2026-02-18 02:49:03 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `48387fa7c48d3377d25ea85fc7bd07a97d95a4713312f25aeb3e0d6e58d497fa`
+- Config hash: `5de6b489158e4c6516e6198e66e56788c409d8a96b1eae7629fd6ea235369bc6`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 281,840
+- Total prompt tokens: 281,966
 - Token p95 / p99: 2,155 / 2,451
 
 ### By Kind
 
-- `system-data`: 265,973 tokens (94.4%)
-- `system`: 11,509 tokens (4.1%)
-- `tool`: 4,358 tokens (1.5%)
+- `system-data`: 266,063 tokens (94.4%)
+- `system`: 11,516 tokens (4.1%)
+- `tool`: 4,387 tokens (1.6%)
