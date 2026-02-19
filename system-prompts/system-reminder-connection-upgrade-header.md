@@ -10,7 +10,7 @@ Sets HTTP Connection upgrade header and Upgrade protocol token value
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | resolved list (4 items) | None |
 
 # Raw Prompt Text
 connection: upgrade
