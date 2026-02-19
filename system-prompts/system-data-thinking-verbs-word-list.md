@@ -4,13 +4,7 @@
 
 ## Summary
 
-Playful enumerated verbs introducing Claude Code CLI identity string with user settings blocks
-
-## Placeholder Hints (source-backed)
-
-| Expression | Hint | Reference |
-| --- | --- | --- |
-| `EXPR_1` | Claude Code | None |
+Long list of playful verbs describing doing and thinking.
 
 # Raw Prompt Text
 Accomplishing
@@ -187,7 +181,7 @@ Working
 
 Wrangling
 
-You are ${EXPR_1: 'Claude Code'}, Anthropic's official CLI for Claude.
+You are Claude Code, Anthropic's official CLI for Claude.
 
 userSettings
 
