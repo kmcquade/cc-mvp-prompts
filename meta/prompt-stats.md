@@ -1,9 +1,9 @@
-# Prompt Stats 0.2.25
+# Prompt Stats 0.2.27
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
 | system | [System Prompt: Actionable Software Architecture Plans](../system-prompts/system-prompt-actionable-software-architecture-plans.md) | 904 | 186 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Bash Command Prefix Detection](../system-prompts/system-prompt-bash-command-prefix-detection.md) | 2264 | 611 | 0.2.9 | 0.2.9 |
+| system | [System Prompt: Bash Command Prefix Detection](../system-prompts/system-prompt-bash-command-prefix-detection.md) | 2308 | 625 | 0.2.27 | 0.2.27 |
 | system | [System Prompt: Classify Bash Command Prefix](../system-prompts/system-prompt-classify-bash-command-prefix.md) | 148 | 33 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Cli Guidelines](../system-prompts/system-prompt-cli-guidelines.md) | 893 | 224 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Command Message Xml Template](../system-prompts/system-prompt-command-message-xml-template.md) | 220 | 82 | 0.2.9 | 0.2.9 |
@@ -24,15 +24,15 @@
 | system | [System Prompt: Secret Sticker Operation Banner](../system-prompts/system-prompt-secret-sticker-operation-banner.md) | 255 | 85 | 0.2.18 | 0.2.18 |
 | system | [System Prompt: Secure Cli Coding](../system-prompts/system-prompt-secure-cli-coding.md) | 10081 | 2353 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Select Core Frequently Modified Files](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | 451 | 90 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Sysref Classified Banner Log](../system-prompts/system-prompt-sysref-classified-banner-log.md) | 2545 | 1129 | 0.2.25 | 0.2.25 |
-| system | [System Prompt: Sysref Constants And Buglink](../system-prompts/system-prompt-sysref-constants-and-buglink.md) | 3273 | 1388 | 0.2.25 | 0.2.25 |
+| system | [System Prompt: Sysref Classified Banner Constants](../system-prompts/system-prompt-sysref-classified-banner-constants.md) | 2493 | 1108 | 0.2.27 | 0.2.27 |
+| system | [System Prompt: Sysref Constants And Buglink](../system-prompts/system-prompt-sysref-constants-and-buglink.md) | 3221 | 1367 | 0.2.27 | 0.2.27 |
 | system | [System Prompt: Sysref Edocument Reference Types](../system-prompts/system-prompt-sysref-edocument-reference-types.md) | 1905 | 849 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Use Provided Context Links](../system-prompts/system-prompt-use-provided-context-links.md) | 93 | 29 | 0.2.25 | 0.2.25 |
 | system-data | [System Data: Ascii Art Banner](../system-prompts/system-data-ascii-art-banner.md) | 8491 | 2451 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Cli Branding Colors](../system-prompts/system-data-cli-branding-colors.md) | 278 | 83 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 296 | 117 | 0.2.18 | 0.2.25 |
-| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 219 | 68 | 0.2.9 | 0.2.25 |
-| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 296 | 117 | 0.2.18 | 0.2.25 |
+| system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 219 | 68 | 0.2.9 | 0.2.27 |
+| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 296 | 117 | 0.2.18 | 0.2.27 |
+| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 296 | 117 | 0.2.18 | 0.2.27 |
 | system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 230 | 75 | 0.2.9 | 0.2.25 |
 | system-data | [System Data: Cli Color Style Tokens 5](../system-prompts/system-data-cli-color-style-tokens-5.md) | 241 | 82 | 0.2.25 | 0.2.25 |
 | system-data | [System Data: Cli Color Style Tokens 6](../system-prompts/system-data-cli-color-style-tokens-6.md) | 241 | 82 | 0.2.25 | 0.2.25 |
@@ -43,8 +43,8 @@
 | system-data | [System Data: Css Selectors Pseudo Classes](../system-prompts/system-data-css-selectors-pseudo-classes.md) | 733 | 228 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Dart Core Types List](../system-prompts/system-data-dart-core-types-list.md) | 218 | 61 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Hex Color Swatches Ccff](../system-prompts/system-data-hex-color-swatches-ccff.md) | 682 | 387 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Html Doctype Variants List](../system-prompts/system-data-html-doctype-variants-list.md) | 2578 | 1099 | 0.2.9 | 0.2.25 |
-| system-data | [System Data: Html Doctype Variants List 2](../system-prompts/system-data-html-doctype-variants-list-2.md) | 2490 | 1063 | 0.2.9 | 0.2.25 |
+| system-data | [System Data: Html Doctype Variants List](../system-prompts/system-data-html-doctype-variants-list.md) | 2490 | 1063 | 0.2.9 | 0.2.27 |
+| system-data | [System Data: Html Doctype Variants List 2](../system-prompts/system-data-html-doctype-variants-list-2.md) | 2578 | 1099 | 0.2.9 | 0.2.27 |
 | system-data | [System Data: Html Element Name List](../system-prompts/system-data-html-element-name-list.md) | 442 | 160 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Http Request Timing Events](../system-prompts/system-data-http-request-timing-events.md) | 309 | 92 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Javascript Builtins And Typed Arrays](../system-prompts/system-data-javascript-builtins-and-typed-arrays.md) | 696 | 216 | 0.2.9 | 0.2.9 |
@@ -76,8 +76,8 @@
 | system-data | [System Data: Stan Functions Reference List](../system-prompts/system-data-stan-functions-reference-list.md) | 5131 | 2155 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Swift Attribute Annotations](../system-prompts/system-data-swift-attribute-annotations.md) | 378 | 127 | 0.2.9 | 0.2.25 |
 | system-data | [System Data: Swift Compiler Directives List](../system-prompts/system-data-swift-compiler-directives-list.md) | 219 | 83 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 554 | 162 | 0.2.9 | 0.2.25 |
-| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 565 | 166 | 0.2.9 | 0.2.25 |
+| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 565 | 166 | 0.2.9 | 0.2.27 |
+| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 554 | 162 | 0.2.9 | 0.2.27 |
 | system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 567 | 171 | 0.2.9 | 0.2.19 |
 | system-data | [System Data: Swift Standard Library Functions](../system-prompts/system-data-swift-standard-library-functions.md) | 441 | 151 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Symbol Grid Ascii Art](../system-prompts/system-data-symbol-grid-ascii-art.md) | 261 | 164 | 0.2.9 | 0.2.9 |
