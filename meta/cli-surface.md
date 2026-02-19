@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 20
-- Options: 40
-- Env vars: 326
-- Config keys: 379
+- Commands: 26
+- Options: 44
+- Env vars: 327
+- Config keys: 380
 - Tools: 3
 - Skills: 0
 - Models: 52
@@ -18,10 +18,13 @@
 - `add`
 - `add-from-claude-desktop`
 - `add-json`
+- `call`
 - `disable`
 - `doctor`
 - `enable`
 - `get`
+- `grep`
+- `info`
 - `install`
 - `list`
 - `marketplace`
@@ -30,8 +33,11 @@
 - `plugin`
 - `remove`
 - `reset-project-choices`
+- `resources`
 - `serve`
+- `servers`
 - `setup-token`
+- `tools`
 - `uninstall`
 - `update`
 - `validate`
@@ -42,10 +48,13 @@
 - `add <source>`
 - `add-from-claude-desktop`
 - `add-json <name> <json>`
+- `call`
 - `disable <plugin>`
 - `doctor`
 - `enable <plugin>`
 - `get <name>`
+- `grep`
+- `info`
 - `install [target]`
 - `install <plugin>`
 - `list`
@@ -55,8 +64,11 @@
 - `plugin`
 - `remove <name>`
 - `reset-project-choices`
+- `resources`
 - `serve`
+- `servers`
 - `setup-token`
+- `tools`
 - `uninstall <plugin>`
 - `update`
 - `update [name]`
@@ -82,7 +94,9 @@
 - `--fork-session`
 - `--header`
 - `--ide`
+- `--ignore-case`
 - `--include-partial-messages`
+- `--json`
 - `--mcp-config`
 - `--mcp-debug`
 - `--model`
@@ -95,6 +109,7 @@
 - `--setting-sources`
 - `--settings`
 - `--strict-mcp-config`
+- `--timeout`
 - `--tools`
 - `--transport`
 - `--verbose`
@@ -102,6 +117,7 @@
 - `-d`
 - `-e`
 - `-H`
+- `-i`
 - `-p`
 - `-r`
 - `-s`
@@ -114,12 +130,14 @@
 - `--allow-dangerously-skip-permissions`
 - `--allowedTools, --allowed-tools <tools...>`
 - `--dangerously-skip-permissions`
+- `--debug`
 - `--disallowedTools, --disallowed-tools <tools...>`
 - `--fallback-model <model>`
 - `--force`
 - `--fork-session`
 - `--ide`
 - `--include-partial-messages`
+- `--json`
 - `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
@@ -129,6 +147,7 @@
 - `--setting-sources <sources>`
 - `--settings <file-or-json>`
 - `--strict-mcp-config`
+- `--timeout <ms>`
 - `--tools <tools...>`
 - `--verbose`
 - `-c, --continue`
@@ -136,6 +155,7 @@
 - `-d, --debug [filter]`
 - `-e, --env <env...>`
 - `-H, --header <header...>`
+- `-i, --ignore-case`
 - `-p, --print`
 - `-r, --resume [sessionId]`
 - `-s, --scope <scope>`
@@ -285,6 +305,7 @@
 - `ENABLE_BASH_ENV_VAR_MATCHING`
 - `ENABLE_BASH_WRAPPER_MATCHING`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
+- `ENABLE_EXPERIMENTAL_MCP_CLI`
 - `ENABLE_LSP_TOOL`
 - `FLY_APP_NAME`
 - `FLY_MACHINE_ID`
@@ -798,6 +819,7 @@
 - `stdout`
 - `stdoutLines`
 - `stopReason`
+- `structuredContent`
 - `structuredPatch`
 - `subagent_type`
 - `subject_types_supported`
@@ -872,10 +894,10 @@ _None detected_
 - `claude-3-5-haiku`
 - `claude-3-5-haiku-20241022`
 - `claude-3-5-sonnet`
-- `claude-3-5-sonnet-20240620`
 - `claude-3-5-sonnet-20241022`
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
+- `claude-3-7-sonnet-latest`
 - `claude-3-opus-20240229`
 - `claude-3-sonnet-20240229`
 - `claude-4-opus-20250514`

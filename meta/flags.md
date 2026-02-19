@@ -1,4 +1,4 @@
-# Claude Code 2.0.33 – Flags
+# Claude Code 2.0.34 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -17,11 +17,10 @@
 | `tengu_bash_command_backgrounded` | gate | telemetry | logs/records when a shell command is backgrounded, including timeout and auto-background cases | Appears to be event logging rather than behavior gating. | medium | 1 |
 | `tengu_bash_command_timeout_backgrounded` | gate | telemetry | Logs timeout events when a bash command is backgrounded | Appears to emit an event/metric, not alter behavior. | high | 1 |
 | `tengu_cap_grep_results` | experiment | tools | Limit grep tool output size via configurable cap when head_limit not provided | Appears to control default head_limit for grep results. | high | 1 |
-| `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 2 |
+| `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |
 | `tengu_gha_plugin_code_review` | gate | tools | Controls which GitHub Actions code review workflow template is written | Gate selects between two workflow contents (OY2 vs MY2). | high | 1 |
 | `tengu_haiku_default_pro_plan` | experiment | tools | Switches default model selection to Haiku for plan users. | Exact effect depends on XY and surrounding model-selection logic. | medium | 1 |
-| `tengu_log_segment_events` | gate | analytics | Enable sending Segment analytics events from CLI when telemetry is allowed | Exact event destinations and payload details are not fully shown. | medium | 1 |
 | `tengu_migrate_ignore_patterns` | gate | filesystem | Run a migration step related to ignore patterns during startup | Exact effect of ji2() is unclear from snippet. | medium | 1 |
 | `tengu_native_installation` | gate | filesystem | Controls whether CLI creates/uses native launcher script when claude.sh missing | Inference based on file checks and symlink creation logic. | medium | 1 |
 | `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |
