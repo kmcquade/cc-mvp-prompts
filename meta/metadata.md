@@ -7,33 +7,35 @@
 
 ## Bundle
 
-- Entry bytes: 10754429 bytes
-- Entry lines: 4593
+- Entry bytes: 10862686 bytes
+- Entry lines: 4610
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 13642983 bytes
-- Pretty lines: 250475
+- Pretty bytes: 13780609 bytes
+- Pretty lines: 253124
 
 ## Inventory
 
-- File count: 49
-- Size bytes: 78998273
+- File count: 51
+- Size bytes: 80692797
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.jar`: 33 files, 12421096 bytes
-- `.js`: 1 files, 10754429 bytes
+- `.js`: 1 files, 10862686 bytes
 - `.json`: 1 files, 1196 bytes
 - `.md`: 2 files, 2169 bytes
 - `.node`: 5 files, 28944544 bytes
 - `.ts`: 1 files, 65049 bytes
+- `.wasm`: 2 files, 1586267 bytes
 
 ### Asset Sizes
 
 - `.exe`: 5407744 bytes
 - `.jar`: 12421096 bytes
 - `.node`: 28944544 bytes
+- `.wasm`: 1586267 bytes
 
 ### Files
 
@@ -42,6 +44,8 @@
 - `package.json`
 - `README.md`
 - `sdk-tools.d.ts`
+- `tree-sitter-bash.wasm`
+- `tree-sitter.wasm`
 - `vendor/claude-code-jetbrains-plugin/lib/annotations-23.0.0.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.12-beta-searchableOptions.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.12-beta.jar`
@@ -89,19 +93,19 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 14:11:46 UTC
+- Snapshot generated at: 2026-02-18 14:14:35 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `e9db79cb01f41c3da028d30c5ec44c068710bfabbb39cc0c239aad383d33486c`
+- Config hash: `08458560c5e0b6f59bc2d99f50335a286014aeaa36f077dc87bcab60cc20e786`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 307,595
+- Total prompt tokens: 307,197
 - Token p95 / p99: 1,099 / 2,808
 
 ### By Kind
 
-- `system-data`: 248,834 tokens (80.9%)
-- `system`: 32,492 tokens (10.6%)
-- `system-reminder`: 14,752 tokens (4.8%)
+- `system-data`: 248,496 tokens (80.9%)
+- `system`: 32,652 tokens (10.6%)
+- `system-reminder`: 14,532 tokens (4.7%)
 - `tool`: 9,147 tokens (3.0%)
 - `agent`: 2,370 tokens (0.8%)

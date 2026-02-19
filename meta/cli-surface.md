@@ -5,7 +5,7 @@
 - Commands: 27
 - Options: 44
 - Env vars: 371
-- Config keys: 413
+- Config keys: 415
 - Tools: 3
 - Skills: 0
 - Models: 60
@@ -279,6 +279,7 @@
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
 - `CLAUDE_CODE_PROFILE_QUERY`
 - `CLAUDE_CODE_PROFILE_STARTUP`
+- `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
 - `CLAUDE_CODE_REMOTE`
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
@@ -493,7 +494,6 @@
 - `USE_API_CLEAR_TOOL_USES`
 - `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
-- `USE_HAIKU_SESSION_MEMORY`
 - `USE_MCP_CLI_DIR`
 - `USER`
 - `USERPROFILE`
@@ -750,6 +750,7 @@
 - `login`
 - `logo_uri`
 - `lspServers`
+- `mandatoryDenySearchDepth`
 - `matcher`
 - `maximum`
 - `maxLength`
@@ -895,6 +896,7 @@
 - `stdout`
 - `stdoutLines`
 - `stopReason`
+- `strictKnownMarketplaces`
 - `structuredContent`
 - `structuredPatch`
 - `subagent_type`
