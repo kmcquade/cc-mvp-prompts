@@ -4,25 +4,21 @@
 
 ## Summary
 
-Generate a NUM-to-NUM word conversation title, output title only.
+Generate a …-… word title summarizing the provided conversation text.
 
 ## Placeholder Hints (source-backed)
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | Claude Code | None |
+| `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-You are ${EXPR_1: 'Claude Code'}, Anthropic's official CLI for Claude.
+${URL}
 
-${NUM}
+${URL}
 
-${NUM}
-
-${NUM}
-
-${NUM}
+${EXPR_1}
 
 Please write a ${NUM}-${NUM} word title the following conversation:
 
