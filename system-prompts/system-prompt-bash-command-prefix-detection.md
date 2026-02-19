@@ -43,7 +43,9 @@ Examples:
 - git log --oneline -n ${NUM} => git log
 - grep -A ${NUM} "from foo.bar.baz import" alpha${PATH} => grep
 - pig tail zerba.log => pig tail
-- notion test some${PATH} => notion test
+- potion test some${PATH} => potion test
+- npm run lint => none
+- npm run lint -- "foo" => npm run lint
 - npm test => none
 - npm test --foo => npm test
 - npm test -- -f "foo" => npm test
@@ -51,6 +53,7 @@ Examples:
  curl example.com => command_injection_detected
 - pytest foo${PATH} => pytest
 - scalac build => none
+- sleep ${NUM} => sleep
 <${PATH}>
 
 The user has allowed certain command prefixes to be run, and will otherwise be asked to approve or deny the command.
