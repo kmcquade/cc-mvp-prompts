@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 14
-- Options: 25
-- Env vars: 204
-- Config keys: 143
+- Options: 26
+- Env vars: 205
+- Config keys: 144
 - Tools: 0
 - Skills: 0
 - Models: 29
@@ -54,6 +54,7 @@
 
 ### Flags
 
+- `--add-dir`
 - `--allowedTools`
 - `--continue`
 - `--dangerously-skip-permissions`
@@ -82,6 +83,7 @@
 
 ### Specs
 
+- `--add-dir <directories...>`
 - `--allowedTools <tools...>`
 - `--dangerously-skip-permissions`
 - `--disallowedTools <tools...>`
@@ -132,6 +134,7 @@
 - `C`
 - `CF_PAGES_COMMIT_SHA`
 - `CLAUBBIT`
+- `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
@@ -318,6 +321,7 @@
 - `args`
 - `arguments`
 - `authorization_endpoint`
+- `authToken`
 - `behavior`
 - `character`
 - `charset`
