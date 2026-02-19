@@ -4,11 +4,11 @@
 
 - Commands: 26
 - Options: 50
-- Env vars: 397
-- Config keys: 344
+- Env vars: 394
+- Config keys: 340
 - Tools: 3
 - Skills: 0
-- Models: 81
+- Models: 80
 - Providers: 7
 
 ## Commands
@@ -250,8 +250,6 @@
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
 - `CLAUDE_CODE_AGENT_ID`
-- `CLAUDE_CODE_AGENT_NAME`
-- `CLAUDE_CODE_AGENT_TYPE`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
@@ -300,6 +298,7 @@
 - `CLAUDE_CODE_PARENT_SESSION_ID`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
+- `CLAUDE_CODE_POST_COMPACT_MIN_MESSAGE_TOKENS`
 - `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
 - `CLAUDE_CODE_REMOTE`
@@ -370,14 +369,12 @@
 - `ENABLE_BASH_ENV_VAR_MATCHING`
 - `ENABLE_BASH_WRAPPER_MATCHING`
 - `ENABLE_BETA_TRACING_DETAILED`
-- `ENABLE_CODE_GUIDE_SUBAGENT`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_EXPERIMENTAL_MCP_CLI`
 - `ENABLE_INCREMENTAL_TUI`
 - `ENABLE_MCP_CLI`
 - `ENABLE_MCP_CLI_ENDPOINT`
 - `ENABLE_MCP_LARGE_OUTPUT_FILES`
-- `ENABLE_RELEASE_CHANNELS`
 - `ENABLE_TOOL_SEARCH`
 - `FALLBACK_FOR_ALL_PRIMARY_MODELS`
 - `FLY_APP_NAME`
@@ -638,7 +635,6 @@
 - `command`
 - `commandName`
 - `commands`
-- `comments`
 - `commit`
 - `companyAnnouncements`
 - `compressible`
@@ -766,6 +762,7 @@
 - `network`
 - `networkTimeoutMs`
 - `new_source`
+- `newContent`
 - `newLines`
 - `newStart`
 - `newString`
@@ -820,8 +817,8 @@
 - `questions`
 - `rawOutputPath`
 - `reason`
+- `reasoning`
 - `ref`
-- `references`
 - `region`
 - `registry`
 - `remote`
@@ -837,11 +834,11 @@
 - `resume`
 - `returnCodeInterpretation`
 - `ripgrep`
+- `risk`
 - `riskLevel`
 - `ruleContent`
 - `rules`
 - `run_in_background`
-- `S_`
 - `safeFlags`
 - `sandbox`
 - `scope`
@@ -881,10 +878,8 @@
 - `suppressOutput`
 - `syntaxHighlightingDisabled`
 - `systemMessage`
+- `t_`
 - `tabId`
-- `task`
-- `taskId`
-- `tasks`
 - `text`
 - `timeout`
 - `timeoutMs`
@@ -905,7 +900,6 @@
 - `type`
 - `updated_at`
 - `updated_file`
-- `updatedFields`
 - `updatedInput`
 - `updatedMCPToolOutput`
 - `updatedPermissions`
@@ -917,7 +911,6 @@
 - `uuid`
 - `value`
 - `version`
-- `wasResolved`
 - `web_fetch_requests`
 - `web_search_requests`
 
@@ -952,7 +945,6 @@ _None detected_
 - `claude-3-sonnet-20240229`
 - `claude-4-opus-20250514`
 - `claude-ai-external-token`
-- `claude-cdn-dark-read-`
 - `claude-cli`
 - `claude-cli-native-`
 - `claude-code`
