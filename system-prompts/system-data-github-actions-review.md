@@ -53,8 +53,8 @@ jobs:
         uses: anthropics${PATH}@v1
         with:
           anthropic_api_key: ${EXPR_1}
-          plugin_marketplaces: "${URL}
-          plugins: "code-review@claude-code-plugins"
+          plugin_marketplaces: '${URL}
+          plugins: 'code-review@claude-code-plugins'
           prompt: '${PATH}:code-review ${EXPR_2}${PATH}${EXPR_3}'
           # See ${URL}
           # or ${URL} for available options
