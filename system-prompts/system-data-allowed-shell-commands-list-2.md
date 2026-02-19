@@ -77,6 +77,10 @@ column
 
 diff
 
+true
+
+false
+
 sleep
 
 which
