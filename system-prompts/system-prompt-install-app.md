@@ -13,7 +13,7 @@ This PR adds a GitHub Actions workflow that enables Claude Code integration in o
 
 ### What is Claude Code?
 
-Claude Code is an AI-powered GitHub assistant that can help with:
+[Claude Code](${URL}) is an AI coding agent that can help with:
 - Bug fixes and improvements
 - Documentation updates
 - Implementing new features
@@ -30,8 +30,8 @@ Once the workflow is triggered, Claude will analyze the comment and surrounding 
 
 - **This workflow won't take effect until this PR is merged**
 - **@claude mentions won't work until after the merge is complete**
-- The workflow runs automatically whenever Claude is mentioned in PR comments
-- Claude has access to our entire PR context including files, diffs, and previous comments
+- The workflow runs automatically whenever Claude is mentioned in PR or issue comments
+- Claude gets access to the entire PR or issue context including files, diffs, and previous comments
 
 ### Security
 
@@ -42,9 +42,9 @@ Once the workflow is triggered, Claude will analyze the comment and surrounding 
 - We can add more allowed tools by adding them to the workflow file like:
 
 ```
-Bash(npm install),Bash(npm run build),Bash(npm run lint),Bash(npm run test)
+allowed_tools: Bash(npm install),Bash(npm run build),Bash(npm run lint),Bash(npm run test)
 ```
 
 There's more information in the [Claude Code documentation](${URL}).
 
-After merging this PR, try mentioning @claude in a comment on any PR to get started!
+After merging this PR, let's try mentioning @claude in a comment on any PR to get started!
