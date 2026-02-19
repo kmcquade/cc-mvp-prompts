@@ -12,7 +12,6 @@ Log checking a numbered skill path mapping and whether it exists.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Checking skill path: ${NUM} -> ${EXPR_1}:${EXPR_2} (exists: ${EXPR_3})
+Checking skill path: ${NUM} -> ${EXPR_1} (exists: ${EXPR_2})
