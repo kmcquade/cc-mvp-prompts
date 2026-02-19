@@ -15,26 +15,25 @@ Provides usage insights data and instructs outputting an exact shareable report-
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 The user just ran ${PATH} to generate a usage report analyzing their Claude Code sessions.
 
 Here is the full insights data:
-${EXPR_1}
+global
 
-Report URL: ${EXPR_2}
-HTML file: ${EXPR_3}
-Facets directory: ${EXPR_4}
+Report URL: ${EXPR_1}
+HTML file: ${EXPR_2}
+Facets directory: ${EXPR_3}
 
 Here is what the user sees:
-${EXPR_5}
+${EXPR_4}
 
 Now output the following message exactly:
 
 <message>
 Your shareable insights report is ready:
-${EXPR_6}${EXPR_7}
+${EXPR_5}${EXPR_6}
 
 Want to dig into any section or try one of the suggestions?
 <${PATH}>
