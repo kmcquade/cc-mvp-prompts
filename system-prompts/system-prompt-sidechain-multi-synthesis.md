@@ -1,4 +1,4 @@
-# System Prompt: synthesize-multi-findings
+# System Prompt: sidechain-multi-synthesis
 
 - Source: inline
 
