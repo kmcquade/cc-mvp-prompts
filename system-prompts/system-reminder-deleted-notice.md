@@ -12,7 +12,7 @@ Outputs four lines of text, then notes a deleted agent name.
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
+| `EXPR_3` | resolved list (4 items) | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 
