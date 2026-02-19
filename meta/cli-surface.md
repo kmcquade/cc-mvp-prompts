@@ -4,7 +4,7 @@
 
 - Commands: 10
 - Options: 15
-- Env vars: 108
+- Env vars: 107
 - Config keys: 51
 - Tools: 0
 - Skills: 0
@@ -16,20 +16,20 @@
 ### Names
 
 - `add`
-- `approved-tools`
 - `config`
 - `doctor`
 - `get`
 - `list`
 - `mcp`
 - `remove`
+- `rm`
 - `serve`
 - `set`
 
 ### Specs
 
+- `add <key> <value>`
 - `add <name> <command> [args...]`
-- `approved-tools`
 - `config`
 - `doctor`
 - `get <key>`
@@ -38,7 +38,7 @@
 - `mcp`
 - `remove <key>`
 - `remove <name>`
-- `remove <tool>`
+- `rm <key> <value>`
 - `serve`
 - `set <key> <value>`
 
@@ -91,7 +91,6 @@
 - `AWS_SESSION_TOKEN`
 - `C`
 - `CF_PAGES_COMMIT_SHA`
-- `CI`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CONFIG_DIR`
