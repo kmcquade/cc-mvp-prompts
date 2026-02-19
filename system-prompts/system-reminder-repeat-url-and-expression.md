@@ -4,7 +4,7 @@
 
 ## Summary
 
-Outputs two URL lines followed by an injected expression value.
+Multiple prompts (2)
 
 ## Placeholder Hints (source-backed)
 
@@ -15,8 +15,4 @@ Outputs two URL lines followed by an injected expression value.
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
-
-${EXPR_2}
-
-${EXPR_3}
+${EXPR_1} ${EXPR_2} ${EXPR_3}
