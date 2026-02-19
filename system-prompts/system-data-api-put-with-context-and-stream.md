@@ -29,8 +29,6 @@ API PUT update sequence with user/project/local context and stream-json fields.
 | `EXPR_17` | None | None |
 | `EXPR_18` | None | None |
 | `EXPR_19` | None | None |
-| `EXPR_20` | None | None |
-| `EXPR_21` | None | None |
 
 # Raw Prompt Text
 Background Bash ${EXPR_1}
@@ -45,29 +43,25 @@ ${EXPR_5}
 
 ${EXPR_6}
 
-${EXPR_7}
-
-${EXPR_8}
-
 api
 
 --method
 
 PUT
 
-repos/${EXPR_9}${PATH}${EXPR_10}
+repos/${EXPR_7}${PATH}${EXPR_8}
 
 -f
 
-message="Update ${EXPR_11}"
+message="Update ${EXPR_9}"
 
 -f
 
-content=${EXPR_12}
+content=${EXPR_10}
 
 -f
 
-branch=${EXPR_13}
+branch=${EXPR_11}
 
 user
 
@@ -75,20 +69,20 @@ project
 
 local
 
+${EXPR_12}
+
+${EXPR_13}
+
 ${EXPR_14}
 
 ${EXPR_15}
+
+stream-json
 
 ${EXPR_16}
 
 ${EXPR_17}
 
-stream-json
-
 ${EXPR_18}
 
 ${EXPR_19}
-
-${EXPR_20}
-
-${EXPR_21}
