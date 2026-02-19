@@ -19,7 +19,7 @@ ${NUM}. Verify the directory path is correct (only applicable when creating new 
 To make a file edit, provide the following:
 ${NUM}. file_path: The absolute path to the file to modify (must be absolute, not relative)
 ${NUM}. old_string: The text to replace (must match the file contents exactly, including all whitespace and indentation)
-${NUM}. new_string: The edited text to replace the old_string
+${NUM}. new_string: The edited text to replace the old_string (must be different from old_string)
 ${NUM}. expected_replacements: The number of replacements you expect to make. Defaults to ${NUM} if not specified.
 
 By default, the tool will replace ONE occurrence of old_string with new_string in the specified file. If you want to replace multiple occurrences, provide the expected_replacements parameter with the exact number of occurrences you expect.
@@ -43,14 +43,15 @@ ${NUM}. VERIFICATION: Before using this tool:
      a) Gather enough context to uniquely identify each one and make separate calls, OR
      b) Use expected_replacements parameter with the exact count of instances you expect to replace
 
-WARNING: If you do not follow these requirements:
-   - The tool will fail if old_string matches multiple locations and expected_replacements isn't specified
-   - The tool will fail if the number of matches doesn't equal expected_replacements when it's specified
-   - The tool will fail if old_string doesn't match exactly (including whitespace)
-   - You may change unintended instances if you don't verify the match count
+WARNING:
+- The tool will fail if old_string matches multiple locations and expected_replacements isn't specified
+- The tool will fail if the number of matches doesn't equal expected_replacements when it's specified
+- The tool will fail if old_string doesn't match the file contents exactly (including whitespace)
+- The tool will fail if old_string and new_string are the same
 
 When making edits:
    - Ensure the edit results in idiomatic, correct code
+   - Do not add trailing whitespace to lines (a newline at the end of a file is fine)
    - Do not leave the code in a broken state
    - Always use absolute file paths (starting with /)
 
