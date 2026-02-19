@@ -17,4 +17,4 @@ Warn that an agent file memory value is invalid and list valid options.
 | `EXPR_5` | None | None |
 
 # Raw Prompt Text
-Agent file ${EXPR_1} has invalid memory value '${EXPR_2}'. Valid options: ${EXPR_3}, ${EXPR_4}, ${EXPR_5}
+Agent file ${EXPR_1} has invalid memory value '${NUM}'. Valid options: ${EXPR_2}, ${EXPR_3}, ${EXPR_4}, ${EXPR_5}
