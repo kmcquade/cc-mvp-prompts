@@ -58,6 +58,8 @@ macOS sandbox profile allowing core process actions, specific Mach services, and
 
   (global-name "com.apple.system.notification_center")
 
+  (global-name "com.apple.trustd.agent")
+
   (global-name "com.apple.system.opendirectoryd.libinfo")
 
 )
@@ -102,6 +104,8 @@ macOS sandbox profile allowing core process actions, specific Mach services, and
 
   (sysctl-name "hw.cpufamily")
 
+  (sysctl-name "hw.cpufrequency")
+
   (sysctl-name "hw.cpufrequency_compat")
 
   (sysctl-name "hw.cputype")
@@ -131,6 +135,8 @@ macOS sandbox profile allowing core process actions, specific Mach services, and
   (sysctl-name "hw.pagesize_compat")
 
   (sysctl-name "hw.pagesize")
+
+  (sysctl-name "hw.physicalcpu")
 
   (sysctl-name "hw.physicalcpu_max")
 
@@ -174,6 +180,10 @@ macOS sandbox profile allowing core process actions, specific Mach services, and
 
   (sysctl-name "kern.willshutdown")
 
+  (sysctl-name "machdep.cpu.brand_string")
+
+  (sysctl-name "machdep.ptrauth_enabled")
+
   (sysctl-name "security.mac.lockdown_mode_state")
 
   (sysctl-name "sysctl.proc_cputype")
@@ -192,6 +202,8 @@ macOS sandbox profile allowing core process actions, specific Mach services, and
 
   (sysctl-name-prefix "kern.proc.pid.")
 
+  (sysctl-name-prefix "machdep.cpu.")
+
   (sysctl-name-prefix "net.routetable.")
 
 )
@@ -207,6 +219,10 @@ macOS sandbox profile allowing core process actions, specific Mach services, and
 ; Distributed notifications
 
 (allow distributed-notification-post)
+
+; Specific mach-lookup permissions for security operations
+
+(allow mach-lookup (global-name "com.apple.SecurityServer"))
 
 ; File I/O on device files
 
