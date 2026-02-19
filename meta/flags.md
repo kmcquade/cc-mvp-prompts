@@ -1,4 +1,4 @@
-# Claude Code 2.0.8 – Flags
+# Claude Code 2.0.9 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -17,7 +17,6 @@
 | `new_max_user_default_model` | gate | tools | Controls default model override selection, optionally forcing opus plan based on gating and token date. | Behavior inferred from obfuscated CLI snippet and surrounding Statsig keys. | medium | 1 |
 | `prompt_cache_1h_experiment` | gate | caching | Enable ephemeral prompt caching with a one-hour TTL | Only affects returned cache config object. | high | 1 |
 | `sonnet_45_1m_header` | gate | networking | Enables adding a special 1-minute header for a specific Sonnet model variant. | Exact meaning of pushed header value is unclear from snippet. | medium | 1 |
-| `tengu_ant_prompts` | gate | networking | Selects an alternate fetch implementation for CLI API requests when enabled. | Currently unreachable because the controlling variable is set to false. | medium | 1 |
 | `tengu_auto_checkpointing` | gate | ui | Enables showing autocheckpointing availability in the config panel when not disabled by env | Only seen wired into config UI state. | medium | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 2 |
 | `tengu_external_model_override` | gate | tools | Selects a default model override based on plan status and first-token timing | Exact model list/behavior depends on fetched config values. | high | 1 |

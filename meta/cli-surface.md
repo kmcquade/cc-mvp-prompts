@@ -5,7 +5,7 @@
 - Commands: 14
 - Options: 37
 - Env vars: 275
-- Config keys: 349
+- Config keys: 353
 - Tools: 3
 - Skills: 0
 - Models: 44
@@ -510,6 +510,7 @@
 - `experimental`
 - `expires_in`
 - `extensions`
+- `extraKnownMarketplaces`
 - `file`
 - `filenames`
 - `filePath`
@@ -681,6 +682,9 @@
 - `service_tier`
 - `shell_id`
 - `shellId`
+- `skills`
+- `skippedMarketplaces`
+- `skippedPlugins`
 - `skipWebFetchPreflight`
 - `software_id`
 - `software_statement`
