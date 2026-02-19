@@ -14,22 +14,34 @@ Enumerates code maintenance requests: lint/type fixes, explanations, refactors, 
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
+| `EXPR_8` | None | None |
 
 # Raw Prompt Text
+${EXPR_1}
+
 fcoeoabgfenejglbffodgkkbkcdhcgfn
+
+${EXPR_2}
 
 fix lint errors
 
 fix typecheck errors
 
-how does ${EXPR_1} work?
+how does ${EXPR_3} work?
 
-refactor ${EXPR_2}
+refactor ${EXPR_4}
 
 how do I log an error?
 
-edit ${EXPR_3} to...
+edit ${EXPR_5} to...
 
-write a test for ${EXPR_4}
+write a test for ${EXPR_6}
 
 create a util logging.py that...
+
+${EXPR_7}
+
+${EXPR_8}
