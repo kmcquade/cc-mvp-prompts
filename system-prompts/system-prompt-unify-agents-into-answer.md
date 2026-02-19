@@ -13,18 +13,17 @@ Synthesize multi-agent findings into one structured answer with resolved conflic
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
+| `EXPR_4` | json | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
 
 # Raw Prompt Text
 ary
 
- (sidechain)
+${NUM}
 
 bind
 
@@ -40,7 +39,7 @@ ${EXPR_1}
 
 curryRight
 
-${NUM}
+ (sidechain)
 
 flip
 
@@ -48,15 +47,15 @@ flip
 
 partial
 
-${NUM}
+${EXPR_3}${EXPR_4: 'json'}${EXPR_5} ${EXPR_6}${EXPR_7}
 
 partialRight
 
-Original task: ${EXPR_3}
+Original task: ${EXPR_8}
 
 I've assigned multiple agents to tackle this task. Each agent has analyzed the problem and provided their findings.
 
-${EXPR_4}
+${EXPR_9}
 
 Based on all the information provided by these agents, synthesize a comprehensive and cohesive response that:
 ${NUM}. Combines the key insights from all agents
@@ -69,4 +68,4 @@ Your synthesis should be thorough but focused on the original task.
 
 rearg
 
-${EXPR_5}${EXPR_6}${EXPR_7}${EXPR_8} ${EXPR_9}${EXPR_10}
+null
