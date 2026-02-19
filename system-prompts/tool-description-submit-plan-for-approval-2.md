@@ -10,7 +10,7 @@ Signals planning completion and optionally requests semantic tool permissions fo
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | resolved string (961 chars) | [system-prompt-narrowly-scope-permissions.md](system-prompt-narrowly-scope-permissions.md), [system-prompt-submit-plan-for-approval.md](system-prompt-submit-plan-for-approval.md) |
+| `EXPR_1` | resolved string (961 chars) | [system-prompt-submit-plan-for-approval.md](system-prompt-submit-plan-for-approval.md), [system-prompt-narrowly-scope-permissions.md](system-prompt-narrowly-scope-permissions.md) |
 | `EXPR_2` | AskUserQuestion | None |
 | `EXPR_3` | AskUserQuestion | None |
 | `EXPR_4` | AskUserQuestion | None |
