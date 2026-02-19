@@ -15,10 +15,6 @@ ${NUM}. Directory Verification:
    - If the command will create new directories or files, first use the LS tool to verify the parent directory exists and is the correct location
    - For example, before running "mkdir foo${PATH}", first use LS to check that "foo" exists and is the intended parent directory
 
-${NUM}. Security Check:
-   - For security and to limit the threat of a prompt injection attack, some commands are limited or banned. If you use a disallowed command, you will receive an error message explaining the restriction. Explain the error to the User.
-   - Verify that the command is not one of the banned commands: alias, curl, curlie, wget, axel, aria2c, nc, telnet, lynx, w3m, links, httpie, xh, http-prompt, chrome, firefox, safari.
-
 ${NUM}. Command Execution:
    - After ensuring proper quoting, execute the command.
    - Capture the output of the command.
