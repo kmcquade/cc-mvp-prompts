@@ -4,7 +4,7 @@
 
 ## Summary
 
-Search the web with current year and append mandatory Sources links section.
+Enables automatic web search and mandates a Sources section with linked result URLs.
 
 ## Placeholder Hints (source-backed)
 
@@ -13,6 +13,7 @@ Search the web with current year and append mandatory Sources links section.
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
+| `EXPR_4` | None | None |
 
 # Raw Prompt Text
 - Allows Claude to search the web and use the results to inform responses
@@ -39,4 +40,4 @@ Usage notes:
 
 IMPORTANT - Use the correct year in search queries:
   - Today's date is ${EXPR_1}-${EXPR_2}-${EXPR_3}. You MUST use this year when searching for recent information, documentation, or current events.
-  - Example: If today is ${DATE} and the user asks for "latest React docs", search for "React documentation ${NUM}", NOT "React documentation ${NUM}"
+  - Example: If the user asks for "latest React docs", search for "React documentation \\.\pipe\claude-mcp-browser-bridge-default", NOT "React documentation ${EXPR_4}"
