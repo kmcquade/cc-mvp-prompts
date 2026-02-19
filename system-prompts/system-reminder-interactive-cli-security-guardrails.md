@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (3)
+Multiple prompts (2)
 
 ## Placeholder Hints (source-backed)
 
@@ -109,7 +109,7 @@ Users may configure 'hooks', shell commands that execute in response to events l
 # Doing tasks
 The user will primarily request you perform software engineering tasks. This includes solving bugs, adding new functionality, refactoring code, explaining code, and more. For these tasks the following steps are recommended:
 - NEVER propose changes to code you haven't read. If a user asks about or wants you to modify a file, read it first. Understand existing code before suggesting modifications.
-Usage: ${EXPR_6}
+${EXPR_6}
 ${EXPR_7}
 ${EXPR_8}
 ${EXPR_9}
