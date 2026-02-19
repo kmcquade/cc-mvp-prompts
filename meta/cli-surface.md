@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 26
-- Options: 46
-- Env vars: 370
-- Config keys: 427
+- Options: 47
+- Env vars: 374
+- Config keys: 430
 - Tools: 3
 - Skills: 0
-- Models: 61
+- Models: 63
 - Providers: 8
 
 ## Commands
@@ -88,6 +88,7 @@
 - `--continue`
 - `--dangerously-skip-permissions`
 - `--debug`
+- `--disable-slash-commands`
 - `--disallowed-tools`
 - `--disallowedTools`
 - `--env`
@@ -135,6 +136,7 @@
 - `--betas <betas...>`
 - `--dangerously-skip-permissions`
 - `--debug`
+- `--disable-slash-commands`
 - `--disallowedTools, --disallowed-tools <tools...>`
 - `--fallback-model <model>`
 - `--force`
@@ -235,6 +237,10 @@
 - `CLAUDE_BASH_NO_LOGIN`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
+- `CLAUDE_CODE_AGENT_COLOR`
+- `CLAUDE_CODE_AGENT_ID`
+- `CLAUDE_CODE_AGENT_NAME`
+- `CLAUDE_CODE_AGENT_TYPE`
 - `CLAUDE_CODE_ALLOW_MCP_TOOLS_FOR_SUBAGENTS`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
@@ -295,7 +301,7 @@
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_TAGS`
-- `CLAUDE_CODE_TEAMMATE_ID`
+- `CLAUDE_CODE_TEAM_NAME`
 - `CLAUDE_CODE_TEST_FIXTURES_ROOT`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_FOUNDRY`
@@ -743,6 +749,7 @@
 - `label`
 - `language`
 - `lastUpdated`
+- `launchSwarm`
 - `libvips`
 - `license`
 - `line`
@@ -868,6 +875,7 @@
 - `roots`
 - `ruleContent`
 - `rules`
+- `run_in_background`
 - `sampling`
 - `sandbox`
 - `scope`
@@ -919,6 +927,7 @@
 - `task`
 - `taskId`
 - `tasks`
+- `teammateCount`
 - `text`
 - `timeout`
 - `timeoutMs`
@@ -1009,6 +1018,7 @@ _None detected_
 - `claude-code-jetbrains-plugin`
 - `claude-code-mcp-cli`
 - `Claude-Code-Plugin-Manager`
+- `claude-code-plugins`
 - `claude-code-user`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
@@ -1018,6 +1028,7 @@ _None detected_
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
 - `claude-local`
+- `claude-mcp-browser-bridge-`
 - `claude-opus-4`
 - `claude-opus-4-0`
 - `claude-opus-4-1`
