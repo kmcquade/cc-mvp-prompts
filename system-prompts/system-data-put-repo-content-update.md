@@ -32,7 +32,7 @@ API PUT request template to update repository content with message, content, and
 | `EXPR_20` | None | None |
 | `EXPR_21` | None | None |
 | `EXPR_22` | None | None |
-| `EXPR_23` | None | None |
+| `EXPR_23` | sonnet | None |
 | `EXPR_24` | None | None |
 
 # Raw Prompt Text
@@ -70,19 +70,13 @@ ${EXPR_12}
 
 ${EXPR_13}
 
-${EXPR_14}
+${PATH}
 
-${EXPR_15}
+${PATH}
 
-${EXPR_16}
+${PATH}
 
-${EXPR_17}
-
-${EXPR_18}
-
-${EXPR_19}
-
-${EXPR_20}
+${PATH}
 
 api
 
@@ -90,19 +84,19 @@ api
 
 PUT
 
-repos/${EXPR_21}${PATH}${EXPR_22}
+repos/${EXPR_14}${PATH}${EXPR_15}
 
 -f
 
-message="Update ${EXPR_23}"
+message="Update ${EXPR_16}"
 
 -f
 
-content=${EXPR_24}
+content=${EXPR_17}
 
 -f
 
-branch=${EXPR_25}
+branch=${EXPR_18}
 
 user
 
@@ -110,20 +104,20 @@ project
 
 local
 
-${EXPR_26}
+${EXPR_19}
 
-${EXPR_27}
+${EXPR_20}
 
-${EXPR_28}
+${EXPR_21}
 
-${EXPR_29}
+${EXPR_22}
 
 stream-json
 
-${EXPR_30}
+${EXPR_23: 'sonnet'}
 
-${EXPR_31}
+${EXPR_24}
 
-${EXPR_32}
+${EXPR_25}
 
-${EXPR_33}
+${EXPR_26}
