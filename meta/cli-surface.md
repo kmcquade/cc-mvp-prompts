@@ -4,8 +4,8 @@
 
 - Commands: 20
 - Options: 37
-- Env vars: 301
-- Config keys: 358
+- Env vars: 302
+- Config keys: 362
 - Tools: 3
 - Skills: 0
 - Models: 48
@@ -195,6 +195,7 @@
 - `CLAUDE_CODE_DISABLE_AUTOCHECKPOINTING`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
+- `CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY`
 - `CLAUDE_CODE_DISABLE_FILE_CHECKPOINTING`
 - `CLAUDE_CODE_DISABLE_FINE_GRAINED_TOOL_STREAMING`
 - `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
@@ -452,6 +453,7 @@
 - `agentId`
 - `agents`
 - `allow`
+- `allowedMcpServers`
 - `allowedTools`
 - `allowLocalBinding`
 - `allowUnixSockets`
@@ -517,6 +519,7 @@
 - `default`
 - `default_branch`
 - `defaultMode`
+- `deniedMcpServers`
 - `deny`
 - `description`
 - `destination`
@@ -667,6 +670,7 @@
 - `permissionDecisionReason`
 - `permissions`
 - `plan`
+- `pluginConfigs`
 - `pluginRoot`
 - `plugins`
 - `policy_uri`
@@ -726,6 +730,7 @@
 - `selection`
 - `server`
 - `server_tool_use`
+- `serverName`
 - `service_documentation`
 - `service_tier`
 - `shell_id`

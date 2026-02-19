@@ -1,4 +1,4 @@
-# Claude Code 2.0.21 – Flags
+# Claude Code 2.0.22 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -18,6 +18,7 @@
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 2 |
 | `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |
 | `tengu_native_installation` | gate | filesystem | Controls whether CLI creates/uses native launcher script when claude.sh missing | Inference based on file checks and symlink creation logic. | medium | 1 |
+| `tengu_skip_file_edit_safety_checks` | gate | filesystem | Bypass file edit validation requiring prior read and unchanged file state | Affects validateInput checks for safe file writes. | high | 2 |
 | `tengu_spinner_words` | config | ui | Provides word list for a rotating spinner display in the CLI UI | Only declarator usage shown; exact UI component unknown. | high | 1 |
 | `tengu_tool_pear` | gate | tools | Enables stricter tool schema/strict mode when using specific models in CLI tool definitions | Exact behavior of OV0/Ey2 unknown from snippet. | medium | 2 |
 | `thinking_on_default` | experiment | prompts | Controls whether extended thinking mode is enabled by default for a specific model | Exact behavior depends on model list and config overrides. | medium | 1 |
