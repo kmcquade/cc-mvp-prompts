@@ -7,4 +7,4 @@
 Manage IDE MCP integrations and display their status.
 
 # Raw Prompt Text
-Manage IDE MCP integrations and show status
+Manage IDE integrations and show status
