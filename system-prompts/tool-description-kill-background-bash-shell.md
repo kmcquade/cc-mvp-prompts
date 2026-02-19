@@ -1,6 +1,6 @@
 # Tool Description: kill-background-bash-shell
 
-- Name: KillShell
+- Name: KillBash
 
 ## Summary
 
