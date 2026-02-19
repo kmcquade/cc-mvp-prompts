@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 20
-- Options: 39
-- Env vars: 324
+- Options: 40
+- Env vars: 326
 - Config keys: 374
 - Tools: 3
 - Skills: 0
-- Models: 51
+- Models: 52
 - Providers: 7
 
 ## Commands
@@ -95,6 +95,7 @@
 - `--setting-sources`
 - `--settings`
 - `--strict-mcp-config`
+- `--tools`
 - `--transport`
 - `--verbose`
 - `-c`
@@ -128,6 +129,7 @@
 - `--setting-sources <sources>`
 - `--settings <file-or-json>`
 - `--strict-mcp-config`
+- `--tools <tools...>`
 - `--verbose`
 - `-c, --continue`
 - `-d, --debug`
@@ -225,6 +227,7 @@
 - `CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
+- `CLAUDE_CODE_PROFILE_STARTUP`
 - `CLAUDE_CODE_REMOTE`
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
@@ -234,6 +237,7 @@
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
+- `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
 - `CLAUDE_CODE_TAGS`
 - `CLAUDE_CODE_TEST_FIXTURES_ROOT`
 - `CLAUDE_CODE_USE_BEDROCK`
@@ -880,6 +884,7 @@ _None detected_
 - `claude-code-mcp-cli`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-user`
+- `claude-haiku-4`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
 - `claude-http-`
