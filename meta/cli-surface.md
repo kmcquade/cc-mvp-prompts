@@ -3,9 +3,9 @@
 ## Summary
 
 - Commands: 16
-- Options: 35
-- Env vars: 253
-- Config keys: 308
+- Options: 36
+- Env vars: 258
+- Config keys: 310
 - Tools: 3
 - Skills: 0
 - Models: 37
@@ -72,6 +72,7 @@
 - `--global`
 - `--header`
 - `--ide`
+- `--include-partial-messages`
 - `--mcp-config`
 - `--mcp-debug`
 - `--model`
@@ -103,6 +104,7 @@
 - `--fallback-model <model>`
 - `--force`
 - `--ide`
+- `--include-partial-messages`
 - `--mcp-config <configs...>`
 - `--mcp-debug`
 - `--model <model>`
@@ -163,6 +165,7 @@
 - `CLAUBBIT`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_CODE_ACTION`
+- `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
 - `CLAUDE_CODE_CLIENT_CERT`
@@ -184,6 +187,7 @@
 - `CLAUDE_CODE_MAX_OUTPUT_TOKENS`
 - `CLAUDE_CODE_MAX_RETRIES`
 - `CLAUDE_CODE_OAUTH_TOKEN`
+- `CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SHELL_PREFIX`
@@ -191,6 +195,7 @@
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
+- `CLAUDE_CODE_TEST_FIXTURES_ROOT`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CODE_WEBSOCKET_AUTH_FILE_DESCRIPTOR`
@@ -280,6 +285,7 @@
 - `MCP_TOOL_TIMEOUT`
 - `METADATA_SERVER_DETECTION`
 - `MSYSTEM`
+- `N`
 - `NETLIFY`
 - `NO_PROXY`
 - `NODE_DEBUG`
@@ -338,6 +344,7 @@
 - `TERM_PROGRAM`
 - `TERMINAL_EMULATOR`
 - `TERMINATOR_UUID`
+- `TEST_ENABLE_SESSION_PERSISTENCE`
 - `TEST_GRACEFUL_FS_GLOBAL_PATCH`
 - `TILIX_ID`
 - `UNDICI_NO_FG`
@@ -393,6 +400,8 @@
 - `args`
 - `arguments`
 - `ask`
+- `async`
+- `asyncTimeout`
 - `author`
 - `authorization_details_types_supported`
 - `authorization_endpoint`
