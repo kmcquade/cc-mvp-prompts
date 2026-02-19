@@ -11,17 +11,12 @@ Shows HTTP request timing markers and Git executable path lines with dynamic ent
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
 
 # Raw Prompt Text
-${NUM}
-
-${NUM}
-
-${NUM}
-
-${NUM}
-
 ${EXPR_1}
+
+${EXPR_2}
 
 ${PATH} Files\Git\cmd\git.exe
 
