@@ -60,8 +60,6 @@ Sandbox policy denying by default, allowing process control and whitelisted Mach
 
   (global-name "com.apple.system.notification_center")
 
-  (global-name "com.apple.trustd.agent")
-
   (global-name "com.apple.system.opendirectoryd.libinfo")
 
   (global-name "com.apple.system.opendirectoryd.membership")
