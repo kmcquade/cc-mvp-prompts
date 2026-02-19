@@ -1,6 +1,6 @@
 # Tool Description: fetch-url-analyze-content
 
-- Name: WebFetchTool
+- Name: WebFetch
 
 ## Summary
 
