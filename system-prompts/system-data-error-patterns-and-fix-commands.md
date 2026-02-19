@@ -26,71 +26,34 @@ Provides error field patterns plus common follow-up fix and refactor requests.
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
 | `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
-| `EXPR_18` | None | None |
-| `EXPR_19` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
-
+pattern: "${EXPR_1}"
 ${EXPR_2}
-
-${EXPR_3}
-
-pattern: "${EXPR_4}"
-
-${EXPR_5}
-
-pattern: "${EXPR_6}"
-
-${EXPR_7}
-
+pattern: "${EXPR_3}"
+${EXPR_4}
 name
-
 message
-
 stack
-
 line
-
 column
-
 fileName
-
 lineNumber
-
 columnNumber
-
 toJSON
-
-pattern: "${EXPR_8}"
-
-${EXPR_9}
-
-pattern: "${EXPR_10}"
-
-${EXPR_11}
-
-pattern: "${EXPR_12}"
-
-${EXPR_13}
-
-pattern: "${EXPR_14}"
-
-${EXPR_15}
-
+pattern: "${EXPR_5}"
+${EXPR_6}
+pattern: "${EXPR_7}"
+${EXPR_8}
+pattern: "${EXPR_9}"
+${EXPR_10}
+pattern: "${EXPR_11}"
+${EXPR_12}
 fix lint errors
-
 fix typecheck errors
-
-how does ${EXPR_16} work?
-
-refactor ${EXPR_17}
-
+how does ${EXPR_13} work?
+refactor ${EXPR_14}
 how do I log an error?
-
-edit ${EXPR_18} to...
-
-write a test for ${EXPR_19}
-
+edit ${EXPR_15} to...
+write a test for ${EXPR_16}
 create a util logging.py that...
