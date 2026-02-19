@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Synthesize multiple agents’ analyses into one unified, contradiction-resolved response for the original task
 
 ## Placeholder Hints (source-backed)
 
@@ -12,7 +12,6 @@ Multiple prompts (2)
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | None | None |
 
 # Raw Prompt Text
 Original task: ${EXPR_1}
@@ -28,4 +27,4 @@ ${NUM}. Presents a unified solution that addresses the original task
 ${NUM}. Includes all important details and code examples from the individual responses
 ${NUM}. Is well-structured and complete
 
-Your synthesis should be thorough but focused on the original task.:${EXPR_3}
+Your synthesis should be thorough but focused on the original task.
