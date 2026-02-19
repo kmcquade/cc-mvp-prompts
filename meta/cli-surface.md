@@ -4,7 +4,7 @@
 
 - Commands: 14
 - Options: 26
-- Env vars: 175
+- Env vars: 176
 - Config keys: 134
 - Tools: 0
 - Skills: 0
@@ -131,6 +131,7 @@
 - `C`
 - `CF_PAGES_COMMIT_SHA`
 - `CLAUBBIT`
+- `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_ENTRYPOINT`
 - `CLAUDE_CODE_EXTRA_BODY`
