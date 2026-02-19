@@ -1,4 +1,4 @@
-# Prompt Stats 1.0.91
+# Prompt Stats 1.0.92
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -62,7 +62,7 @@
 | system | [System Prompt: Nested Template Functions](../system-prompts/system-prompt-nested-template-functions.md) | 345 | 134 | 0.2.54 | 1.0.86 |
 | system | [System Prompt: Pull Request Review Workflow](../system-prompts/system-prompt-pull-request-review-workflow.md) | 2694 | 723 | 1.0.71 | 1.0.71 |
 | system | [System Prompt: Pull Request Review Workflow 2](../system-prompts/system-prompt-pull-request-review-workflow-2.md) | 1737 | 512 | 1.0.91 | 1.0.91 |
-| system | [System Prompt: Read Local Files By Path](../system-prompts/system-prompt-read-local-files-by-path.md) | 1703 | 396 | 1.0.58 | 1.0.91 |
+| system | [System Prompt: Read Local Files By Path](../system-prompts/system-prompt-read-local-files-by-path.md) | 1703 | 396 | 1.0.58 | 1.0.92 |
 | system | [System Prompt: Read Mcp Server Resource](../system-prompts/system-prompt-read-mcp-server-resource.md) | 250 | 73 | 1.0.22 | 1.0.22 |
 | system | [System Prompt: Record Shell Options Snapshot](../system-prompts/system-prompt-record-shell-options-snapshot.md) | 256 | 100 | 1.0.65 | 1.0.65 |
 | system | [System Prompt: Redirect Detected](../system-prompts/system-prompt-redirect-detected.md) | 300 | 97 | 1.0.52 | 1.0.74 |
@@ -251,7 +251,7 @@
 | tool | [Tool Description: Multi Edit File Operations](../system-prompts/tool-description-multi-edit-file-operations.md) | 2554 | 645 | 1.0.8 | 1.0.8 |
 | tool | [Tool Description: Option Enter Newline Binding](../system-prompts/tool-description-option-enter-newline-binding.md) | 60 | 12 | 0.2.80 | 0.2.83 |
 | tool | [Tool Description: Paused By Ctrl Z Or Suspend](../system-prompts/tool-description-paused-by-ctrl-z-or-suspend.md) | 32 | 12 | 1.0.68 | 1.0.68 |
-| tool | [Tool Description: Read Local File Paths](../system-prompts/tool-description-read-local-file-paths.md) | 1703 | 396 | 1.0.58 | 1.0.91 |
+| tool | [Tool Description: Read Local File Paths](../system-prompts/tool-description-read-local-file-paths.md) | 1703 | 396 | 1.0.58 | 1.0.92 |
 | tool | [Tool Description: Read Resource By Uri](../system-prompts/tool-description-read-resource-by-uri.md) | 232 | 54 | 1.0.22 | 1.0.22 |
 | tool | [Tool Description: Replace Jupyter Notebook Cell](../system-prompts/tool-description-replace-jupyter-notebook-cell.md) | 521 | 117 | 0.2.9 | 0.2.83 |
 | tool | [Tool Description: Request Process Information](../system-prompts/tool-description-request-process-information.md) | 31 | 4 | 1.0.68 | 1.0.68 |
