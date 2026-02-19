@@ -4,7 +4,7 @@
 
 - Commands: 14
 - Options: 26
-- Env vars: 205
+- Env vars: 206
 - Config keys: 144
 - Tools: 0
 - Skills: 0
@@ -130,6 +130,7 @@
 - `BASH_MAX_OUTPUT_LENGTH`
 - `BASH_MAX_TIMEOUT_MS`
 - `BEDROCK_BASE_URL`
+- `BROWSER`
 - `BUN_INSTALL`
 - `C`
 - `CF_PAGES_COMMIT_SHA`

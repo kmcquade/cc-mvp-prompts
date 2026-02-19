@@ -7,26 +7,28 @@
 
 ## Bundle
 
-- Entry bytes: 7371833 bytes
-- Entry lines: 2349
+- Entry bytes: 7376864 bytes
+- Entry lines: 2332
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 9507330 bytes
-- Pretty lines: 163131
+- Pretty bytes: 9513884 bytes
+- Pretty lines: 163255
 
 ## Inventory
 
-- File count: 51
-- Size bytes: 168928477
+- File count: 53
+- Size bytes: 168940905
 
 ### Extension Counts
 
 - `.exe`: 1 files, 5407744 bytes
 - `.jar`: 33 files, 12378951 bytes
-- `.js`: 2 files, 7372799 bytes
-- `.json`: 1 files, 1157 bytes
+- `.js`: 2 files, 7377830 bytes
+- `.json`: 1 files, 1178 bytes
 - `.md`: 2 files, 2422 bytes
+- `.mjs`: 1 files, 4256 bytes
 - `.node`: 5 files, 122220044 bytes
+- `.ts`: 1 files, 3120 bytes
 - `.vsix`: 1 files, 69304 bytes
 - `.wasm`: 1 files, 88658 bytes
 
@@ -45,6 +47,8 @@
 - `package.json`
 - `README.md`
 - `scripts/preinstall.js`
+- `sdk.d.ts`
+- `sdk.mjs`
 - `vendor/claude-code-jetbrains-plugin/lib/annotations-23.0.0.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.3-beta-searchableOptions.jar`
 - `vendor/claude-code-jetbrains-plugin/lib/claude-code-jetbrains-plugin-0.1.3-beta.jar`
@@ -94,18 +98,18 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 05:04:48 UTC
+- Snapshot generated at: 2026-02-18 05:07:57 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `21ee82e5a819076f43379c6693efddb4f170db627abc7bc57fa135247b52721d`
+- Config hash: `46785d5f0d469b813284c04444d0e6f672671590165d837b87476c5f9e3db6ae`
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 292,937
-- Token p95 / p99: 1,099 / 3,242
+- Total prompt tokens: 292,641
+- Token p95 / p99: 1,099 / 3,045
 
 ### By Kind
 
-- `system-data`: 266,753 tokens (91.1%)
-- `system`: 16,074 tokens (5.5%)
-- `tool`: 5,547 tokens (1.9%)
-- `system-reminder`: 4,563 tokens (1.6%)
+- `system-data`: 266,646 tokens (91.1%)
+- `system`: 15,713 tokens (5.4%)
+- `tool`: 5,639 tokens (1.9%)
+- `system-reminder`: 4,643 tokens (1.6%)
