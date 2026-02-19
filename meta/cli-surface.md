@@ -4,8 +4,8 @@
 
 - Commands: 26
 - Options: 44
-- Env vars: 327
-- Config keys: 380
+- Env vars: 329
+- Config keys: 381
 - Tools: 3
 - Skills: 0
 - Models: 52
@@ -234,6 +234,7 @@
 - `CLAUDE_CODE_ENABLE_TELEMETRY`
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
 - `CLAUDE_CODE_ENTRYPOINT`
+- `CLAUDE_CODE_EXIT_AFTER_STOP_DELAY`
 - `CLAUDE_CODE_EXTRA_BODY`
 - `CLAUDE_CODE_FORCE_FULL_LOGO`
 - `CLAUDE_CODE_GIT_BASH_PATH`
@@ -307,6 +308,7 @@
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_EXPERIMENTAL_MCP_CLI`
 - `ENABLE_LSP_TOOL`
+- `FALLBACK_FOR_ALL_PRIMARY_MODELS`
 - `FLY_APP_NAME`
 - `FLY_MACHINE_ID`
 - `FLY_REGION`
@@ -799,6 +801,7 @@
 - `service_tier`
 - `shell_id`
 - `shellId`
+- `skill`
 - `skills`
 - `skippedMarketplaces`
 - `skippedPlugins`
