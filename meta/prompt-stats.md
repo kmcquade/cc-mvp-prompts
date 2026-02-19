@@ -1,8 +1,8 @@
-# Prompt Stats 1.0.40
+# Prompt Stats 1.0.41
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
-| system | [System Prompt: Add Memory To File](../system-prompts/system-prompt-add-memory-to-file.md) | 721 | 165 | 1.0.28 | 1.0.40 |
+| system | [System Prompt: Add Memory To File](../system-prompts/system-prompt-add-memory-to-file.md) | 721 | 165 | 1.0.28 | 1.0.41 |
 | system | [System Prompt: Admin Setup Secrets Apps](../system-prompts/system-prompt-admin-setup-secrets-apps.md) | 174 | 33 | 1.0.0 | 1.0.0 |
 | system | [System Prompt: Applied Edits To Settings](../system-prompts/system-prompt-applied-edits-to-settings.md) | 85 | 27 | 1.0.38 | 1.0.38 |
 | system | [System Prompt: Authenticate With Gh Cli](../system-prompts/system-prompt-authenticate-with-gh-cli.md) | 137 | 25 | 1.0.0 | 1.0.0 |
@@ -39,6 +39,7 @@
 | system | [System Prompt: Git Status Session Start](../system-prompts/system-prompt-git-status-session-start.md) | 276 | 77 | 0.2.32 | 1.0.18 |
 | system | [System Prompt: Github Permission Troubleshooting](../system-prompts/system-prompt-github-permission-troubleshooting.md) | 203 | 54 | 1.0.28 | 1.0.28 |
 | system | [System Prompt: Github Repo Access Help](../system-prompts/system-prompt-github-repo-access-help.md) | 194 | 52 | 1.0.28 | 1.0.28 |
+| system | [System Prompt: Handle Exit Codes And Output](../system-prompts/system-prompt-handle-exit-codes-and-output.md) | 164 | 50 | 1.0.41 | 1.0.41 |
 | system | [System Prompt: Hook Json Schema Validation](../system-prompts/system-prompt-hook-json-schema-validation.md) | 73 | 24 | 1.0.38 | 1.0.38 |
 | system | [System Prompt: Http Request Timing Events](../system-prompts/system-prompt-http-request-timing-events.md) | 574 | 189 | 1.0.32 | 1.0.32 |
 | system | [System Prompt: Install Github App](../system-prompts/system-prompt-install-github-app.md) | 1685 | 392 | 0.2.116 | 1.0.36 |
@@ -69,18 +70,18 @@
 | system | [System Prompt: Verify Repo Access Scope](../system-prompts/system-prompt-verify-repo-access-scope.md) | 252 | 61 | 1.0.25 | 1.0.25 |
 | system | [System Prompt: Write Conversation Title](../system-prompts/system-prompt-write-conversation-title.md) | 158 | 49 | 0.2.91 | 1.0.35 |
 | system | [System Prompt: Write Conversation Title 10](../system-prompts/system-prompt-write-conversation-title-10.md) | 148 | 42 | 0.2.113 | 1.0.39 |
-| system | [System Prompt: Write Conversation Title 11](../system-prompts/system-prompt-write-conversation-title-11.md) | 159 | 48 | 0.2.91 | 1.0.40 |
+| system | [System Prompt: Write Conversation Title 11](../system-prompts/system-prompt-write-conversation-title-11.md) | 159 | 48 | 0.2.91 | 1.0.41 |
 | system | [System Prompt: Write Conversation Title 12](../system-prompts/system-prompt-write-conversation-title-12.md) | 155 | 47 | 1.0.18 | 1.0.40 |
 | system | [System Prompt: Write Conversation Title 2](../system-prompts/system-prompt-write-conversation-title-2.md) | 147 | 42 | 0.2.91 | 1.0.40 |
 | system | [System Prompt: Write Conversation Title 3](../system-prompts/system-prompt-write-conversation-title-3.md) | 146 | 41 | 0.2.93 | 1.0.38 |
 | system | [System Prompt: Write Conversation Title 4](../system-prompts/system-prompt-write-conversation-title-4.md) | 148 | 41 | 0.2.93 | 1.0.40 |
 | system | [System Prompt: Write Conversation Title 5](../system-prompts/system-prompt-write-conversation-title-5.md) | 168 | 46 | 0.2.104 | 1.0.39 |
-| system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 159 | 48 | 0.2.91 | 1.0.40 |
+| system | [System Prompt: Write Conversation Title 6](../system-prompts/system-prompt-write-conversation-title-6.md) | 159 | 48 | 0.2.91 | 1.0.41 |
 | system | [System Prompt: Write Conversation Title 7](../system-prompts/system-prompt-write-conversation-title-7.md) | 184 | 61 | 1.0.23 | 1.0.23 |
 | system | [System Prompt: Write Conversation Title 8](../system-prompts/system-prompt-write-conversation-title-8.md) | 158 | 48 | 0.2.91 | 1.0.40 |
 | system | [System Prompt: Write Conversation Title 9](../system-prompts/system-prompt-write-conversation-title-9.md) | 147 | 42 | 0.2.92 | 1.0.40 |
 | system | [System Prompt: Write File With Constraints](../system-prompts/system-prompt-write-file-with-constraints.md) | 622 | 145 | 1.0.7 | 1.0.7 |
-| system-reminder | [System Reminder: Append Memory Bullets](../system-prompts/system-reminder-append-memory-bullets.md) | 721 | 165 | 1.0.28 | 1.0.40 |
+| system-reminder | [System Reminder: Append Memory Bullets](../system-prompts/system-reminder-append-memory-bullets.md) | 721 | 165 | 1.0.28 | 1.0.41 |
 | system-reminder | [System Reminder: Call Echo Line](../system-prompts/system-reminder-call-echo-line.md) | 61 | 20 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Call Error Result](../system-prompts/system-reminder-call-error-result.md) | 43 | 13 | 0.2.119 | 0.2.119 |
 | system-reminder | [System Reminder: Call Result](../system-prompts/system-reminder-call-result.md) | 47 | 18 | 0.2.106 | 0.2.106 |

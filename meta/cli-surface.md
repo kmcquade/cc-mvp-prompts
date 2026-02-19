@@ -5,7 +5,7 @@
 - Commands: 15
 - Options: 29
 - Env vars: 216
-- Config keys: 184
+- Config keys: 185
 - Tools: 0
 - Skills: 0
 - Models: 30
@@ -492,6 +492,7 @@
 - `subscribe`
 - `suppressOutput`
 - `text`
+- `timeout`
 - `title`
 - `tls_client_certificate_bound_access_tokens`
 - `token`
