@@ -25,6 +25,6 @@ Remote agent task notification reporting status, summary text, and output file p
 <output-file>${EXPR_1}<${PATH}>
 <status>${EXPR_2}<${PATH}>
 <summary>Remote task "${EXPR_3}" [${EXPR_4}] [Claude Chrome Native Host] ${EXPR_5}${EXPR_6}
-.<${PATH}>
+<${PATH}>
 <${PATH}>
 Read the output file to retrieve the result: ${EXPR_7}
