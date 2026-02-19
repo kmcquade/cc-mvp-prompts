@@ -16,6 +16,8 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.1 |
+| [`system-prompt-summarize-bash-output-if-needed.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.1 |
 | [`system-prompt-safe-bash-command-execution-2.md`](../system-prompts/system-prompt-safe-bash-command-execution-2.md) | Run bash commands in persistent shell with directory checks, quoting rules, and timeouts | 2,450 | 2.0.0 | 2.0.0 |
 | [`system-prompt-dev-conversation-summary.md`](../system-prompts/system-prompt-dev-conversation-summary.md) | Create a chronological, technically detailed conversation summary with analysis notes. | 1,268 | 2.0.0 | 2.0.0 |
 | [`system-prompt-delegate-work-to-specialists.md`](../system-prompts/system-prompt-delegate-work-to-specialists.md) | Delegate multi-step tasks to specialized subagents and prefer direct search tools when appropriate. | 979 | 2.0.0 | 2.0.0 |
@@ -23,12 +25,10 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-constants-and-argument-tokens.md`](../system-prompts/system-prompt-constants-and-argument-tokens.md) | Provides a dense list of constants, group names, language codes, and argument tokens. | 291 | 2.0.0 | 2.0.0 |
 | [`system-prompt-create-shell-snapshot-file-3.md`](../system-prompts/system-prompt-create-shell-snapshot-file-3.md) | Writes a snapshot script file, clears aliases, injects dynamic sections, and verifies output exists | 246 | 2.0.0 | 2.0.0 |
 | [`system-prompt-tmux-terminal-shortcut-setup.md`](../system-prompts/system-prompt-tmux-terminal-shortcut-setup.md) | Sets Shift+Enter multiline shortcut by running terminal command outside tmux, persisting settings. | 141 | 2.0.0 | 2.0.0 |
-| [`system-prompt-cite-with-limited-quotes.md`](../system-prompts/system-prompt-cite-with-limited-quotes.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.0 |
 | [`system-prompt-anthropic-path-snippets.md`](../system-prompts/system-prompt-anthropic-path-snippets.md) | Lists repeated @anthropic-ai PATH entries with additional-count placeholders EXPR_1 to EXPR_5. | 105 | 2.0.0 | 2.0.0 |
 | [`system-prompt-absolute-paths-output-rules.md`](../system-prompts/system-prompt-absolute-paths-output-rules.md) | Use absolute paths, include filenames and code snippets, avoid emojis in final reply. | 100 | 2.0.0 | 2.0.0 |
 | [`system-prompt-create-view-instrumentselector-local.md`](../system-prompts/system-prompt-create-view-instrumentselector-local.md) | Create a new view with specified name/description and InstrumentSelector set to local. | 97 | 2.0.0 | 2.0.0 |
 | [`system-prompt-git-status-session-start.md`](../system-prompts/system-prompt-git-status-session-start.md) | Record starting git status snapshot, including current branch and recent commits. | 72 | 2.0.0 | 2.0.0 |
-| [`system-prompt-summarize-bash-output-if-needed.md`](../system-prompts/system-prompt-summarize-bash-output-if-needed.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.0 |
 | [`system-prompt-file-updated-snippet.md`](../system-prompts/system-prompt-file-updated-snippet.md) | Announces … updated and shows numbered `cat -n` snippet output …. | 42 | 2.0.0 | 2.0.0 |
 | [`system-prompt-continue-last-task.md`](../system-prompts/system-prompt-continue-last-task.md) | Resume from the previous point and proceed with the most recent task without asking questions. | 33 | 2.0.0 | 2.0.0 |
 | [`system-prompt-cli-identity-2.md`](../system-prompts/system-prompt-cli-identity-2.md) | Defines Claude Code as Anthropic's official CLI running in the agent SDK. | 21 | 1.0.128 | 1.0.128 |
@@ -190,6 +190,8 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 2.0.1 |
+| [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 2.0.1 |
 | [`system-data-macos-sandbox-policy-rules.md`](../system-prompts/system-data-macos-sandbox-policy-rules.md) | Sandbox profile allowing specific process permissions and Mach service lookups. | 1,769 | 2.0.0 | 2.0.0 |
 | [`system-data-pattern-with-background-bash-status-2.md`](../system-prompts/system-data-pattern-with-background-bash-status-2.md) | Template combining a pattern field with background bash command and status. | 236 | 1.0.128 | 2.0.0 |
 | [`system-data-conversation-title-generator-3.md`](../system-prompts/system-data-conversation-title-generator-3.md) | Instructs generating a fixed-length title from the last conversation messages. | 219 | 2.0.0 | 2.0.0 |
@@ -198,8 +200,6 @@ _Sorted by last edit (newest first)._
 | [`system-data-swift-keywords-list.md`](../system-prompts/system-data-swift-keywords-list.md) | List of Swift language keywords and declarations. | 171 | 0.2.9 | 2.0.0 |
 | [`system-data-write-conversation-title-4.md`](../system-prompts/system-data-write-conversation-title-4.md) | Instruction to generate a short title for a conversation. | 170 | 2.0.0 | 2.0.0 |
 | [`system-data-swift-keywords-list-2.md`](../system-prompts/system-data-swift-keywords-list-2.md) | List of Swift language keywords and declarations. | 162 | 0.2.9 | 2.0.0 |
-| [`system-data-underscore-template-runtime.md`](../system-prompts/system-data-underscore-template-runtime.md) | Scaffold compiled template function using escape, join, and print output buffering. | 133 | 0.2.54 | 2.0.0 |
-| [`system-data-underscore-template-runtime-2.md`](../system-prompts/system-data-underscore-template-runtime-2.md) | Scaffold compiled template function using escape, join, and print output buffering. | 129 | 0.2.54 | 2.0.0 |
 | [`system-data-force-uninstall-function-template.md`](../system-prompts/system-data-force-uninstall-function-template.md) | Defines a function running forced global uninstall with additional arguments and pattern string. | 104 | 2.0.0 | 2.0.0 |
 | [`system-data-uninstall-command-arguments.md`](../system-prompts/system-data-uninstall-command-arguments.md) | Uninstall @anthropic-ai package globally with force flag and configurable pattern expression options. | 100 | 2.0.0 | 2.0.0 |
 | [`system-data-mcp-server-2.md`](../system-prompts/system-data-mcp-server-2.md) | MCP uninstall tool usage flags and force options with pattern and extra expressions. | 98 | 2.0.0 | 2.0.0 |
@@ -283,13 +283,13 @@ _Sorted by last edit (newest first). Showing **31** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.1 |
+| [`system-reminder-summarize-bash-output.md`](../system-prompts/system-reminder-summarize-bash-output.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.1 |
 | [`system-reminder-defensive-security-cli-guidelines-2.md`](../system-prompts/system-reminder-defensive-security-cli-guidelines-2.md) | Defines CLI behavior with strict defensive-security limits and URL caution. | 2,848 | 2.0.0 | 2.0.0 |
-| [`system-reminder-quote-limited-web-response.md`](../system-prompts/system-reminder-quote-limited-web-response.md) | Multiple prompts (2) | 140 | 0.2.40 | 2.0.0 |
 | [`system-reminder-background-bash-status.md`](../system-prompts/system-reminder-background-bash-status.md) | Format background Bash job report with command, status, and optional output sections. | 99 | 2.0.0 | 2.0.0 |
 | [`system-reminder-uninstall.md`](../system-prompts/system-reminder-uninstall.md) | Forced global uninstall command template with pattern filter and optional extra arguments. | 77 | 2.0.0 | 2.0.0 |
 | [`system-reminder-force-uninstall-pattern.md`](../system-prompts/system-reminder-force-uninstall-pattern.md) | Force global uninstall command using target, quoted pattern filter, and additional trailing flags. | 63 | 2.0.0 | 2.0.0 |
 | [`system-reminder-task-with-prior-context.md`](../system-prompts/system-reminder-task-with-prior-context.md) | System reminder framing a task with optional local prior conversation context summary. | 63 | 2.0.0 | 2.0.0 |
-| [`system-reminder-summarize-bash-output.md`](../system-prompts/system-reminder-summarize-bash-output.md) | Assess whether command output merits summarization, then summarize key relevant details. | 55 | 1.0.60 | 2.0.0 |
 | [`system-reminder-post-hook-feedback.md`](../system-prompts/system-reminder-post-hook-feedback.md) | Acknowledge post-tool-use hook feedback at given path and continue tasks. | 45 | 2.0.0 | 2.0.0 |
 | [`system-reminder-user-selected-lines-2.md`](../system-prompts/system-reminder-user-selected-lines-2.md) | Reference user-selected line range from a local file, possibly unrelated to task. | 41 | 2.0.0 | 2.0.0 |
 | [`system-reminder-token-usage-warning.md`](../system-prompts/system-reminder-token-usage-warning.md) | System warning displays tokens used out of limit and remaining balance. | 35 | 2.0.0 | 2.0.0 |
