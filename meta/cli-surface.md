@@ -4,8 +4,8 @@
 
 - Commands: 30
 - Options: 62
-- Env vars: 420
-- Config keys: 510
+- Env vars: 409
+- Config keys: 527
 - Tools: 3
 - Skills: 0
 - Models: 82
@@ -502,7 +502,6 @@
 - `KITTY_WINDOW_ID`
 - `KONSOLE_VERSION`
 - `KUBERNETES_SERVICE_HOST`
-- `LC_TERMINAL`
 - `LOCAL_BRIDGE`
 - `LOCALAPPDATA`
 - `MAX_MCP_OUTPUT_TOKENS`
@@ -548,7 +547,6 @@
 - `P`
 - `PATH`
 - `PATHEXT`
-- `PERMISSION_EXPLAINER_ENABLED`
 - `PKG_CONFIG_PATH`
 - `PROJECT_DOMAIN`
 - `PWD`
@@ -605,14 +603,6 @@
 - `V`
 - `VERCEL`
 - `VERTEX_BASE_URL`
-- `VERTEX_REGION_CLAUDE_3_5_HAIKU`
-- `VERTEX_REGION_CLAUDE_3_5_SONNET`
-- `VERTEX_REGION_CLAUDE_3_7_SONNET`
-- `VERTEX_REGION_CLAUDE_4_0_OPUS`
-- `VERTEX_REGION_CLAUDE_4_0_SONNET`
-- `VERTEX_REGION_CLAUDE_4_1_OPUS`
-- `VERTEX_REGION_CLAUDE_4_5_SONNET`
-- `VERTEX_REGION_CLAUDE_HAIKU_4_5`
 - `VISUAL`
 - `VSCODE_GIT_ASKPASS_MAIN`
 - `VTE_VERSION`
@@ -625,7 +615,6 @@
 - `XDG_CONFIG_HOME`
 - `XDG_RUNTIME_DIR`
 - `XTERM_VERSION`
-- `ZDOTDIR`
 - `ZED_TERM`
 
 ## Config Keys
@@ -696,7 +685,6 @@
 - `blockedMarketplaces`
 - `blocks`
 - `bpfPath`
-- `BR`
 - `branch`
 - `bytes`
 - `cache_creation`
@@ -792,6 +780,7 @@
 - `eventData`
 - `eventName`
 - `excludedCommands`
+- `excludeDefault`
 - `exit_code`
 - `explanation`
 - `extensions`
@@ -814,6 +803,7 @@
 - `forceLoginOrgUUID`
 - `format`
 - `from`
+- `fromYoloMode`
 - `fullName`
 - `getOAuthToken`
 - `getUserId`
@@ -861,6 +851,7 @@
 - `isAuthenticating`
 - `isImage`
 - `isSynthetic`
+- `isUsingOverage`
 - `keywords`
 - `label`
 - `language`
@@ -876,6 +867,7 @@
 - `login`
 - `lspServers`
 - `mandatoryDenySearchDepth`
+- `markdown`
 - `matchedDescription`
 - `matcher`
 - `matches`
@@ -910,6 +902,7 @@
 - `noOutputExpected`
 - `noResponseRetries`
 - `notebook_path`
+- `notes`
 - `notification_type`
 - `num_turns`
 - `numFiles`
@@ -942,6 +935,9 @@
 - `outputStyle`
 - `outputStyles`
 - `outputTokens`
+- `overageDisabledReason`
+- `overageResetsAt`
+- `overageStatus`
 - `owner`
 - `package`
 - `padding`
@@ -960,6 +956,8 @@
 - `permissions`
 - `permissionSuggestions`
 - `permissionUpdates`
+- `persistedOutputPath`
+- `persistedOutputSize`
 - `plan`
 - `planContent`
 - `planFilePath`
@@ -982,6 +980,8 @@
 - `query`
 - `question`
 - `questions`
+- `rate_limit_info`
+- `rateLimitType`
 - `rawOutputPath`
 - `readOnly`
 - `reason`
@@ -1001,6 +1001,7 @@
 - `requestHandler`
 - `requestId`
 - `required`
+- `resetsAt`
 - `resolvedAt`
 - `resolvedBy`
 - `respectGitignore`
@@ -1016,6 +1017,7 @@
 - `ruleContent`
 - `rules`
 - `run_in_background`
+- `Ry`
 - `safeFlags`
 - `sandbox`
 - `schema`
@@ -1043,6 +1045,7 @@
 - `socksProxyPort`
 - `source`
 - `spinnerTipsEnabled`
+- `spinnerTipsOverride`
 - `spinnerVerbs`
 - `start`
 - `startLine`
@@ -1066,6 +1069,7 @@
 - `success`
 - `summary`
 - `suppressOutput`
+- `surpassedThreshold`
 - `symlinkDirectories`
 - `syntaxHighlightingDisabled`
 - `systemMessage`
@@ -1086,6 +1090,7 @@
 - `timeout`
 - `timeoutMs`
 - `timestamp`
+- `tips`
 - `title`
 - `to`
 - `tokenSource`
@@ -1124,6 +1129,7 @@
 - `userIntended`
 - `userModified`
 - `userSettings`
+- `utilization`
 - `uuid`
 - `value`
 - `verbs`
@@ -1211,7 +1217,6 @@ _None detected_
 - `claude-opus-4-5-20251101`
 - `claude-opus-4-6`
 - `claude-plugin-directory`
-- `claude-plugin-temp-`
 - `claude-plugins-official`
 - `claude-prompt`
 - `claude-review`
@@ -1221,6 +1226,7 @@ _None detected_
 - `claude-sonnet-4-20250514`
 - `claude-sonnet-4-5`
 - `claude-sonnet-4-5-20250929`
+- `claude-sonnet-4-6`
 - `claude-swarm`
 - `claude-swarm-`
 - `claude-vscode`
@@ -1232,9 +1238,9 @@ _None detected_
 - `opus-4.6-available`
 - `opus-46-upgrade-nudge`
 - `opus-pro-update`
-- `sonnet-1m-welcome`
 - `sonnet-4`
 - `sonnet-4-5`
+- `sonnet-4-6`
 
 ## Providers
 
