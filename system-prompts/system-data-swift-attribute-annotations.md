@@ -20,21 +20,23 @@ List of Swift attribute keywords and Cocoa/Interface Builder annotations includi
 | `EXPR_8` | Replace | None |
 | `EXPR_9` | ReadNotebook | None |
 | `EXPR_10` | NotebookEditCell | None |
-| `EXPR_11` | dispatch_agent | None |
-| `EXPR_12` | Bash | None |
-| `EXPR_13` | GlobTool | None |
-| `EXPR_14` | GrepTool | None |
-| `EXPR_15` | LS | None |
-| `EXPR_16` | View | None |
-| `EXPR_17` | Edit | None |
-| `EXPR_18` | Replace | None |
-| `EXPR_19` | ReadNotebook | None |
-| `EXPR_20` | NotebookEditCell | None |
+| `EXPR_11` | BatchTool | None |
+| `EXPR_12` | dispatch_agent | None |
+| `EXPR_13` | Bash | None |
+| `EXPR_14` | GlobTool | None |
+| `EXPR_15` | GrepTool | None |
+| `EXPR_16` | LS | None |
+| `EXPR_17` | View | None |
+| `EXPR_18` | Edit | None |
+| `EXPR_19` | Replace | None |
+| `EXPR_20` | ReadNotebook | None |
+| `EXPR_21` | NotebookEditCell | None |
+| `EXPR_22` | BatchTool | None |
 
 # Raw Prompt Text
 autoclosure
 
-${EXPR_1: 'dispatch_agent'}${EXPR_2: 'Bash'}${EXPR_3: 'GlobTool'}${EXPR_4: 'GrepTool'}${EXPR_5: 'LS'}${EXPR_6: 'View'}${EXPR_7: 'Edit'}${EXPR_8: 'Replace'}${EXPR_9: 'ReadNotebook'}${EXPR_10: 'NotebookEditCell'}
+${EXPR_1: 'dispatch_agent'}${EXPR_2: 'Bash'}${EXPR_3: 'GlobTool'}${EXPR_4: 'GrepTool'}${EXPR_5: 'LS'}${EXPR_6: 'View'}${EXPR_7: 'Edit'}${EXPR_8: 'Replace'}${EXPR_9: 'ReadNotebook'}${EXPR_10: 'NotebookEditCell'}${EXPR_11: 'BatchTool'}
 
 discardableResult
 
@@ -70,7 +72,7 @@ NSCopying
 
 NSManaged
 
-${EXPR_11: 'dispatch_agent'}${EXPR_12: 'Bash'}${EXPR_13: 'GlobTool'}${EXPR_14: 'GrepTool'}${EXPR_15: 'LS'}${EXPR_16: 'View'}${EXPR_17: 'Edit'}${EXPR_18: 'Replace'}${EXPR_19: 'ReadNotebook'}${EXPR_20: 'NotebookEditCell'}
+${EXPR_12: 'dispatch_agent'}${EXPR_13: 'Bash'}${EXPR_14: 'GlobTool'}${EXPR_15: 'GrepTool'}${EXPR_16: 'LS'}${EXPR_17: 'View'}${EXPR_18: 'Edit'}${EXPR_19: 'Replace'}${EXPR_20: 'ReadNotebook'}${EXPR_21: 'NotebookEditCell'}${EXPR_22: 'BatchTool'}
 
 objc
 
