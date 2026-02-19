@@ -2,7 +2,7 @@
 
 ## Summary
 
-- Commands: 12
+- Commands: 13
 - Options: 15
 - Env vars: 124
 - Config keys: 61
@@ -24,6 +24,7 @@
 - `list`
 - `mcp`
 - `remove`
+- `reset-project-choices`
 - `serve`
 - `set`
 - `update`
@@ -42,6 +43,7 @@
 - `mcp`
 - `remove <key> [values...]`
 - `remove <name>`
+- `reset-project-choices`
 - `serve`
 - `set <key> <value>`
 - `update`
