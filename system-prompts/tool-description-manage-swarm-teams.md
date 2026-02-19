@@ -192,7 +192,7 @@ Teams share a task list that all teammates can access:
 
 Teammates should:
 ${NUM}. Check TaskList periodically, **especially after completing each task**, to find available work or see newly unblocked tasks
-${NUM}. Claim unassigned, unblocked tasks with TaskUpdate (set `owner` to your name)
+${NUM}. Claim unassigned, unblocked tasks with TaskUpdate (set `owner` to your name). **Prefer tasks in ID order** (lowest ID first) when multiple tasks are available, as earlier tasks often set up context for later ones
 ${NUM}. Create new tasks with `TaskCreate` when identifying additional work
 ${NUM}. Mark tasks as completed with `TaskUpdate` when done, then check TaskList for next work
 ${NUM}. Coordinate with other teammates by reading the task list status
