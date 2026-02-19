@@ -4,7 +4,7 @@
 
 ## Summary
 
-Instructions for launching Task subagents, listing types, usage notes, and when not to.
+Rules for when to use Task tool and how to run subagents effectively.
 
 ## Placeholder Hints (source-backed)
 
@@ -44,7 +44,7 @@ Example usage:
 
 <example_agent_descriptions>
 "test-runner": use this agent after you are done writing code to run tests
-"greeting-responder": use this agent when to respond to user greetings with a friendly joke
+"greeting-responder": use this agent to respond to user greetings with a friendly joke
 <${PATH}>
 
 <example>
