@@ -25,31 +25,13 @@ Compose a word title from the last messages using multiple inserted sections.
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
-| `EXPR_16` | None | None |
-| `EXPR_17` | None | None |
-| `EXPR_18` | None | None |
-| `EXPR_19` | None | None |
-| `EXPR_20` | None | None |
-| `EXPR_21` | None | None |
-| `EXPR_22` | None | None |
 
 # Raw Prompt Text
-Please write a ${NUM}-${NUM} word title for the following conversation:
+${EXPR_1}
 
-[Last ${EXPR_1} of ${EXPR_2} messages]
+${EXPR_2}
 
 ${EXPR_3}
-
-
-Respond with the title for the conversation and nothing else.
-
-${PATH}
-
-${PATH}
-
-${PATH}
-
-${PATH}
 
 ${EXPR_4}
 
@@ -69,22 +51,11 @@ ${EXPR_11}
 
 ${EXPR_12}
 
-${EXPR_13}
+Please write a ${NUM}-${NUM} word title for the following conversation:
 
-${EXPR_14}
+[Last ${EXPR_13} of ${EXPR_14} messages]
 
 ${EXPR_15}
 
-${EXPR_16}
 
-${EXPR_17}
-
-${EXPR_18}
-
-${EXPR_19}
-
-${EXPR_20}
-
-${EXPR_21}
-
-${EXPR_22}
+Respond with the title for the conversation and nothing else.
