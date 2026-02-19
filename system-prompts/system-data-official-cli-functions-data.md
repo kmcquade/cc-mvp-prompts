@@ -21,8 +21,7 @@ Establishes Claude CLI identity and enumerates injected runtime sections and var
 | `EXPR_9` | ReadNotebook | None |
 | `EXPR_10` | NotebookEditCell | None |
 | `EXPR_11` | BatchTool | None |
-| `EXPR_12` | WebFetchTool | None |
-| `EXPR_13` | Claude Code | None |
+| `EXPR_12` | Claude Code | None |
 
 # Raw Prompt Text
 ${EXPR_1: 'dispatch_agent'}
@@ -47,9 +46,7 @@ ${EXPR_10: 'NotebookEditCell'}
 
 ${EXPR_11: 'BatchTool'}
 
-${EXPR_12: 'WebFetchTool'}
-
-You are ${EXPR_13: 'Claude Code'}, Anthropic's official CLI for Claude.
+You are ${EXPR_12: 'Claude Code'}, Anthropic's official CLI for Claude.
 
 functions
 
