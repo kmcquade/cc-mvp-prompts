@@ -4,7 +4,7 @@
 
 ## Summary
 
-Generate a NUM–NUM word conversation title from the last EXPR_6 of EXPR_7 messages.
+Generate a NUM–NUM word conversation title using the last EXPR_1 of EXPR_2 messages.
 
 ## Placeholder Hints (source-backed)
 
@@ -13,31 +13,12 @@ Generate a NUM–NUM word conversation title from the last EXPR_6 of EXPR_7 mess
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
-| `EXPR_7` | None | None |
-| `EXPR_8` | None | None |
-| `EXPR_9` | None | None |
 
 # Raw Prompt Text
-${EXPR_1}
-
-${EXPR_2}
-
-${EXPR_3}
-
-${EXPR_4}
-
-${EXPR_5}
-
-${EXPR_6}
-
 Please write a ${NUM}-${NUM} word title for the following conversation:
 
-[Last ${EXPR_7} of ${EXPR_8} messages]
+[Last ${EXPR_1} of ${EXPR_2} messages]
 
-${EXPR_9}
-
+${EXPR_3}
 
 Respond with the title for the conversation and nothing else.
