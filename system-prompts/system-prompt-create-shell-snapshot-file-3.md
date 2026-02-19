@@ -11,7 +11,7 @@ Writes a snapshot script file, clears aliases, injects dynamic sections, and ver
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | resolved list (4 items) | None |
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
