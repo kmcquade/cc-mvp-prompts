@@ -14,6 +14,8 @@ Multiple prompts (2)
 | `EXPR_2` | TodoRead | None |
 
 # Raw Prompt Text
-<system-reminder>Your todo list has changed. DO NOT mention this explicitly to the user. Here are the latest contents of your todo list:
+<system-reminder>
+Your todo list has changed. DO NOT mention this explicitly to the user. Here are the latest contents of your todo list:
 
-${EXPR_1}. You DO NOT need to use the ${EXPR_2: 'TodoRead'} again, since this is the most up to date list for now. Continue on with the tasks at hand if applicable.<${PATH}>
+${EXPR_1}. You DO NOT need to use the ${EXPR_2: 'TodoRead'} tool again, since this is the most up to date list for now. Continue on with the tasks at hand if applicable.
+<${PATH}>
