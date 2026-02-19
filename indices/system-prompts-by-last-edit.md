@@ -17,8 +17,8 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-web-search-with-mandatory-sources.md`](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 329 | 2.1.20 | 2.1.28 |
-| [`system-prompt-handle-interrupting-user-message.md`](../system-prompts/system-prompt-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.28 |
+| [`system-prompt-web-search-with-mandatory-sources.md`](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 329 | 2.1.20 | 2.1.29 |
+| [`system-prompt-handle-interrupting-user-message.md`](../system-prompts/system-prompt-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.29 |
 | [`system-prompt-token-constants-enum-list.md`](../system-prompts/system-prompt-token-constants-enum-list.md) | Defines numerous UI, security, and document-state constants, interleaved with injected template fragments. | 810 | 2.1.27 | 2.1.27 |
 | [`system-prompt-guide-scope-docs.md`](../system-prompts/system-prompt-guide-scope-docs.md) | Defines Claude guide scope across Code, Agent SDK, and API with doc sources. | 780 | 2.0.73 | 2.1.27 |
 | [`system-prompt-guide-scope-docs-2.md`](../system-prompts/system-prompt-guide-scope-docs-2.md) | Sets guide responsibilities across Claude Code, Agent SDK, and Claude API with doc sources. | 755 | 2.0.73 | 2.1.27 |
@@ -180,7 +180,7 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`tool-description-web-search-with-mandatory-sources.md`](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 329 | 2.1.20 | 2.1.28 |
+| [`tool-description-web-search-with-mandatory-sources.md`](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 329 | 2.1.20 | 2.1.29 |
 | [`tool-description-manage-swarm-teams.md`](../system-prompts/tool-description-manage-swarm-teams.md) | Creates, discovers, and coordinates teams and task lists for multi-agent swarm work. | 2,187 | 2.1.23 | 2.1.23 |
 | [`tool-description-exact-file-string-replace.md`](../system-prompts/tool-description-exact-file-string-replace.md) | Describes exact in-file replacement tool rules, requiring prior read and unique old_string. | 228 | 2.1.20 | 2.1.22 |
 | [`tool-description-list-available-tasks.md`](../system-prompts/tool-description-list-available-tasks.md) | List all tasks and summarize status, owner, and blockers to choose next work. | 240 | 2.1.21 | 2.1.21 |
@@ -473,7 +473,7 @@ _Sorted by last edit (newest first). Showing **43** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-handle-interrupting-user-message.md`](../system-prompts/system-reminder-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.28 |
+| [`system-reminder-handle-interrupting-user-message.md`](../system-prompts/system-reminder-handle-interrupting-user-message.md) | Notify that a new user message arrived and must be addressed after finishing. | 43 | 2.1.20 | 2.1.29 |
 | [`system-reminder-defensive-security-cli-safety-3.md`](../system-prompts/system-reminder-defensive-security-cli-safety-3.md) | CLI response rules for defensive security only and safe URL handling. | 3,230 | 2.1.27 | 2.1.27 |
 | [`system-reminder-defensive-security-cli-safety-2.md`](../system-prompts/system-reminder-defensive-security-cli-safety-2.md) | CLI response rules for defensive security only and safe URL handling. | 3,229 | 2.1.26 | 2.1.27 |
 | [`system-reminder-defensive-security-cli-safety.md`](../system-prompts/system-reminder-defensive-security-cli-safety.md) | CLI response rules for defensive security only and safe URL handling. | 3,283 | 2.1.26 | 2.1.26 |
