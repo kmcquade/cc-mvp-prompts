@@ -10,7 +10,7 @@ Reminder that the browser bridge pipe tool was called with given input.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | JSON stringified value | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Called the \\.\pipe\claude-mcp-browser-bridge-default tool with the following input: ${EXPR_1}
