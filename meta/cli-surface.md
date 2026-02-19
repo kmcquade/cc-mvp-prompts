@@ -3,7 +3,7 @@
 ## Summary
 
 - Commands: 14
-- Options: 20
+- Options: 24
 - Env vars: 156
 - Config keys: 129
 - Tools: 0
@@ -55,6 +55,7 @@
 ### Flags
 
 - `--allowedTools`
+- `--continue`
 - `--dangerously-skip-permissions`
 - `--debug`
 - `--disallowedTools`
@@ -65,13 +66,16 @@
 - `--mcp-debug`
 - `--output-format`
 - `--print`
+- `--resume`
 - `--scope`
 - `--transport`
 - `--verbose`
+- `-c`
 - `-d`
 - `-e`
 - `-g`
 - `-p`
+- `-r`
 - `-s`
 - `-t`
 
@@ -85,10 +89,12 @@
 - `--mcp-debug`
 - `--output-format <format>`
 - `--verbose`
+- `-c, --continue`
 - `-d, --debug`
 - `-e, --env <env...>`
 - `-g, --global`
 - `-p, --print`
+- `-r, --resume`
 - `-s, --scope <scope>`
 - `-t, --transport <transport>`
 
