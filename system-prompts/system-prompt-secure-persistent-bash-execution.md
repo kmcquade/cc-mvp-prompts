@@ -73,6 +73,7 @@ ${NUM}. Run the following commands in parallel:
    - Add relevant untracked files to the staging area.
    - Create the commit with a message ending with:
    🤖 Generated with [Claude Code](${URL})
+
    Co-Authored-By: Claude <noreply@anthropic.com>
    - Run git status to make sure the commit succeeded.
 
@@ -93,6 +94,7 @@ git commit -m "$(cat <<'EOF'
    Commit message here.
 
    🤖 Generated with [Claude Code](${URL})
+
    Co-Authored-By: Claude <noreply@anthropic.com>
    EOF
    )"
