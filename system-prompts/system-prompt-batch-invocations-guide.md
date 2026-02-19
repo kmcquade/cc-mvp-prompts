@@ -12,8 +12,8 @@ Defines parallel batch tool invocations list, aggregating results and requiring 
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | Bash | None |
-| `EXPR_3` | GlobTool | None |
-| `EXPR_4` | GrepTool | None |
+| `EXPR_3` | Glob | None |
+| `EXPR_4` | Grep | None |
 
 # Raw Prompt Text
 - Batch execution tool that runs multiple tool invocations in a single request
@@ -37,13 +37,13 @@ Example usage:
       }
     },
     {
-      "tool_name": "${EXPR_3: 'GlobTool'}",
+      "tool_name": "${EXPR_3: 'Glob'}",
       "input": {
         "pattern": "**/*.ts"
       }
     },
     {
-      "tool_name": "${EXPR_4: 'GrepTool'}",
+      "tool_name": "${EXPR_4: 'Grep'}",
       "input": {
         "pattern": "function",
         "include": "*.ts"
