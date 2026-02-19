@@ -19,7 +19,7 @@ Multiple prompts (2)
 | `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
-| `EXPR_10` | None | None |
+| `EXPR_10` | 100000000 | None |
 
 # Raw Prompt Text
 Here is useful information about the environment you are running in:
@@ -30,4 +30,4 @@ ${EXPR_2}Platform: ${EXPR_3}
 OS Version: ${EXPR_4}
 Today's date: ${EXPR_5}-${EXPR_6}-${EXPR_7}
 <${PATH}>
-${EXPR_8}${EXPR_9}${EXPR_10}
+${EXPR_8}${EXPR_9}${EXPR_10: 100000000}
