@@ -17,16 +17,17 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-prompt-guide-scope-docs-2.md`](../system-prompts/system-prompt-guide-scope-docs-2.md) | Defines Claude guide scope across Code, Agent SDK, and API with doc sources. | 780 | 2.0.73 | 2.1.11 |
+| [`system-prompt-guide-scope-docs.md`](../system-prompts/system-prompt-guide-scope-docs.md) | Sets guide responsibilities across Claude Code, Agent SDK, and Claude API with doc sources. | 755 | 2.0.73 | 2.1.11 |
+| [`system-prompt-web-search-with-mandatory-sources.md`](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 339 | 2.1.8 | 2.1.11 |
+| [`system-prompt-relay-user-message-context.md`](../system-prompts/system-prompt-relay-user-message-context.md) | Address the user’s provided message and continue ongoing tasks accordingly. | 25 | 1.0.73 | 2.1.11 |
 | [`system-prompt-safe-persistent-bash-commands.md`](../system-prompts/system-prompt-safe-persistent-bash-commands.md) | Run terminal commands in persistent bash with safety checks, quoting, and directory validation. | 2,495 | 2.1.10 | 2.1.10 |
 | [`system-prompt-require-mcp-cli-info-before-call.md`](../system-prompts/system-prompt-require-mcp-cli-info-before-call.md) | Enforces running mcp-cli info before any tool call to confirm parameters. | 1,312 | 2.1.8 | 2.1.10 |
 | [`system-prompt-dev-conversation-summary-notes-2.md`](../system-prompts/system-prompt-dev-conversation-summary-notes-2.md) | Produce a chronological, technically detailed conversation summary with analysis wrapped in tags. | 1,273 | 1.0.103 | 2.1.10 |
 | [`system-prompt-require-mcp-cli-info-before-call-2.md`](../system-prompts/system-prompt-require-mcp-cli-info-before-call-2.md) | Enforces running mcp-cli info before any tool call to confirm parameters. | 1,269 | 2.0.36 | 2.1.10 |
 | [`system-prompt-dev-conversation-summary-notes.md`](../system-prompts/system-prompt-dev-conversation-summary-notes.md) | Multiple prompts (2) | 1,262 | 2.0.65 | 2.1.10 |
 | [`system-prompt-manifest-path-config-check.md`](../system-prompts/system-prompt-manifest-path-config-check.md) | Large token list including a note to verify the manifest or marketplace config path. | 905 | 2.1.10 | 2.1.10 |
-| [`system-prompt-guide-scope-docs.md`](../system-prompts/system-prompt-guide-scope-docs.md) | Defines Claude guide scope across Code, Agent SDK, and API with doc sources. | 780 | 2.0.73 | 2.1.10 |
-| [`system-prompt-guide-scope-docs-2.md`](../system-prompts/system-prompt-guide-scope-docs-2.md) | Sets guide responsibilities across Claude Code, Agent SDK, and Claude API with doc sources. | 755 | 2.0.73 | 2.1.10 |
 | [`system-prompt-session-title-git-branch.md`](../system-prompts/system-prompt-session-title-git-branch.md) | Creates a concise coding session title and matching claude-prefixed git branch name. | 391 | 2.1.10 | 2.1.10 |
-| [`system-prompt-web-search-with-mandatory-sources.md`](../system-prompts/system-prompt-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 339 | 2.1.8 | 2.1.10 |
 | [`system-prompt-verify-stop-condition-json-2.md`](../system-prompts/system-prompt-verify-stop-condition-json-2.md) | Verify planned work completion by reviewing transcript and codebase, then report status. | 264 | 2.1.10 | 2.1.10 |
 | [`system-prompt-verify-stop-condition-json-3.md`](../system-prompts/system-prompt-verify-stop-condition-json-3.md) | Verify plan completion via transcript and code inspection, then output ok using specified tool. | 121 | 2.0.56 | 2.1.10 |
 | [`system-prompt-write-conversation-title-10.md`](../system-prompts/system-prompt-write-conversation-title-10.md) | Generate a 4–5 word conversation title using recent message window and context blocks. | 89 | 2.1.10 | 2.1.10 |
@@ -36,7 +37,6 @@ _Sorted by last edit (newest first)._
 | [`system-prompt-verify-repo-access-and-scope.md`](../system-prompts/system-prompt-verify-repo-access-and-scope.md) | Validate GitHub repository name, access permissions, and token scopes for private repos. | 61 | 1.0.25 | 2.1.10 |
 | [`system-prompt-finish-plan-after-interview.md`](../system-prompts/system-prompt-finish-plan-after-interview.md) | Stop clarifying and complete the plan using the provided answers. | 55 | 2.1.10 | 2.1.10 |
 | [`system-prompt-json-triggered-command-exit-handling.md`](../system-prompts/system-prompt-json-triggered-command-exit-handling.md) | Defines JSON trigger input and how to handle stdout and stderr by exit code. | 42 | 2.1.10 | 2.1.10 |
-| [`system-prompt-relay-user-message-context.md`](../system-prompts/system-prompt-relay-user-message-context.md) | Address the user’s provided message and continue ongoing tasks accordingly. | 25 | 1.0.73 | 2.1.10 |
 | [`system-prompt-hooks-configuration-reference.md`](../system-prompts/system-prompt-hooks-configuration-reference.md) | Documents JSON hook structure, lifecycle events, and matcher usage. | 1,158 | 2.1.9 | 2.1.9 |
 | [`system-prompt-web-content-quote-limits-2.md`](../system-prompts/system-prompt-web-content-quote-limits-2.md) | Answer only from supplied page content with limited quotes and no lyrics. | 148 | 2.0.71 | 2.1.9 |
 | [`system-prompt-web-content-quote-limits.md`](../system-prompts/system-prompt-web-content-quote-limits.md) | Answer only from supplied page content with limited quotes and no lyrics. | 148 | 2.0.71 | 2.1.9 |
@@ -167,8 +167,8 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-web-search-with-mandatory-sources.md`](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 339 | 2.1.8 | 2.1.11 |
 | [`tool-description-submit-plan-for-approval-2.md`](../system-prompts/tool-description-submit-plan-for-approval-2.md) | Signals planning completion and optionally requests semantic tool permissions for upcoming execution. | 713 | 2.1.7 | 2.1.10 |
-| [`tool-description-web-search-with-mandatory-sources.md`](../system-prompts/tool-description-web-search-with-mandatory-sources.md) | Enables automatic web search and mandates a Sources section with linked result URLs. | 339 | 2.1.8 | 2.1.10 |
 | [`tool-description-chrome-native-host-log.md`](../system-prompts/tool-description-chrome-native-host-log.md) | Format timestamped Claude Chrome Native Host log prefix with message and optional suffix. | 26 | 2.0.70 | 2.1.9 |
 | [`tool-description-mcp-loader-selector.md`](../system-prompts/tool-description-mcp-loader-selector.md) | Tool for discovering and loading MCP tools via selection or keyword search. | 525 | 2.1.8 | 2.1.8 |
 | [`tool-description-fork-conversation-here.md`](../system-prompts/tool-description-fork-conversation-here.md) | Create a fork of the current conversation at the current point. | 10 | 2.1.8 | 2.1.8 |
@@ -311,6 +311,8 @@ _Sorted by last edit (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-bedrock-guardrail-content-filter-config.md`](../system-prompts/system-data-bedrock-guardrail-content-filter-config.md) | Configuration fields for Bedrock guardrail content filtering behavior. | 121 | 2.0.63 | 2.1.11 |
+| [`system-data-bedrock-guardrail-content-filter-config-2.md`](../system-prompts/system-data-bedrock-guardrail-content-filter-config-2.md) | Configuration fields for Bedrock guardrail content filtering behavior. | 120 | 2.0.63 | 2.1.11 |
 | [`system-data-repo-file-update-with-trailer-2.md`](../system-prompts/system-data-repo-file-update-with-trailer-2.md) | System-data API PUT template updating repository file, followed by an opaque trailing token. | 288 | 2.1.10 | 2.1.10 |
 | [`system-data-title-request-with-api-templates.md`](../system-prompts/system-data-title-request-with-api-templates.md) | Generate fixed-length conversation title and include repeated GitHub repo PUT update templates. | 252 | 2.1.10 | 2.1.10 |
 | [`system-data-settings-and-repo-update-summary.md`](../system-prompts/system-data-settings-and-repo-update-summary.md) | Settings context plus API PUT update and a report of found references across files. | 173 | 2.1.10 | 2.1.10 |
@@ -324,8 +326,6 @@ _Sorted by last edit (newest first)._
 | [`system-data-settings-files-and-permissions.md`](../system-prompts/system-data-settings-files-and-permissions.md) | Explains settings file locations, load order, and permissions JSON schema. | 722 | 2.1.9 | 2.1.9 |
 | [`system-data-bedrock-foundation-details-2.md`](../system-prompts/system-data-bedrock-foundation-details-2.md) | Foundation model metadata including modalities, streaming support, and lifecycle. | 137 | 2.0.63 | 2.1.9 |
 | [`system-data-bedrock-foundation-details.md`](../system-prompts/system-data-bedrock-foundation-details.md) | Foundation model metadata including modalities, streaming support, and lifecycle. | 135 | 2.0.63 | 2.1.9 |
-| [`system-data-bedrock-guardrail-content-filter-config-2.md`](../system-prompts/system-data-bedrock-guardrail-content-filter-config-2.md) | Configuration fields for Bedrock guardrail content filtering behavior. | 121 | 2.0.63 | 2.1.9 |
-| [`system-data-bedrock-guardrail-content-filter-config.md`](../system-prompts/system-data-bedrock-guardrail-content-filter-config.md) | Configuration fields for Bedrock guardrail content filtering behavior. | 120 | 2.0.63 | 2.1.9 |
 | [`system-data-common-coding-task-examples.md`](../system-prompts/system-data-common-coding-task-examples.md) | Template listing repeated PATH lines and tasks: lint/type fixes, refactors, logging, tests. | 107 | 2.1.9 | 2.1.9 |
 | [`system-data-dev-tasks-and-logging-questions.md`](../system-prompts/system-data-dev-tasks-and-logging-questions.md) | Templates for lint/typecheck fixes, refactors, logging utilities, and tests with placeholder queries. | 101 | 2.1.8 | 2.1.9 |
 | [`system-data-dev-tasks-and-logging-questions-2.md`](../system-prompts/system-data-dev-tasks-and-logging-questions-2.md) | Templates for lint/typecheck fixes, refactors, logging utilities, and tests with placeholder queries. | 87 | 2.1.8 | 2.1.9 |
@@ -509,7 +509,7 @@ _Sorted by last edit (newest first). Showing **40** reminders with more than **3
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-reminder-address-user-message.md`](../system-prompts/system-reminder-address-user-message.md) | Address the user’s provided message and continue ongoing tasks accordingly. | 25 | 1.0.73 | 2.1.10 |
+| [`system-reminder-address-user-message.md`](../system-prompts/system-reminder-address-user-message.md) | Address the user’s provided message and continue ongoing tasks accordingly. | 25 | 1.0.73 | 2.1.11 |
 | [`system-reminder-implement-provided-plan.md`](../system-prompts/system-reminder-implement-provided-plan.md) | Directive to implement the provided plan text exactly as given. | 13 | 2.1.10 | 2.1.10 |
 | [`system-reminder-references-found-across-files.md`](../system-prompts/system-reminder-references-found-across-files.md) | State how many references were found across how many files. | 17 | 2.1.8 | 2.1.8 |
 | [`system-reminder-enable-path-variable.md`](../system-prompts/system-reminder-enable-path-variable.md) | Reminder snippet about turning on a PATH setting. | 9 | 2.1.3 | 2.1.3 |
