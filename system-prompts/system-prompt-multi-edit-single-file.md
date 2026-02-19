@@ -7,7 +7,7 @@
 Instructions for a multi-replace tool to apply multiple exact edits to one file.
 
 # Raw Prompt Text
-This is a tool for making multiple edits to a single file in one operation. It is built on top of the Edit tool and allows you to perform multiple find-and-replace operations efficiently. Prefer this tool over the Edit tool and Batch tool when you need to make multiple edits to the same file.
+This is a tool for making multiple edits to a single file in one operation. It is built on top of the Edit tool and allows you to perform multiple find-and-replace operations efficiently. Prefer this tool over the Edit tool when you need to make multiple edits to the same file.
 
 Before using this tool:
 
