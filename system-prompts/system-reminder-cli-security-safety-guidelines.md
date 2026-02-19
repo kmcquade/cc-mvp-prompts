@@ -1,4 +1,4 @@
-# System Reminder: cli-safety-guidelines
+# System Reminder: cli-security-safety-guidelines
 
 - Source: inline
 
