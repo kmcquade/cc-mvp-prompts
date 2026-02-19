@@ -23,7 +23,7 @@ Lists per-server MCP tool and resource usage instructions collected from configu
 | `EXPR_11` | WebFetch | None |
 | `EXPR_12` | WebSearch | None |
 | `EXPR_13` | BashOutput | None |
-| `EXPR_14` | KillBash | None |
+| `EXPR_14` | KillShell | None |
 
 # Raw Prompt Text
 # MCP Server Instructions
@@ -56,4 +56,4 @@ ${EXPR_12: 'WebSearch'}
 
 ${EXPR_13: 'BashOutput'}
 
-${EXPR_14: 'KillBash'}
+${EXPR_14: 'KillShell'}
