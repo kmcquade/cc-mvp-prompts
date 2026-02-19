@@ -4,11 +4,11 @@
 
 - Commands: 26
 - Options: 50
-- Env vars: 388
+- Env vars: 391
 - Config keys: 346
 - Tools: 3
 - Skills: 0
-- Models: 73
+- Models: 74
 - Providers: 8
 
 ## Commands
@@ -293,7 +293,9 @@
 - `CLAUDE_CODE_OAUTH_TOKEN`
 - `CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
+- `CLAUDE_CODE_OTEL_HEADERS_HELPER_DEBOUNCE_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
+- `CLAUDE_CODE_PARENT_SESSION_ID`
 - `CLAUDE_CODE_PLAN_MODE_REQUIRED`
 - `CLAUDE_CODE_PLAN_V2_AGENT_COUNT`
 - `CLAUDE_CODE_PLAN_V2_EXPLORE_AGENT_COUNT`
@@ -370,6 +372,7 @@
 - `ENABLE_CODE_GUIDE_SUBAGENT`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
 - `ENABLE_EXPERIMENTAL_MCP_CLI`
+- `ENABLE_INCREMENTAL_TUI`
 - `ENABLE_LSP_TOOL`
 - `ENABLE_MCP_CLI`
 - `ENABLE_MCP_CLI_ENDPOINT`
@@ -668,7 +671,6 @@
 - `eagerLoadSettings_end`
 - `eagerLoadSettings_start`
 - `edit_mode`
-- `Ek`
 - `email`
 - `enableAllProjectMcpServers`
 - `enabled`
@@ -698,6 +700,7 @@
 - `fullName`
 - `generatedSizeBytes`
 - `gitCommitSha`
+- `gk`
 - `hasPrompts`
 - `hasResources`
 - `hasTools`
@@ -959,6 +962,7 @@ _None detected_
 - `claude-code-plugins`
 - `claude-code-screenshots`
 - `claude-code-user`
+- `claude-context`
 - `claude-haiku-4`
 - `claude-haiku-4-5`
 - `claude-haiku-4-5-20251001`
