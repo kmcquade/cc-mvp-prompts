@@ -16,6 +16,7 @@ Display tool usage heading, formatted duration fields, and whimsical activity ve
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
 | `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 
 # Raw Prompt Text
 ${EXPR_1} tool uses
@@ -276,8 +277,8 @@ ${NUM}
 
 ${EXPR_5}
 
-default
+@${EXPR_6}
 
-${EXPR_6}
+${EXPR_7}
 
 null
