@@ -4,7 +4,7 @@
 
 - Commands: 14
 - Options: 24
-- Env vars: 156
+- Env vars: 155
 - Config keys: 129
 - Tools: 0
 - Skills: 0
@@ -129,7 +129,6 @@
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_VERTEX`
 - `CLAUDE_CONFIG_DIR`
-- `CLAUDE_MAX`
 - `CLOUD_ML_REGION`
 - `CLOUD_RUN_JOB`
 - `COMMIT_REF`
