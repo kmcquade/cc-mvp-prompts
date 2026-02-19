@@ -3,12 +3,12 @@
 ## Summary
 
 - Commands: 26
-- Options: 50
-- Env vars: 399
-- Config keys: 340
+- Options: 52
+- Env vars: 405
+- Config keys: 341
 - Tools: 3
 - Skills: 0
-- Models: 81
+- Models: 82
 - Providers: 7
 
 ## Commands
@@ -85,6 +85,7 @@
 - `--allow-dangerously-skip-permissions`
 - `--allowed-tools`
 - `--allowedTools`
+- `--available`
 - `--betas`
 - `--chrome`
 - `--continue`
@@ -95,6 +96,7 @@
 - `--disallowedTools`
 - `--env`
 - `--fallback-model`
+- `--file`
 - `--force`
 - `--fork-session`
 - `--header`
@@ -137,6 +139,7 @@
 - `--agents <json>`
 - `--allow-dangerously-skip-permissions`
 - `--allowedTools, --allowed-tools <tools...>`
+- `--available`
 - `--betas <betas...>`
 - `--chrome`
 - `--dangerously-skip-permissions`
@@ -144,6 +147,7 @@
 - `--disable-slash-commands`
 - `--disallowedTools, --disallowed-tools <tools...>`
 - `--fallback-model <model>`
+- `--file <specs...>`
 - `--force`
 - `--fork-session`
 - `--ide`
@@ -250,6 +254,7 @@
 - `CLAUDE_CODE_ACCESSIBILITY`
 - `CLAUDE_CODE_ACTION`
 - `CLAUDE_CODE_ADDITIONAL_PROTECTION`
+- `CLAUDE_CODE_API_BASE_URL`
 - `CLAUDE_CODE_API_KEY_FILE_DESCRIPTOR`
 - `CLAUDE_CODE_API_KEY_HELPER_TTL_MS`
 - `CLAUDE_CODE_AUTO_CONNECT_IDE`
@@ -321,6 +326,9 @@
 - `CLAUDE_CODE_TASK_LIST_ID`
 - `CLAUDE_CODE_TEST_FIXTURES_ROOT`
 - `CLAUDE_CODE_TMPDIR`
+- `CLAUDE_CODE_TMUX_PREFIX`
+- `CLAUDE_CODE_TMUX_PREFIX_CONFLICTS`
+- `CLAUDE_CODE_TMUX_SESSION`
 - `CLAUDE_CODE_USE_BEDROCK`
 - `CLAUDE_CODE_USE_FOUNDRY`
 - `CLAUDE_CODE_USE_NATIVE_FILE_SEARCH`
@@ -500,6 +508,7 @@
 - `SHARP_FORCE_GLOBAL_LIBVIPS`
 - `SHARP_IGNORE_GLOBAL_LIBVIPS`
 - `SHELL`
+- `SHELLOPTS`
 - `SLASH_COMMAND_TOOL_CHAR_BUDGET`
 - `SPACE_CREATOR_USER_ID`
 - `SRT_DEBUG`
@@ -527,6 +536,7 @@
 - `TILIX_ID`
 - `TMPDIR`
 - `TMUX`
+- `TMUX_PANE`
 - `UNDICI_NO_FG`
 - `USE_API_CLEAR_TOOL_RESULTS`
 - `USE_API_CLEAR_TOOL_USES`
@@ -676,7 +686,6 @@
 - `eagerLoadSettings_end`
 - `eagerLoadSettings_start`
 - `edit_mode`
-- `Ej`
 - `email`
 - `enableAllProjectMcpServers`
 - `enabled`
@@ -753,6 +762,7 @@
 - `matches`
 - `max_results`
 - `max_turns`
+- `maxTurns`
 - `mcp_response`
 - `mcpServers`
 - `media_type`
@@ -798,6 +808,7 @@
 - `outputStyle`
 - `outputStyles`
 - `owner`
+- `P_`
 - `package`
 - `padding`
 - `params`
@@ -964,6 +975,7 @@ _None detected_
 - `claude-code-screenshots`
 - `claude-code-user`
 - `claude-context`
+- `claude-folder`
 - `Claude-Generated-By:`
 - `claude-haiku-3-5`
 - `claude-haiku-4`
