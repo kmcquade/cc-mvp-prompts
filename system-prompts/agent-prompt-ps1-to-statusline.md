@@ -1,4 +1,4 @@
-# Agent Prompt: shell-ps1-to-statusline
+# Agent Prompt: ps1-to-statusline
 
 - Agent Type: statusline-setup
 - When to use: Use this agent to configure the user's Claude Code status line setting.
