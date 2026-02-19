@@ -8,7 +8,7 @@
 - Config keys: 121
 - Tools: 0
 - Skills: 0
-- Models: 18
+- Models: 19
 - Providers: 7
 
 ## Commands
@@ -392,6 +392,7 @@ _None detected_
 - `claude-cli`
 - `claude-code`
 - `claude-code-20250219`
+- `claude-code.vsix`
 - `claude-instant-1.1`
 - `claude-instant-1.1-100k`
 - `claude-instant-1.2`
