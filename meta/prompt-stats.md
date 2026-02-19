@@ -1,4 +1,4 @@
-# Prompt Stats 2.0.73
+# Prompt Stats 2.0.74
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -76,28 +76,27 @@
 | system | [System Prompt: Identity Banner](../system-prompts/system-prompt-identity-banner.md) | 217 | 53 | 2.0.70 | 2.0.70 |
 | system | [System Prompt: Install Github App](../system-prompts/system-prompt-install-github-app.md) | 1683 | 393 | 1.0.44 | 1.0.44 |
 | system | [System Prompt: Install Github Cli](../system-prompts/system-prompt-install-github-cli.md) | 149 | 41 | 1.0.0 | 1.0.0 |
-| system | [System Prompt: Install Tmux In Wsl](../system-prompts/system-prompt-install-tmux-in-wsl.md) | 207 | 58 | 2.0.70 | 2.0.70 |
 | system | [System Prompt: Invoke Available Skills 2](../system-prompts/system-prompt-invoke-available-skills-2.md) | 1436 | 395 | 2.0.73 | 2.0.73 |
 | system | [System Prompt: Json Command Exit Handling](../system-prompts/system-prompt-json-command-exit-handling.md) | 152 | 40 | 2.0.36 | 2.0.36 |
 | system | [System Prompt: Json Command Exit Rules](../system-prompts/system-prompt-json-command-exit-rules.md) | 146 | 34 | 1.0.85 | 1.0.85 |
 | system | [System Prompt: Json Command Io Exit Codes](../system-prompts/system-prompt-json-command-io-exit-codes.md) | 173 | 46 | 2.0.43 | 2.0.44 |
 | system | [System Prompt: Json Io Errors](../system-prompts/system-prompt-json-io-errors.md) | 276 | 80 | 2.0.56 | 2.0.56 |
 | system | [System Prompt: Json Only Hook Evaluation](../system-prompts/system-prompt-json-only-hook-evaluation.md) | 538 | 137 | 2.0.41 | 2.0.41 |
-| system | [System Prompt: Launch Plan Implementation Swarm](../system-prompts/system-prompt-launch-plan-implementation-swarm.md) | 1706 | 507 | 2.0.70 | 2.0.70 |
 | system | [System Prompt: Learn By Doing Human Input](../system-prompts/system-prompt-learn-by-doing-human-input.md) | 4992 | 1137 | 1.0.78 | 1.0.86 |
 | system | [System Prompt: List Mcp Server Resources](../system-prompts/system-prompt-list-mcp-server-resources.md) | 295 | 73 | 1.0.22 | 1.0.22 |
 | system | [System Prompt: Load Mcp Tools First](../system-prompts/system-prompt-load-mcp-tools-first.md) | 1850 | 532 | 2.0.70 | 2.0.70 |
 | system | [System Prompt: Missing Native Host Error](../system-prompts/system-prompt-missing-native-host-error.md) | 117 | 48 | 2.0.70 | 2.0.70 |
 | system | [System Prompt: Nested Template Functions](../system-prompts/system-prompt-nested-template-functions.md) | 345 | 134 | 0.2.54 | 1.0.86 |
 | system | [System Prompt: Next Step Suggester](../system-prompts/system-prompt-next-step-suggester.md) | 503 | 119 | 2.0.71 | 2.0.71 |
+| system | [System Prompt: Noisy Token Dump](../system-prompts/system-prompt-noisy-token-dump.md) | 1917 | 919 | 2.0.74 | 2.0.74 |
 | system | [System Prompt: Not An Object Native Host Error](../system-prompts/system-prompt-not-an-object-native-host-error.md) | 91 | 41 | 2.0.70 | 2.0.70 |
 | system | [System Prompt: Notification Output File Status](../system-prompts/system-prompt-notification-output-file-status.md) | 239 | 98 | 2.0.72 | 2.0.72 |
 | system | [System Prompt: Path Placeholder Block](../system-prompts/system-prompt-path-placeholder-block.md) | 42 | 27 | 1.0.52 | 2.0.70 |
 | system | [System Prompt: Plan Mode Exploration Steps](../system-prompts/system-prompt-plan-mode-exploration-steps.md) | 564 | 152 | 2.0.71 | 2.0.71 |
 | system | [System Prompt: Plan Mode Incremental Plan File](../system-prompts/system-prompt-plan-mode-incremental-plan-file.md) | 4612 | 1085 | 2.0.56 | 2.0.56 |
 | system | [System Prompt: Plan Mode Restrictions](../system-prompts/system-prompt-plan-mode-restrictions.md) | 949 | 221 | 2.0.43 | 2.0.43 |
-| system | [System Prompt: Plan Submitted For Approval](../system-prompts/system-prompt-plan-submitted-for-approval.md) | 470 | 132 | 2.0.70 | 2.0.70 |
 | system | [System Prompt: Previous Session Notes Header](../system-prompts/system-prompt-previous-session-notes-header.md) | 131 | 54 | 2.0.70 | 2.0.70 |
+| system | [System Prompt: Rank Sessions By Query](../system-prompts/system-prompt-rank-sessions-by-query.md) | 1977 | 482 | 2.0.74 | 2.0.74 |
 | system | [System Prompt: Read Local Files By Path](../system-prompts/system-prompt-read-local-files-by-path.md) | 1770 | 411 | 2.0.2 | 2.0.2 |
 | system | [System Prompt: Read Mcp Server Resource](../system-prompts/system-prompt-read-mcp-server-resource.md) | 250 | 73 | 1.0.22 | 1.0.22 |
 | system | [System Prompt: Read Only Architecture Planning 2](../system-prompts/system-prompt-read-only-architecture-planning-2.md) | 2457 | 625 | 2.0.56 | 2.0.56 |
@@ -110,7 +109,7 @@
 | system | [System Prompt: Require Mcp Cli Schema Check](../system-prompts/system-prompt-require-mcp-cli-schema-check.md) | 4358 | 1269 | 2.0.36 | 2.0.65 |
 | system | [System Prompt: Require Mcp Cli Schema Check 2](../system-prompts/system-prompt-require-mcp-cli-schema-check-2.md) | 4504 | 1319 | 2.0.66 | 2.0.66 |
 | system | [System Prompt: Review Github Pull Request](../system-prompts/system-prompt-review-github-pull-request.md) | 921 | 240 | 2.0.71 | 2.0.71 |
-| system | [System Prompt: Safe Bash Command Execution 3](../system-prompts/system-prompt-safe-bash-command-execution-3.md) | 10820 | 2761 | 2.0.71 | 2.0.71 |
+| system | [System Prompt: Safe Bash Command Execution 3](../system-prompts/system-prompt-safe-bash-command-execution-3.md) | 10442 | 2649 | 2.0.74 | 2.0.74 |
 | system | [System Prompt: Sandbox Required For Commands](../system-prompts/system-prompt-sandbox-required-for-commands.md) | 293 | 63 | 2.0.30 | 2.0.30 |
 | system | [System Prompt: Sandbox Tmpdir Temporary Files](../system-prompts/system-prompt-sandbox-tmpdir-temporary-files.md) | 433 | 125 | 2.0.62 | 2.0.62 |
 | system | [System Prompt: Security Review Git Diff](../system-prompts/system-prompt-security-review-git-diff.md) | 11388 | 2804 | 2.0.70 | 2.0.70 |
@@ -129,8 +128,7 @@
 | system | [System Prompt: Summarize Coding Chat Status](../system-prompts/system-prompt-summarize-coding-chat-status.md) | 139 | 33 | 0.2.91 | 0.2.91 |
 | system | [System Prompt: Summarize Conversations](../system-prompts/system-prompt-summarize-conversations.md) | 69 | 13 | 0.2.108 | 2.0.22 |
 | system | [System Prompt: Summarize New Messages](../system-prompts/system-prompt-summarize-new-messages.md) | 422 | 110 | 2.0.45 | 2.0.45 |
-| system | [System Prompt: Teammate Operations Reference](../system-prompts/system-prompt-teammate-operations-reference.md) | 916 | 206 | 2.0.73 | 2.0.73 |
-| system | [System Prompt: Tmux Terminal Shortcut Setup](../system-prompts/system-prompt-tmux-terminal-shortcut-setup.md) | 408 | 145 | 1.0.122 | 1.0.122 |
+| system | [System Prompt: Terminal Shortcut Setup](../system-prompts/system-prompt-terminal-shortcut-setup.md) | 437 | 163 | 2.0.74 | 2.0.74 |
 | system | [System Prompt: Update Magic Doc File](../system-prompts/system-prompt-update-magic-doc-file.md) | 3178 | 711 | 2.0.30 | 2.0.30 |
 | system | [System Prompt: Update Session Notes File 3](../system-prompts/system-prompt-update-session-notes-file-3.md) | 3453 | 762 | 2.0.58 | 2.0.58 |
 | system | [System Prompt: Use Current User Config Extra](../system-prompts/system-prompt-use-current-user-config-extra.md) | 237 | 59 | 2.0.56 | 2.0.56 |
@@ -138,6 +136,7 @@
 | system | [System Prompt: Value Range Native Host Error](../system-prompts/system-prompt-value-range-native-host-error.md) | 107 | 45 | 2.0.70 | 2.0.70 |
 | system | [System Prompt: Verify Repo Access And Scope](../system-prompts/system-prompt-verify-repo-access-and-scope.md) | 252 | 61 | 1.0.25 | 2.0.41 |
 | system | [System Prompt: Verify Stop Condition Json](../system-prompts/system-prompt-verify-stop-condition-json.md) | 519 | 121 | 2.0.56 | 2.0.68 |
+| system | [System Prompt: Wait For Plan Approval](../system-prompts/system-prompt-wait-for-plan-approval.md) | 519 | 152 | 2.0.74 | 2.0.74 |
 | system | [System Prompt: Web Content Quote Limits](../system-prompts/system-prompt-web-content-quote-limits.md) | 582 | 148 | 2.0.71 | 2.0.71 |
 | system | [System Prompt: Web Content Quote Limits 2](../system-prompts/system-prompt-web-content-quote-limits-2.md) | 582 | 148 | 2.0.71 | 2.0.71 |
 | system | [System Prompt: Web Search](../system-prompts/system-prompt-web-search.md) | 57 | 11 | 0.2.108 | 2.0.22 |
@@ -151,13 +150,12 @@
 | system-reminder | [System Reminder: Call Result](../system-prompts/system-reminder-call-result.md) | 47 | 18 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Called Pipe Input](../system-prompts/system-reminder-called-pipe-input.md) | 94 | 29 | 2.0.71 | 2.0.71 |
 | system-reminder | [System Reminder: Check Task Output](../system-prompts/system-reminder-check-task-output.md) | 51 | 11 | 2.0.65 | 2.0.65 |
-| system-reminder | [System Reminder: Cli Security Safety Rules](../system-prompts/system-reminder-cli-security-safety-rules.md) | 14014 | 3162 | 2.0.73 | 2.0.73 |
+| system-reminder | [System Reminder: Cli Security Safety Rules](../system-prompts/system-reminder-cli-security-safety-rules.md) | 14014 | 3162 | 2.0.73 | 2.0.74 |
 | system-reminder | [System Reminder: Cli Security Safety Rules 2](../system-prompts/system-reminder-cli-security-safety-rules-2.md) | 14008 | 3159 | 2.0.73 | 2.0.73 |
 | system-reminder | [System Reminder: Cli Security Safety Rules 3](../system-prompts/system-reminder-cli-security-safety-rules-3.md) | 11863 | 2659 | 2.0.73 | 2.0.73 |
 | system-reminder | [System Reminder: Continue From Plan File](../system-prompts/system-reminder-continue-from-plan-file.md) | 170 | 46 | 2.0.56 | 2.0.56 |
 | system-reminder | [System Reminder: Continued Session Warning](../system-prompts/system-reminder-continued-session-warning.md) | 132 | 26 | 1.0.68 | 1.0.68 |
 | system-reminder | [System Reminder: Conversation Title Generator](../system-prompts/system-reminder-conversation-title-generator.md) | 192 | 60 | 2.0.25 | 2.0.25 |
-| system-reminder | [System Reminder: Delegate Mode Task Coordination](../system-prompts/system-reminder-delegate-mode-task-coordination.md) | 648 | 159 | 2.0.70 | 2.0.70 |
 | system-reminder | [System Reminder: Empty Existing File Warning](../system-prompts/system-reminder-empty-existing-file-warning.md) | 80 | 22 | 0.2.115 | 1.0.53 |
 | system-reminder | [System Reminder: Empty Todo List](../system-prompts/system-reminder-empty-todo-list.md) | 325 | 72 | 1.0.69 | 1.0.69 |
 | system-reminder | [System Reminder: Exit Delegate Mode](../system-prompts/system-reminder-exit-delegate-mode.md) | 166 | 43 | 2.0.70 | 2.0.70 |
@@ -167,7 +165,6 @@
 | system-reminder | [System Reminder: Fixed Length Conversation Title](../system-prompts/system-reminder-fixed-length-conversation-title.md) | 97 | 35 | 1.0.109 | 1.0.109 |
 | system-reminder | [System Reminder: Follow Invoked Skills Guidelines](../system-prompts/system-reminder-follow-invoked-skills-guidelines.md) | 98 | 23 | 2.0.72 | 2.0.72 |
 | system-reminder | [System Reminder: Full Resource Contents Header](../system-prompts/system-reminder-full-resource-contents-header.md) | 26 | 5 | 1.0.19 | 1.0.19 |
-| system-reminder | [System Reminder: Github Put Task Update](../system-prompts/system-reminder-github-put-task-update.md) | 1801 | 622 | 2.0.73 | 2.0.73 |
 | system-reminder | [System Reminder: Handle Truncated Message](../system-prompts/system-reminder-handle-truncated-message.md) | 62 | 27 | 2.0.56 | 2.0.56 |
 | system-reminder | [System Reminder: Hide File Truncation Note](../system-prompts/system-reminder-hide-file-truncation-note.md) | 186 | 56 | 0.2.106 | 0.2.106 |
 | system-reminder | [System Reminder: Hook Additional Context](../system-prompts/system-reminder-hook-additional-context.md) | 44 | 16 | 2.0.17 | 2.0.17 |
@@ -202,8 +199,8 @@
 | system-reminder | [System Reminder: Show Variable Contents](../system-prompts/system-reminder-show-variable-contents.md) | 33 | 16 | 0.2.107 | 0.2.107 |
 | system-reminder | [System Reminder: Stop Hook Feedback](../system-prompts/system-reminder-stop-hook-feedback.md) | 29 | 11 | 2.0.41 | 2.0.41 |
 | system-reminder | [System Reminder: Summarize Bash Output](../system-prompts/system-reminder-summarize-bash-output.md) | 229 | 55 | 1.0.60 | 2.0.70 |
+| system-reminder | [System Reminder: Task Metadata Json Schema](../system-prompts/system-reminder-task-metadata-json-schema.md) | 1813 | 629 | 2.0.74 | 2.0.74 |
 | system-reminder | [System Reminder: Task Metadata Schema Template](../system-prompts/system-reminder-task-metadata-schema-template.md) | 1685 | 566 | 2.0.73 | 2.0.73 |
-| system-reminder | [System Reminder: Team Coordination Workflow](../system-prompts/system-reminder-team-coordination-workflow.md) | 738 | 213 | 2.0.60 | 2.0.60 |
 | system-reminder | [System Reminder: Todo List Updated Silently 2](../system-prompts/system-reminder-todo-list-updated-silently-2.md) | 181 | 43 | 1.0.69 | 1.0.69 |
 | system-reminder | [System Reminder: Token Usage Remaining](../system-prompts/system-reminder-token-usage-remaining.md) | 53 | 23 | 2.0.17 | 2.0.17 |
 | system-reminder | [System Reminder: Token Usage Remaining Line](../system-prompts/system-reminder-token-usage-remaining-line.md) | 83 | 37 | 2.0.17 | 2.0.17 |
@@ -240,8 +237,8 @@
 | system-data | [System Data: Bedrock Import Job Request](../system-prompts/system-data-bedrock-import-job-request.md) | 263 | 104 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock Imported Response Fields](../system-prompts/system-data-bedrock-imported-response-fields.md) | 299 | 126 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock Inference Profile Response](../system-prompts/system-data-bedrock-inference-profile-response.md) | 281 | 115 | 2.0.63 | 2.0.63 |
-| system-data | [System Data: Bedrock Invocation Job Response](../system-prompts/system-data-bedrock-invocation-job-response.md) | 411 | 171 | 2.0.63 | 2.0.71 |
-| system-data | [System Data: Bedrock Invocation Job Response 2](../system-prompts/system-data-bedrock-invocation-job-response-2.md) | 407 | 172 | 2.0.63 | 2.0.71 |
+| system-data | [System Data: Bedrock Invocation Job Response](../system-prompts/system-data-bedrock-invocation-job-response.md) | 407 | 172 | 2.0.63 | 2.0.74 |
+| system-data | [System Data: Bedrock Invocation Job Response 2](../system-prompts/system-data-bedrock-invocation-job-response-2.md) | 411 | 171 | 2.0.63 | 2.0.74 |
 | system-data | [System Data: Bedrock List Custom Deployments](../system-prompts/system-data-bedrock-list-custom-deployments.md) | 294 | 126 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock List Custom Models Request Fields](../system-prompts/system-data-bedrock-list-custom-models-request-fields.md) | 356 | 151 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock List Evaluation Jobs Request](../system-prompts/system-data-bedrock-list-evaluation-jobs-request.md) | 303 | 127 | 2.0.63 | 2.0.63 |
@@ -249,8 +246,8 @@
 | system-data | [System Data: Bedrock Provisioned Summary Fields](../system-prompts/system-data-bedrock-provisioned-summary-fields.md) | 412 | 175 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock Response Stream Chunks Errors](../system-prompts/system-data-bedrock-response-stream-chunks-errors.md) | 285 | 100 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrock Update Guardrail Request Fields](../system-prompts/system-data-bedrock-update-guardrail-request-fields.md) | 466 | 180 | 2.0.63 | 2.0.63 |
-| system-data | [System Data: Bedrockruntime Converse Request Fields](../system-prompts/system-data-bedrockruntime-converse-request-fields.md) | 360 | 133 | 2.0.63 | 2.0.72 |
-| system-data | [System Data: Bedrockruntime Converse Request Fields 2](../system-prompts/system-data-bedrockruntime-converse-request-fields-2.md) | 366 | 134 | 2.0.63 | 2.0.72 |
+| system-data | [System Data: Bedrockruntime Converse Request Fields](../system-prompts/system-data-bedrockruntime-converse-request-fields.md) | 366 | 134 | 2.0.63 | 2.0.74 |
+| system-data | [System Data: Bedrockruntime Converse Request Fields 2](../system-prompts/system-data-bedrockruntime-converse-request-fields-2.md) | 360 | 133 | 2.0.63 | 2.0.74 |
 | system-data | [System Data: Bedrockruntime Guardrail Usage Units](../system-prompts/system-data-bedrockruntime-guardrail-usage-units.md) | 408 | 170 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Bedrockruntime Invoke Request Fields](../system-prompts/system-data-bedrockruntime-invoke-request-fields.md) | 304 | 132 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Character Mapping Table](../system-prompts/system-data-character-mapping-table.md) | 317123 | 184755 | 1.0.32 | 1.0.32 |
@@ -262,7 +259,6 @@
 | system-data | [System Data: Conversation Title Generator 2](../system-prompts/system-data-conversation-title-generator-2.md) | 1536 | 488 | 2.0.73 | 2.0.73 |
 | system-data | [System Data: Conversation Title Generator 5](../system-prompts/system-data-conversation-title-generator-5.md) | 282 | 97 | 2.0.66 | 2.0.66 |
 | system-data | [System Data: Conversation Title Generator 6](../system-prompts/system-data-conversation-title-generator-6.md) | 1558 | 494 | 2.0.73 | 2.0.73 |
-| system-data | [System Data: Conversation Title Generator Variables](../system-prompts/system-data-conversation-title-generator-variables.md) | 320 | 137 | 2.0.70 | 2.0.70 |
 | system-data | [System Data: Create Guardrail Request Fields](../system-prompts/system-data-create-guardrail-request-fields.md) | 471 | 180 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Csharp Keywords List](../system-prompts/system-data-csharp-keywords-list.md) | 419 | 113 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Query Keywords List](../system-prompts/system-data-csharp-query-keywords-list.md) | 241 | 81 | 0.2.9 | 0.2.9 |
@@ -297,8 +293,8 @@
 | system-data | [System Data: Json Schema Keyword List](../system-prompts/system-data-json-schema-keyword-list.md) | 1138 | 390 | 2.0.73 | 2.0.73 |
 | system-data | [System Data: Json Schema Keyword List 2](../system-prompts/system-data-json-schema-keyword-list-2.md) | 2656 | 1312 | 2.0.73 | 2.0.73 |
 | system-data | [System Data: Json Schema Keyword List 3](../system-prompts/system-data-json-schema-keyword-list-3.md) | 1486 | 515 | 2.0.73 | 2.0.73 |
-| system-data | [System Data: Json Schema Keyword List 4](../system-prompts/system-data-json-schema-keyword-list-4.md) | 1282 | 397 | 2.0.73 | 2.0.73 |
-| system-data | [System Data: Json Schema Keyword List 5](../system-prompts/system-data-json-schema-keyword-list-5.md) | 1462 | 502 | 2.0.73 | 2.0.73 |
+| system-data | [System Data: Json Schema Keyword List 4](../system-prompts/system-data-json-schema-keyword-list-4.md) | 1462 | 502 | 2.0.73 | 2.0.74 |
+| system-data | [System Data: Json Schema Keyword List 5](../system-prompts/system-data-json-schema-keyword-list-5.md) | 1282 | 397 | 2.0.73 | 2.0.74 |
 | system-data | [System Data: Julia Base Types List](../system-prompts/system-data-julia-base-types-list.md) | 2096 | 723 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Julia Keywords List](../system-prompts/system-data-julia-keywords-list.md) | 220 | 69 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Linter Formatter List](../system-prompts/system-data-linter-formatter-list.md) | 239 | 98 | 0.2.123 | 0.2.123 |
@@ -326,12 +322,13 @@
 | system-data | [System Data: Reasoning Policy Quality Report Metrics](../system-prompts/system-data-reasoning-policy-quality-report-metrics.md) | 302 | 130 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Repeated Number Placeholders](../system-prompts/system-data-repeated-number-placeholders.md) | 373 | 223 | 1.0.59 | 1.0.59 |
 | system-data | [System Data: Repeated Numeric Placeholders](../system-prompts/system-data-repeated-numeric-placeholders.md) | 1554 | 895 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Repo File Put Update](../system-prompts/system-data-repo-file-put-update.md) | 1645 | 628 | 2.0.73 | 2.0.73 |
-| system-data | [System Data: Repo File Put Update 2](../system-prompts/system-data-repo-file-put-update-2.md) | 4430 | 1443 | 2.0.73 | 2.0.73 |
-| system-data | [System Data: Repo File Put Update 3](../system-prompts/system-data-repo-file-put-update-3.md) | 1670 | 562 | 2.0.73 | 2.0.73 |
-| system-data | [System Data: Repo File Update Template](../system-prompts/system-data-repo-file-update-template.md) | 3126 | 1027 | 2.0.73 | 2.0.73 |
-| system-data | [System Data: Repo File Update Template 2](../system-prompts/system-data-repo-file-update-template-2.md) | 1849 | 650 | 2.0.73 | 2.0.73 |
-| system-data | [System Data: Repo File Update Template 3](../system-prompts/system-data-repo-file-update-template-3.md) | 1827 | 634 | 2.0.73 | 2.0.73 |
+| system-data | [System Data: Repo File Put Update](../system-prompts/system-data-repo-file-put-update.md) | 4442 | 1450 | 2.0.74 | 2.0.74 |
+| system-data | [System Data: Repo File Put Update 2](../system-prompts/system-data-repo-file-put-update-2.md) | 1861 | 657 | 2.0.74 | 2.0.74 |
+| system-data | [System Data: Repo File Put Update 3](../system-prompts/system-data-repo-file-put-update-3.md) | 1839 | 641 | 2.0.74 | 2.0.74 |
+| system-data | [System Data: Repo File Put Update 4](../system-prompts/system-data-repo-file-put-update-4.md) | 1675 | 567 | 2.0.74 | 2.0.74 |
+| system-data | [System Data: Repo File Put Update 5](../system-prompts/system-data-repo-file-put-update-5.md) | 1656 | 635 | 2.0.74 | 2.0.74 |
+| system-data | [System Data: Repo File Put Update 6](../system-prompts/system-data-repo-file-put-update-6.md) | 1670 | 562 | 2.0.73 | 2.0.74 |
+| system-data | [System Data: Repo File Update Template](../system-prompts/system-data-repo-file-update-template.md) | 3138 | 1034 | 2.0.74 | 2.0.74 |
 | system-data | [System Data: Roman Numeral Sequence](../system-prompts/system-data-roman-numeral-sequence.md) | 220 | 108 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Runtime Environment Info](../system-prompts/system-data-runtime-environment-info.md) | 269 | 109 | 2.0.50 | 2.0.62 |
 | system-data | [System Data: Sql Current Context Functions](../system-prompts/system-data-sql-current-context-functions.md) | 254 | 69 | 0.2.9 | 0.2.9 |
@@ -345,11 +342,11 @@
 | system-data | [System Data: Sts Assume Role Request Fields](../system-prompts/system-data-sts-assume-role-request-fields.md) | 318 | 140 | 2.0.63 | 2.0.63 |
 | system-data | [System Data: Swift Attribute Annotations](../system-prompts/system-data-swift-attribute-annotations.md) | 378 | 127 | 0.2.9 | 0.2.25 |
 | system-data | [System Data: Swift Compiler Directives List](../system-prompts/system-data-swift-compiler-directives-list.md) | 219 | 83 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 554 | 162 | 0.2.9 | 2.0.73 |
-| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 567 | 171 | 0.2.9 | 2.0.73 |
+| system-data | [System Data: Swift Keywords List](../system-prompts/system-data-swift-keywords-list.md) | 567 | 171 | 0.2.9 | 2.0.74 |
+| system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 554 | 162 | 0.2.9 | 2.0.74 |
 | system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 565 | 166 | 0.2.9 | 2.0.72 |
 | system-data | [System Data: Swift Standard Library Functions](../system-prompts/system-data-swift-standard-library-functions.md) | 441 | 151 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Task Settings Schema Template](../system-prompts/system-data-task-settings-schema-template.md) | 3497 | 1189 | 2.0.73 | 2.0.73 |
+| system-data | [System Data: Task Settings Schema Template](../system-prompts/system-data-task-settings-schema-template.md) | 3509 | 1196 | 2.0.74 | 2.0.74 |
 | system-data | [System Data: Template Function Compiled Output](../system-prompts/system-data-template-function-compiled-output.md) | 271 | 126 | 2.0.66 | 2.0.66 |
 | system-data | [System Data: Truncated Numeric Placeholders](../system-prompts/system-data-truncated-numeric-placeholders.md) | 1970 | 1119 | 1.0.59 | 1.0.59 |
 | system-data | [System Data: Underscore Template Runtime](../system-prompts/system-data-underscore-template-runtime.md) | 278 | 133 | 0.2.54 | 2.0.66 |
@@ -377,7 +374,7 @@
 | tool | [Tool Description: Configure Extra Usage Keep Working](../system-prompts/tool-description-configure-extra-usage-keep-working.md) | 57 | 10 | 2.0.72 | 2.0.72 |
 | tool | [Tool Description: Context Usage Grid](../system-prompts/tool-description-context-usage-grid.md) | 49 | 10 | 1.0.86 | 1.0.86 |
 | tool | [Tool Description: Create New Mcp Tab](../system-prompts/tool-description-create-new-mcp-tab.md) | 190 | 43 | 2.0.71 | 2.0.71 |
-| tool | [Tool Description: Create New Tasks](../system-prompts/tool-description-create-new-tasks.md) | 933 | 201 | 2.0.70 | 2.0.70 |
+| tool | [Tool Description: Create Tracked Task](../system-prompts/tool-description-create-tracked-task.md) | 792 | 169 | 2.0.74 | 2.0.74 |
 | tool | [Tool Description: Ctrl Backslash User Interruption](../system-prompts/tool-description-ctrl-backslash-user-interruption.md) | 29 | 8 | 1.0.68 | 1.0.68 |
 | tool | [Tool Description: Ctrl Break Interruption](../system-prompts/tool-description-ctrl-break-interruption.md) | 33 | 9 | 1.0.68 | 1.0.68 |
 | tool | [Tool Description: Ctrl C User Interruption](../system-prompts/tool-description-ctrl-c-user-interruption.md) | 29 | 8 | 1.0.68 | 1.0.68 |
@@ -409,7 +406,6 @@
 | tool | [Tool Description: List Configured Mcp Resources](../system-prompts/tool-description-list-configured-mcp-resources.md) | 349 | 74 | 1.0.22 | 1.0.22 |
 | tool | [Tool Description: List Files In Context](../system-prompts/tool-description-list-files-in-context.md) | 35 | 6 | 0.2.79 | 0.2.79 |
 | tool | [Tool Description: List Manage Background Tasks](../system-prompts/tool-description-list-manage-background-tasks.md) | 32 | 5 | 0.2.117 | 2.0.45 |
-| tool | [Tool Description: List Open Tasks Summary](../system-prompts/tool-description-list-open-tasks-summary.md) | 1271 | 320 | 2.0.70 | 2.0.70 |
 | tool | [Tool Description: List Shortcuts And Workflows](../system-prompts/tool-description-list-shortcuts-and-workflows.md) | 227 | 41 | 2.0.71 | 2.0.71 |
 | tool | [Tool Description: List Todo Items](../system-prompts/tool-description-list-todo-items.md) | 23 | 4 | 1.0.94 | 1.0.94 |
 | tool | [Tool Description: Lsp Intelligence Operations 2](../system-prompts/tool-description-lsp-intelligence-operations-2.md) | 1058 | 267 | 2.0.73 | 2.0.73 |
@@ -462,7 +458,7 @@
 | tool | [Tool Description: Terminal Window Size Changed](../system-prompts/tool-description-terminal-window-size-changed.md) | 28 | 4 | 1.0.68 | 1.0.68 |
 | tool | [Tool Description: Toggle Session Search Tag](../system-prompts/tool-description-toggle-session-search-tag.md) | 46 | 9 | 2.0.65 | 2.0.65 |
 | tool | [Tool Description: Toggle Vim Editing Mode](../system-prompts/tool-description-toggle-vim-editing-mode.md) | 43 | 8 | 0.2.54 | 0.2.54 |
-| tool | [Tool Description: Update And Resolve Tasks](../system-prompts/tool-description-update-and-resolve-tasks.md) | 2224 | 575 | 2.0.72 | 2.0.72 |
+| tool | [Tool Description: Update Or Resolve Task](../system-prompts/tool-description-update-or-resolve-task.md) | 1580 | 413 | 2.0.74 | 2.0.74 |
 | tool | [Tool Description: Upgrade To Max Rate Limits](../system-prompts/tool-description-upgrade-to-max-rate-limits.md) | 51 | 12 | 1.0.11 | 1.0.11 |
 | tool | [Tool Description: Upload Image To Target](../system-prompts/tool-description-upload-image-to-target.md) | 332 | 75 | 2.0.71 | 2.0.71 |
 | tool | [Tool Description: Verify Setup](../system-prompts/tool-description-verify-setup.md) | 62 | 11 | 1.0.49 | 1.0.49 |
