@@ -25,15 +25,15 @@ Log line showing applied local edits followed by background bash command and sta
 | `EXPR_13` | None | None |
 | `EXPR_14` | None | None |
 | `EXPR_15` | None | None |
-| `EXPR_16` | Task | None |
-| `EXPR_17` | Bash | None |
-| `EXPR_18` | Glob | None |
-| `EXPR_19` | Grep | None |
-| `EXPR_20` | ExitPlanMode | None |
-| `EXPR_21` | Read | None |
-| `EXPR_22` | Edit | None |
-| `EXPR_23` | MultiEdit | None |
-| `EXPR_24` | Write | None |
+| `EXPR_16` | None | None |
+| `EXPR_17` | None | None |
+| `EXPR_18` | None | None |
+| `EXPR_19` | None | None |
+| `EXPR_20` | None | None |
+| `EXPR_21` | None | None |
+| `EXPR_22` | None | None |
+| `EXPR_23` | None | None |
+| `EXPR_24` | None | None |
 
 # Raw Prompt Text
 Applied ${EXPR_1} edits to ${EXPR_2}local:
@@ -50,28 +50,15 @@ ${EXPR_12}
 ${EXPR_13}
 ${EXPR_14}
 ${EXPR_15}
-${EXPR_16: 'Task'}
-${EXPR_17: 'Bash'}
-${EXPR_18: 'Glob'}
-${EXPR_19: 'Grep'}
-${EXPR_20: 'ExitPlanMode'}
-${EXPR_21: 'Read'}
-${EXPR_22: 'Edit'}
-${EXPR_23: 'MultiEdit'}
-${EXPR_24: 'Write'}
-${EXPR_25}
-${EXPR_26}
-${EXPR_27}
-${EXPR_28}
-${EXPR_29}
-Background Bash ${EXPR_30}
-(command: ${EXPR_31})
-(status: ${EXPR_32})
 ${NUM}
-${EXPR_33}
-${EXPR_34}
-${EXPR_35}
-${EXPR_36}
-${EXPR_37}
-${EXPR_38}
-${EXPR_39}
+Background Bash ${EXPR_16}
+(command: ${EXPR_17})
+(status: ${EXPR_18})
+${NUM}
+${EXPR_19}
+${EXPR_20}
+${EXPR_21}
+${EXPR_22}
+${EXPR_23}
+${EXPR_24}
+${EXPR_25}
