@@ -15,13 +15,15 @@ Emits multiple numeric fields and argument list with annotated command invocatio
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | stream-json | None |
-| `EXPR_7` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | stream-json | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 | `EXPR_10` | None | None |
 
 # Raw Prompt Text
+${NUM}
+
 ${EXPR_1}
 
 ${EXPR_2}
@@ -66,9 +68,9 @@ ${NUM}
 
 args
 
-${EXPR_6: 'stream-json'}
+${EXPR_6}
 
-${EXPR_7}
+${EXPR_7: 'stream-json'}
 
 ${EXPR_8}
 
