@@ -4,11 +4,11 @@
 
 - Commands: 14
 - Options: 25
-- Env vars: 187
+- Env vars: 188
 - Config keys: 142
 - Tools: 0
 - Skills: 0
-- Models: 28
+- Models: 31
 - Providers: 7
 
 ## Commands
@@ -157,6 +157,7 @@
 - `DISABLE_BUG_COMMAND`
 - `DISABLE_COST_WARNINGS`
 - `DISABLE_ERROR_REPORTING`
+- `DISABLE_INTERLEAVED_THINKING`
 - `DISABLE_PROMPT_CACHING`
 - `DISABLE_TELEMETRY`
 - `DYNO`
@@ -452,6 +453,7 @@ _None detected_
 - `claude-3-5-haiku-20241022`
 - `claude-3-5-sonnet`
 - `claude-3-5-sonnet-20241022`
+- `claude-3-7`
 - `claude-3-7-sonnet`
 - `claude-3-7-sonnet-20250219`
 - `claude-3-sonnet-20240229`
@@ -466,10 +468,12 @@ _None detected_
 - `claude-instant-1.2`
 - `claude-local`
 - `claude-native-installer`
+- `claude-opus-4`
 - `claude-opus-4-`
 - `claude-opus-4-20250514`
 - `claude-opus-welcome`
 - `claude-sandbox-`
+- `claude-sonnet-4`
 - `claude-sonnet-4-`
 - `claude-sonnet-4-20250514`
 
