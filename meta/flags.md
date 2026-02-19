@@ -1,11 +1,10 @@
-# Claude Code 2.1.37 – Flags
+# Claude Code 2.1.38 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
 | `tengu_1p_event_batch_config` | config | telemetry | Configures OpenTelemetry first-party event logging batch sizes, queue limits, and export interval. | Only seen in initializer; downstream usage not fully shown. | high | 1 |
 | `tengu_bash_command_interrupt_backgrounded` | gate | tools | Controls whether interrupted shell commands are backgrounded instead of killed | Exact gating condition depends on unknown variable lU1. | medium | 1 |
 | `tengu_bash_command_timeout_backgrounded` | gate | telemetry | Logs timeout events when a bash command is backgrounded | Appears to emit an event/metric, not alter behavior. | high | 1 |
-| `tengu_c4w_usage_limit_notifications_enabled` | gate | ui | Controls enabling usage limit notifications, with special handling for team plans. | Only boolean gating logic is visible; notification behavior not shown. | medium | 1 |
 | `tengu_copper_lantern_config` | config | ui | Config date threshold for enabling a pro/max feature only for older subscriptions | Exact feature purpose unclear; appears to gate eligibility by plan and signup date. | medium | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 3 |
 | `tengu_scratch` | gate | filesystem | enable temporary scratchpad directory for session memory summaries | Behavior inferred from nearby path construction and conditional check. | medium | 1 |

@@ -1,10 +1,9 @@
-# Claude Code Flags 2.1.37
+# Claude Code Flags 2.1.38
 
 ## Feature Gates
 
 - `tengu_bash_command_interrupt_backgrounded`
 - `tengu_bash_command_timeout_backgrounded`
-- `tengu_c4w_usage_limit_notifications_enabled`
 - `tengu_disable_bypass_permissions_mode`
 - `tengu_scratch`
 - `tengu_streaming_tool_execution2`

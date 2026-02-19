@@ -4,8 +4,8 @@
 
 - Commands: 26
 - Options: 59
-- Env vars: 397
-- Config keys: 500
+- Env vars: 404
+- Config keys: 507
 - Tools: 3
 - Skills: 0
 - Models: 79
@@ -305,6 +305,7 @@
 - `CLAUDE_CODE_ENABLE_TOKEN_USAGE_ATTACHMENT`
 - `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA`
 - `CLAUDE_CODE_ENTRYPOINT`
+- `CLAUDE_CODE_ENVIRONMENT_KIND`
 - `CLAUDE_CODE_ENVIRONMENT_RUNNER_VERSION`
 - `CLAUDE_CODE_EXIT_AFTER_FIRST_RENDER`
 - `CLAUDE_CODE_EXIT_AFTER_STOP_DELAY`
@@ -341,6 +342,7 @@
 - `CLAUDE_CODE_PROXY_RESOLVES_HOSTS`
 - `CLAUDE_CODE_REMOTE`
 - `CLAUDE_CODE_REMOTE_ENVIRONMENT_TYPE`
+- `CLAUDE_CODE_REMOTE_MEMORY_DIR`
 - `CLAUDE_CODE_REMOTE_SESSION_ID`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
 - `CLAUDE_CODE_SESSION_ID`
@@ -348,8 +350,11 @@
 - `CLAUDE_CODE_SHELL_PREFIX`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_FOUNDRY_AUTH`
+- `CLAUDE_CODE_SKIP_PRECOMPACT_LOAD`
 - `CLAUDE_CODE_SKIP_PROMPT_HISTORY`
 - `CLAUDE_CODE_SKIP_VERTEX_AUTH`
+- `CLAUDE_CODE_SLOW_OPERATION_THRESHOLD_MS`
+- `CLAUDE_CODE_SNIPPET_SAVE`
 - `CLAUDE_CODE_SSE_PORT`
 - `CLAUDE_CODE_SUBAGENT_MODEL`
 - `CLAUDE_CODE_SYNTAX_HIGHLIGHT`
@@ -542,6 +547,7 @@
 - `SWE_BENCH_INSTANCE_ID`
 - `SWE_BENCH_RUN_ID`
 - `SWE_BENCH_TASK_ID`
+- `SYSTEM_OIDCREQUESTURI`
 - `SYSTEMROOT`
 - `TASK_MAX_OUTPUT_LENGTH`
 - `TEMP`
@@ -561,6 +567,7 @@
 - `USE_BUILTIN_RIPGREP`
 - `USE_LOCAL_OAUTH`
 - `USE_MCP_CLI_DIR`
+- `USE_STAGING_OAUTH`
 - `USER`
 - `USERNAME`
 - `USERPROFILE`
@@ -641,6 +648,7 @@
 - `author`
 - `authToken`
 - `autoAllowBashIfSandboxed`
+- `autoMemoryEnabled`
 - `autoUpdate`
 - `autoUpdatesChannel`
 - `awaitingLeaderApproval`
@@ -732,6 +740,7 @@
 - `eagerLoadSettings_end`
 - `eagerLoadSettings_start`
 - `edit_mode`
+- `effort`
 - `elapsed_time_seconds`
 - `email`
 - `enableAllProjectMcpServers`
@@ -771,7 +780,6 @@
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
 - `format`
-- `FR`
 - `from`
 - `fullName`
 - `getOAuthToken`
@@ -866,6 +874,7 @@
 - `newString`
 - `newTodos`
 - `newValue`
+- `noOutputExpected`
 - `noResponseRetries`
 - `notebook_path`
 - `notification_type`
@@ -940,6 +949,7 @@
 - `query`
 - `question`
 - `questions`
+- `qy`
 - `rawOutputPath`
 - `readOnly`
 - `reason`
@@ -994,8 +1004,6 @@
 - `shouldBlock`
 - `skill`
 - `skills`
-- `skippedMarketplaces`
-- `skippedPlugins`
 - `skipWebFetchPreflight`
 - `slash_commands`
 - `socketPath`
@@ -1025,6 +1033,7 @@
 - `success`
 - `summary`
 - `suppressOutput`
+- `symlinkDirectories`
 - `syntaxHighlightingDisabled`
 - `systemMessage`
 - `tabId`
@@ -1090,9 +1099,14 @@
 - `web_fetch_requests`
 - `web_search_requests`
 - `webSearchRequests`
+- `work_dir`
 - `workerColor`
 - `workerId`
 - `workerName`
+- `worktree`
+- `worktreeBranch`
+- `worktreePath`
+- `ws_url`
 
 ## Tools
 
@@ -1113,6 +1127,7 @@ _None detected_
 - `claude-3-`
 - `claude-3-5-haiku`
 - `claude-3-5-haiku-20241022`
+- `claude-3-5-haiku-latest`
 - `claude-3-5-sonnet`
 - `claude-3-5-sonnet-20241022`
 - `claude-3-7-sonnet`
@@ -1184,7 +1199,6 @@ _None detected_
 - `opus-pro-update`
 - `sonnet-1m-welcome`
 - `sonnet-4`
-- `sonnet-4.5-update`
 
 ## Providers
 
