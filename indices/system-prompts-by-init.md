@@ -1,12 +1,12 @@
 # System Prompts Index – by init
 
-- Total prompt files: **108**
+- Total prompt files: **101**
 
 ## Categories
 
 - System prompts (25)
 - Tool prompts (23)
-- System data (60)
+- System data (53)
 
 ## System prompts (25)
 
@@ -14,17 +14,16 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
-| [`system-prompt-organize-md-memories.md`](../system-prompts/system-prompt-organize-md-memories.md) | Instructions to add global or project memories into CLAUDE.md with correct sections. | 296 | 0.2.33 | 0.2.33 |
-| [`system-prompt-explore-large-repository-tree.md`](../system-prompts/system-prompt-explore-large-repository-tree.md) | Explore a massive repository with LS and Bash, using provided initial directory listing. | 75 | 0.2.33 | 0.2.33 |
+| [`system-prompt-secure-cli-coding.md`](../system-prompts/system-prompt-secure-cli-coding.md) | Interactive CLI coding assistant with strict malware refusal and slash-command help workflow | 2,329 | 0.2.36 | 0.2.36 |
+| [`system-prompt-secure-persistent-bash-execution.md`](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | Execute bash commands in persistent shell with directory checks, quoting, timeouts, and banned-command restrictions. | 2,202 | 0.2.36 | 0.2.36 |
+| [`system-prompt-technical-conversation-summary-format.md`](../system-prompts/system-prompt-technical-conversation-summary-format.md) | Produces a detailed development-focused conversation summary with required sections. | 663 | 0.2.36 | 0.2.36 |
+| [`system-prompt-organize-project-memories-file-2.md`](../system-prompts/system-prompt-organize-project-memories-file-2.md) | Update or add memories in CLAUDE.md, grouped by global preferences and project sections. | 340 | 0.2.36 | 0.2.36 |
+| [`system-prompt-initial-git-status-snapshot-2.md`](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | Record initial git status snapshot, including current branch and main branch names. | 89 | 0.2.36 | 0.2.36 |
+| [`system-prompt-continue-from-prior-session.md`](../system-prompts/system-prompt-continue-from-prior-session.md) | Resumes work using a provided summary from a previous context-limited conversation. | 36 | 0.2.36 | 0.2.36 |
 | [`system-prompt-blocked-directory-change-security.md`](../system-prompts/system-prompt-blocked-directory-change-security.md) | Security error stating cd blocked unless within original working directory child paths. | 57 | 0.2.33 | 0.2.33 |
-| [`system-prompt-initial-git-status-snapshot-2.md`](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | Record initial git status snapshot, including current branch and main branch names. | 77 | 0.2.32 | 0.2.32 |
-| [`system-prompt-secure-cli-coding.md`](../system-prompts/system-prompt-secure-cli-coding.md) | Interactive CLI coding assistant with strict malware refusal and slash-command help workflow | 2,322 | 0.2.30 | 0.2.30 |
-| [`system-prompt-safe-bash-command-runner.md`](../system-prompts/system-prompt-safe-bash-command-runner.md) | Execute bash commands with pre-run directory checks, banned-command enforcement, and output truncation limits. | 2,307 | 0.2.30 | 0.2.30 |
 | [`system-prompt-bash-command-prefix-detection.md`](../system-prompts/system-prompt-bash-command-prefix-detection.md) | Define command prefix extraction and injection detection with illustrative shell command examples. | 658 | 0.2.30 | 0.2.30 |
 | [`system-prompt-command-metadata-tags.md`](../system-prompts/system-prompt-command-metadata-tags.md) | Multiple prompts (2) | 52 | 0.2.30 | 0.2.30 |
-| [`system-prompt-explore-large-repository-tree-2.md`](../system-prompts/system-prompt-explore-large-repository-tree-2.md) | Explore a massive repository with LS and Bash, using provided initial directory listing. | 55 | 0.2.29 | 0.2.33 |
 | [`system-prompt-delegated-search-guidance.md`](../system-prompts/system-prompt-delegated-search-guidance.md) | Instruct when to launch a search agent versus using direct file or grep tools. | 432 | 0.2.18 | 0.2.18 |
-| [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 76 | 0.2.18 | 0.2.18 |
 | [`system-prompt-fetch-pr-comments.md`](../system-prompts/system-prompt-fetch-pr-comments.md) | Fetch PR-level and review comments via gh API, then format threads with diffs. | 444 | 0.2.9 | 0.2.9 |
 | [`system-prompt-review-github-pull-request.md`](../system-prompts/system-prompt-review-github-pull-request.md) | Use GitHub CLI to list/view PRs, fetch diff, and deliver structured code review. | 233 | 0.2.9 | 0.2.9 |
 | [`system-prompt-cli-guidelines.md`](../system-prompts/system-prompt-cli-guidelines.md) | Instruct Claude Code to reply briefly with absolute paths and relevant snippets. | 224 | 0.2.9 | 0.2.9 |
@@ -36,6 +35,7 @@ _Sorted by init (newest first)._
 | [`system-prompt-select-core-frequently-modified-files.md`](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | Choose five diverse frequently modified core-logic filenames from git history stats. | 90 | 0.2.9 | 0.2.9 |
 | [`system-prompt-detect-new-topic-title.md`](../system-prompts/system-prompt-detect-new-topic-title.md) | Detect whether a message starts a new topic and extract a short title. | 85 | 0.2.9 | 0.2.9 |
 | [`system-prompt-command-message-xml-template.md`](../system-prompts/system-prompt-command-message-xml-template.md) | Format a command message with name, args, and contents XML-like fields. | 82 | 0.2.9 | 0.2.9 |
+| [`system-prompt-fix-missing-executable-name.md`](../system-prompts/system-prompt-fix-missing-executable-name.md) | Advise fixes when a specified CLI subcommand executable path is missing. | 81 | 0.2.9 | 0.2.9 |
 | [`system-prompt-feedback-issue-title.md`](../system-prompts/system-prompt-feedback-issue-title.md) | Create a concise issue title summarizing user feedback. | 56 | 0.2.9 | 0.2.9 |
 | [`system-prompt-file-updated-snippet-output.md`](../system-prompts/system-prompt-file-updated-snippet-output.md) | Notify that a file was updated and show numbered snippet output from cat -n. | 38 | 0.2.9 | 0.2.9 |
 | [`system-prompt-classify-bash-command-prefix.md`](../system-prompts/system-prompt-classify-bash-command-prefix.md) | Determine the appropriate prefix for bash commands requested by a coding agent. | 33 | 0.2.9 | 0.2.9 |
@@ -46,8 +46,8 @@ _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`tool-description-secure-bash-command-runner.md`](../system-prompts/tool-description-secure-bash-command-runner.md) | Run a bash command with directory verification, banned-command checks, and output truncation. | 2,179 | 0.2.36 | 0.2.36 |
 | [`tool-description-fetch-url-content-analyze.md`](../system-prompts/tool-description-fetch-url-content-analyze.md) | Tool that fetches an HTTPS page, converts to markdown, and analyzes it with a model. | 139 | 0.2.33 | 0.2.33 |
-| [`tool-description-secure-bash-command-runner.md`](../system-prompts/tool-description-secure-bash-command-runner.md) | Run a bash command with directory verification, banned-command checks, and output truncation. | 2,284 | 0.2.30 | 0.2.30 |
 | [`tool-description-list-path-with-ignore-globs.md`](../system-prompts/tool-description-list-path-with-ignore-globs.md) | Lists files and directories at an absolute path with optional ignore glob patterns. | 60 | 0.2.29 | 0.2.29 |
 | [`tool-description-list-approved-tools.md`](../system-prompts/tool-description-list-approved-tools.md) | Request to enumerate all currently approved tools. | 5 | 0.2.25 | 0.2.25 |
 | [`tool-description-toggle-vim-emacs-modes.md`](../system-prompts/tool-description-toggle-vim-emacs-modes.md) | Switch between vim and emacs editing modes. | 8 | 0.2.19 | 0.2.19 |
@@ -70,27 +70,20 @@ _Sorted by init (newest first)._
 | [`tool-description-show-help-and-commands.md`](../system-prompts/tool-description-show-help-and-commands.md) | Displays help text and available commands. | 5 | 0.2.9 | 0.2.9 |
 | [`tool-description-submit-feedback.md`](../system-prompts/tool-description-submit-feedback.md) | Submits user feedback about Claude Code. | 5 | 0.2.9 | 0.2.9 |
 
-## System data (60)
+## System data (53)
 
 _Sorted by init (newest first)._
 
 | File | Summary | Tokens | Init | Last edit |
 | --- | --- | ---: | --- | --- |
+| [`system-data-typed-stan-template-snippet.md`](../system-prompts/system-data-typed-stan-template-snippet.md) | Lists basic type keywords, Stan block labels, and inserts paths and usage examples. | 143 | 0.2.36 | 0.2.36 |
+| [`system-data-stan-blocks-template-snippet.md`](../system-prompts/system-data-stan-blocks-template-snippet.md) | Stan model block template with file paths and twelve expression-driven documentation fields | 127 | 0.2.36 | 0.2.36 |
+| [`system-data-placeholder-array-paths-exprs.md`](../system-prompts/system-data-placeholder-array-paths-exprs.md) | Bracketed list of four path-prefixed expression pairs plus a trailing expression | 109 | 0.2.36 | 0.2.36 |
+| [`system-data-placeholder-object-paths-exprs.md`](../system-prompts/system-data-placeholder-object-paths-exprs.md) | Braced object literal with four path-expression pairs and trailing expression placeholder | 108 | 0.2.36 | 0.2.36 |
 | [`system-data-dom-exception-messages-codes.md`](../system-prompts/system-data-dom-exception-messages-codes.md) | DOM exception names with placeholder numeric codes and messages. | 532 | 0.2.33 | 0.2.33 |
 | [`system-data-dom-exception-names-list.md`](../system-prompts/system-data-dom-exception-names-list.md) | List of DOM exception constants including security and network errors. | 184 | 0.2.33 | 0.2.33 |
 | [`system-data-dom-media-input-events-list.md`](../system-prompts/system-data-dom-media-input-events-list.md) | List of common DOM, media, and form event names. | 153 | 0.2.33 | 0.2.33 |
-| [`system-data-cli-identity-styles-and-context.md`](../system-prompts/system-data-cli-identity-styles-and-context.md) | System-data template listing CLI identity strings, project context tokens, and color style names. | 152 | 0.2.33 | 0.2.33 |
 | [`system-data-html-block-elements-list.md`](../system-prompts/system-data-html-block-elements-list.md) | List of uppercase HTML structural and block-level tag names. | 148 | 0.2.33 | 0.2.33 |
-| [`system-data-cli-color-style-tokens-2.md`](../system-prompts/system-data-cli-color-style-tokens-2.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 105 | 0.2.33 | 0.2.33 |
-| [`system-data-cli-commands-help.md`](../system-prompts/system-data-cli-commands-help.md) | Show CLI identity banner and ANSI styles, then display a Commands section header. | 106 | 0.2.32 | 0.2.32 |
-| [`system-data-cli-usage-types-listing.md`](../system-prompts/system-data-cli-usage-types-listing.md) | CLI help and usage template including type keywords, styles, and multi-line sections. | 198 | 0.2.31 | 0.2.32 |
-| [`system-data-cli-usage-help.md`](../system-prompts/system-data-cli-usage-help.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 182 | 0.2.31 | 0.2.32 |
-| [`system-data-cli-color-style-tokens-4.md`](../system-prompts/system-data-cli-color-style-tokens-4.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 138 | 0.2.31 | 0.2.33 |
-| [`system-data-cli-color-style-tokens.md`](../system-prompts/system-data-cli-color-style-tokens.md) | Multiple prompts (3) | 110 | 0.2.31 | 0.2.32 |
-| [`system-data-cli-global-options.md`](../system-prompts/system-data-cli-global-options.md) | Official Claude CLI header with color/style tokens and Global Options section intro. | 107 | 0.2.31 | 0.2.32 |
-| [`system-data-anthropic-official-cli-styles.md`](../system-prompts/system-data-anthropic-official-cli-styles.md) | Official Claude CLI header with color/style tokens and Options section intro. | 106 | 0.2.31 | 0.2.32 |
-| [`system-data-cli-arguments-help.md`](../system-prompts/system-data-cli-arguments-help.md) | Multiple prompts (2) | 106 | 0.2.31 | 0.2.32 |
-| [`system-data-cli-color-style-tokens-3.md`](../system-prompts/system-data-cli-color-style-tokens-3.md) | Declare CLI identity, enumerate style tokens, and append extra trailing data. | 103 | 0.2.31 | 0.2.33 |
 | [`system-data-swift-attribute-annotations.md`](../system-prompts/system-data-swift-attribute-annotations.md) | List of Swift attribute keywords and Cocoa/Interface Builder annotations including autoclosure and objcMembers. | 235 | 0.2.30 | 0.2.30 |
 | [`system-data-cell-tag-template.md`](../system-prompts/system-data-cell-tag-template.md) | XML-like cell tag with multiple dynamic attributes and nested path element. | 86 | 0.2.30 | 0.2.30 |
 | [`system-data-mapped-valid-disallowed-std.md`](../system-prompts/system-data-mapped-valid-disallowed-std.md) | Repeated tokens for mapped and valid with disallowed std markers and ignored numbers. | 211,885 | 0.2.9 | 0.2.9 |

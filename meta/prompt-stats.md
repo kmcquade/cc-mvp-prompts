@@ -1,4 +1,4 @@
-# Prompt Stats 0.2.35
+# Prompt Stats 0.2.36
 
 | Kind | Prompt | Chars | Tokens | Init | Last edit |
 |---|---|---:|---:|---|---|
@@ -10,35 +10,24 @@
 | system | [System Prompt: Command Message Xml Template](../system-prompts/system-prompt-command-message-xml-template.md) | 220 | 82 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Command Metadata Tags](../system-prompts/system-prompt-command-metadata-tags.md) | 127 | 52 | 0.2.30 | 0.2.30 |
 | system | [System Prompt: Command Writer](../system-prompts/system-prompt-command-writer.md) | 434 | 95 | 0.2.9 | 0.2.9 |
+| system | [System Prompt: Continue From Prior Session](../system-prompts/system-prompt-continue-from-prior-session.md) | 191 | 36 | 0.2.36 | 0.2.36 |
 | system | [System Prompt: Create Md Guide](../system-prompts/system-prompt-create-md-guide.md) | 577 | 162 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Delegated Search Guidance](../system-prompts/system-prompt-delegated-search-guidance.md) | 1777 | 432 | 0.2.18 | 0.2.18 |
 | system | [System Prompt: Delphi Ui Components List](../system-prompts/system-prompt-delphi-ui-components-list.md) | 422 | 148 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Detect New Topic Title](../system-prompts/system-prompt-detect-new-topic-title.md) | 315 | 85 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Explore Large Repository Tree](../system-prompts/system-prompt-explore-large-repository-tree.md) | 259 | 75 | 0.2.33 | 0.2.33 |
-| system | [System Prompt: Explore Large Repository Tree 2](../system-prompts/system-prompt-explore-large-repository-tree-2.md) | 226 | 55 | 0.2.29 | 0.2.33 |
 | system | [System Prompt: Extract Command File Paths](../system-prompts/system-prompt-extract-command-file-paths.md) | 502 | 143 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Feedback Issue Title](../system-prompts/system-prompt-feedback-issue-title.md) | 220 | 56 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: Fetch Pr Comments](../system-prompts/system-prompt-fetch-pr-comments.md) | 1469 | 444 | 0.2.9 | 0.2.9 |
 | system | [System Prompt: File Updated Snippet Output](../system-prompts/system-prompt-file-updated-snippet-output.md) | 117 | 38 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Fix Missing Executable Name](../system-prompts/system-prompt-fix-missing-executable-name.md) | 290 | 76 | 0.2.18 | 0.2.18 |
-| system | [System Prompt: Initial Git Status Snapshot 2](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | 276 | 77 | 0.2.32 | 0.2.32 |
-| system | [System Prompt: Organize Md Memories](../system-prompts/system-prompt-organize-md-memories.md) | 1302 | 296 | 0.2.33 | 0.2.33 |
+| system | [System Prompt: Fix Missing Executable Name](../system-prompts/system-prompt-fix-missing-executable-name.md) | 292 | 81 | 0.2.9 | 0.2.9 |
+| system | [System Prompt: Initial Git Status Snapshot 2](../system-prompts/system-prompt-initial-git-status-snapshot-2.md) | 294 | 89 | 0.2.36 | 0.2.36 |
+| system | [System Prompt: Organize Project Memories File 2](../system-prompts/system-prompt-organize-project-memories-file-2.md) | 1502 | 340 | 0.2.36 | 0.2.36 |
 | system | [System Prompt: Review Github Pull Request](../system-prompts/system-prompt-review-github-pull-request.md) | 894 | 233 | 0.2.9 | 0.2.9 |
-| system | [System Prompt: Safe Bash Command Runner](../system-prompts/system-prompt-safe-bash-command-runner.md) | 9060 | 2307 | 0.2.30 | 0.2.30 |
-| system | [System Prompt: Secure Cli Coding](../system-prompts/system-prompt-secure-cli-coding.md) | 9934 | 2322 | 0.2.30 | 0.2.30 |
+| system | [System Prompt: Secure Cli Coding](../system-prompts/system-prompt-secure-cli-coding.md) | 9950 | 2329 | 0.2.36 | 0.2.36 |
+| system | [System Prompt: Secure Persistent Bash Execution](../system-prompts/system-prompt-secure-persistent-bash-execution.md) | 8674 | 2202 | 0.2.36 | 0.2.36 |
 | system | [System Prompt: Select Core Frequently Modified Files](../system-prompts/system-prompt-select-core-frequently-modified-files.md) | 451 | 90 | 0.2.9 | 0.2.9 |
-| system-data | [System Data: Anthropic Official Cli Styles](../system-prompts/system-data-anthropic-official-cli-styles.md) | 284 | 106 | 0.2.31 | 0.2.32 |
+| system | [System Prompt: Technical Conversation Summary Format](../system-prompts/system-prompt-technical-conversation-summary-format.md) | 2566 | 663 | 0.2.36 | 0.2.36 |
 | system-data | [System Data: Cell Tag Template](../system-prompts/system-data-cell-tag-template.md) | 141 | 86 | 0.2.30 | 0.2.30 |
-| system-data | [System Data: Cli Arguments Help](../system-prompts/system-data-cli-arguments-help.md) | 286 | 106 | 0.2.31 | 0.2.32 |
-| system-data | [System Data: Cli Color Style Tokens](../system-prompts/system-data-cli-color-style-tokens.md) | 285 | 110 | 0.2.31 | 0.2.32 |
-| system-data | [System Data: Cli Color Style Tokens 2](../system-prompts/system-data-cli-color-style-tokens-2.md) | 283 | 105 | 0.2.33 | 0.2.33 |
-| system-data | [System Data: Cli Color Style Tokens 3](../system-prompts/system-data-cli-color-style-tokens-3.md) | 252 | 103 | 0.2.31 | 0.2.33 |
-| system-data | [System Data: Cli Color Style Tokens 4](../system-prompts/system-data-cli-color-style-tokens-4.md) | 331 | 138 | 0.2.31 | 0.2.33 |
-| system-data | [System Data: Cli Commands Help](../system-prompts/system-data-cli-commands-help.md) | 285 | 106 | 0.2.32 | 0.2.32 |
-| system-data | [System Data: Cli Global Options](../system-prompts/system-data-cli-global-options.md) | 291 | 107 | 0.2.31 | 0.2.32 |
-| system-data | [System Data: Cli Identity Styles And Context](../system-prompts/system-data-cli-identity-styles-and-context.md) | 379 | 152 | 0.2.33 | 0.2.33 |
-| system-data | [System Data: Cli Usage Help](../system-prompts/system-data-cli-usage-help.md) | 410 | 182 | 0.2.31 | 0.2.32 |
-| system-data | [System Data: Cli Usage Types Listing](../system-prompts/system-data-cli-usage-types-listing.md) | 467 | 198 | 0.2.31 | 0.2.32 |
 | system-data | [System Data: Cloud Throttling Exception Names](../system-prompts/system-data-cloud-throttling-exception-names.md) | 322 | 93 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Keywords List](../system-prompts/system-data-csharp-keywords-list.md) | 419 | 113 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Csharp Query Keywords List](../system-prompts/system-data-csharp-query-keywords-list.md) | 241 | 81 | 0.2.9 | 0.2.9 |
@@ -68,6 +57,8 @@
 | system-data | [System Data: Numeric Placeholder Sequence](../system-prompts/system-data-numeric-placeholder-sequence.md) | 3218 | 1791 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Numeric Placeholders Repeated](../system-prompts/system-data-numeric-placeholders-repeated.md) | 397 | 237 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Perl Builtin Functions List](../system-prompts/system-data-perl-builtin-functions-list.md) | 1824 | 682 | 0.2.9 | 0.2.9 |
+| system-data | [System Data: Placeholder Array Paths Exprs](../system-prompts/system-data-placeholder-array-paths-exprs.md) | 171 | 109 | 0.2.36 | 0.2.36 |
+| system-data | [System Data: Placeholder Object Paths Exprs](../system-prompts/system-data-placeholder-object-paths-exprs.md) | 171 | 108 | 0.2.36 | 0.2.36 |
 | system-data | [System Data: Plist Keybinding Xml Template](../system-prompts/system-data-plist-keybinding-xml-template.md) | 348 | 158 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Repeated Numeric Placeholders](../system-prompts/system-data-repeated-numeric-placeholders.md) | 1554 | 895 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Roman Numeral Sequence](../system-prompts/system-data-roman-numeral-sequence.md) | 220 | 108 | 0.2.9 | 0.2.9 |
@@ -77,6 +68,7 @@
 | system-data | [System Data: Sql Ddl Null Ordering](../system-prompts/system-data-sql-ddl-null-ordering.md) | 215 | 53 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Sql Functions Json Regression](../system-prompts/system-data-sql-functions-json-regression.md) | 808 | 297 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Sql Keywords Current Array](../system-prompts/system-data-sql-keywords-current-array.md) | 3339 | 1000 | 0.2.9 | 0.2.9 |
+| system-data | [System Data: Stan Blocks Template Snippet](../system-prompts/system-data-stan-blocks-template-snippet.md) | 260 | 127 | 0.2.36 | 0.2.36 |
 | system-data | [System Data: Stan Distributions List](../system-prompts/system-data-stan-distributions-list.md) | 672 | 244 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Stan Functions Reference List](../system-prompts/system-data-stan-functions-reference-list.md) | 5131 | 2155 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Swift Attribute Annotations](../system-prompts/system-data-swift-attribute-annotations.md) | 551 | 235 | 0.2.30 | 0.2.30 |
@@ -85,6 +77,7 @@
 | system-data | [System Data: Swift Keywords List 2](../system-prompts/system-data-swift-keywords-list-2.md) | 565 | 166 | 0.2.9 | 0.2.32 |
 | system-data | [System Data: Swift Keywords List 3](../system-prompts/system-data-swift-keywords-list-3.md) | 567 | 171 | 0.2.9 | 0.2.33 |
 | system-data | [System Data: Swift Standard Library Functions](../system-prompts/system-data-swift-standard-library-functions.md) | 441 | 151 | 0.2.9 | 0.2.9 |
+| system-data | [System Data: Typed Stan Template Snippet](../system-prompts/system-data-typed-stan-template-snippet.md) | 317 | 143 | 0.2.36 | 0.2.36 |
 | system-data | [System Data: Whimsical Verb Synonyms List](../system-prompts/system-data-whimsical-verb-synonyms-list.md) | 607 | 217 | 0.2.9 | 0.2.9 |
 | system-data | [System Data: Wolfram Language Symbols List](../system-prompts/system-data-wolfram-language-symbols-list.md) | 104946 | 35789 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Check Health](../system-prompts/tool-description-check-health.md) | 50 | 9 | 0.2.9 | 0.2.9 |
@@ -100,7 +93,7 @@
 | tool | [Tool Description: Read Jupyter Notebook Cells](../system-prompts/tool-description-read-jupyter-notebook-cells.md) | 309 | 62 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Read Local File Lines](../system-prompts/tool-description-read-local-file-lines.md) | 544 | 128 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Replace Jupyter Notebook Cell](../system-prompts/tool-description-replace-jupyter-notebook-cell.md) | 521 | 117 | 0.2.9 | 0.2.9 |
-| tool | [Tool Description: Secure Bash Command Runner](../system-prompts/tool-description-secure-bash-command-runner.md) | 8948 | 2284 | 0.2.30 | 0.2.30 |
+| tool | [Tool Description: Secure Bash Command Runner](../system-prompts/tool-description-secure-bash-command-runner.md) | 8562 | 2179 | 0.2.36 | 0.2.36 |
 | tool | [Tool Description: Show Help And Commands](../system-prompts/tool-description-show-help-and-commands.md) | 32 | 5 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Show Release Notes](../system-prompts/tool-description-show-release-notes.md) | 55 | 9 | 0.2.9 | 0.2.9 |
 | tool | [Tool Description: Show Session Cost And Duration](../system-prompts/tool-description-show-session-cost-and-duration.md) | 55 | 10 | 0.2.9 | 0.2.9 |

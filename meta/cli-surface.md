@@ -2,9 +2,9 @@
 
 ## Summary
 
-- Commands: 12
+- Commands: 13
 - Options: 17
-- Env vars: 112
+- Env vars: 113
 - Config keys: 60
 - Tools: 0
 - Skills: 0
@@ -16,6 +16,7 @@
 ### Names
 
 - `add`
+- `add-from-claude-desktop`
 - `add-json`
 - `config`
 - `doctor`
@@ -32,6 +33,7 @@
 
 - `add [name] [command] [args...]`
 - `add <key> <value>`
+- `add-from-claude-desktop`
 - `add-json <name> <json>`
 - `config`
 - `doctor`
@@ -177,6 +179,7 @@
 - `TILIX_ID`
 - `TMUX`
 - `USE_BUILTIN_RIPGREP`
+- `USERPROFILE`
 - `VERCEL`
 - `VERCEL_BITBUCKET_COMMIT_SHA`
 - `VERCEL_GIT_COMMIT_SHA`
