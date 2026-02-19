@@ -4,9 +4,15 @@
 
 ## Summary
 
-Indicates the todo list changed and must not be mentioned to the user.
+Internal notice that todo list updated; continue tasks without telling user.
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
 Your todo list has changed. DO NOT mention this explicitly to the user. Here are the latest contents of your todo list:
 
-global. Continue on with the tasks at hand if applicable.
+${EXPR_1}. Continue on with the tasks at hand if applicable.
