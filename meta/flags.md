@@ -1,4 +1,4 @@
-# Claude Code 1.0.120 – Flags
+# Claude Code 1.0.122 – Flags
 
 | Flag | Type | Category | Summary | Notes | Confidence | Occurrences |
 | --- | --- | --- | --- | --- | --- | ---: |
@@ -14,6 +14,7 @@
 | `force_local_installation_migration` | gate | tools | Forces CLI migration from global npm install to local installation with restart prompt | Triggered only when additional runtime checks pass. | high | 1 |
 | `max_user_opusplan` | gate | auth | Controls whether Opus-plan users get an active default model override. | Exact behavior beyond enabling override is unclear. | medium | 1 |
 | `new_max_user_default_model` | gate | tools | Controls default model override selection, optionally forcing opus plan based on gating and token date. | Behavior inferred from obfuscated CLI snippet and surrounding Statsig keys. | medium | 1 |
+| `tengu_ant_prompts` | gate | networking | Selects an alternate fetch implementation for CLI API requests when enabled. | Currently unreachable because the controlling variable is set to false. | medium | 1 |
 | `tengu_auto_checkpointing` | gate | ui | Enables showing autocheckpointing availability in the config panel when not disabled by env | Only seen wired into config UI state. | medium | 1 |
 | `tengu_disable_bypass_permissions_mode` | gate | safety | Disables bypass-permissions mode availability in CLI permission handling based on remote gate/settings | Used to prevent selecting bypassPermissions mode via CLI/config. | high | 2 |
 | `tengu_feedback_survey_config` | config | ui | Configuration controlling when a feedback survey UI appears and closes | Also appears to emit survey events for tracking. | high | 1 |

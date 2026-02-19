@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 37
-- Env vars: 265
-- Config keys: 321
+- Env vars: 267
+- Config keys: 327
 - Tools: 3
 - Skills: 0
 - Models: 37
@@ -174,6 +174,7 @@
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
 - `CLAUDE_CODE_CONTAINER_ID`
+- `CLAUDE_CODE_DEBUG_LOGS_DIR`
 - `CLAUDE_CODE_DISABLE_AUTOCHECKPOINTING`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
@@ -213,6 +214,7 @@
 - `CURSOR_TRACE_ID`
 - `DEBUG`
 - `DEBUG_AUTH`
+- `DEBUG_SDK`
 - `DETECT_GCP_RETRIES`
 - `DEV`
 - `DISABLE_AUTO_MIGRATE_TO_NATIVE`
@@ -334,6 +336,7 @@
 - `SHARP_FORCE_GLOBAL_LIBVIPS`
 - `SHARP_IGNORE_GLOBAL_LIBVIPS`
 - `SHELL`
+- `SLASH_COMMAND_TOOL_CHAR_BUDGET`
 - `SSH_CLIENT`
 - `SSH_CONNECTION`
 - `SSH_TTY`
@@ -359,7 +362,6 @@
 - `UNDICI_NO_FG`
 - `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
-- `USE_LOCAL_OAUTH`
 - `USERPROFILE`
 - `UV_THREADPOOL_SIZE`
 - `V`
@@ -504,6 +506,7 @@
 - `filePath`
 - `filesystem`
 - `filterPattern`
+- `flagSettings`
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
 - `format`
@@ -525,6 +528,7 @@
 - `idempotentHint`
 - `ideName`
 - `ideRunningInWindows`
+- `ignoreViolations`
 - `includeCoAuthoredBy`
 - `includeDefaults`
 - `initialWindowSize`
@@ -549,6 +553,7 @@
 - `lines`
 - `lineStart`
 - `listChanged`
+- `localSettings`
 - `logging`
 - `login`
 - `logo_uri`
@@ -596,8 +601,10 @@
 - `permissions`
 - `plan`
 - `policy_uri`
+- `policySettings`
 - `progress`
 - `progressToken`
+- `projectSettings`
 - `prompt`
 - `prompts`
 - `properties`
@@ -712,6 +719,7 @@
 - `userinfo_endpoint`
 - `userinfo_signing_alg_values_supported`
 - `userModified`
+- `userSettings`
 - `value`
 - `values`
 - `version`
