@@ -99,8 +99,6 @@ Herding
 
 Honking
 
-Hustling
-
 Ideating
 
 Imagining
@@ -108,8 +106,6 @@ Imagining
 Incubating
 
 Inferring
-
-Jiving
 
 Manifesting
 
@@ -152,8 +148,6 @@ Scheming
 Schlepping
 
 Shimmying
-
-Shucking
 
 Simmering
 
