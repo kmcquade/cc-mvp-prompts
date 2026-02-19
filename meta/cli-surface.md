@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 37
-- Env vars: 264
-- Config keys: 317
+- Env vars: 265
+- Config keys: 321
 - Tools: 3
 - Skills: 0
 - Models: 37
@@ -173,6 +173,7 @@
 - `CLAUDE_CODE_CLIENT_CERT`
 - `CLAUDE_CODE_CLIENT_KEY`
 - `CLAUDE_CODE_CLIENT_KEY_PASSPHRASE`
+- `CLAUDE_CODE_CONTAINER_ID`
 - `CLAUDE_CODE_DISABLE_AUTOCHECKPOINTING`
 - `CLAUDE_CODE_DISABLE_CLAUDE_MDS`
 - `CLAUDE_CODE_DISABLE_COMMAND_INJECTION_CHECK`
@@ -403,7 +404,8 @@
 - `additionalContext`
 - `additionalDirectories`
 - `allow`
-- `allowAllExcept`
+- `allowOnly`
+- `allowUnixSockets`
 - `api`
 - `apiKeyHelper`
 - `args`
@@ -461,7 +463,8 @@
 - `default_branch`
 - `defaultMode`
 - `deny`
-- `denyAllExcept`
+- `denyOnly`
+- `denyWithinAllow`
 - `description`
 - `destination`
 - `destructiveHint`
@@ -508,6 +511,7 @@
 - `grant_types_supported`
 - `hasMore`
 - `headers`
+- `headersHelper`
 - `hints`
 - `hookEventName`
 - `hooks`
@@ -522,7 +526,7 @@
 - `ideName`
 - `ideRunningInWindows`
 - `includeCoAuthoredBy`
-- `includeRecommendedDefaults`
+- `includeDefaults`
 - `initialWindowSize`
 - `input`
 - `input_tokens`
@@ -570,6 +574,7 @@
 - `noResponseRetries`
 - `numFiles`
 - `numLines`
+- `numMatches`
 - `oldLines`
 - `oldStart`
 - `oldString`
