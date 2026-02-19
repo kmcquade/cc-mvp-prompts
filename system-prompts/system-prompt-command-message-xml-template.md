@@ -13,11 +13,10 @@ Format a command message with name, args, and contents XML-like fields.
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
-| `EXPR_4` | None | None |
-| `EXPR_5` | JSON stringified value | None |
+| `EXPR_4` | JSON stringified value | None |
 
 # Raw Prompt Text
 <command-message>${EXPR_1} is ${EXPR_2}…<${PATH}>
                     <command-name>${EXPR_3}<${PATH}>
-                    <command-args>${EXPR_4}<${PATH}>
-                    <command-contents>${EXPR_5}<${PATH}>
+                    <command-args>${NUM}<${PATH}>
+                    <command-contents>${EXPR_4}<${PATH}>
