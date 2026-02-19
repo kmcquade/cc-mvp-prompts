@@ -7,4 +7,4 @@
 Lists component token names for reference.
 
 # Raw Prompt Text
-smSelect smLike smCard ${NUM}
+smSelect smLike smCard
