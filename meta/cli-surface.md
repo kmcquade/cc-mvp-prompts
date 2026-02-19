@@ -2,8 +2,8 @@
 
 ## Summary
 
-- Commands: 14
-- Options: 27
+- Commands: 15
+- Options: 28
 - Env vars: 210
 - Config keys: 155
 - Tools: 0
@@ -21,6 +21,7 @@
 - `config`
 - `doctor`
 - `get`
+- `install`
 - `list`
 - `mcp`
 - `migrate-installer`
@@ -40,6 +41,7 @@
 - `doctor`
 - `get <key>`
 - `get <name>`
+- `install`
 - `list`
 - `mcp`
 - `migrate-installer`
@@ -62,6 +64,7 @@
 - `--disallowedTools`
 - `--env`
 - `--fallback-model`
+- `--force`
 - `--global`
 - `--header`
 - `--mcp-config`
@@ -89,6 +92,7 @@
 - `--dangerously-skip-permissions`
 - `--disallowedTools <tools...>`
 - `--fallback-model <model>`
+- `--force`
 - `--mcp-config <file or string>`
 - `--mcp-debug`
 - `--model <model>`
