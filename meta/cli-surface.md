@@ -2,9 +2,9 @@
 
 ## Summary
 
-- Commands: 13
+- Commands: 14
 - Options: 17
-- Env vars: 123
+- Env vars: 124
 - Config keys: 61
 - Tools: 5
 - Skills: 0
@@ -23,6 +23,7 @@
 - `get`
 - `list`
 - `mcp`
+- `migrate-installer`
 - `remove`
 - `reset-project-choices`
 - `serve`
@@ -41,6 +42,7 @@
 - `get <name>`
 - `list`
 - `mcp`
+- `migrate-installer`
 - `remove <key> [values...]`
 - `remove <name>`
 - `reset-project-choices`
@@ -92,6 +94,7 @@
 - `ALIYUN_REGION_ID`
 - `ANTHROPIC_API_KEY`
 - `ANTHROPIC_AUTH_TOKEN`
+- `ANTHROPIC_BASE_URL`
 - `ANTHROPIC_CUSTOM_HEADERS`
 - `ANTHROPIC_MODEL`
 - `ANTHROPIC_SMALL_FAST_MODEL`
