@@ -4,8 +4,8 @@
 
 - Commands: 16
 - Options: 32
-- Env vars: 236
-- Config keys: 270
+- Env vars: 235
+- Config keys: 268
 - Tools: 1
 - Skills: 0
 - Models: 30
@@ -196,7 +196,6 @@
 - `CURSOR_TRACE_ID`
 - `DEBUG`
 - `DEBUG_AUTH`
-- `DETAILED_PERMISSION_MESSAGES`
 - `DETECT_GCP_RETRIES`
 - `DEV`
 - `DISABLE_AUTOUPDATER`
@@ -443,7 +442,6 @@
 - `experimental`
 - `expires_in`
 - `extensions`
-- `feedbackSurveyState`
 - `file`
 - `filenames`
 - `filePath`
@@ -478,7 +476,6 @@
 - `jwks`
 - `jwks_uri`
 - `language`
-- `lastShownTime`
 - `learnMode`
 - `libvips`
 - `line`
