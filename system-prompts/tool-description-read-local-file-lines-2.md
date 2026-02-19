@@ -7,7 +7,7 @@
 Reads an absolute-path file with optional offsets, truncation, and numbered output.
 
 # Raw Prompt Text
-Reads a file from the local filesystem.
+Reads a file from the local filesystem. You can access any file directly by using this tool.
 
 Usage:
 - The file_path parameter must be an absolute path, not a relative path
