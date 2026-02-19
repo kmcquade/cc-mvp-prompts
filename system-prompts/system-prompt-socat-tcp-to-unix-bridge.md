@@ -17,4 +17,4 @@ Launches socat TCP listener to Unix socket, traps cleanup, then evals command
 socat TCP-LISTEN:${NUM},fork,reuseaddr,keepalive,keepidle=${NUM},keepintvl=${NUM},keepcnt=${NUM} UNIX-CONNECT:${EXPR_1} &
 SANDBOX_SOCAT_PID=$!
 trap "kill $SANDBOX_SOCAT_PID ${NUM}>${PATH}" EXIT
-eval ${EXPR_2}
+eval ${URL} ${URL} ${EXPR_2}
