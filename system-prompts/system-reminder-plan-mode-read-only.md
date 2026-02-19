@@ -11,7 +11,7 @@ Enforces plan-only mode, limiting actions to editing the designated plan file.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | Explore | None |
+| `EXPR_2` | resolved string (158 chars) | None |
 | `EXPR_3` | ExitPlanMode | None |
 | `EXPR_4` | ExitPlanMode | None |
 
@@ -29,9 +29,7 @@ Your goal is to build a comprehensive plan through iterative refinement and inte
 
 ${NUM}. Write your plan in the plan file specified above. This is the ONLY file you are allowed to edit.
 
-${NUM}. **Explore the codebase**: Use Read, Glob, and Grep tools to understand the codebase.
-You have access to the ${EXPR_2: 'Explore'} agent type if you want to delegate search.
-Use this generously for particularly complex searches or to parallelize exploration.
+${NUM}. **Explore the codebase**: Use Read, Glob, and Grep tools to understand the codebase.${EXPR_2}
 
 ${NUM}. **Interview the user**: Use AskUserQuestion to interview the user and ask questions that:
    - Clarify ambiguous requirements
