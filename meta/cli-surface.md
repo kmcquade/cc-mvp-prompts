@@ -4,12 +4,12 @@
 
 - Commands: 30
 - Options: 62
-- Env vars: 409
-- Config keys: 527
+- Env vars: 412
+- Config keys: 534
 - Tools: 3
 - Skills: 0
-- Models: 82
-- Providers: 7
+- Models: 83
+- Providers: 8
 
 ## Commands
 
@@ -273,6 +273,7 @@
 - `CLAUDE_AGENT_SDK_DISABLE_BUILTIN_AGENTS`
 - `CLAUDE_AGENT_SDK_MCP_NO_PREFIX`
 - `CLAUDE_AGENT_SDK_VERSION`
+- `CLAUDE_AUTO_BACKGROUND_TASKS`
 - `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`
 - `CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR`
 - `CLAUDE_BASH_NO_LOGIN`
@@ -351,6 +352,7 @@
 - `CLAUDE_CODE_OAUTH_CLIENT_ID`
 - `CLAUDE_CODE_OAUTH_TOKEN`
 - `CLAUDE_CODE_OAUTH_TOKEN_FILE_DESCRIPTOR`
+- `CLAUDE_CODE_ORGANIZATION_UUID`
 - `CLAUDE_CODE_OTEL_FLUSH_TIMEOUT_MS`
 - `CLAUDE_CODE_OTEL_HEADERS_HELPER_DEBOUNCE_MS`
 - `CLAUDE_CODE_OTEL_SHUTDOWN_TIMEOUT_MS`
@@ -394,6 +396,7 @@
 - `CLAUDE_CODE_TMUX_SESSION`
 - `CLAUDE_CODE_TST_NAMES_IN_MESSAGES`
 - `CLAUDE_CODE_USE_BEDROCK`
+- `CLAUDE_CODE_USE_CCR_V2`
 - `CLAUDE_CODE_USE_COWORK_PLUGINS`
 - `CLAUDE_CODE_USE_FOUNDRY`
 - `CLAUDE_CODE_USE_NATIVE_FILE_SEARCH`
@@ -643,6 +646,7 @@
 - `allowLocalBinding`
 - `allowManagedDomainsOnly`
 - `allowManagedHooksOnly`
+- `allowManagedMcpServersOnly`
 - `allowManagedPermissionRulesOnly`
 - `allowPty`
 - `allowUnixSockets`
@@ -675,6 +679,7 @@
 - `awsAuthRefresh`
 - `awsCredentialExport`
 - `backendType`
+- `background`
 - `backgroundedByUser`
 - `backgroundTaskId`
 - `base64`
@@ -686,6 +691,7 @@
 - `blocks`
 - `bpfPath`
 - `branch`
+- `budgetTokens`
 - `bytes`
 - `cache_creation`
 - `cache_creation_input_tokens`
@@ -693,6 +699,7 @@
 - `cacheCreationInputTokens`
 - `cacheReadInputTokens`
 - `callbackPort`
+- `canReadOutputFile`
 - `canRewind`
 - `cell_id`
 - `cell_type`
@@ -713,7 +720,6 @@
 - `compact_metadata`
 - `companyAnnouncements`
 - `compressible`
-- `confidence`
 - `config`
 - `content`
 - `contents`
@@ -801,10 +807,12 @@
 - `flagSettings`
 - `forceLoginMethod`
 - `forceLoginOrgUUID`
+- `forceRemoveDeletedPlugins`
 - `format`
 - `from`
 - `fromYoloMode`
 - `fullName`
+- `Fy`
 - `getOAuthToken`
 - `getUserId`
 - `gitCommitSha`
@@ -855,6 +863,7 @@
 - `keywords`
 - `label`
 - `language`
+- `last_assistant_message`
 - `lastModified`
 - `lastUpdated`
 - `libvips`
@@ -868,7 +877,6 @@
 - `lspServers`
 - `mandatoryDenySearchDepth`
 - `markdown`
-- `matchedDescription`
 - `matcher`
 - `matches`
 - `max_results`
@@ -1017,7 +1025,6 @@
 - `ruleContent`
 - `rules`
 - `run_in_background`
-- `Ry`
 - `safeFlags`
 - `sandbox`
 - `schema`
@@ -1047,6 +1054,10 @@
 - `spinnerTipsEnabled`
 - `spinnerTipsOverride`
 - `spinnerVerbs`
+- `sshConfigs`
+- `sshHost`
+- `sshIdentityFile`
+- `sshPort`
 - `start`
 - `startLine`
 - `status`
@@ -1126,7 +1137,6 @@
 - `url`
 - `usage`
 - `userId`
-- `userIntended`
 - `userModified`
 - `userSettings`
 - `utilization`
@@ -1194,6 +1204,7 @@ _None detected_
 - `claude-code-user`
 - `claude-context`
 - `claude-dev`
+- `claude-developer-platform`
 - `claude-empty-`
 - `claude-folder`
 - `claude-haiku-4`
@@ -1250,4 +1261,5 @@ _None detected_
 - `bedrock`
 - `foundry`
 - `google`
+- `openai`
 - `vertex`

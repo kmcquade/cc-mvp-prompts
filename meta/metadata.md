@@ -7,27 +7,27 @@
 
 ## Bundle
 
-- Entry bytes: 11434667 bytes
-- Entry lines: 7527
+- Entry bytes: 11655859 bytes
+- Entry lines: 12184
 - Pretty printer: esbuild
 - Pretty printer version: 0.27.2
-- Pretty bytes: 14667180 bytes
-- Pretty lines: 281696
+- Pretty bytes: 14911525 bytes
+- Pretty lines: 288377
 
 ## Inventory
 
 - File count: 22
-- Size bytes: 79290926
+- Size bytes: 79512191
 
 ### Extension Counts
 
 - `.exe`: 2 files, 9349632 bytes
-- `.js`: 1 files, 11434667 bytes
-- `.json`: 1 files, 1200 bytes
-- `.lock`: 1 files, 551 bytes
+- `.js`: 1 files, 11655859 bytes
+- `.json`: 1 files, 1241 bytes
+- `.lock`: 1 files, 596 bytes
 - `.md`: 2 files, 2184 bytes
 - `.node`: 6 files, 32968352 bytes
-- `.ts`: 1 files, 67421 bytes
+- `.ts`: 1 files, 67408 bytes
 - `.wasm`: 3 files, 4064873 bytes
 
 ### Asset Sizes
@@ -63,22 +63,22 @@
 
 ## Snapshot Scan Provenance
 
-- Snapshot generated at: 2026-02-18 21:04:21 UTC
+- Snapshot generated at: 2026-02-19 14:47:40 UTC
 - Node runtime: `v22.22.0`
-- Config hash: `eb2683b593938dcad27db9c330e73a77f47d90ebf946ef8863d11ff6158e019a`
-- Embedded build timestamp: 2026-02-17 17:32:29 UTC
-- Relative to embedded build timestamp: 1d 3h 31m 52s (2026-02-17 17:32:29 UTC → 2026-02-18 21:04:21 UTC)
+- Config hash: `6bbe250943260f0ea8fb7a69faeaafe04062a7650a73006fbbc33c7b01d803c2`
+- Embedded build timestamp: 2026-02-18 20:13:52 UTC
+- Relative to embedded build timestamp: 18h 33m 48s (2026-02-18 20:13:52 UTC → 2026-02-19 14:47:40 UTC)
 
 ## Prompt Token Distribution
 
-- Total prompt tokens: 398,293
-- Token p95 / p99: 238 / 1,163
+- Total prompt tokens: 445,302
+- Token p95 / p99: 301 / 1,568
 
 ### By Kind
 
-- `system-data`: 270,055 tokens (67.8%)
-- `system`: 52,535 tokens (13.2%)
-- `system-reminder`: 51,020 tokens (12.8%)
-- `tool`: 17,022 tokens (4.3%)
-- `skill`: 4,500 tokens (1.1%)
-- `agent`: 3,161 tokens (0.8%)
+- `system-data`: 284,131 tokens (63.8%)
+- `system`: 77,351 tokens (17.4%)
+- `system-reminder`: 59,050 tokens (13.3%)
+- `tool`: 17,094 tokens (3.8%)
+- `skill`: 4,472 tokens (1.0%)
+- `agent`: 3,204 tokens (0.7%)
