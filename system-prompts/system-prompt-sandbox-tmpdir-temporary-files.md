@@ -14,7 +14,7 @@ Describes sandbox command usage restrictions and TMPDIR-based handling for tempo
 
 # Raw Prompt Text
 - Commands run in a sandbox by default with the following restrictions:
-Usage: ${EXPR_1}
+${EXPR_1}
 null
   - IMPORTANT: For temporary files, use `${PATH}` as your temporary directory
     - The TMPDIR environment variable is automatically set to `${PATH}` when running in sandbox mode
