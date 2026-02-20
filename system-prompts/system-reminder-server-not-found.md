@@ -6,5 +6,11 @@
 
 Report that the specified server could not be found.
 
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
 # Raw Prompt Text
-Server not found: ${NUM}
+Server not found: ${EXPR_1}
