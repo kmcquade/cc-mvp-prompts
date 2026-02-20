@@ -1,0 +1,17 @@
+# System Reminder: b2ca8e84
+
+- Source: inline
+
+## Summary
+
+Linked worktree preserved at: … on branch: …
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+
+# Raw Prompt Text
+Linked worktree preserved at: ${EXPR_1} on branch: ${EXPR_2}
