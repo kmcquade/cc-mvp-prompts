@@ -4,7 +4,7 @@
 
 ## Summary
 
-Multiple prompts (2)
+Create a chronological, technically detailed conversation summary with analysis notes.
 
 # Raw Prompt Text
 Your task is to create a detailed summary of the conversation so far, paying close attention to the user's explicit requests and your previous actions.
