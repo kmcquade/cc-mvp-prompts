@@ -11,7 +11,7 @@ Log out-of-bounds index when marking a mailbox message as read.
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | 0 | None |
 
 # Raw Prompt Text
-[TeammateMailbox] markMessageAsReadByIndex: index ${EXPR_1} out of bounds (${EXPR_2} messages)
+[TeammateMailbox] markMessageAsReadByIndex: index ${EXPR_1} out of bounds (${EXPR_2: 0} messages)
