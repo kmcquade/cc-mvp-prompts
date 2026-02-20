@@ -10,7 +10,7 @@ FileIndex file suggestion generation completed with result count, timing, and ca
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | 0 | None |
 
 # Raw Prompt Text
-[FileIndex] generateFileSuggestions: ${EXPR_1} results in globalms (cache miss)
+[FileIndex] generateFileSuggestions: ${EXPR_1: 0} results in globalms (cache miss)
