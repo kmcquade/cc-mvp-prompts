@@ -13,18 +13,10 @@ Display repeated PATH entries, then low/medium/high labels, then a final express
 | `EXPR_1` | None | None |
 
 # Raw Prompt Text
-${PATH}
-
-${PATH}
-
-${PATH}
-
-${PATH}
+${EXPR_1}
 
 low
 
 medium
 
 high
-
-${EXPR_1}
