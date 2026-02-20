@@ -10,7 +10,7 @@ Reports how many MCP servers were found for the current installation type.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | 0 | None |
 
 # Raw Prompt Text
-AutoUpdaterWrapper: Installation type: Found ${EXPR_1} MCP servers in Claude Desktop.
+AutoUpdaterWrapper: Installation type: Found ${EXPR_1: 0} MCP servers in Claude Desktop.
