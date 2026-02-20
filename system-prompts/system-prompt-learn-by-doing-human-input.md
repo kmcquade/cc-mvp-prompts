@@ -4,7 +4,7 @@
 
 ## Summary
 
-Request 3–5 line human code contributions for key logic, tracked via TodoList prompts.
+Interactive CLI encourages learning by requesting small code contributions and tracking them in todos
 
 ## Placeholder Hints (source-backed)
 
