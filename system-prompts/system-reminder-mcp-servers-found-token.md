@@ -11,7 +11,7 @@ Expect a tokenized message stating how many MCP servers were found in Claude Des
 | Expression | Hint | Reference |
 | --- | --- | --- |
 | `EXPR_1` | None | None |
-| `EXPR_2` | None | None |
+| `EXPR_2` | 0 | None |
 
 # Raw Prompt Text
-token '${EXPR_1}', 'Found ${EXPR_2} MCP servers in Claude Desktop.' expected
+token '${EXPR_1}', 'Found ${EXPR_2: 0} MCP servers in Claude Desktop.' expected
