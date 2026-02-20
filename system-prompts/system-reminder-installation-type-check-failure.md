@@ -10,7 +10,7 @@ Report error checking installation type after migration with MCP server count fo
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | 0 | None |
 
 # Raw Prompt Text
-Error checking installation type after migration: Found ${EXPR_1} MCP servers in Claude Desktop.
+Error checking installation type after migration: Found ${EXPR_1: 0} MCP servers in Claude Desktop.
