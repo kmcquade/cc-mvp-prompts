@@ -15,15 +15,14 @@ Validate keybinding config file, list common errors and warnings with fixes.
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
 | `EXPR_5` | None | None |
-| `EXPR_6` | None | None |
 
 # Raw Prompt Text
 ## Validation with ${PATH}
 The `${PATH}` command includes a "Keybinding Configuration Issues" section that validates `~${PATH}`.
 ### Common Issues and Fixes
 | ${URL} | ${URL} |
-| ${EXPR_1} | ${EXPR_2} | ${EXPR_3} | ${EXPR_4} | ${EXPR_5} |
-${EXPR_6}
+| ${EXPR_1} | ${EXPR_2} | ${EXPR_3} | ${EXPR_4} |
+${EXPR_5}
 ### Example ${PATH} Output
 ```
 Keybinding Configuration Issues
