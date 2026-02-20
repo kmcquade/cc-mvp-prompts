@@ -10,7 +10,7 @@ Indicates the initial hook response could not be parsed as JSON.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | tasklist | None |
+| `EXPR_1` | None | None |
 
 # Raw Prompt Text
-Hooks: Failed to parse initial response as JSON: ${EXPR_1: 'tasklist'}
+Hooks: Failed to parse initial response as JSON: ${EXPR_1}
