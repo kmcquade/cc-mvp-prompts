@@ -2,7 +2,7 @@
 
 - Agent Type: ANTHROPIC_API_KEY
 - When to use: unknown
-- Model: user_permanent
+- Model: 3000
 - Source: plugin
 - Color: 1
 
@@ -14,10 +14,10 @@ Report count of MCP servers found in Claude Desktop, followed by details.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | 0 | None |
 | `EXPR_2` | None | None |
 
 # Raw Prompt Text
-Found ${EXPR_1} MCP servers in Claude Desktop.
+Found ${EXPR_1: 0} MCP servers in Claude Desktop.
 
 ${EXPR_2}
