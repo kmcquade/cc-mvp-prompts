@@ -1,5 +1,9 @@
 # Claude Code Changelog
 
+<p align="center">
+  <img src=".github/assets/claude_code_changelog_gh_banner.png" alt="Claude Code Changelog banner" />
+</p>
+
 [![Status](https://status.marckrenn.dev/api/badge/3/status)](https://status.marckrenn.dev/status/claudecodechangelog)
 [![Uptime](https://status.marckrenn.dev/api/badge/3/uptime)](https://status.marckrenn.dev/status/claudecodechangelog)
 
