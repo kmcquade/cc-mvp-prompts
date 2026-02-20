@@ -10,9 +10,9 @@ Report skills loaded from a plugin custom path location.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | 0 | None |
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 
 # Raw Prompt Text
-Loaded ${EXPR_1} skills from plugin ${EXPR_2} custom path: ${EXPR_3}
+Loaded ${EXPR_1: 0} skills from plugin ${EXPR_2} custom path: ${EXPR_3}
