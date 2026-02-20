@@ -14,7 +14,6 @@ Provides the user's current custom environment configuration to consider in answ
 | `EXPR_2` | None | None |
 | `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | None | None |
 
 # Raw Prompt Text
 @anthropic-ai${PATH}
@@ -32,7 +31,5 @@ ${EXPR_2}
 ${EXPR_3}
 
 ${EXPR_4}
-
-${EXPR_5}
 
 When answering questions, consider these configured features and proactively suggest them when relevant.
