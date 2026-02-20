@@ -1,0 +1,16 @@
+# System Reminder: d4689dea
+
+- Source: inline
+
+## Summary
+
+Failed to configure hooks path: (PID …)
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+Failed to configure hooks path:  (PID ${EXPR_1})
