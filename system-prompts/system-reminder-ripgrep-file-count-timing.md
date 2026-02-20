@@ -10,7 +10,7 @@ Log ripgrep scan file count and elapsed time in milliseconds.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | None | None |
+| `EXPR_1` | 0 | None |
 
 # Raw Prompt Text
-[FileIndex] ripgrep: ${EXPR_1} files in globalms
+[FileIndex] ripgrep: ${EXPR_1: 0} files in globalms
