@@ -10,16 +10,19 @@ Displays two lines of text followed by a parenthesized PID value.
 
 | Expression | Hint | Reference |
 | --- | --- | --- |
-| `EXPR_1` | Read | None |
-| `EXPR_2` | Glob | None |
-| `EXPR_3` | Grep | None |
+| `EXPR_1` | None | None |
+| `EXPR_2` | None | None |
+| `EXPR_3` | resolved list (4 items) | None |
 | `EXPR_4` | None | None |
+| `EXPR_5` | None | None |
 
 # Raw Prompt Text
-${EXPR_1: 'Read'}
+${EXPR_1}
 
-${EXPR_2: 'Glob'}
+${EXPR_2}
 
-${EXPR_3: 'Grep'}
+${EXPR_3}
 
- (PID ${EXPR_4})
+${EXPR_4}
+
+ (PID ${EXPR_5})
