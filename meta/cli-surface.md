@@ -2,10 +2,10 @@
 
 ## Summary
 
-- Commands: 30
+- Commands: 23
 - Options: 62
-- Env vars: 412
-- Config keys: 534
+- Env vars: 408
+- Config keys: 535
 - Tools: 3
 - Skills: 0
 - Models: 83
@@ -19,13 +19,10 @@
 - `add-from-claude-desktop`
 - `add-json`
 - `auth`
-- `call`
 - `disable`
 - `doctor`
 - `enable`
 - `get`
-- `grep`
-- `info`
 - `install`
 - `list`
 - `login`
@@ -33,15 +30,11 @@
 - `marketplace`
 - `mcp`
 - `plugin`
-- `read`
 - `remove`
 - `reset-project-choices`
-- `resources`
 - `serve`
-- `servers`
 - `setup-token`
 - `status`
-- `tools`
 - `uninstall`
 - `update`
 - `validate`
@@ -53,13 +46,10 @@
 - `add-from-claude-desktop`
 - `add-json <name> <json>`
 - `auth`
-- `call`
 - `disable [plugin]`
 - `doctor`
 - `enable <plugin>`
 - `get <name>`
-- `grep`
-- `info`
 - `install [target]`
 - `install <plugin>`
 - `list`
@@ -68,15 +58,11 @@
 - `marketplace`
 - `mcp`
 - `plugin`
-- `read`
 - `remove <name>`
 - `reset-project-choices`
-- `resources`
 - `serve`
-- `servers`
 - `setup-token`
 - `status`
-- `tools`
 - `uninstall <plugin>`
 - `update`
 - `update [name]`
@@ -116,7 +102,6 @@
 - `--from-pr`
 - `--header`
 - `--ide`
-- `--ignore-case`
 - `--include-partial-messages`
 - `--json`
 - `--mcp-config`
@@ -135,20 +120,21 @@
 - `--sso`
 - `--strict-mcp-config`
 - `--text`
-- `--timeout`
+- `--tmux`
 - `--tools`
 - `--transport`
 - `--verbose`
+- `--worktree`
 - `-a`
 - `-c`
 - `-d`
 - `-e`
 - `-H`
-- `-i`
 - `-p`
 - `-r`
 - `-s`
 - `-t`
+- `-w`
 
 ### Specs
 
@@ -164,7 +150,6 @@
 - `--client-id <clientId>`
 - `--client-secret`
 - `--dangerously-skip-permissions`
-- `--debug`
 - `--debug-file <path>`
 - `--disable-slash-commands`
 - `--disallowedTools, --disallowed-tools <tools...>`
@@ -190,7 +175,7 @@
 - `--sso`
 - `--strict-mcp-config`
 - `--text`
-- `--timeout <ms>`
+- `--tmux`
 - `--tools <tools...>`
 - `--verbose`
 - `-a, --all`
@@ -199,11 +184,11 @@
 - `-d, --debug [filter]`
 - `-e, --env <env...>`
 - `-H, --header <header...>`
-- `-i, --ignore-case`
 - `-p, --print`
 - `-r, --resume [value]`
 - `-s, --scope <scope>`
 - `-t, --transport <transport>`
+- `-w, --worktree [name]`
 
 ## Env Vars
 
@@ -372,9 +357,9 @@
 - `CLAUDE_CODE_RESUME_INTERRUPTED_TURN`
 - `CLAUDE_CODE_SAVE_HOOK_ADDITIONAL_CONTEXT`
 - `CLAUDE_CODE_SESSION_ACCESS_TOKEN`
-- `CLAUDE_CODE_SESSION_ID`
 - `CLAUDE_CODE_SHELL`
 - `CLAUDE_CODE_SHELL_PREFIX`
+- `CLAUDE_CODE_SIMPLE`
 - `CLAUDE_CODE_SKIP_BEDROCK_AUTH`
 - `CLAUDE_CODE_SKIP_FOUNDRY_AUTH`
 - `CLAUDE_CODE_SKIP_PRECOMPACT_LOAD`
@@ -450,9 +435,6 @@
 - `ENABLE_BETA_TRACING_DETAILED`
 - `ENABLE_CLAUDE_CODE_SM_COMPACT`
 - `ENABLE_ENHANCED_TELEMETRY_BETA`
-- `ENABLE_EXPERIMENTAL_MCP_CLI`
-- `ENABLE_MCP_CLI`
-- `ENABLE_MCP_CLI_ENDPOINT`
 - `ENABLE_MCP_LARGE_OUTPUT_FILES`
 - `ENABLE_PROMPT_CACHING_1H_BEDROCK`
 - `ENABLE_TOOL_SEARCH`
@@ -597,7 +579,6 @@
 - `USE_API_CONTEXT_MANAGEMENT`
 - `USE_BUILTIN_RIPGREP`
 - `USE_LOCAL_OAUTH`
-- `USE_MCP_CLI_DIR`
 - `USE_STAGING_OAUTH`
 - `USER`
 - `USERNAME`
@@ -709,6 +690,7 @@
 - `charset`
 - `checksum`
 - `claude_code_version`
+- `claudeMdExcludes`
 - `cleanupPeriodDays`
 - `clientId`
 - `code`
@@ -733,6 +715,7 @@
 - `criticalSystemReminder_EXPERIMENTAL`
 - `custom_instructions`
 - `cwd`
+- `cy`
 - `dangerouslyDisableSandbox`
 - `data`
 - `decision`
@@ -796,6 +779,7 @@
 - `feedback`
 - `file`
 - `file_id`
+- `file_path`
 - `fileCount`
 - `filename`
 - `filenames`
@@ -811,16 +795,11 @@
 - `format`
 - `from`
 - `fromYoloMode`
-- `fullName`
-- `Fy`
 - `getOAuthToken`
 - `getUserId`
 - `gitCommitSha`
 - `gitDiff`
-- `hasPrompts`
-- `hasResources`
 - `hasTaskTool`
-- `hasTools`
 - `header`
 - `headers`
 - `headersHelper`
@@ -838,14 +817,12 @@
 - `id`
 - `ideName`
 - `ideRunningInWindows`
-- `ignoreCase`
 - `ignoreViolations`
 - `image`
 - `includeCoAuthoredBy`
 - `initialWindowSize`
 - `input`
 - `input_tokens`
-- `inputSchema`
 - `inputTokens`
 - `insertions`
 - `installedAt`
@@ -878,6 +855,7 @@
 - `mandatoryDenySearchDepth`
 - `markdown`
 - `matcher`
+- `matcherMetadata`
 - `matches`
 - `max_results`
 - `max_turns`
@@ -954,7 +932,6 @@
 - `parent_tool_use_id`
 - `patch`
 - `path`
-- `pattern`
 - `permission_denials`
 - `permission_mode`
 - `permission_suggestions`
@@ -1078,7 +1055,11 @@
 - `subscriptionType`
 - `subtype`
 - `success`
+- `suggestion`
 - `summary`
+- `supportedEffortLevels`
+- `supportsAdaptiveThinking`
+- `supportsEffort`
 - `suppressOutput`
 - `surpassedThreshold`
 - `symlinkDirectories`
@@ -1099,7 +1080,6 @@
 - `text`
 - `thinking`
 - `timeout`
-- `timeoutMs`
 - `timestamp`
 - `tips`
 - `title`
@@ -1112,12 +1092,14 @@
 - `tool_summary`
 - `tool_use_id`
 - `tool_use_result`
+- `tool_uses`
 - `toolName`
 - `tools`
 - `toolUseId`
 - `toolUseID`
 - `total_cost_usd`
 - `total_deferred_tools`
+- `total_tokens`
 - `totalDurationMs`
 - `totalLines`
 - `totalTokens`
@@ -1197,7 +1179,6 @@ _None detected_
 - `claude-code-guide`
 - `claude-code-jetbrains-plugin`
 - `claude-code-marketplace`
-- `claude-code-mcp-cli`
 - `Claude-Code-Plugin-Manager`
 - `claude-code-plugins`
 - `claude-code-screenshots`
@@ -1230,6 +1211,7 @@ _None detected_
 - `claude-plugin-directory`
 - `claude-plugins-official`
 - `claude-prompt`
+- `claude-pwd-ps-`
 - `claude-review`
 - `claude-settings`
 - `claude-socks-`

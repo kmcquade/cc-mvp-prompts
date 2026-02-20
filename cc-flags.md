@@ -1,4 +1,4 @@
-# Claude Code Flags 2.1.47
+# Claude Code Flags 2.1.49
 
 ## Feature Gates
 
@@ -20,4 +20,3 @@
 
 ## Experiments
 
-_None detected_
