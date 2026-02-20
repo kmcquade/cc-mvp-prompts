@@ -1,0 +1,16 @@
+# System Reminder: 66531373
+
+- Source: inline
+
+## Summary
+
+Resuming existing agent worktree at: …
+
+## Placeholder Hints (source-backed)
+
+| Expression | Hint | Reference |
+| --- | --- | --- |
+| `EXPR_1` | None | None |
+
+# Raw Prompt Text
+Resuming existing agent worktree at: ${EXPR_1}
