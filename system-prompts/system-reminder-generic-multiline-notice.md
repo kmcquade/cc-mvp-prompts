@@ -12,11 +12,11 @@ Renders a nine-line message composed entirely from provided placeholder text seg
 | --- | --- | --- |
 | `EXPR_1` | None | None |
 | `EXPR_2` | None | None |
-| `EXPR_3` | resolved list (4 items) | None |
+| `EXPR_3` | None | None |
 | `EXPR_4` | None | None |
-| `EXPR_5` | Read | None |
-| `EXPR_6` | Glob | None |
-| `EXPR_7` | Grep | None |
+| `EXPR_5` | None | None |
+| `EXPR_6` | None | None |
+| `EXPR_7` | None | None |
 | `EXPR_8` | None | None |
 | `EXPR_9` | None | None |
 
@@ -29,11 +29,11 @@ ${EXPR_3}
 
 ${EXPR_4}
 
-${EXPR_5: 'Read'}
+${EXPR_5}
 
-${EXPR_6: 'Glob'}
+${EXPR_6}
 
-${EXPR_7: 'Grep'}
+${EXPR_7}
 
 ${EXPR_8}
 
