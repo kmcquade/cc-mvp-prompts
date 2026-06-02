@@ -4,7 +4,7 @@
 
 - Commands: 41
 - Options: 94
-- Env vars: 635
+- Env vars: 636
 - Config keys: 0
 - Tools: 10
 - Skills: 10
@@ -918,6 +918,7 @@
 - `VOICE_STREAM_BASE_URL`
 - `VSCODE_GIT_ASKPASS_MAIN`
 - `VTE_VERSION`
+- `WAYLAND_DISPLAY`
 - `WEBSITE_SITE_NAME`
 - `WEBSITE_SKU`
 - `WSL_DISTRO_NAME`
